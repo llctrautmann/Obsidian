@@ -31,6 +31,7 @@ modified: 2024-03-26
 ## Completed
 
 - [ ] Automation of Core Processes<br>- [x] Arxiv Search<br>- [x] YouTube Video Transcribe<br>@{01-05-2024}
+- [ ] Obsidian GIT @{30-04-2024}
 
 
 
