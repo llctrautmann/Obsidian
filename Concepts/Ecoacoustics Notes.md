@@ -1,0 +1,4 @@
+- ecoacoustics investigates the ecological role of sound at higher ecological and evolutionary organisational units - from population and community up to landscape scales.
+- > Sound is understood as a core ecological component (resource) and ipso facto, due to structuring by competition, an indicator of ecological status (source of information). (Eldridge and Kiefer, 2018, p. 3)
+- > The morphological adaptation hypothesis (MAH) and the acoustic adaptation hypothesis (AAH) are borrowed by bioacoustics and describe how signals evolve through ecological feedback (Eldridge and Kiefer, 2018, p. 3)
+- > the acoustic niche hypothesis is core to ecoacoustics (and is also the hardest to evaluate) and describes the evolution of soundscape complexity (Eldridge and Kiefer, 2018, p. 3)

@@ -1,0 +1,1 @@
+Liquidity in Stock indices does not scale with market cap, it scales with flows 
