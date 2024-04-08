@@ -25,4 +25,14 @@ $$\color{orange}
 \mathbb{V}\left[B_n\right]=\sum_{i=1}^n \mathbb{V}\left[X_i\right]+\sum_{i, j=1, i \neq j}^n \operatorname{cov}\left[X_i, X_j\right]
 $$
 
-In english, I can translate this equation into the following. The variance of the combined random variable $B_{n}$ is the sum of the variances (diagonal of the covariance matrix [[High-Dimensional Variance]])
+In english, I can translate this equation into the following. The variance of the combined random variable $B_{n}$ is the sum of the variances (diagonal of the covariance matrix see: [[High-Dimensional Variance]]) and the off diagonal variances.
+
+
+> [!figure] ![[covariance_matrix.png#invert]]
+> A example covariance matrix with the variances in orange. The orange elements are the first part of the sum and the dark elements are the second part of the sum.
+
+
+## Independent events
+For independent events I know that the covariance will be 0. So the original formula reduces into the sum of the variances. Which is in line with some previously noted [[Interactions between Random Variables]].
+
+
