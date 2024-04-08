@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 4
 status: Incomplete
-modified: 2024-04-02
+modified: 2024-04-08
 ---
 # Dot Product Geometry
 
@@ -23,7 +23,7 @@ y_2
 $$
 
 
-
+This is a test
 
 
 
