@@ -1,8 +1,9 @@
 ---
-modified: 2024-03-25
+modified: 2024-04-08
 ---
 JB. Peterson: https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve
 
+Build a PoW Blockchain [src](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 
 
 thefuck: https://github.com/nvbn/thefuck
