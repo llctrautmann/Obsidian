@@ -33,6 +33,6 @@ In english, I can translate this equation into the following. The variance of th
 
 
 ## Independent events
-For independent events I know that the covariance will be 0. So the original formula reduces into the sum of the variances. Which is in line with some previously noted [[Interactions between Random Variables]].
+For independent events I know that the covariance will be 0. So the original formula reduces into the sum of the variances. Which is in line with some previously noted [[Variance of the sum of RVs]].
 
 
