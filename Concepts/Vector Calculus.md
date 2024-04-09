@@ -89,3 +89,21 @@ $$
 $$
 
 This row vector is called the **gradient** of the [[Jacobian]] and is the generalisation of the derivative for single variables.  
+
+There is something missing here (145 - 149 Deisenroth)
+
+## Gradients of Vector-Values Functions
+
+> [!def] 
+> For a function $\boldsymbol{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$ and a vector $\boldsymbol{x}=\left[x_1, \ldots, x_n\right]^{\top} \in \mathbb{R}^n$, the corresponding vector of function values is given as
+> $$
+> \boldsymbol{f}(\boldsymbol{x})=\left[\begin{array}{c}
+> f_1(\boldsymbol{x}) \\
+> \vdots \\
+> f_m(\boldsymbol{x})
+> \end{array}\right] \in \mathbb{R}^m
+> $$
+> This means that the vector function is a vector of functions.
+
+
+
