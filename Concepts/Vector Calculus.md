@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-02
+modified: 2024-04-09
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -87,3 +87,5 @@ $$
 \frac{\partial f(\boldsymbol{x})}{\partial x_1} & \frac{\partial f(\boldsymbol{x})}{\partial x_2} & \cdots & \frac{\partial f(\boldsymbol{x})}{\partial x_n}
 \end{array}\right] \in \mathbb{R}^{1 \times n}
 $$
+
+This row vector is called the **gradient** of the [[Jacobian]] and is the generalisation of the derivative for single variables.  
