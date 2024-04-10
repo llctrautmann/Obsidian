@@ -15,4 +15,4 @@ modified: 2024-04-10
 
 See JAX notebook 
 
-`note to self: add the derivation later. It's useful and you will forget. `
+`note to self: add the derivation later. It's useful and you will forget.`
