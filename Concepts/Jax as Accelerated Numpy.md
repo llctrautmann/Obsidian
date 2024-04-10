@@ -71,8 +71,12 @@ def loss_fn(params, data):
 	...
 
 	grads. = jax.grad(loss_fn)(params, data_batch)
+	# params here will be the pytree structure
 ```
-## PyTrees: Making Arguments Bareable
+
+## Value and Grad
+
+
 
 
 
