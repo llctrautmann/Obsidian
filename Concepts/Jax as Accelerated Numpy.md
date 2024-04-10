@@ -74,9 +74,40 @@ def loss_fn(params, data):
 	# params here will be the pytree structure
 ```
 
-## Value and Grad
+### Value and Grad
+In the case where I need to find the value and the gradient of a function I can use `jax.value_and_grad(<func>)(*args)`.
+
+```python
+jax.value_and_grad(sum_squared_error)(x, y)
+
+# This returns
+jax.value_and_grad(f)(*xs) == (f(*xs), jax.grad(f)(*xs)) 
+```
+
+### Auxiliary Data
+`grad` is not able to return multiple values but only scalar values. The argument `has_aux=True` allow to return auxiliary data. The returned data is in the form `(out, aux)`. 
+
+## Differences from NumPy
+The main difference between NumPy and JAX is the functional programming paradigm that underpins JAX. This means: 
+
+**!!! Don't write code with side effects !!!**
+
+A side-effect is any effect of a function that does not appear in it's output. Here are some examples: 
+
+> [!Modifying in-place] 
+> ```python
+> import numpy as np 
+> 
+> x = np.array([1, 2, 3])
+> def in_place_modify(x):
+> 	x[0] = 123
+> 	return None
+> ```
+> This works in numpy but cannot work in JAx 
+ 
 
 
+ 
 
 
 
