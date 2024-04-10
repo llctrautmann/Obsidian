@@ -25,7 +25,7 @@ def sum_of_squares(x):
 ```
 
 ```python
-sum_of_squares_dx = jax.grad(sum_of_squares) # returns the gradient
+sum_of_squares_dx = jax.grad(sum_of_squares) # returns the gradient 2x
 
 x = jnp.asarray([1.0, 2.0, 3.0, 4.0])
 
@@ -35,5 +35,48 @@ print(sum_of_squares_dx(x))
 >>> 30.0
 >>> [2. 4. 6. 8.]
 ```
+
+The analog in [[Vector Calculus]] is the vector gradient:
+
+$$
+(\nabla f)(x)_i=\frac{\partial f}{\partial x_i}(x) .
+$$
+
+So, `jax.grad(f)` is the function that computes the gradient, so `jax.grad(f)(x)` is the gradient of `f` at `x`. The JAX API works directly with functions, staying closer to the underlying math. Once I become accustomed to this way of doing things, it `should` feel natural: my loss function in code really is a function of parameters and data, and you find its gradient just like you would in the math.
+
+`jax.grad()` will always find the gradient wrt. to the first argument. I can mitigate this by using `argnums=(0,1,...,arg_n)` in the `grad` function wrapper. 
+
+```python
+def sum_squared_error(x, y):
+  return jnp.sum((x-y)**2)
+
+sum_squared_error_dx = jax.grad(sum_squared_error)
+
+y = jnp.asarray([1.1, 2.1, 3.1, 4.1])
+
+print(sum_squared_error_dx(x, y))
+
+>>> [-0.20000005 -0.19999981 -0.19999981 -0.19999981]
+
+jax.grad(sum_squared_error, argnums=(0, 1))(x, y) 
+# Find gradient wrt both x & y
+
+>>> (Array([-0.20000005, -0.19999981, -0.19999981, -0.19999981], dtype=float32),
+... Array([0.20000005, 0.19999981, 0.19999981, 0.19999981], dtype=float32))
+```
+
+PyTrees make this easier and in general the structure I am looking for is 
+```python
+def loss_fn(params, data):
+	...
+
+	grads. = jax.grad(loss_fn)(params, data_batch)
+```
+## PyTrees: Making Arguments Bareable
+
+
+
+
+ 
 
 
