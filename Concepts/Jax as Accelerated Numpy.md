@@ -103,7 +103,17 @@ A side-effect is any effect of a function that does not appear in it's output. H
 > 	x[0] = 123
 > 	return None
 > ```
-> This works in numpy but cannot work in JAx 
+> This works in numpy but cannot work in JAX. The solution here is to use `jnp.ndarray.at` 
+> 
+> ```python
+> def jax_in_place_modify(x):
+> 	return x.at[0].set(123)
+> ```
+> This will work but it creates a new array and leaves the old array untouched. 
+
+Side-effect-free code is sometimes called _functionally pure_, or just _pure_. As a rule of thumb, any functions intended to be transformed by JAX should avoid side-effects, and the JAX primitives themselves will try to help you do that.
+
+
  
 
 
