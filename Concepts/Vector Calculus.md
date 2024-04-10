@@ -94,14 +94,26 @@ There is something missing here (145 - 149 Deisenroth)
 
 ## Basic Rules for Partial Differentiation
 
-> [!def] 
-> $$
-> \begin{array}{llrl} 
-> & \text { Product rule: } & \quad \frac{\partial}{\partial \boldsymbol{x}}(f(\boldsymbol{x}) g(\boldsymbol{x})) & =\frac{\partial f}{\partial \boldsymbol{x}} g(\boldsymbol{x})+f(\boldsymbol{x}) \frac{\partial g}{\partial \boldsymbol{x}} \\
-> & \text { Sum rule: } & \frac{\partial}{\partial \boldsymbol{x}}(f(\boldsymbol{x})+g(\boldsymbol{x})) &  =\frac{\partial f}{\partial \boldsymbol{x}}+\frac{\partial g}{\partial \boldsymbol{x}}
-> \end{array}
-> $$
+- Product Rule: $\frac{\partial}{\partial \boldsymbol{x}}(f(\boldsymbol{x}) g(\boldsymbol{x}))=\frac{\partial f}{\partial \boldsymbol{x}} g(\boldsymbol{x})+f(\boldsymbol{x}) \frac{\partial g}{\partial \boldsymbol{x}}$
 
+- Sum Rule: $\frac{\partial}{\partial \boldsymbol{x}}(f(\boldsymbol{x})+g(\boldsymbol{x}))=\frac{\partial f}{\partial \boldsymbol{x}}+\frac{\partial g}{\partial \boldsymbol{x}}$
+
+- Chain Rule: $\frac{\partial}{\partial \boldsymbol{x}}(g \circ f)(\boldsymbol{x})=\frac{\partial}{\partial \boldsymbol{x}}(g(f(\boldsymbol{x})))=\frac{\partial g}{\partial f} \frac{\partial f}{\partial \boldsymbol{x}}$
+
+
+## Chain Rule
+
+
+
+
+$$
+\frac{\mathrm{d} f}{\mathrm{~d} t}=\left[\begin{array}{ll}
+\frac{\partial f}{\partial x_1} & \frac{\partial f}{\partial x_2}
+\end{array}\right]\left[\begin{array}{l}
+\frac{\partial x_1(t)}{\partial t} \\
+\frac{\partial x_2(t)}{\partial t}
+\end{array}\right]=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial t}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial t}
+$$
 
 
 ## Gradients of Vector-Values Functions
