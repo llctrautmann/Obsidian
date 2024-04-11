@@ -47,3 +47,6 @@ jax.tree_map(lambda x, y: x+y, list_of_lists, another_list_of_lists)
 # When using multiple arguments with `jax.tree_map`, the structure of the inputs must exactly match. That is, lists must have the same number of elements, dicts must have the same keys, etc.
 ```
 
+
+## Example: ML model parameters
+
