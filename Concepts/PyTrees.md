@@ -49,4 +49,22 @@ jax.tree_map(lambda x, y: x+y, list_of_lists, another_list_of_lists)
 
 
 ## Example: ML model parameters
+Assess the following code 
 
+```python
+import numpy as np
+
+def init_mlp_params(layer_widths):
+  params = []
+  for n_in, n_out in zip(layer_widths[:-1], layer_widths[1:]):
+    params.append(
+        dict(weights=np.random.normal(size=(n_in, n_out)) * np.sqrt(2/n_in),
+             biases=np.ones(shape=(n_out,))
+            )
+    )
+  return params
+
+params = init_mlp_params([1, 128, 128, 1])
+
+jax.tree_map(lambda x: x.shape, params)
+```
