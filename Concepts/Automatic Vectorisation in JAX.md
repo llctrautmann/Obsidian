@@ -11,4 +11,7 @@ chapter:
 status: Incomplete
 modified: 2024-04-11
 ---
-# Automatic Vectorisation in JAX
+# `jax.vmap()`: Vectorisation in JAX
+## Manual Vectorisation
+
+
