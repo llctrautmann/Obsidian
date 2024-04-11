@@ -21,3 +21,7 @@ JAX is designed to only understand side-effect effect free code [[Jax as Acceler
 ## Caching
 `jax.jit` using caching to retain to maintain values, which can lead to strange behaviour if unaccounted for. 
 
+Suppose I define `f = jax.jit(g)`. When I first invoke `f`, it will get compiled, and the resulting XLA code will get cached. Subsequent calls of `f` will reuse the cached code. This is how `jax.jit` makes up for the up-front cost of compilation.
+
+If I specify `static_argnums`, then the cac
+ 
