@@ -117,6 +117,8 @@ $$\large
 \end{array}\right]=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial t}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial t}
 $$
 
+For multivariable function the same rule applies 
+
 
 ## Gradients of Vector-Values Functions
 
