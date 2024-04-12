@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-10
+modified: 2024-04-12
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -59,6 +59,7 @@ $$
 
 
 ## Basic Differentiation Rule
+
 Product rule: $\quad(f(x) g(x))^{\prime}=f^{\prime}(x) g(x)+f(x) g^{\prime}(x)$
 
 Quotient rule: $\quad\left(\frac{f(x)}{g(x)}\right)^{\prime}=\frac{f^{\prime}(x) g(x)-f(x) g^{\prime}(x)}{(g(x))^2}$
@@ -71,7 +72,7 @@ Here, $g \circ f$ denotes function composition $x \mapsto f(x) \mapsto g(f(x))$.
 
 
 ## Partial Differentiation and Gradients
-The generalization of the derivative to functions of several variables is the gradient. To obtain the gradient, I need to build the partial derivatives wrt. to each variable in the function while keeping all other variables constant.
+The generalisation of the derivative to functions of several variables is the gradient. To obtain the gradient, I need to build the partial derivatives wrt. to each variable in the function while keeping all other variables constant.
 
 $$
 \begin{aligned}
@@ -80,9 +81,10 @@ $$
 \frac{\partial f}{\partial x_n} & =\lim _{h \rightarrow 0} \frac{f\left(x_1, \ldots, x_{n-1}, x_n+h\right)-f(\boldsymbol{x})}{h}
 \end{aligned}
 $$
+
 Or in a more compact form:
 
-$$
+$$\large
 \nabla_{\boldsymbol{x}} f=\operatorname{grad} f=\frac{\mathrm{d} f}{\mathrm{~d} \boldsymbol{x}}=\left[\begin{array}{llll}
 \frac{\partial f(\boldsymbol{x})}{\partial x_1} & \frac{\partial f(\boldsymbol{x})}{\partial x_2} & \cdots & \frac{\partial f(\boldsymbol{x})}{\partial x_n}
 \end{array}\right] \in \mathbb{R}^{1 \times n}
@@ -90,7 +92,7 @@ $$
 
 This row vector is called the **gradient** of f or the [[Jacobian]] and is the generalisation of the derivative for single variables.  
 
-There is something missing here (145 - 149 Deisenroth)
+`There is something missing here (145 - 149 Deisenroth)`
 
 ## Basic Rules for Partial Differentiation
 
@@ -106,7 +108,7 @@ There is something missing here (145 - 149 Deisenroth)
 
 
 
-$$
+$$\large
 \frac{\mathrm{d} f}{\mathrm{~d} t}=\left[\begin{array}{ll}
 \frac{\partial f}{\partial x_1} & \frac{\partial f}{\partial x_2}
 \end{array}\right]\left[\begin{array}{l}
