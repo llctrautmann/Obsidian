@@ -123,7 +123,7 @@ $$\large
 \begin{aligned}
 & \frac{\partial f}{\partial s}=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial s}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial s} \\
 & \frac{\partial f}{\partial t}=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial t}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial t}
-\end{aligned}
+\end{aligned} \tag{1}
 $$
 
 I can rewrite this as a handy matrix notation:
@@ -135,6 +135,8 @@ $$\large
 \frac{\partial x_2}{\partial s} & \frac{\partial x_2}{\partial t}
 \end{array}\right]}_{=\frac{\partial \boldsymbol{x}}{\partial(s, t)}} .
 $$
+where the first matrix multiplication gives line one in (1) and the second matrix multiplication gives the second line in (1). 
+`Check hand written notes to see that this actually holds`
 
 ## Gradients of Vector-Values Functions
 
