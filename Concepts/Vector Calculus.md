@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-12
+modified: 2024-04-13
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -117,8 +117,24 @@ $$\large
 \end{array}\right]=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial t}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial t}
 $$
 
-For multivariable function the same rule applies 
+For multivariable function the same rule applies but it returns the partial derivatives
 
+$$\large
+\begin{aligned}
+& \frac{\partial f}{\partial s}=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial s}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial s} \\
+& \frac{\partial f}{\partial t}=\frac{\partial f}{\partial x_1} \frac{\partial x_1}{\partial t}+\frac{\partial f}{\partial x_2} \frac{\partial x_2}{\partial t}
+\end{aligned}
+$$
+
+I can rewrite this as a handy matrix notation:
+$$\large
+\frac{\mathrm{d} f}{\mathrm{~d}(s, t)}=\frac{\partial f}{\partial \boldsymbol{x}} \frac{\partial \boldsymbol{x}}{\partial(s, t)}=\underbrace{\left[\begin{array}{ll}
+\frac{\partial f}{\partial x_1} & \frac{\partial f}{\partial x_2}
+\end{array}\right]}_{=\frac{\partial f}{\partial \boldsymbol{x}}} \underbrace{\left[\begin{array}{ll}
+\frac{\partial x_1}{\partial s} & \frac{\partial x_1}{\partial t} \\
+\frac{\partial x_2}{\partial s} & \frac{\partial x_2}{\partial t}
+\end{array}\right]}_{=\frac{\partial \boldsymbol{x}}{\partial(s, t)}} .
+$$
 
 ## Gradients of Vector-Values Functions
 
