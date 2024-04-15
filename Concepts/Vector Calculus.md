@@ -149,7 +149,7 @@ where the first matrix multiplication gives line one in (1) and the second matri
 > f_m(\boldsymbol{\left[x_1, \ldots, x_n\right]})
 > \end{array}\right] \in \mathbb{R}^m
 > $$
-> This means that the vector function is a vector of functions.
+> This means that the vector function is a vector of functions. This is also referred to as a vector-valued function and can be thought of a vector that contains multiple scalar valued functions. 
 
 
 The extension of the partial derivatives for all values in $\left[x_1, \ldots, x_n\right]$ is the [[Jacobian]]. Which gives matrix of the partial derivatives with the values of x as the column dimension and the functions as the row dimensions.
@@ -165,7 +165,8 @@ $$\large
 &
 \end{aligned}
 $$
-$$
+I can write this in a more generalised form as:
+$$\large 
 \begin{aligned}
 \boldsymbol{J}&=\nabla_{\boldsymbol{x}} \boldsymbol{f}=\frac{\mathrm{d} \boldsymbol{f}(\boldsymbol{x})}{\mathrm{d} \boldsymbol{x}}=\left[\begin{array}{lll}
 \frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_1} & \ldots & \frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_n}
@@ -175,7 +176,7 @@ $$
 \vdots & & \vdots \\
 \frac{\partial f_m(\boldsymbol{x})}{\partial x_1} & \cdots & \frac{\partial f_m(\boldsymbol{x})}{\partial x_n}
 \end{array}\right], \\
-& \boldsymbol{x}=\left[\begin{array}{c}
+\boldsymbol{x}&=\left[\begin{array}{c}
 x_1 \\
 \vdots \\
 x_n
