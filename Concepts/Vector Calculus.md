@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-13
+modified: 2024-04-15
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -144,12 +144,42 @@ where the first matrix multiplication gives line one in (1) and the second matri
 > For a function $\boldsymbol{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$ and a vector $\boldsymbol{x}=\left[x_1, \ldots, x_n\right]^{\top} \in \mathbb{R}^n$, the corresponding vector of function values is given as
 > $$
 > \boldsymbol{f}(\boldsymbol{x})=\left[\begin{array}{c}
-> f_1(\boldsymbol{x}) \\
+> f_1(\boldsymbol{\left[x_1, \ldots, x_n\right]}) \\
 > \vdots \\
-> f_m(\boldsymbol{x})
+> f_m(\boldsymbol{\left[x_1, \ldots, x_n\right]})
 > \end{array}\right] \in \mathbb{R}^m
 > $$
 > This means that the vector function is a vector of functions.
 
 
+The extension of the partial derivatives for all values in $\left[x_1, \ldots, x_n\right]$ is the [[Jacobian]]. Which gives matrix of the partial derivatives with the values of x as the column dimension and the functions as the row dimensions.
 
+$$\large
+\begin{aligned}
+\frac{\mathrm{d} \boldsymbol{f}(\boldsymbol{x})}{\mathrm{d} \boldsymbol{x}}&=\left[\frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_1} \cdots \frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_n}\right] \\
+& =\left[\begin{array}{c|c|c}
+\frac{\partial f_1(\boldsymbol{x})}{\partial x_1} & \cdots & \frac{\partial f_1(\boldsymbol{x})}{\partial x_n} \\
+\vdots \\
+\frac{\partial f_m(\boldsymbol{x})}{\partial x_1} & \cdots & \frac{\partial f_m(\boldsymbol{x})}{\partial x_n}
+\end{array}\right] \in \mathbb{R}^{m \times n} \\
+&
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\boldsymbol{J}&=\nabla_{\boldsymbol{x}} \boldsymbol{f}=\frac{\mathrm{d} \boldsymbol{f}(\boldsymbol{x})}{\mathrm{d} \boldsymbol{x}}=\left[\begin{array}{lll}
+\frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_1} & \ldots & \frac{\partial \boldsymbol{f}(\boldsymbol{x})}{\partial x_n}
+\end{array}\right] \\
+& =\left[\begin{array}{ccc}
+\frac{\partial f_1(\boldsymbol{x})}{\partial x_1} & \cdots & \frac{\partial f_1(\boldsymbol{x})}{\partial x_n} \\
+\vdots & & \vdots \\
+\frac{\partial f_m(\boldsymbol{x})}{\partial x_1} & \cdots & \frac{\partial f_m(\boldsymbol{x})}{\partial x_n}
+\end{array}\right], \\
+& \boldsymbol{x}=\left[\begin{array}{c}
+x_1 \\
+\vdots \\
+x_n
+\end{array}\right], \quad J(i, j)=\frac{\partial f_i}{\partial x_j} \\
+&
+\end{aligned}
+$$
