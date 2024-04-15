@@ -8,6 +8,7 @@ tags:
 series: Probability Theory
 chapter: 0
 link: https://betanalpha.github.io/assets/case_studies/probability_theory.html
+modified: 2024-04-15
 ---
 
 > [!Chapters]-
@@ -220,6 +221,3 @@ $$
 __In summary:__ 
 - A probability distribution defined by Kolmogorov's axioms is completely specified by the probability triplet $(\mathbf{X}, \mathcal{F}, \pi)$ which is often denoted more compactly as $$\mathrm{X} \sim \pi$$and reads itself as "X distributed by $\pi$". In such cases we always assume a valid $\sigma$-algebra underlying the entire thing. Condensed into symbols the entire derivation of then fundamentals of probability theory can be can be summarised with the following symbols:$$\left [\Omega, \mathcal{F}_{\sigma}, X^{-1}, X_{\mathbb{R}}, \mathbb{P}_{[0,1]} \right ]$$
 - Another good reference can be found here [[@park2019]].
-
-# Probability and Densities 
-_Density representations_ exploit the particular structure of $X$ to fully characterise a probability distribution with special functions.
