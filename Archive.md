@@ -4,7 +4,7 @@ date: 20-05-2023
 time: 14:28
 author: Luca Trautmann
 tags: []
-modified: 2024-04-11
+modified: 2024-04-15
 ---
 
 > As the old saying goes, if you want something, you find ways, otherwise, you try to find excuses...
@@ -14,7 +14,7 @@ modified: 2024-04-11
 # Books
 ## M4ML
 ```dataview
-TABLE series as Series, chapter as Chapter
+TABLE series as Series, chapter as Chapter, status as Status
 FROM "Concepts"
 WHERE series = "M4ML"
 SORT chapter asc

@@ -7,8 +7,8 @@ author: Luca Trautmann
 tags: 
 series: M4ML
 chapter: 2
-status: Incomplete
-modified: 2024-03-22
+status: Complete
+modified: 2024-04-15
 ---
 # Analytic Geometry
 ## Norms
