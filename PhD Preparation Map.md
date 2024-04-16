@@ -18,7 +18,6 @@ modified: 2024-03-26
 - [ ] Homogenised Keyboard Shortcuts @{31-05-2024}
 - [ ] homogenise email accounts @{30-06-2024}
 - [ ] Mochify all generated Content @{31-05-2024}
-- [ ] improve keystrokes (25 min /day)
 
 
 ## Active (3)
@@ -32,6 +31,11 @@ modified: 2024-03-26
 
 - [ ] Automation of Core Processes<br>- [x] Arxiv Search<br>- [x] YouTube Video Transcribe<br>@{01-05-2024}
 - [ ] Obsidian GIT @{30-04-2024}
+
+
+## Side Burn
+
+- [ ] improve keystrokes (25 min /day)
 
 
 

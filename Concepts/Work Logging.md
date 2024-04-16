@@ -26,16 +26,17 @@ modified: 2024-04-12
 - DL Framework is set to JAX for rapid training
 
 ---
----
-## ////////////////////////// 13-04-2024 //////////////////////////
+## ////////////////////////// 16-04-2024 //////////////////////////
 ### CODE
-
+- no coding today
 
 ### READING
-
+- 
 
 ### NOTES
+- Meeting with IS to discuss the start of the PhD and the general st
+---
+---
 
----
----
+
 
