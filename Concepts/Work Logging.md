@@ -7,7 +7,7 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-04-12
+modified: 2024-04-16
 ---
 # Work Logging
 ## ////////////////////////// 12-04-2024 //////////////////////////
@@ -31,10 +31,10 @@ modified: 2024-04-12
 - no coding today
 
 ### READING
-- 
+- Deisenroth: vector-valued functions and their derivatives
 
 ### NOTES
-- Meeting with IS to discuss the start of the PhD and the general st
+- Supervision Meeting to discuss the start of the PhD and the general structure for the next weeks and months. 
 ---
 ---
 

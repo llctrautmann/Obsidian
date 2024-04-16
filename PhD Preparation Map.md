@@ -7,22 +7,27 @@ modified: 2024-03-26
 
 ## Backlog
 
-- [ ] Paper Summarisation Tool @{31-05-2024}
+- [ ] Paper Summarisation Tool<br>@{31-05-2024}
 - [ ] Intro to Optax #urgent @{01-05-2024}
-- [ ] Learn Git Industry Standard @{01-05-2024}
-- [ ] Develop WandB Setup @{01-05-2024}
-- [ ] Highlighting Scheme @{01-05-2024}
 - [ ] Develop Schedule Prototype @{01-05-2024}
 - [ ] Split up Existing Summaries into Concept Notes
-- [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
-- [ ] Homogenised Keyboard Shortcuts @{31-05-2024}
-- [ ] homogenise email accounts @{30-06-2024}
 - [ ] Mochify all generated Content @{31-05-2024}
+- [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
+
+
+## Side Burn
+
+- [ ] improve keystrokes (25 min /day)
+- [ ] Highlighting Scheme @{01-05-2024}
+- [ ] Develop WandB Setup @{01-05-2024}
+- [ ] Learn Git Industry Standard @{01-05-2024}
+- [ ] homogenise email accounts @{30-06-2024}
+- [ ] Homogenised Keyboard Shortcuts @{31-05-2024}
 
 
 ## Active (3)
 
-- [ ] M4ML@{15-04-2024}<br>- [ ] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
+- [ ] M4ML@{15-04-2024}<br>- [x] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
 - [ ] Intro to Jax @{15-04-2024}<br>#urgent<br>- [x] jit<br>- [x] grad<br>- [x] vmap<br>- [ ] jacfwd<br>- [ ] jacbwd<br>[Quickstart](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
 - [ ] Intro to Flax #urgent @{15-04-2024}<br>[Quickstart](https://flax.readthedocs.io/en/latest/)
 
@@ -31,11 +36,6 @@ modified: 2024-03-26
 
 - [ ] Automation of Core Processes<br>- [x] Arxiv Search<br>- [x] YouTube Video Transcribe<br>@{01-05-2024}
 - [ ] Obsidian GIT @{30-04-2024}
-
-
-## Side Burn
-
-- [ ] improve keystrokes (25 min /day)
 
 
 
