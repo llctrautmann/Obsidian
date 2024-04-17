@@ -14,6 +14,8 @@ modified: 2024-03-26
 - [ ] Split up Existing Summaries into Concept Notes
 - [ ] Mochify all generated Content @{31-05-2024}
 - [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
+- [ ] Transformer Tutorial
+- [ ] Mamba Tutorial
 
 
 ## Side Burn
