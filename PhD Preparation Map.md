@@ -16,6 +16,7 @@ modified: 2024-03-26
 - [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
 - [ ] Transformer Tutorial
 - [ ] Mamba Tutorial
+- [ ] penzai (JAX NN visualiser)
 
 
 ## Side Burn
