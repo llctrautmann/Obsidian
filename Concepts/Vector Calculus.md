@@ -184,3 +184,6 @@ x_n
 &
 \end{aligned}
 $$
+
+### Hessian Matrix
+The Hessian is the extension of the [[Jacobian]] to higher order der
