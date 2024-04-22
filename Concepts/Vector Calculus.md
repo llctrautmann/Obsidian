@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-15
+modified: 2024-04-21
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -186,4 +186,4 @@ x_n
 $$
 
 ### Hessian Matrix
-The Hessian is the extension of the [[Jacobian]] to higher order der
+The Hessian is the extension of the [[Jacobian]] to higher order derivatives.
