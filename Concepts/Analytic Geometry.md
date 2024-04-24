@@ -8,7 +8,7 @@ tags:
 series: M4ML
 chapter: 2
 status: Complete
-modified: 2024-04-15
+modified: 2024-04-24
 ---
 # Analytic Geometry
 ## Norms
