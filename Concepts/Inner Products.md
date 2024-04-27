@@ -9,8 +9,9 @@ chapter:
 modified: 2024-04-27
 ---
 # Inner Products
-
-
+## Functions of Inner Products
+1. Introduce Length and Angles between vectors
+2. Determine orthogonality 
 
 
 
