@@ -6,11 +6,11 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-02-08
+modified: 2024-04-27
 ---
 # Inner Products
 
-The inner product. 
+
 
 
 
