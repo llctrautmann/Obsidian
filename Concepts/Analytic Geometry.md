@@ -8,7 +8,7 @@ tags:
 series: M4ML
 chapter: 2
 status: Complete
-modified: 2024-04-24
+modified: 2024-04-27
 ---
 # Analytic Geometry
 ## Norms
@@ -199,16 +199,16 @@ We can use Gaussian elimination to find a basis for a vector space spanned by a 
 ## Orthogonal Complement
 Vector spaces can also be orthogonal to each other. 
 
-Consider, $V$ and $U \subseteq V$, with dimension $D$ and $M$. Then its orthogonal complement $U^{\perp}$ is a $(D-M)$ dimensional subspace of $V$ and contains all  vectors in $V$ that are orthogonal to every vector in $U$. Furthermore $$
+Consider, $V$ and $U \subseteq V$, with dimension $D$ and $M$. Then its orthogonal complement $U^{\perp}$ is a $(D-M)$ dimensional subspace of $V$ and contains all  vectors in $V$ that are orthogonal to every vector in $U$. Furthermore 
+
+$$
 U \cap U^{\perp}=\{0\}
 $$
 so that any vector $x \in V$ can be decomposed into
 $$
 \boldsymbol{x}=\sum_{m=1}^M \lambda_m \boldsymbol{b}_m+\sum_{j=1}^{\bar{D}-M} \psi_j \boldsymbol{b}_j^1, \quad \lambda_m, \psi_j \in \mathbb{R},
 $$
-$$
-\text { where }\left(b_1, \ldots, b_M\right) \text { is a basis of } U \text { and }\left(b_1^{\perp} \ldots, b_{D-M}^{\perp}\right) \text { is a basis of } U^{\perp} \text {. }
-$$
+
 `note: in 3D we can hence find a 2D plane orthogonal to any other plane in 3D. With any orthogonal vector to a plane in 3D forming a basis for the orthogonal vector space.`
 
 ## Inner Product of Functions
