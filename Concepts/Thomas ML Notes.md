@@ -1,0 +1,27 @@
+---
+title: Thomas ML Notes
+date:
+  - 30-04-2024
+time: 19:19
+author: Luca Trautmann
+tags: 
+series: experimental
+chapter: 
+status: Incomplete
+modified: 2024-04-30
+---
+# Thomas ML Notes
+> [!PDF|yellow] [[@Thomas2018.pdf#page=1&selection=11,0,11,64&color=yellow|@Thomas2018, p.1]]
+> > Machine learning uses tools from a variety of mathematical fields
+
+> [!PDF|yellow] [[@Thomas2018.pdf#page=9&selection=151,0,159,2&color=yellow|@Thomas2018, p.9]]
+> > It is a remarkable fact that the dimension of the columnspace of A is the same as the dimension of the rowspace of A. 
+
+`This is so fucking sick!`
+
+> [!PDF|red] [[@Thomas2018.pdf#page=9&selection=329,0,329,59&color=red|@Thomas2018, p.9]]
+> > Norms generalize the notion of length from Euclidean space.
+> 
+> Norms are cool, Linear Algebra is cool, I am cool. 
+
+
