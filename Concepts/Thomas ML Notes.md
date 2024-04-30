@@ -24,4 +24,7 @@ modified: 2024-04-30
 > 
 > Norms are cool, Linear Algebra is cool, I am cool. 
 
-
+> [!PDF|yellow] [[@Thomas2018.pdf#page=10&selection=53,1,70,2&color=yellow|@Thomas2018, p.10]]
+> > $x, y ∈ V$ and all $α ∈ R$. 
+> 
+> it is also possible to extract latex but things need to be latexed 
