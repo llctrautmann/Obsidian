@@ -53,3 +53,5 @@ Sam Altman Interview thoughts:
 - Will the board of the company/collective who develop the first AGI be the most powerful people in the world? 
 
 https://youtube.com/shorts/GZwWj_lvsZE?si=mqsuDa8d6X4UhPpv
+
+Build a tool that allows you to set a time limit on screenshots after which they are autodeleted 

@@ -13,12 +13,12 @@ modified: 2024-03-15
 # Expose Farber
 
 - Name geändert: Müller / Wolf, C. (Nachname) nachträglich zwecks Status 
-- FNU (first name unknown) (war aber bekannt und kann erfragt werden) Jasper nicht echter Name: 
-- Mutter eventuell mit Soziopathischer / Psychopathischer Person
+- FNU (first name unknown) (war aber bekannt und kann erfragt werden; correction: Robin) Jasper nicht echter Name: 
+- Mutter eventuell mit Soziopathischer / Psychopathischer Persönlichkeit
 
 - Ehevertragsprobleme (?)
 - keine Unterzeichnung, 
-- Ausschluss FP von Familienvermögen
+- Ausschluss FP 
 
 - Christlichkeit als Vorschub
 - Mutter, "Dein Auto (Porsche) geht ja dann in unsere Kasse"
