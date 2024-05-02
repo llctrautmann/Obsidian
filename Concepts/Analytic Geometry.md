@@ -8,7 +8,7 @@ tags:
 series: M4ML
 chapter: 2
 status: Complete
-modified: 2024-04-27
+modified: 2024-05-02
 ---
 # Analytic Geometry
 ## Norms
@@ -30,7 +30,8 @@ A norm is a mapping from a vector space $V$ onto $\mathbb{R}^1$.
 > In geometric terms, the triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side; (Deisenroth et al., 2020, p. 71)
 
 ### Common Norms
-1. Manhatten Norm: $$
+1. Manhatten Norm: 
+$$
 \|x\|_1:=\sum_{i=1}^n\left|x_i\right|
 $$
 2. Euclidean Norm: 
