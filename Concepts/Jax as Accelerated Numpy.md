@@ -9,7 +9,7 @@ tags:
 series: JAX
 chapter: 1
 status: Incomplete
-modified: 2024-04-10
+modified: 2024-05-02
 ---
 # Jax as Accelerated Numpy
 The main point behind jax is its speed, as every operation is done on the accelerator that is attached to the underlying code accelerator such as the GPU or TPU. This should in most cases make the code run a lot faster, as everything stays on the vRAM of the hardware, instead of being shifted between the accelerated devices. 
@@ -112,16 +112,3 @@ A side-effect is any effect of a function that does not appear in it's output. H
 > This will work but it creates a new array and leaves the old array untouched. 
 
 Side-effect-free code is sometimes called _functionally pure_, or just _pure_. As a rule of thumb, any functions intended to be transformed by JAX should avoid side-effects, and the JAX primitives themselves will try to help you do that.
-
-
- 
-
-
- 
-
-
-
-
- 
-
-
