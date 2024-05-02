@@ -31,3 +31,10 @@ modified: 2024-05-02
 
 
 
+> [!PDF|yellow] [[@Thomas2018.pdf#page=15&selection=344,0,348,54&color=yellow|@Thomas2018, p.15]]
+> > The trace of a square matrix is the sum of its diagonal entries:
+> 
+> Very useful property `here and here`
+
+
+
