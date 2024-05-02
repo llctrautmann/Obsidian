@@ -1,12 +1,14 @@
 ---
 title: Linear Algebra
-date: 02-02-2024
+date:
+  - 02-02-2024
 time: 23:39
 author: Luca Trautmann
 tags: 
 series: M4ML
 chapter: 1
-modified: 2024-03-26
+modified: 2024-05-02
+status: Complete
 ---
 # Linear Algebra
 ## What is an algebra?

@@ -8,7 +8,7 @@ tags:
 series: experimental
 chapter: 
 status: Incomplete
-modified: 2024-05-01
+modified: 2024-05-02
 ---
 # Thomas ML Notes
 > [!PDF|yellow] [[@Thomas2018.pdf#page=1&selection=11,0,11,64&color=yellow|@Thomas2018, p.1]]
@@ -29,12 +29,5 @@ modified: 2024-05-01
 > 
 > it is also possible to extract latex but things need to be latexed 
 
-
-
-> [!thm] Title
-> Content
-
-> [!cor]
-> Content
 
 
