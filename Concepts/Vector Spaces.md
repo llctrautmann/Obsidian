@@ -1,5 +1,5 @@
 ---
-title: Minimal Viable Machine Learning Math
+title: Vector Spaces
 date:
   - 03-05-2024
 time: 17:54

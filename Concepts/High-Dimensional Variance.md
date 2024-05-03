@@ -7,9 +7,9 @@ author: Luca Trautmann
 tags:
   - LinAlg
 series: Linear Algebra
-chapter: 4
+chapter: 5
 status: Incomplete
-modified: 2024-04-02
+modified: 2024-05-03
 ---
 # High-Dimensional Variance
 

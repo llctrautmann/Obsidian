@@ -4,7 +4,7 @@ date: 20-05-2023
 time: 14:28
 author: Luca Trautmann
 tags: []
-modified: 2024-04-15
+modified: 2024-05-03
 ---
 
 > As the old saying goes, if you want something, you find ways, otherwise, you try to find excuses...
@@ -61,7 +61,7 @@ WHERE series = "JAX"
 SORT chapter asc
 ```
 
-## Linear Algebra
+## Linear Algebra Foundation
 ```dataview
 TABLE series as Series, chapter as Chapter
 FROM "Concepts" OR "Articles"

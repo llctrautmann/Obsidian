@@ -9,24 +9,16 @@ tags:
 series: Linear Algebra
 chapter: 3
 status: Incomplete
-modified: 2024-04-02
+modified: 2024-05-03
 ---
 # Moving between Dimensions
 Any linear transformation allows vectors to be moved between dimensional spaces. This can be represented as:
 
-$$
 
-\mathbf{A}\mathbf{x} = f(\mathbf{x})
-
-$$
-
+$$\mathbf{A}\mathbf{x}=f(\mathbf{x})$$
 where
 
-$$
-
-f: \mathbb{R}^m \to \mathbb{R}^n
-
-$$
+$$f:\mathbb{R}^m\to\mathbb{R}^n$$
 
 and $A$ is an $n \times m$ matrix that represents the linear transformation $f$, mapping vectors from $\mathbb{R}^m$ to $\mathbb{R}^n$.
 

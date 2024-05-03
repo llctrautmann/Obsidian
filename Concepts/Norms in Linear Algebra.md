@@ -7,9 +7,9 @@ author: Luca Trautmann
 tags:
   - "#LinAlg"
 series: Linear Algebra
-chapter: 
+chapter: 7
 status: Incomplete
-modified: 2024-04-24
+modified: 2024-05-03
 ---
 # Norms in Linear Algebra
 A norm is a mapping from a vector space $V$ onto $\mathbb{R}^1$. 
