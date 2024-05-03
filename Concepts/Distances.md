@@ -1,11 +1,15 @@
 ---
 title: Distances
-date: 18-05-2023
+date:
+  - 18-05-2023
 time: 15:05
 author: Luca Trautmann
-tags: ["ML","Mathematics"]
-series: "Mathematics & Statistics"
-chapter: 1
+tags:
+  - ML
+  - Mathematics
+series: Mathematics & Statistics
+chapter: "1"
+modified: 2024-05-03
 ---
 
 # Distances
