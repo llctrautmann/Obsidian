@@ -50,6 +50,12 @@ $$
 There are six necessary conditions a vector space needs to conform to:
 
 ### Additive Identity
+Every vector space needs to include $\large\mathbf{0}$ / the origin. It must be possible to do 
+$$
+\mathbf{x}+\mathbf{0}=\mathbf{x}
+$$
+for all $V \in V$
+ 
 
 ### Additive Inverse
 
@@ -66,8 +72,10 @@ There are six necessary conditions a vector space needs to conform to:
 Generally, Vector spaces are an extension of [[Groups]] and related to Set Theory. A group is a set of elements with operations defined on the elements (see [[Groups#Conditions]]).  
 
 With the basics idea of [[Groups]] in mind, a vector space is functionally a special group with its elements being vectors and two defined operations:
-- inner operation: 
-- outer opperation
+
+- inner operation: $+: \mathcal{V} \times \mathcal{V} \rightarrow \mathcal{V}$
+- outer opperation: $\cdot: \mathbb{R} \times \mathcal{V} \rightarrow \mathcal{V}$ 
+
 
 
 
@@ -77,7 +85,7 @@ With the basics idea of [[Groups]] in mind, a vector space is functionally a spe
 > A vector space V is a set (the elements of which are called vectors) on which two operations are defined: vectors can be added together, and vectors can be multiplied by real numbers called scalars.
 
 > [!PDF|yellow] [[deisenroth2020.pdf#page=43&selection=80,0,118,56&color=yellow|deisenroth2020, p.37]]
-> > When we discussed groups, we looked at sets G and inner operations on $G$, i.e., mappings $ × G → G$ that only operate on elements in $G$. In the following, we will consider sets that in addition to an inner operation $+$ also contain an outer operation $·$, the multiplication of a vector $x \in G$ by a scalar $\lambda \in \mathbb{R}$. We can think of the inner operation as a form of addition, and the outer operation as a form of scaling. Note that the inner/outer operations have nothing to do with inner/outer products.
+> > When we discussed groups, we looked at sets G and inner operations on $\mathcal{G}$, i.e., mappings $\mathcal{G} × \mathcal{G} → \mathcal{G}$ that only operate on elements in $\mathcal{G}$. In the following, we will consider sets that in addition to an inner operation $+$ also contain an outer operation $·$, the multiplication of a vector $x \in \mathcal{G}$ by a scalar $\lambda \in \mathbb{R}$. We can think of the inner operation as a form of addition, and the outer operation as a form of scaling. Note that the inner/outer operations have nothing to do with inner/outer products.
 
 
 ## Relevant Notes
