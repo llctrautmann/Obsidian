@@ -18,7 +18,7 @@ modified: 2024-05-03
 
 > [!PDF|yellow] [[@Thomas2018.pdf#page=6&selection=15,55,31,0&color=yellow|@Thomas2018, p.6]]
 > > A vector space V is a set (the elements of which are called vectors) on which two operations are defined: vectors can be added together, and vectors can be multiplied by real numbers1 called scalars.
-> 
+
 
 Vector spaces have have two main conditions (addition and multiplication) and six additional constrains. 
 
