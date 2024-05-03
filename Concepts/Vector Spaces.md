@@ -11,7 +11,7 @@ chapter: 0
 status: Incomplete
 modified: 2024-05-03
 ---
-# Minimal Viable Machine Learning Math
+# Vector Spaces
 ## Vector Spaces Basics
 This is a vector:
 $$
@@ -23,12 +23,22 @@ x_n
 \end{array}\right]
 $$
 
-a vector in $\mathbb{R}^3$ looks like this:
+a vector in $\mathbb{R}^3$ looks like this
 
 $$\mathbf{x}=\left[\begin{array}{c}
 1 \\
 2 \\
 3
+\end{array}\right]$$
+
+a vector in $\mathbb{R}^5$ looks like this
+
+$$\mathbf{x}=\left[\begin{array}{c}
+1 \\
+2 \\
+3 \\  
+4 \\
+5 \\
 \end{array}\right]$$
 
 
@@ -46,18 +56,21 @@ x_n+y_n
 \end{array}\right]
 $$
 
-## Necessary Conditions
+## Conditions
 There are six necessary conditions a vector space needs to conform to:
 
 ### Additive Identity
-Every vector space needs to include $\large\mathbf{0}$ / the origin. It must be possible to do 
-$$
-\mathbf{x}+\mathbf{0}=\mathbf{x}
-$$
-for all $V \in V$
- 
+Every vector space needs to include $\large\mathbf{0}$ / the origin. For all $\mathbf{x}\in V$ it must be possible to do: 
+
+$$\mathbf{x}+\mathbf{0}=\mathbf{x}$$
+
 
 ### Additive Inverse
+There needs to exist an inverse element $-\mathbf{x}$ so that 
+
+$$
+\mathbf{x} + (-\mathbf{x})=\mathbf{0}
+$$
 
 ### Multiplicative Identity
 
@@ -71,12 +84,12 @@ for all $V \in V$
 ## Relevant Mathematical Background 
 Generally, Vector spaces are an extension of [[Groups]] and related to Set Theory. A group is a set of elements with operations defined on the elements (see [[Groups#Conditions]]).  
 
-With the basics idea of [[Groups]] in mind, a vector space is functionally a special group with its elements being vectors and two defined operations:
+With the basics idea of [[Groups]] in mind, a vector space is functionally a special group with its elements being vectors and the two defined operations
 
-- inner operation: $+: \mathcal{V} \times \mathcal{V} \rightarrow \mathcal{V}$
-- outer opperation: $\cdot: \mathbb{R} \times \mathcal{V} \rightarrow \mathcal{V}$ 
+1)  $+: \mathcal{V} \times \mathcal{V} \rightarrow \mathcal{V}$ (inner operation)
+2)  $\cdot: \mathbb{R} \times \mathcal{V} \rightarrow \mathcal{V}$ (outer operation)
 
-
+And all other remaining conditions as outlined above. 
 
 
 ## Relevant Literature
