@@ -53,6 +53,18 @@ There are six necessary conditions a vector space needs to conform to:
 
 ### Additive Inverse
 
+### Multiplicative Identity
+
+### Commutativity
+
+### Associativity
+
+### Distributivity
+
+
+## Relevant Mathematical Background 
+Generally, Vector spaces are an 
+
 
 
 ## Relevant Literature
