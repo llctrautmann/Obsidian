@@ -3,14 +3,20 @@ title: Recurrent Phase Reconstruction Using Estimated Phase Derivatives from Dee
 authors: Lars Thieling, Daniel Wilhelm, Peter Jax
 year: 2021
 DOI: 10.1109/ICASSP39728.2021.9413722
-Tags: [ ]
-Docstring: [ ]
+Tags: []
+Docstring: []
+modified: 2024-05-05
 ---
 >[!Link]+
 > File: [PDF](thieling2021.pdf)
 > Zotero: [Zotero](zotero://select/items/@thieling2021)
 
 # Summary
+
+> [!PDF|yellow] [[thieling2021.pdf#page=1&selection=11,13,16,22&color=yellow|thieling2021, p.1]]
+> >  The phase is very sensitive to time shifts. Therefore it is meaningful to estimate the phase derivatives instead of the phase directly, e.g., using DNNs and then apply a phase reconstruction method to recombine these estimates to a suitable phase spectrum. In this paper, we propose three changes for such a two-stage phase reconstruction system.
+> 
+> 
 # Annotations  
 
 > [Go to annotation](zotero://open-pdf/library/items/SLWH4R8W?page=7088&annotation=KNJZD3K3) This paper presents a deep neural network (DNN)-based system for phase reconstruction of speech signals solely from their magnitude spectrograms. ([Thieling et al., 2021, p. 7088](zotero://select/library/items/4VGSNYKW))
