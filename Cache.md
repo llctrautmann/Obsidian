@@ -47,4 +47,5 @@ Build a tool that allows you to set a time limit on screenshots after which they
 
 2024-05-04 
 
+<% tp.date.now("YYYY-MM-DD", -10) %>
 <% tp.date.now("YYYY-MM-DD", -1) %>
