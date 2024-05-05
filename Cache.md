@@ -1,5 +1,5 @@
 ---
-modified: 2024-04-29
+modified: 2024-05-05
 ---
 JB. Peterson: https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve
 
@@ -7,21 +7,9 @@ Build a PoW Blockchain [src](https://hackernoon.com/learn-blockchains-by-buildin
 
 math: https://betanalpha.github.io/
 
-
 thefuck: https://github.com/nvbn/thefuck
 
-japanese: 
-https://www.fluentu.com/blog/japanese/japanese-travel-phrases/
-
->[!Bayesian Inference]
->Yes, that's a good summary of the process:
-> 1. Choose a prior distribution for the model parameters.
-> 2. Build a model (such as a neural network) to predict parameters of a parameterized distribution (e.g., mean and standard deviation of a normal distribution).
-> 3. Use a method like variational inference or MCMC to approximate the posterior distribution over the parameters.
-> 4. Train the model to fit the data well by maximizing the likelihood or a suitable objective function.
-> 5. Once trained, sample from the posterior distribution to generate new instances or make predictions on unseen data.
-> 
-> This iterative process allows you to capture uncertainty in your model's predictions and generate realistic data samples.
+japanese: https://www.fluentu.com/blog/japanese/japanese-travel-phrases/
 
 
 Definition 2.18 (Coordinates). Consider a vector space $V$ and an ordered basis $B=\left(\boldsymbol{b}_1, \ldots, \boldsymbol{b}_n\right)$ of $V$. For any $\boldsymbol{x} \in V$ we obtain a unique representation (linear combination)

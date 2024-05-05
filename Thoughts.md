@@ -1,5 +1,5 @@
 ---
-modified: 2024-04-08
+modified: 2024-05-05
 ---
 >  Democracy as a political system works best with a limited and gatekept information sphere and a high information travel time. 
 
@@ -47,3 +47,6 @@ modified: 2024-04-08
 
 
 > Making money is being equated to being good or doing good. This can be seen everywhere: Crypto, Decreasing the industrial base of a country (e.g. US). But just because you make money does not mean that the thing is good/solid/sound or the right way to design a system. 
+
+> The broken monetary system has lead to a broken social contract. 
+
