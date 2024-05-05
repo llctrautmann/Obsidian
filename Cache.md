@@ -43,3 +43,8 @@ Sam Altman Interview thoughts:
 https://youtube.com/shorts/GZwWj_lvsZE?si=mqsuDa8d6X4UhPpv
 
 Build a tool that allows you to set a time limit on screenshots after which they are autodeleted 
+
+
+2024-05-04 
+
+<% tp.date.now("YYYY-MM-DD", -1) %>
