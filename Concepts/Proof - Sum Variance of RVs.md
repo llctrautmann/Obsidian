@@ -1,5 +1,5 @@
 ---
-title: Variance of the sum of RVs
+title: Proof - Sum Variance of RVs
 date:
   - 08-04-2024
 time: 15:46
