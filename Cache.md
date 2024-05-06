@@ -1,5 +1,5 @@
 ---
-modified: 2024-05-05
+modified: 2024-05-06
 ---
 JB. Peterson: https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve
 
@@ -11,20 +11,6 @@ thefuck: https://github.com/nvbn/thefuck
 
 japanese: https://www.fluentu.com/blog/japanese/japanese-travel-phrases/
 
-
-Definition 2.18 (Coordinates). Consider a vector space $V$ and an ordered basis $B=\left(\boldsymbol{b}_1, \ldots, \boldsymbol{b}_n\right)$ of $V$. For any $\boldsymbol{x} \in V$ we obtain a unique representation (linear combination)
-$$
-\boldsymbol{x}=\alpha_1 \boldsymbol{b}_1+\ldots+\alpha_n \boldsymbol{b}_n
-$$
-of $\boldsymbol{x}$ with respect to $B$. Then $\alpha_1, \ldots, \alpha_n$ are the coordinates of $\boldsymbol{x}$ with respect to $B$, and the vector
-$$
-\boldsymbol{\alpha}=\left[\begin{array}{c}
-\alpha_1 \\
-\vdots \\
-\alpha_n
-\end{array}\right] \in \mathbb{R}^n
-$$
-is the coordinate vector/coordinate representation of $\boldsymbol{x}$ with respect to the ordered basis $B$.
 
 Trump is like GPT2 trained on 4chan 
 Bundeswehr 
@@ -43,9 +29,3 @@ Sam Altman Interview thoughts:
 https://youtube.com/shorts/GZwWj_lvsZE?si=mqsuDa8d6X4UhPpv
 
 Build a tool that allows you to set a time limit on screenshots after which they are autodeleted 
-
-
-2024-05-04 
-
-<% tp.date.now("YYYY-MM-DD", -10) %>
-<% tp.date.now("YYYY-MM-DD", -1) %>
