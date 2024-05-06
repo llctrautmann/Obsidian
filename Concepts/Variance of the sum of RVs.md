@@ -8,20 +8,19 @@ tags:
 series: 
 chapter: 
 status: Incomplete
-modified: 2024-04-08
+modified: 2024-05-06
 ---
 # Variance of the sum of RVs
-Proof: Variance of the sum of two random variables
-
-Theorem: The variance of the sum of two random variables equals the sum of the variances of those random variables, plus two times their covariance:
+**Theorem**: The variance of the sum of two random variables equals the sum of the variances of those random variables, plus two times their covariance:
 $$
 \operatorname{Var}(X+Y)=\operatorname{Var}(X)+\operatorname{Var}(Y)+2 \operatorname{Cov}(X, Y) .
 $$
 
-Proof: The variance is defined in terms of the expected value as
+
+**Proof**: The variance is defined in terms of the expected value as
 $$
 \operatorname{Var}(X)=\mathrm{E}\left[(X-\mathrm{E}(X))^2\right] .
-$$
+\tag{1}$$
 
 Using this and the linearity of the expected value, we can derive (1) as follows:
 $$
@@ -33,3 +32,4 @@ $$
 & \stackrel{(2)}{=} \operatorname{Var}(X)+\operatorname{Var}(Y)+2 \operatorname{Cov}(X, Y) .
 \end{aligned}
 $$
+
