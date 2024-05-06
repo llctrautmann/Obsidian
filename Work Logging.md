@@ -4,10 +4,7 @@ date:
   - 12-04-2024
 time: 19:00
 author: Luca Trautmann
-tags: 
-series: 
-chapter: 
-modified: 2024-04-16
+modified: 2024-05-06
 ---
 # Work Logging
 ## ////////////////////////// 12-04-2024 //////////////////////////
@@ -37,6 +34,20 @@ modified: 2024-04-16
 - Supervision Meeting to discuss the start of the PhD and the general structure for the next weeks and months. 
 ---
 ---
+
+---
+## ////////////////////////// 06-05-2024 //////////////////////////
+### CODE
+
+
+### READING
+
+
+### NOTES
+
+---
+---
+
 
 
 
