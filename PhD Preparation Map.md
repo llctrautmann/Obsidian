@@ -21,7 +21,6 @@ modified: 2024-03-26
 
 ## Side Burn
 
-- [ ] improve keystrokes (25 min /day)
 - [ ] Highlighting Scheme @{01-05-2024}
 - [ ] Develop WandB Setup @{01-05-2024}
 - [ ] Learn Git Industry Standard @{01-05-2024}
