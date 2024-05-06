@@ -4,11 +4,12 @@ date:
   - 08-04-2024
 time: 15:25
 author: Luca Trautmann
-tags: 
-series: 
+tags:
+  - "#LinAlg"
+series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-04-09
+modified: 2024-05-06
 ---
 # Bienayme's Identity
 In probability theory, Bienaymé's identity is a formula for the variance of random variables which are themselves sums of random variables. I provide a little intuition for the identity and then prove it.

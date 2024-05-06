@@ -7,17 +7,9 @@ tags:
   - Mathematics
 series: Number Theory
 chapter: 1
+modified: 2024-05-06
 ---
-
-> [!Chapters]-
-> ```dataview
-> TABLE chapter as Chapter
-> FROM "concepts"
-> WHERE (series = this.series AND chapter = this.chapter + 1) OR (series = this.series AND chapter = this.chapter - 1)
-> SORT chapter asc
-> ```
-
-# Properties of Complex Numbers
+# Properties of Complex Arithmetic
 ## properties of complex arithmetic
 - __commutativity__
 	$\alpha+\beta=\beta+\alpha$ and $\alpha \beta=\beta \alpha$ for all $\alpha, \beta \in \mathbf{C}$.

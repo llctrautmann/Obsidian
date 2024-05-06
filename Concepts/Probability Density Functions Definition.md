@@ -1,11 +1,13 @@
 ---
 title: Probability Density Functions Definition
-date: 01-01-2024
+date:
+  - 01-01-2024
 time: 18:11
 author: Luca Trautmann
 tags: 
 series: Probability Theory
-chapter: 15
+chapter: "15"
+modified: 2024-05-06
 ---
 
 > [!Chapters]-
