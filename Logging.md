@@ -6,53 +6,26 @@ time: 19:00
 author: Luca Trautmann
 modified: 2024-05-06
 ---
-# Logging
-## ////// 12-04-2024 //////
-### Code
-- Understand the training loop code for the XOR problem in JAX 
-- Shape matching for `jnp.array` tensors in JAX
-- `params` in `pytree` structures in JAX
+# Work Log
+## 06-05-2024
+### code
 
-### Reading
-- Vector Calculus Refresher for Vector functions in Machine Learning | [[Vector Calculus]]
-- Random Number Generation in JAX | [[Pseudo Random Numbers in JAX]]
+|     | Task                                                             | Time |
+| --- | ---------------------------------------------------------------- | ---- |
+|     | Design and implement a simple CNN for Uncertainty Quantification | 1h   |
+|     | Simple Jax Tutorial (UvA)                                        | 1h   |
 
-### Notes
-- Initial Project structure will rely on simple DenseSR model with UQ for start and later upscaling
-- Keep the Network Footprint small an scale complexity with increasing 
-- DL Framework is set to JAX for rapid training
+### read
 
----
-## ///////////////////////////// 16-04-2024 /////////////////////////////
-### CODE
-- no coding today
+|     | Task | Time |
+| --- | ---- | ---- |
+|     |      |      |
 
-### READING
-- Deisenroth: vector-valued functions and their derivatives
+### write
 
-### NOTES
-- Supervision Meeting to discuss the start of the PhD and the general structure for the next weeks and months. 
----
----
-
----
-## ////////////////////////// 06-05-2024 //////////////////////////
-### CODE
-
-
-### READING
-
-
-### NOTES
-
----
----
-
-
-
-| title | name |
-| ----- | ---- |
-|       |      |
+|     | Task | Time |
+| --- | ---- | ---- |
+|     |      |      |
 
 
 
