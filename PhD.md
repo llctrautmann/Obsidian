@@ -12,8 +12,8 @@ modified: 2024-03-26
 - [ ] Intro to Optax #urgent @{01-05-2024}
 - [ ] Develop Schedule Prototype @{01-05-2024}
 - [ ] Split up Existing Summaries into Concept Notes
+- [ ] Collect 50 papers for Super Resolution, Uncertainty Quantification, to design the foundation for my research
 - [ ] Mochify all generated Content @{31-05-2024}
-- [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
 - [ ] Transformer Tutorial
 - [ ] Mamba Tutorial
 - [ ] penzai (JAX NN visualiser)
@@ -31,12 +31,12 @@ modified: 2024-03-26
 ## Active (3)
 
 - [ ] M4ML@{15-04-2024}<br>- [x] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
-- [ ] Collect 50 papers for Super Resolution, Uncertainty Quantification, to design the foundation for my research
 - [ ] Intro to Jax @{15-04-2024}<br>#urgent<br>- [x] jit<br>- [x] grad<br>- [x] vmap<br>- [ ] jacfwd<br>- [ ] jacbwd<br>[Quickstart](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
 
 
 ## Completed
 
+- [ ] Revamp Daily/Weekly/Quarterly notes @{01-05-2024}
 - [ ] Automation of Core Processes<br>- [x] Arxiv Search<br>- [x] YouTube Video Transcribe<br>@{01-05-2024}
 - [ ] Obsidian GIT @{30-04-2024}
 
