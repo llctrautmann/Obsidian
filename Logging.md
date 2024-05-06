@@ -1,13 +1,13 @@
 ---
-title: Work Logging
+title: Logging
 date:
   - 12-04-2024
 time: 19:00
 author: Luca Trautmann
 modified: 2024-05-06
 ---
-# Work Logging
-## ////////////////////////// 12-04-2024 //////////////////////////
+# Logging
+## ////// 12-04-2024 //////
 ### Code
 - Understand the training loop code for the XOR problem in JAX 
 - Shape matching for `jnp.array` tensors in JAX
@@ -23,7 +23,7 @@ modified: 2024-05-06
 - DL Framework is set to JAX for rapid training
 
 ---
-## ////////////////////////// 16-04-2024 //////////////////////////
+## ///////////////////////////// 16-04-2024 /////////////////////////////
 ### CODE
 - no coding today
 

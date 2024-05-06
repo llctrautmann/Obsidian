@@ -4,13 +4,10 @@ date: 20-05-2023
 time: 14:28
 author: Luca Trautmann
 tags: []
-modified: 2024-05-03
+modified: 2024-05-06
 ---
 
 > As the old saying goes, if you want something, you find ways, otherwise, you try to find excuses...
-
-> Believe in yourself and proof them wrong!
-
 # Books
 ## M4ML
 ```dataview
