@@ -1,11 +1,13 @@
 ---
 title: von Mises Distribution
-date: 23-08-2023
+date:
+  - 23-08-2023
 time: 21:11
 author: Luca Trautmann
-tags: []
+tags: 
 series: Machine Learning Fundamentals
 chapter: 12
+modified: 2024-05-07
 ---
 
 > [!Chapters]-
