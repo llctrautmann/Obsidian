@@ -94,7 +94,7 @@ And all other remaining conditions as outlined above.
 
 ## Relevant Literature
 
-> [!PDF|yellow] [[@Thomas2018.pdf#page=6&selection=15,55,31,0&color=yellow|@Thomas2018, p.6]]
+> [!PDF|yellow] [[Thomas2018.pdf#page=6&selection=15,55,31,0&color=yellow|@Thomas2018, p.6]]
 > A vector space V is a set (the elements of which are called vectors) on which two operations are defined: vectors can be added together, and vectors can be multiplied by real numbers called scalars.
 
 > [!PDF|yellow] [[deisenroth2020.pdf#page=43&selection=80,0,118,56&color=yellow|deisenroth2020, p.37]]

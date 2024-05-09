@@ -5,6 +5,15 @@ modified: 2024-03-26
 
 ---
 
+## Side Burn
+
+- [ ] homogenise email accounts @{30-06-2024}
+- [ ] Highlighting Scheme @{01-05-2024}
+- [ ] Learn Git Industry Standard @{01-05-2024}
+- [ ] Develop WandB Setup @{01-05-2024}
+- [ ] Homogenised Keyboard Shortcuts @{31-05-2024}
+
+
 ## Backlog
 
 - [ ] Paper Summarisation Tool<br>@{31-05-2024}
@@ -17,15 +26,6 @@ modified: 2024-03-26
 - [ ] Transformer Tutorial
 - [ ] Mamba Tutorial
 - [ ] penzai (JAX NN visualiser)
-
-
-## Side Burn
-
-- [ ] Highlighting Scheme @{01-05-2024}
-- [ ] Develop WandB Setup @{01-05-2024}
-- [ ] Learn Git Industry Standard @{01-05-2024}
-- [ ] homogenise email accounts @{30-06-2024}
-- [ ] Homogenised Keyboard Shortcuts @{31-05-2024}
 
 
 ## Active (3)
