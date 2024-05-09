@@ -32,6 +32,7 @@ modified: 2024-03-26
 
 - [ ] M4ML@{15-04-2024}<br>- [x] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
 - [ ] Intro to Jax @{15-04-2024}<br>#urgent<br>- [x] jit<br>- [x] grad<br>- [x] vmap<br>- [ ] jacfwd<br>- [ ] jacbwd<br>[Quickstart](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
+- [ ] 50 Pages of ML Math #urgent @{31-05-2024}
 
 
 ## Completed
