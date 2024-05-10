@@ -104,6 +104,9 @@ $$
 
 ### Distributivity
 
+$$\alpha (\mathbf{x + \mathbf{y}})= \alpha \mathbf{x} + \alpha \mathbf{y}$$
+
+
 
 ## Relevant Mathematical Background 
 Generally, Vector spaces are an extension of [[Groups]] and related to Set Theory. A group is a set of elements with operations defined on the elements (see [[Groups#Conditions]]).  
