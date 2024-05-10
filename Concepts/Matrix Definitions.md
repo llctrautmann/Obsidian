@@ -1,11 +1,13 @@
 ---
 title: Matrix Definitions
-date: 05-02-2024
+date:
+  - 05-02-2024
 time: 10:13
 author: Luca Trautmann
 tags: 
-series: 
-chapter:
+series: Linear Algebra
+chapter: 0
+modified: 2024-05-10
 ---
 # Matrix: Definition
 

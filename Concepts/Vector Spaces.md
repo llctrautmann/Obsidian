@@ -94,6 +94,7 @@ $$
 
 ### Associativity
 For all $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $\alpha, \beta \in \mathbb{R}$ 
+
 $$
 (\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})
 $$
@@ -103,8 +104,12 @@ $$
 
 
 ### Distributivity
+For all $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $\alpha, \beta \in \mathbb{R}$ 
 
 $$\alpha (\mathbf{x + \mathbf{y}})= \alpha \mathbf{x} + \alpha \mathbf{y}$$
+$$
+(\alpha+\beta) \mathbf{x}=\alpha \mathbf{x}+\beta \mathbf{x}
+$$
 
 
 
