@@ -50,9 +50,6 @@ If the set of vectors are linearly independent and span then entire [[Vector Spa
 
 If a vector space is spanned by a finite number of vectors, it is said to be finite-dimensional. Otherwise it is infinite-dimensional. The number of vectors in a basis for a finite-dimensional vector space V is called the dimension of V and denoted dim V .
 
-So for 2D space the dimension is 
-
-
 > [!PDF|yellow]- [[Thomas2018.pdf#page=6&selection=379,12,379,80&color=yellow|Thomas2018, p.6]]
 > > every linearly independent set of vectors forms a basis for its span.
 
