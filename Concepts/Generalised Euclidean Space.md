@@ -4,8 +4,9 @@ date:
   - 10-05-2024
 time: 14:49
 author: Luca Trautmann
-tags: 
-series: 
+tags:
+  - LinAlg
+series: Linear Algebra
 chapter: 
 status: Incomplete
 modified: 2024-05-10
