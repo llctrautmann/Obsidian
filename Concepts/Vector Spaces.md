@@ -81,10 +81,26 @@ $$
 
 This is in most cases the [[Matrix Definitions#Identity Matrix]]. And trivially in Calculus that is 1. 
 
+`This also neatly shows that there is no difference between the single dimensional math and the higher dimensional math.`
 
 ### Commutativity
+Same definition as commutativity in any other algebra.
+For all $\mathbf{x}, \mathbf{y} \in V$
+
+$$
+\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}
+$$
+
 
 ### Associativity
+For all $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $\alpha, \beta \in \mathbb{R}$ 
+$$
+(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})
+$$
+$$
+\alpha(\beta \mathbf{x})=(\alpha \beta) \mathbf{x}
+$$
+
 
 ### Distributivity
 
