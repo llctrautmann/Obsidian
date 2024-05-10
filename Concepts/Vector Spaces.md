@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-03
+modified: 2024-05-10
 ---
 # Vector Spaces
 ## Vector Spaces Basics
@@ -73,6 +73,14 @@ $$
 $$
 
 ### Multiplicative Identity
+There exists a multiplicative identity in $\mathbb{R}$, that allows for all $\mathbf{x} \in V$
+
+$$
+1\mathbf{x} = \mathbf{x}
+$$
+
+This is in most cases the [[Matrix Definitions#Identity Matrix]]. And trivially in Calculus that is 1. 
+
 
 ### Commutativity
 
