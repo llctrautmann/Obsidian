@@ -60,4 +60,10 @@ $$
 \operatorname{dim}(U+W)=\operatorname{dim} U+\operatorname{dim} W-\operatorname{dim}(U \cap W)
 $$
 
-`This immidiately reminds me of` [[Probability Basics#Joint Probability]] `Its the same formula.` 
+And for direct sums;
+
+$$
+\operatorname{dim}(U \oplus W)=\operatorname{dim} U+\operatorname{dim} W
+$$
+
+`This immidiately reminds me of` [[Probability Basics#Joint Probability]] `Its the same formula, so there is some interesting connection between the two. Maybe set theory is the underlying fabric. Vector spaces are groups, groups are sets and so this is all fundamentally connected with each other.` 
