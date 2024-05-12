@@ -44,10 +44,12 @@ $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S
 
 
 ## Combining Subspaces
-
+Subspaces can be combined:
 
 $$
 U+W=\{\mathbf{u}+\mathbf{w} \mid \mathbf{u} \in U, \mathbf{w} \in W\}
 $$
 
+
+If the intersection of the two subspaces is just $\left\{ \mathbf{0}\right \}$ it is called a **direct sum** $U \oplus W$. 
 
