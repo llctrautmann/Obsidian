@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-10
+modified: 2024-05-12
 ---
 # Vector Spaces
 ## Vector Spaces Basics
@@ -134,6 +134,6 @@ And all other remaining conditions as outlined above.
 
 
 ## Relevant Notes
-- [[Linear Algebra]]
+- [[Concepts/Linear Algebra]]
 - [[Linear Algebra Foundation]]
 - 

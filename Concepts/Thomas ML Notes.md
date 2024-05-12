@@ -8,14 +8,14 @@ tags:
 series: experimental
 chapter: 
 status: Incomplete
-modified: 2024-05-10
+modified: 2024-05-12
 ---
 # Thomas ML Notes
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=1&selection=11,0,11,64&color=yellow|@Thomas2018, p.1]]
 > > Machine learning uses tools from a variety of mathematical fields
 
-Chief among the Calculus, [[Linear Algebra]] and [[Probability Theory Definitions]]. 
+Chief among the Calculus, [[Concepts/Linear Algebra]] and [[Probability Theory Definitions]]. 
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=6&selection=15,55,31,0&color=yellow|@Thomas2018, p.6]]
 > > A vector space V is a set (the elements of which are called vectors) on which two operations are defined: vectors can be added together, and vectors can be multiplied by real numbers1 called scalars.

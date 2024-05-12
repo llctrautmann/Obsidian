@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-10
+modified: 2024-05-12
 ---
 # Generalised Euclidean Space
 The most important/used [[Vector Spaces]] is the Euclidean space $\mathbb{R}^n$. Vectors in it are tuples with $n$ elements. 
@@ -34,6 +34,7 @@ x_n
 
 
 Euclidean space generally represents physical space. Even if it is not easy to imaging higher dimensional space, the rules are not different. So it is always useful to think in 2D or 3D when conceptualising. 
+
 
 ## References
 

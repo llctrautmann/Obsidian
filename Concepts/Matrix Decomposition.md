@@ -56,7 +56,7 @@ $$
 
 ### Sarrus Rule
 ## Eigenvalue and Eigenvector
-Every linear mapping ([[Linear Algebra#Linear Mappings]]) `AKA: Matrices that adhere to the associatve and distributive property` has a unique transformation matrix give the underlying ordered basis. 
+Every linear mapping ([[Concepts/Linear Algebra#Linear Mappings]]) `AKA: Matrices that adhere to the associatve and distributive property` has a unique transformation matrix give the underlying ordered basis. 
 
 Geometrically, the eigenvector corresponding to a nonzero eigenvalue points in a direction that is stretched by the linear mapping. The eigenvalue is the factor by which it is stretched. If the eigenvalue is negative, the direction of the stretching is flipped.
 
