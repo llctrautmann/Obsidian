@@ -11,6 +11,11 @@ chapter:
 status: Incomplete
 modified: 2024-05-12
 ---
+
+> [!PDF|yellow] [[Thomas2018.pdf#page=7&selection=184,0,184,90&color=yellow|Thomas2018, p.7]]
+> > As a concrete example, a line passing through the origin is a subspace of Euclidean space.
+
+
 # Vectors Subspaces
 
 Subspaces are more limited spaces within existing vectors spaces. For example, if I transform a larger space into a lower dimensional space, the [[Null Space]] is the space that contain all the vectors that are $\mathbf{0}$ in the new vector space. 
@@ -33,3 +38,16 @@ $$
 $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S$$
 
 `same as 2.`  
+
+##### Note:
+*Mentally there is some connection to [[Notes on Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
+
+
+## Combining Subspaces
+
+
+$$
+U+W=\{\mathbf{u}+\mathbf{w} \mid \mathbf{u} \in U, \mathbf{w} \in W\}
+$$
+
+
