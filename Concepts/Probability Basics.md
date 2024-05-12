@@ -3,9 +3,12 @@ title: Probability Basics
 date: 19-05-2023
 time: 16:19
 author: Luca Trautmann
-tags: ['Mathematics','ML']
-series: "Probability Theory"
+tags:
+  - Mathematics
+  - ML
+series: Probability Theory
 chapter: 1
+modified: 2024-05-12
 ---
 # Probability Basics
 Probability theory is an extension of logic. The following summarises the most fundamental concepts.
@@ -29,7 +32,8 @@ $$P(A \cap B) = P(A) \cdot P(B) \quad \text{if independent}$$
 and:
 $$P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)\quad \text{if dependent}$$
 where $P(A \cap B)$ denotes the probability of both event A and event B occurring, and $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively. $P(B|A)$ is the conditional probability of B 'given' A.
-### Union
+
+### Joint Probability 
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 where $P(A \cup B)$ denotes the probability of event A or event B occurring (or both), $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively, and $P(A \cap B)$ is the probability of both A and B occurring.

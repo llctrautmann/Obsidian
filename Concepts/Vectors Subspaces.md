@@ -53,3 +53,11 @@ $$
 
 If the intersection of the two subspaces is just $\left\{ \mathbf{0}\right \}$ it is called a **direct sum** $U \oplus W$. 
 
+## Dimensionality of Combined Subspaces
+[[Vector Space Dimensionality]] for combined vector spaces is given by. 
+
+$$
+\operatorname{dim}(U+W)=\operatorname{dim} U+\operatorname{dim} W-\operatorname{dim}(U \cap W)
+$$
+
+`This immidiately reminds me of` [[Probability Basics#Joint Probability]] `Its the same formula.` 
