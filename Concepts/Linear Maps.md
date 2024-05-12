@@ -12,7 +12,12 @@ status: Incomplete
 modified: 2024-05-12
 ---
 # Linear Maps
-[[Geometry of Linear Algebra]] 
-[[Moving between Dimensions]]
 
-Linear Maps are matrices are [[Functions]]
+
+Linear Maps are matrices are [[Functions]] that connect [[Vector Spaces]].
+
+
+## [[Geometry of Linear Algebra]] 
+
+## [[Moving between Dimensions]]
+
