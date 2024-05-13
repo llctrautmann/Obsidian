@@ -4,11 +4,12 @@ date:
   - 03-05-2024
 time: 18:23
 author: Luca Trautmann
-tags: 
-series: Mathematics
-chapter: Auxillary
+tags:
+  - "#LinAlg"
+series: Linear Algebra
+chapter: 0
 status: Incomplete
-modified: 2024-05-03
+modified: 2024-05-13
 ---
 # Groups
 A group is a set of elements and an operation defined on these elements that keeps some structure of the set intact. 
