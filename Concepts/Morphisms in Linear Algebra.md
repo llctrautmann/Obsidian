@@ -16,12 +16,15 @@ modified: 2024-05-13
 Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
 1) Injective: if $\forall \boldsymbol{x}, \boldsymbol{y} \in \mathcal{V}: \Phi(\boldsymbol{x}) = \Phi (\boldsymbol{y}) \Longrightarrow \boldsymbol{x} = \boldsymbol{y}$ 
-`different inputs lead to different outputs`
+`Each element of the domain maps to a unique element in the codomain; also known as one-to-one`
 
 2) Surjective: if $\Phi(\mathcal{V})=\mathcal{W}$ 
-`all elements in W can be reached from V; Range = Codomain`
+`all elements in W can be reached from V; Range = Codomain; covering the entire space`
 
 3) Bijective: if it is Injective and Surjective
+
+<mark class="hltr-red">NOTE</mark>: A bijective linear mapping can be undone with the inverse $\Phi^{-1}$. 
+
 
 ## Homomorphism, Isomorphism
 In algebraic terms, a linear map is called a homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. 
@@ -49,3 +52,5 @@ A linear map $T$ is called an isomorphism if the following two conditions are sa
 - $T$ is onto. That is, if $\vec{w} \in W$, there exists $\vec{v} \in V$ such that $T(\vec{v})=\vec{w}$.
 
 Two such subspaces which have an isomorphism as described above are said to be isomorphic. 
+
+We can also derive that [[Vector Spaces]] and [[Subspaces]] with the same dimensionality with the same [[Vector Space Dimensionality]] will be isomorphic. 
