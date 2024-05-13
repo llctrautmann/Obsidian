@@ -9,15 +9,23 @@ tags:
 series: Linear Algebra
 chapter: "8"
 status: Incomplete
-modified: 2024-05-12
+modified: 2024-05-13
 ---
 # Linear Maps
 
 
-Linear Maps are matrices are [[Functions]] that connect [[Vector Spaces]].
+Linear Maps are matrices are [[Functions]] that connect [[Vector Spaces]] (here $V$ and $W$)
+
+$$\large\tag{1}
+T:V \rightarrow W
+$$
+
+To be valid a linear map needs to have closure under addition and closure under multiplication. This is identical to [[Vector Spaces]]
 
 
-## [[Geometry of Linear Algebra]] 
 
-## [[Moving between Dimensions]]
+
+## Related
+[[Geometry of Linear Algebra]] 
+[[Moving between Dimensions]]
 
