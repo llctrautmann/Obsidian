@@ -23,11 +23,9 @@ Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
 3) Bijective: if it is Injective and Surjective
 
-For visualisation hover: [here](injective_surjective.png)
-
-<mark class="hltr-red">NOTE</mark>: A bijective linear mapping can be undone with the inverse $\Phi^{-1}$. 
 
 
+<mark class="hltr-red">NOTE</mark>: A bijective linear mapping can be undone with the inverse $\Phi^{-1}$. For visualisation hover: [here](injective_surjective.png)
 
 
 ## Vector Space Homomorphism, Isomorphism
