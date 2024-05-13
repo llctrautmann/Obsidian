@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-12
+modified: 2024-05-13
 ---
 # Vector Spaces
 ## Vector Spaces Basics
@@ -41,8 +41,13 @@ $$\mathbf{x}=\left[\begin{array}{c}
 5 \\
 \end{array}\right]$$
 
+## Main Operations
+The two main operations for every vector space are:
 
-The two main operations for every vector space are addition and multiplication. Both are defined element-wise:
+- addition
+- scalar multiplication
+
+Both are defined element-wise:
 
 $$\large
 \mathbf{x}+\mathbf{y}=\left[\begin{array}{c}
