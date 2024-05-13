@@ -12,9 +12,24 @@ status: Incomplete
 modified: 2024-05-13
 ---
 # Morphisms in Linear Algebra
+## Injective, Surjective, Bijective
+Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
+
+1) Injective: if $\forall \boldsymbol{x}, \boldsymbol{y} \in \mathcal{V}: \Phi(\boldsymbol{x}) = \Phi (\boldsymbol{y}) \Longrightarrow \boldsymbol{x} = \boldsymbol{y}$ 
+`different inputs lead to different outputs`
+
+2) Surjective: if $\Phi(\mathcal{V})=\mathcal{W}$ 
+`all elements in W can be reached from V; Range = Codomain`
+
+3) Bijective: if it is Injective and Surjective
+
+## Homomorphism, Isomorphism
 In algebraic terms, a linear map is called a homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. 
 
 `Think about loss of information; isomorphism means all data points are mapped uniquely, so no information is lost.`  
+
+
+
 
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=8&selection=45,2,71,1&color=yellow|Thomas2018, p.8]]
@@ -25,3 +40,12 @@ In algebraic terms, a linear map is called a homomorphism of vector spaces. An i
 > > Isomorphic vector spaces are essentially “the same” in terms of their algebraic structure
 
 
+__Iso-, Endo-, Automorphism__. The definitions for Iso-, Endo-, Automorphism are as follows:
+
+- Isomorphism: $\Phi: V \to W$ linear and bijective 
+
+A linear map $T$ is called an isomorphism if the following two conditions are satisfied.
+- $T$ is one to one. That is, if $T(\vec{x})=T(\vec{y})$, then $\vec{x}=\vec{y}$.
+- $T$ is onto. That is, if $\vec{w} \in W$, there exists $\vec{v} \in V$ such that $T(\vec{v})=\vec{w}$.
+
+Two such subspaces which have an isomorphism as described above are said to be isomorphic. 
