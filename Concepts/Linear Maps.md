@@ -20,9 +20,16 @@ $$\large\tag{1}
 T:V \rightarrow W
 $$
 
-To be valid a linear map needs to have closure under addition and closure under multiplication. This is identical to [[Vector Spaces]]
+To be valid a linear map needs to follow associativity and distributivity. This is related to [[Vector Spaces#Conditions]] and a follows from the fundamental set theory of [[Groups]].
 
+$$
+\begin{aligned}
+ T(\mathbf{x}+\mathbf{y}) &=T \mathbf{x}+T \mathbf{y} \\
+ T(\alpha \mathbf{x}) &= \alpha T \mathbf{x} 
+\end{aligned}
+$$
 
+The relationship between functions and linear maps is muddied by notational quirks. $\mathbf{Tx}=\mathbf{T}(\mathbf{x})$ holds, but mathematicians just want to make things more minimal. 
 
 
 ## Related
