@@ -29,9 +29,9 @@ Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
 
 ## Vector Space Homomorphism, Isomorphism
-In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces.
+In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. 
 
-An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. 
+
 
 `Think about loss of information; isomorphism means all data points are mapped uniquely, so no information is lost and the structure of the vector space is the same.`  
 
