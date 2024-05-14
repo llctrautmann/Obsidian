@@ -1,5 +1,5 @@
 ---
-modified: 2024-05-06
+modified: 2024-05-14
 ---
 JB. Peterson: https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve
 
@@ -29,3 +29,9 @@ Sam Altman Interview thoughts:
 https://youtube.com/shorts/GZwWj_lvsZE?si=mqsuDa8d6X4UhPpv
 
 Build a tool that allows you to set a time limit on screenshots after which they are autodeleted 
+
+
+
+$$
+\operatorname{span}\left\{\mathbf{v}_1,\ldots, \mathbf{v}_n\right\}=\left\{\mathbf{v}\in V:\exists \alpha_1, \ldots,\alpha_n\text{ such that }\alpha_1 \mathbf{v}_1+\cdots+\alpha_n\mathbf{v}_n=\mathbf{v}\right\}
+$$
