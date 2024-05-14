@@ -11,7 +11,14 @@ chapter:
 status: Incomplete
 modified: 2024-05-14
 ---
+> [!PDF|yellow] [[deisenroth2020.pdf#page=54&selection=250,8,251,63&color=yellow|deisenroth2020, p.48]]
+> > When working with matrices, we have to keep in mind what the matrix represents: a linear mapping or a collection of vectors.
+
+
 # Morphisms in Linear Algebra
+
+[ADD GENERAL INTRODUCTION]
+
 ## Injective, Surjective, Bijective
 Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
@@ -29,19 +36,25 @@ Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
 
 ## Vector Space Homomorphism, Isomorphism
-In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. In concrete terms a linear transformation is always a matrix. 
+In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. In concrete terms a linear transformation is always a matrix.
+
+`Think about loss of information; isomorphism means all data points are mapped uniquely, so no information is lost and the structure of the vector space is the same.`  
 
 There are two conditions:
 $$
 \forall \boldsymbol{x}, \boldsymbol{y} \in V \forall \lambda, \psi \in \mathbb{R}: \Phi(\lambda \boldsymbol{x}+\psi \boldsymbol{y})=\lambda \Phi(\boldsymbol{x})+\psi \Phi(\boldsymbol{y})
 $$
 
-- Associativity [[Vector Spaces#Associativity]]
-- Distributivity [[Vector Spaces#Distributivity]]
+- Closure under addition related to associativity ([[Vector Spaces#Associativity]])
+- Closure under scalar multiplication related to distributivity ([[Vector Spaces#Distributivity]])
+
+`fundamentally it is always important with vector spaces to keep the two properties/closure conditions under consideration.`
+
+## Special Linear Mappings
 
 
 
-`Think about loss of information; isomorphism means all data points are mapped uniquely, so no information is lost and the structure of the vector space is the same.`  
+
 
 
 
