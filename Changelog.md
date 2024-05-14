@@ -1,5 +1,11 @@
-- 2024-05-14 at 15h58 · [[Representations of Linear Maps]]
-- 2024-05-14 at 14h45 · [[2024-05-14]]
+---
+modified: 2024-05-14
+---
+- 2024-05-14 at 16h07 · [[Types of Linear Maps]]
+- 2024-05-14 at 16h07 · [[2024-05-14]]
+- 2024-05-14 at 16h07 · [[Representations of Linear Maps]]
+- 2024-05-14 at 16h07 · [[2024-04-02]]
+- 2024-05-14 at 16h07 · [[2024-04-01]]
 - 2024-05-14 at 14h28 · [[Vector Independence and Basis]]
 - 2024-05-14 at 14h26 · [[Cache]]
 - 2024-05-14 at 14h13 · [[Linear Maps]]
@@ -45,6 +51,3 @@
 - 2024-05-08 at 16h20 · [[Concept_C]]
 - 2024-05-08 at 16h19 · [[Concept_A]]
 - 2024-05-08 at 16h19 · [[Proof_1]]
-- 2024-05-08 at 16h13 · [[Concept_B]]
-- 2024-05-08 at 16h13 · [[Concept_D]]
-- 2024-05-08 at 16h13 · [[@Paper_4]]

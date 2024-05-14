@@ -15,8 +15,9 @@ modified: 2024-05-14
 [[Linear Maps]] are concretely matrices and abstractly [[Functions]] that connect vector spaces. 
 
 ## Coordinates
-> [!Define]
-> Definition 2.18 (Coordinates). Consider a vector space $V$ and an ordered basis $B=\left(\boldsymbol{b}_1, \ldots, \boldsymbol{b}_n\right)$ of $V$. For any $\boldsymbol{x} \in V$ we obtain a unique representation (linear combination)
+
+> [!PDF|yellow] [[deisenroth2020.pdf#page=56&selection=193,0,197,0&color=yellow|deisenroth2020, p.50]]
+> > Definition 2.18 (Coordinates). Consider a vector space $V$ and an ordered basis $B=\left(\boldsymbol{b}_1, \ldots, \boldsymbol{b}_n\right)$ of $V$. For any $\boldsymbol{x} \in V$ we obtain a unique representation (linear combination)
 > $$
 > \boldsymbol{x}=\alpha_1 \boldsymbol{b}_1+\ldots+\alpha_n \boldsymbol{b}_n
 > $$
@@ -30,14 +31,25 @@ modified: 2024-05-14
 > $$
 > is the coordinate vector/coordinate representation of $\boldsymbol{x}$ with respect to the ordered basis $B$.
 
+> 
+## A matrix is a linear map is a function. 
+Every matrix induces a linear map $T:\mathbb{R}^n \rightarrow \mathbb{R}^m$. 
 
-Every matrix is a linear map. So every matrix induces a linear map $T:\mathbb{R}^n \rightarrow \mathbb{R}^m$. 
+`this is what I mean with` [[Moving between Dimensions]]. 
 
-`this is what I mean in ` [[Transform]]
+With this in mind, we can write: 
+
+$$\large\tag{1}
+\mathbf{A}\mathbf{x} = T \mathbf{x} = f(\mathbf{x})
+$$
+
+and understand that they are all the same. A matrix is a linear map is a function moving vectors between [[Vector Spaces]].
+
+
 
 ## Related
 [[Vector Spaces]]
-[[Types of Linear Transformations]]
+[[Types of Linear Maps]]
 [[Geometry of Linear Algebra]]
 [[Vector Independence and Basis]]
 
