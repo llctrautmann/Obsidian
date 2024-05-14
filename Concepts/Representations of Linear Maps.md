@@ -31,9 +31,23 @@ modified: 2024-05-14
 > is the coordinate vector/coordinate representation of $\boldsymbol{x}$ with respect to the ordered basis $B$.
 
 
-## References
+Every matrix is a linear map. So every matrix induces a linear map $T:\mathbb{R}^n \rightarrow \mathbb{R}^m$. 
+
+`this is what I mean in ` [[Transform]]
+
+## Related
 [[Vector Spaces]]
 [[Types of Linear Transformations]]
 [[Geometry of Linear Algebra]]
 [[Vector Independence and Basis]]
+
+## References
+
+> [!PDF|yellow] [[Thomas2018.pdf#page=8&selection=300,0,318,1&color=yellow|Thomas2018, p.8]]
+> > That is, the jth column of A consists of the coordinates of T vj in the chosen basis for W .
+> 
+> 
+
+> [!PDF|yellow] [[Thomas2018.pdf#page=8&selection=319,0,344,8&color=yellow|Thomas2018, p.8]]
+> > Conversely, every matrix A ∈ Rm×n induces a linear map T : Rn → Rm given by
 
