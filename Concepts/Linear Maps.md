@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: "8"
 status: Incomplete
-modified: 2024-05-13
+modified: 2024-05-14
 ---
 # Linear Maps
 
@@ -20,7 +20,7 @@ $$\large\tag{1}
 T:V \rightarrow W
 $$
 
-To be valid a linear map needs to follow associativity and distributivity. This is related to [[Vector Spaces#Conditions]] and a follows from the fundamental set theory of [[Groups]].
+To be valid a linear map needs to follow associativity and distributivity (or more precise: closure under addition and scalar multiplication). This is related to [[Vector Spaces#Conditions]] and a follows from the fundamental set theory of [[Groups]] and [[Morphisms in Linear Algebra]].
 
 $$
 \begin{aligned}
@@ -32,7 +32,9 @@ $$
 The relationship between functions and linear maps is muddied by notational quirks. $\mathbf{Tx}=\mathbf{T}(\mathbf{x})$ holds, but mathematicians just want to make things more minimal. 
 
 
+
+
 ## Related
 [[Geometry of Linear Algebra]] 
 [[Moving between Dimensions]]
-
+[[Morphisms in Linear Algebra]] (Most thoroughly explained)
