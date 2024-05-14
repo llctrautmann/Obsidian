@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-13
+modified: 2024-05-14
 ---
 # Morphisms in Linear Algebra
 ## Injective, Surjective, Bijective
@@ -29,7 +29,15 @@ Consider a mapping $\Phi: V \to W$. Then $\Phi$ is called:
 
 
 ## Vector Space Homomorphism, Isomorphism
-In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. 
+In algebraic terms, a linear map or linear transformation can also be called a vector space homomorphism or homomorphism of vector spaces. An invertible homomorphism (where the inverse is also a homomorphism) is called an isomorphism. In concrete terms a linear transformation is always a matrix. 
+
+There are two conditions:
+$$
+\forall \boldsymbol{x}, \boldsymbol{y} \in V \forall \lambda, \psi \in \mathbb{R}: \Phi(\lambda \boldsymbol{x}+\psi \boldsymbol{y})=\lambda \Phi(\boldsymbol{x})+\psi \Phi(\boldsymbol{y})
+$$
+
+- Associativity [[Vector Spaces#Associativity]]
+- Distributivity [[Vector Spaces#Distributivity]]
 
 
 
