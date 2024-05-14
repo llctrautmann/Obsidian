@@ -1,5 +1,5 @@
 ---
-title: Types of Linear Maps
+title: Fundamental Linear Maps
 date:
   - 01-04-2024
 time: 16:31
@@ -12,7 +12,11 @@ status: Incomplete
 modified: 2024-05-14
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
 ---
-# Types of Linear Transformations
+# Fundamental Linear Maps
+## BaLinear Maps
+
+
+## Types of Linear Maps
 
 ![[linear_transformations.png]]
 

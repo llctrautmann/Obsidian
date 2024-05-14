@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-12
+modified: 2024-05-14
 ---
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=7&selection=184,0,184,90&color=yellow|Thomas2018, p.7]]
@@ -18,7 +18,7 @@ modified: 2024-05-12
 
 # Vectors Subspaces
 
-Subspaces are more limited spaces within existing vectors spaces. For example, if I transform a larger space into a lower dimensional space, the [[Null Space]] is the space that contain all the vectors that are $\mathbf{0}$ in the new vector space. 
+Subspaces are more limited spaces within an existing [[Vector Spaces]]. For example, if I transform a larger space into a lower dimensional space, the [[Null Space]] is the space that contain all the vectors that are $\mathbf{0}$ in the new vector space. 
 
 $$
 S \subseteq V
@@ -28,7 +28,7 @@ $$
 
 1. Must contain $\mathbf{0}$ 
 
-`This is a direct consequence of` [[Vector Spaces#Additive Identity]]`needing to contain the zero element so that` $x+0=x$ `holds`.
+`This is a direct consequence of` [[Vector Spaces#Additive Identity]]` and any vector space or subspace needing to contain the zero element so that` $x+0=x$ `holds`.
 
 2. $S$ needs to be closed under addition. 
 

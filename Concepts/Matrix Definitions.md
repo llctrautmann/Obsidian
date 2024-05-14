@@ -4,10 +4,11 @@ date:
   - 05-02-2024
 time: 10:13
 author: Luca Trautmann
-tags: 
+tags:
+  - LinAlg
 series: Linear Algebra
 chapter: 0
-modified: 2024-05-10
+modified: 2024-05-14
 ---
 # Matrix: Definition
 

@@ -49,9 +49,14 @@ and understand that they are all the same. A matrix is a linear map is a functio
 
 ## Related
 [[Vector Spaces]]
-[[Types of Linear Maps]]
+[[Fundamental Linear Maps]] 
 [[Geometry of Linear Algebra]]
 [[Vector Independence and Basis]]
+[[Linear Algebra]] `Deisenroth summmary of chapter 3`
+[[Matrix Definitions]]
+
+
+
 
 ## References
 
