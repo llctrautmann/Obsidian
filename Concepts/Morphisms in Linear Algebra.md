@@ -62,7 +62,7 @@ $$
 - **Properties**:
   - Preserves vector addition and scalar multiplication.
   - **Bijective**: One-to-one (injective) and onto (surjective).
-  - Has an inverse mapping \(\Phi^{-1}: W \rightarrow V\) that is also linear.
+  - Has an inverse mapping $\Phi^{-1}: W \rightarrow V$ that is also linear.
 
 ### Automorphism
 - **Definition**: A bijective endomorphism.
@@ -70,7 +70,7 @@ $$
 - **Properties**:
   - Preserves vector addition and scalar multiplication.
   - **Bijective**: One-to-one (injective) and onto (surjective).
-  - Has an inverse mapping \(\Phi^{-1}: V \rightarrow V\) that is also linear.
+  - Has an inverse mapping $(\Phi^{-1}: V \rightarrow V$ that is also linear.
 
 
 
