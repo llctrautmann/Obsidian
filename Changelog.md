@@ -1,9 +1,12 @@
-- 2024-05-14 at 16h28 · [[Fundamental Linear Maps]]
+---
+modified: 2024-05-14
+---
+- 2024-05-14 at 16h34 · [[Fundamental Linear Maps]]
+- 2024-05-14 at 16h28 · [[Matrix Definitions]]
 - 2024-05-14 at 16h27 · [[Representations of Linear Maps]]
 - 2024-05-14 at 16h27 · [[2024-05-14]]
 - 2024-05-14 at 16h27 · [[2024-04-02]]
 - 2024-05-14 at 16h27 · [[2024-04-01]]
-- 2024-05-14 at 16h25 · [[Matrix Definitions]]
 - 2024-05-14 at 16h24 · [[Mochi Flash Cards]]
 - 2024-05-14 at 16h20 · [[Vectors Subspaces]]
 - 2024-05-14 at 14h28 · [[Vector Independence and Basis]]

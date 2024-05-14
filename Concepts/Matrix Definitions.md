@@ -12,7 +12,7 @@ modified: 2024-05-14
 ---
 # Matrix: Definition
 
-## What is a Matrix
+## What is a Linear Map
 With $m, n \in \mathbb{N}$ a real-valued $(m, n)$ matrix $A$ is an $m \cdot n$-tuple of elements $a_{i j}, i=1, \ldots, m, j=1, \ldots, n$, which is ordered according to a rectangular scheme consisting of $m$ rows and $n$ columns:
 $$
 \boldsymbol{A}=\left[\begin{array}{cccc}
