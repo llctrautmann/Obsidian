@@ -1,5 +1,9 @@
-- 2024-05-16 at 10h08 · [[Null Space]]
-- 2024-05-16 at 10h06 · [[2024-05-16]]
+---
+modified: 2024-05-16
+---
+- 2024-05-16 at 10h16 · [[Null Space]]
+- 2024-05-16 at 10h12 · [[Mochi Flash Cards]]
+- 2024-05-16 at 10h10 · [[2024-05-16]]
 - 2024-05-16 at 10h06 · [[Linear Algebra]]
 - 2024-05-16 at 10h05 · [[Fundamental Linear Maps]]
 - 2024-05-16 at 10h04 · [[Transpositions]]
@@ -9,7 +13,6 @@
 - 2024-05-14 at 16h27 · [[2024-05-14]]
 - 2024-05-14 at 16h27 · [[2024-04-02]]
 - 2024-05-14 at 16h27 · [[2024-04-01]]
-- 2024-05-14 at 16h24 · [[Mochi Flash Cards]]
 - 2024-05-14 at 16h20 · [[Vectors Subspaces]]
 - 2024-05-14 at 14h28 · [[Vector Independence and Basis]]
 - 2024-05-14 at 14h26 · [[Cache]]
