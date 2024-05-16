@@ -1,8 +1,8 @@
 ---
 modified: 2024-05-16
 ---
+- 2024-05-16 at 09h56 · [[daily]]
 - 2024-05-16 at 09h05 · [[2024-05-16]]
-- 2024-05-16 at 09h03 · [[daily]]
 - 2024-05-14 at 16h34 · [[Fundamental Linear Maps]]
 - 2024-05-14 at 16h28 · [[Matrix Definitions]]
 - 2024-05-14 at 16h27 · [[Representations of Linear Maps]]
