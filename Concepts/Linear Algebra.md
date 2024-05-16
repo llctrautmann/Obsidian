@@ -7,7 +7,7 @@ author: Luca Trautmann
 tags: 
 series: M4ML
 chapter: 1
-modified: 2024-05-02
+modified: 2024-05-16
 status: Complete
 ---
 # Linear Algebra
@@ -460,7 +460,7 @@ $$
 \Phi(\lambda \boldsymbol{x}) & =\lambda \Phi(\boldsymbol{x})
 \end{aligned}
 $$
-`Note: its just distributivity and associativity`
+`Note: its just distributivity and associativity or closure under multiplication and addition.`
 
 for all $x, y \in V$ and $\lambda \in \mathbb{R}$. We can summarise this in the following definition:
 

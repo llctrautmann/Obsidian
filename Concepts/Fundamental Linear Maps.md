@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 2
 status: Incomplete
-modified: 2024-05-14
+modified: 2024-05-16
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
 ---
 # Fundamental Linear Maps
@@ -72,6 +72,27 @@ $$
 A shear matrix moves the column with the off diagonal elements and hence shears the space. 
 
 ![[shear.png]]
+
+
+## Transpose
+The transpose can generally be obtained by switching the rows and columns of a matrix. It is abbreviated with $\boldsymbol{A}^{\top}$. If $\boldsymbol{A}^{\top}= \boldsymbol{A}^{-\top}$ the matrix is __symmetric__. 
+
+$$
+\left(\mathbf{A}^{\top}\right)_{i j}=A_{j i}
+$$
+
+The general properties of the transpose are: 
+
+$$\large
+\begin{aligned}
+& \left(\mathbf{A}^{\top}\right)^{\top}=\mathbf{A} \\
+& (\mathbf{A}+\mathbf{B})^{\top}=\mathbf{A}^{\top}+\mathbf{B}^{\top} \\
+& (\alpha \mathbf{A})^{\top}=\alpha \mathbf{A}^{\top} \\
+& (\mathbf{A B})^{\top}=\mathbf{B}^{\top} \mathbf{A}^{\top}
+\end{aligned}
+$$
+
+
 
 ## Orthogonal Matrices
 Orthogonal vectors have a dot product of 0. So in an orthogonal matrix all columns and rows are orthogonal unit vectors (technically this should end up as a orthonormal [[Analytic Geometry#Orthogonality]]). 

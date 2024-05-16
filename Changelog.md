@@ -1,9 +1,9 @@
----
-modified: 2024-05-16
----
+- 2024-05-16 at 10h08 · [[Null Space]]
+- 2024-05-16 at 10h06 · [[2024-05-16]]
+- 2024-05-16 at 10h06 · [[Linear Algebra]]
+- 2024-05-16 at 10h05 · [[Fundamental Linear Maps]]
+- 2024-05-16 at 10h04 · [[Transpositions]]
 - 2024-05-16 at 09h56 · [[daily]]
-- 2024-05-16 at 09h05 · [[2024-05-16]]
-- 2024-05-14 at 16h34 · [[Fundamental Linear Maps]]
 - 2024-05-14 at 16h28 · [[Matrix Definitions]]
 - 2024-05-14 at 16h27 · [[Representations of Linear Maps]]
 - 2024-05-14 at 16h27 · [[2024-05-14]]
@@ -37,7 +37,6 @@ modified: 2024-05-16
 - 2024-05-12 at 14h46 · [[2024-02-14]]
 - 2024-05-12 at 14h46 · [[2024-02-12]]
 - 2024-05-12 at 14h46 · [[Matrix Decomposition]]
-- 2024-05-12 at 14h46 · [[Linear Algebra]]
 - 2024-05-12 at 14h46 · [[Analytic Geometry]]
 - 2024-05-12 at 14h46 · [[concepts]]
 - 2024-05-12 at 14h43 · [[Generalised Euclidean Space]]
@@ -49,5 +48,3 @@ modified: 2024-05-16
 - 2024-05-09 at 22h44 · [[@abdar2021]]
 - 2024-05-09 at 21h53 · [[articles]]
 - 2024-05-09 at 21h45 · [[2024-05-06]]
-- 2024-05-09 at 00h27 · [[2024-05-08]]
-- 2024-05-08 at 16h20 · [[Concept_C]]
