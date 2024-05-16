@@ -1,6 +1,8 @@
 ---
-modified: 2024-05-14
+modified: 2024-05-16
 ---
+- 2024-05-16 at 09h05 · [[2024-05-16]]
+- 2024-05-16 at 09h03 · [[daily]]
 - 2024-05-14 at 16h34 · [[Fundamental Linear Maps]]
 - 2024-05-14 at 16h28 · [[Matrix Definitions]]
 - 2024-05-14 at 16h27 · [[Representations of Linear Maps]]
@@ -15,7 +17,6 @@ modified: 2024-05-14
 - 2024-05-14 at 14h05 · [[Morphisms in Linear Algebra]]
 - 2024-05-14 at 12h39 · [[Kanban]]
 - 2024-05-13 at 21h03 · [[2024-05-13]]
-- 2024-05-13 at 13h37 · [[daily]]
 - 2024-05-13 at 13h23 · [[Vector Spaces]]
 - 2024-05-13 at 10h48 · [[Groups]]
 - 2024-05-13 at 10h29 · [[math]]
@@ -50,4 +51,3 @@ modified: 2024-05-14
 - 2024-05-09 at 21h45 · [[2024-05-06]]
 - 2024-05-09 at 00h27 · [[2024-05-08]]
 - 2024-05-08 at 16h20 · [[Concept_C]]
-- 2024-05-08 at 16h19 · [[Concept_A]]
