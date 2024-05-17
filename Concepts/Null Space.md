@@ -10,7 +10,7 @@ series: Linear Algebra
 chapter: 
 status: Incomplete
 type: Concept
-modified: 2024-05-16
+modified: 2024-05-17
 formula: $\operatorname{null}(T)=\{\mathbf{v} \in V \mid T \mathbf{v}=\mathbf{0}\}$
 ---
 # Null Space
