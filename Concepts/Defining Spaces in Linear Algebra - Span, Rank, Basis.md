@@ -1,16 +1,17 @@
 ---
-title: Span, Rank, Basis
+title: "Defining Spaces in Linear Algebra: Span, Rank, Basis"
 date:
   - 17-05-2024
 time: 22:23
 author: Luca Trautmann
-tags: 
-series: 
+tags:
+  - "#LinAlg"
+series: Linear Algebra
 chapter: 
 status: Incomplete
 modified: 2024-05-17
 ---
-# Span, Rank, Basis
+# Defining Spaces in Linear Algebra: Span, Rank, Basis
 ## Span
 Consider [[Vector Spaces]]
 
@@ -25,3 +26,11 @@ $$
 V=\operatorname{span}[\mathcal{A}]
 $$
 Generating sets are sets of vectors that span vector (sub)spaces, i.e., every vector can be represented as a linear combination of the vectors in the generating set. 
+
+
+## Basis
+
+**Basis**: set of vectors with which we can represent every vector in the vector space by adding them together and scaling them. Alternatively, it is correct to say: A basis is a minimal generating set of maximal linearly independent set of vectors.
+
+Think:
+

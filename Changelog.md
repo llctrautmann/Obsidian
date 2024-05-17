@@ -1,11 +1,9 @@
----
-modified: 2024-05-17
----
+- 2024-05-17 at 22h58 · [[Defining Spaces in Linear Algebra - Span, Rank, Basis]]
+- 2024-05-17 at 22h52 · [[2024-05-17]]
+- 2024-05-17 at 22h49 · [[Metric Spaces]]
 - 2024-05-17 at 22h48 · [[Null Space]]
 - 2024-05-17 at 22h39 · [[Vector Spaces]]
-- 2024-05-17 at 22h28 · [[2024-05-17]]
 - 2024-05-17 at 22h28 · [[Archive]]
-- 2024-05-17 at 22h24 · [[Span, Rank, Basis]]
 - 2024-05-17 at 22h20 · [[Column Space]]
 - 2024-05-16 at 10h12 · [[Mochi Flash Cards]]
 - 2024-05-16 at 10h10 · [[2024-05-16]]
@@ -50,4 +48,3 @@ modified: 2024-05-17
 - 2024-05-10 at 16h38 · [[2024-05-10]]
 - 2024-05-10 at 11h19 · [[unitary matrix]]
 - 2024-05-10 at 10h45 · [[@Thomas2018]]
-- 2024-05-09 at 22h45 · [[Dropout VI]]
