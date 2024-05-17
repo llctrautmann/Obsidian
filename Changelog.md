@@ -1,4 +1,8 @@
-- 2024-05-17 at 23h28 · [[2024-05-17]]
+---
+modified: 2024-05-17
+---
+- 2024-05-17 at 23h33 · [[2024-05-17]]
+- 2024-05-17 at 23h32 · [[daily]]
 - 2024-05-17 at 23h25 · [[Archive]]
 - 2024-05-17 at 23h24 · [[Vector Independence]]
 - 2024-05-17 at 23h23 · [[Range]]
@@ -16,7 +20,6 @@
 - 2024-05-16 at 10h06 · [[Linear Algebra]]
 - 2024-05-16 at 10h05 · [[Fundamental Linear Maps]]
 - 2024-05-16 at 10h04 · [[Transpositions]]
-- 2024-05-16 at 09h56 · [[daily]]
 - 2024-05-14 at 16h28 · [[Matrix Definitions]]
 - 2024-05-14 at 16h27 · [[2024-04-02]]
 - 2024-05-14 at 16h27 · [[2024-04-01]]
