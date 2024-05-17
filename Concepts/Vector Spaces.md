@@ -20,8 +20,6 @@ $$\large\tag{1}
 $$
 
 
-$(\mathcal{V},+, \cdot)$
-
 `Remember: Addition and Scalar Multiplication are the most important tenets of vector spaces.`
 
 

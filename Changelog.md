@@ -1,10 +1,10 @@
 ---
 modified: 2024-05-17
 ---
-- 2024-05-17 at 22h28 · [[Null Space]]
+- 2024-05-17 at 22h48 · [[Null Space]]
+- 2024-05-17 at 22h39 · [[Vector Spaces]]
 - 2024-05-17 at 22h28 · [[2024-05-17]]
 - 2024-05-17 at 22h28 · [[Archive]]
-- 2024-05-17 at 22h27 · [[Vector Spaces]]
 - 2024-05-17 at 22h24 · [[Span, Rank, Basis]]
 - 2024-05-17 at 22h20 · [[Column Space]]
 - 2024-05-16 at 10h12 · [[Mochi Flash Cards]]
