@@ -37,4 +37,4 @@ $$
 $$
 
 
-17th May
+<% tp.date.now("dddd: MMMM Do") %>

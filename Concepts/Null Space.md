@@ -20,6 +20,7 @@ Some important [[Subspaces]] are induced by linear maps. I assume $T: V \rightar
 $$\large\tag{1}
 \operatorname{null}(T)=\{\mathbf{v} \in V \mid T \mathbf{v}=\mathbf{0}\}
 $$
+
 `The null space is all vectors in V that satisify the condition that the linear map V times the vector result in the zero vector.`
 
 
