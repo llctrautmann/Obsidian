@@ -1,5 +1,5 @@
 ---
-title: Vector Independence and Basis
+title: Vector Independence
 date:
   - 10-05-2024
 time: 11:57
@@ -9,9 +9,9 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-14
+modified: 2024-05-17
 ---
-# Vector Independence and Basis
+# Vector Independence 
 [[Vector Spaces]] define the space-time continuum in which all other operations in machine learning occur. Individual vectors are capable of mapping the vector space either completely or only partially. The [[Null Space]] for example contains all the vectors within a vector space that are a solutions to $\mathbf{A}\mathbf{x} = \mathbf{0}$. 
 
 ## Linear Independence 
@@ -35,22 +35,3 @@ Intuitively, a set of linearly independent vectors consists of vectors that have
 > > set of vectors $v_{1}, ... , v_{n} \in V$ is said to be linearly independent if 
 > $\alpha_1\mathbf{v}_1+\cdots+\alpha_n \mathbf{v}_n=\mathbf{0} \quad\text{ implies }\quad\alpha_1=\cdots=\alpha_n=0$
 
-## Span
-
-$$
-\operatorname{span}\left\{\mathbf{v}_1,\ldots, \mathbf{v}_n\right\}=\left\{\mathbf{v}\in V:\exists \alpha_1, \ldots,\alpha_n\text{ such that }\alpha_1 \mathbf{v}_1+\cdots+\alpha_n\mathbf{v}_n=\mathbf{v}\right\}
-$$
-
-The span of a vector space is the space that every linear combination of the vectors create. For example the vector $[1,0]^\top$ and $[0,1]^\top$ span all vectors in $\mathbb{R}^2$. 
-
-## Basis
-If the set of vectors are linearly independent and span then entire [[Vector Spaces]] $V$, they are a basis of the vector space. 
-
-If a vector space is spanned by a finite number of vectors, it is said to be finite-dimensional. Otherwise it is infinite-dimensional. The number of vectors in a basis for a finite-dimensional vector space V is called the dimension of V and denoted dim V .
-
-> [!PDF|yellow]- [[Thomas2018.pdf#page=6&selection=379,12,379,80&color=yellow|Thomas2018, p.6]]
-> > every linearly independent set of vectors forms a basis for its span.
-
-> [!PDF|yellow]- [[Thomas2018.pdf#page=6&selection=380,0,406,1&color=yellow|Thomas2018, p.6]]
-> > If a vector space is spanned by a finite number of vectors, it is said to be finite-dimensional. Otherwise it is infinite-dimensional. The number of vectors in a basis for a finite-dimensional vector space V is called the dimension of V and denoted $dim(V)$.
-> 

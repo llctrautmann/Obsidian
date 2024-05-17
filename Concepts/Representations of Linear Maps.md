@@ -51,7 +51,7 @@ and understand that they are all the same. A matrix is a linear map is a functio
 [[Vector Spaces]]
 [[Fundamental Linear Maps]] 
 [[Geometry of Linear Algebra]]
-[[Vector Independence and Basis]]
+[[Vector Independence]]
 [[Linear Algebra]] `Deisenroth summmary of chapter 3`
 [[Matrix Definitions]]
 
