@@ -1,9 +1,9 @@
----
-modified: 2024-05-17
----
-- 2024-05-17 at 16h15 · [[2024-05-17]]
-- 2024-05-17 at 16h15 · [[Column Space]]
-- 2024-05-16 at 10h16 · [[Null Space]]
+- 2024-05-17 at 22h28 · [[Null Space]]
+- 2024-05-17 at 22h28 · [[2024-05-17]]
+- 2024-05-17 at 22h28 · [[Archive]]
+- 2024-05-17 at 22h27 · [[Vector Spaces]]
+- 2024-05-17 at 22h24 · [[Span, Rank, Basis]]
+- 2024-05-17 at 22h20 · [[Column Space]]
 - 2024-05-16 at 10h12 · [[Mochi Flash Cards]]
 - 2024-05-16 at 10h10 · [[2024-05-16]]
 - 2024-05-16 at 10h06 · [[Linear Algebra]]
@@ -22,7 +22,6 @@ modified: 2024-05-17
 - 2024-05-14 at 14h05 · [[Morphisms in Linear Algebra]]
 - 2024-05-14 at 12h39 · [[Kanban]]
 - 2024-05-13 at 21h03 · [[2024-05-13]]
-- 2024-05-13 at 13h23 · [[Vector Spaces]]
 - 2024-05-13 at 10h48 · [[Groups]]
 - 2024-05-13 at 10h29 · [[math]]
 - 2024-05-12 at 22h23 · [[2024-05-12]]
@@ -49,5 +48,3 @@ modified: 2024-05-17
 - 2024-05-10 at 11h19 · [[unitary matrix]]
 - 2024-05-10 at 10h45 · [[@Thomas2018]]
 - 2024-05-09 at 22h45 · [[Dropout VI]]
-- 2024-05-09 at 22h44 · [[2024-05-09]]
-- 2024-05-09 at 22h44 · [[@abdar2021]]

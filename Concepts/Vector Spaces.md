@@ -9,9 +9,22 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-13
+modified: 2024-05-17
+formula: $(\mathcal{V},+, \cdot)$
 ---
 # Vector Spaces
+This abbreviation contains the condensed information about vector spaces. 
+
+$$\large\tag{1}
+(\mathcal{V},+, \cdot)
+$$
+
+
+$(\mathcal{V},+, \cdot)$
+
+`Remember: Addition and Scalar Multiplication are the most important tenets of vector spaces.`
+
+
 ## Vector Spaces Basics
 This is a vector:
 $$
@@ -127,6 +140,15 @@ With the basics idea of [[Groups]] in mind, a vector space is functionally a spe
 2)  $\cdot: \mathbb{R} \times \mathcal{V} \rightarrow \mathcal{V}$ (outer operation)
 
 And all other remaining conditions as outlined above. 
+
+This abbreviation contains the condensed information about vector spaces. 
+
+$$\large\tag{1}
+(\mathcal{V},+, \cdot)
+$$
+
+`Remember: Addition and Scalar Multiplication are the most important tenets of vector spaces.`
+
 
 
 ## Relevant Literature
