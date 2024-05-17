@@ -10,7 +10,7 @@ series: Linear Algebra
 chapter: 
 type: Theorem
 formula: $\operatorname{range}(T)=\{\mathbf{w} \in W \mid \exists \mathbf{v} \in V \text { such that } T \mathbf{v}=\mathbf{w}\}$
-modified: 2024-05-17
+modified: 2024-05-18
 ---
 # Range
 

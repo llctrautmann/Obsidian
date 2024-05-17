@@ -10,8 +10,8 @@ series: Linear Algebra
 chapter: 
 status: Incomplete
 type: Theorem
-formula: $\operatorname{span}\left\{\mathbf{v}_1,\ldots, \mathbf{v}_n\right\}=\left\{\mathbf{v}\in V:\exists \alpha_1, \ldots,\alpha_n\text{ such that }\alpha_1 \mathbf{v}_1+\cdots+\alpha_n\mathbf{v}_n=\mathbf{v}\right\}$
-modified: 2024-05-17
+formula: $$\operatorname{span}\left\{\mathbf{v}_1,\ldots, \mathbf{v}_n\right\}=\left\{\mathbf{v}\in V:\exists \alpha_1, \ldots,\alpha_n\text{ such that }\alpha_1 \mathbf{v}_1+\cdots+\alpha_n\mathbf{v}_n=\mathbf{v}\right\}$$
+modified: 2024-05-18
 ---
 # Span
 
