@@ -1,13 +1,15 @@
 ---
 title: Bayes Theorem
-date: 17-05-2023
+date:
+  - 17-05-2023
 time: 13:07
 author: Luca Trautmann
 tags:
   - ML
 series: Probability Theory
 chapter: 5
-modified: 2024-02-11
+modified: 2024-05-18
+formula: $P(H|D, B) = \frac{P(H|B)\times P(D|H,B)}{P(D|B)}$
 ---
 
 - [[#Bayes Theorem|Bayes Theorem]]

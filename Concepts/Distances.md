@@ -5,11 +5,10 @@ date:
 time: 15:05
 author: Luca Trautmann
 tags:
-  - ML
-  - Mathematics
-series: Mathematics & Statistics
+  - "#LinAlg"
+series: Linear Algebra
 chapter: "1"
-modified: 2024-05-03
+modified: 2024-05-18
 ---
 
 # Distances
