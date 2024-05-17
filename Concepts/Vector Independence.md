@@ -10,6 +10,8 @@ series: Linear Algebra
 chapter: 0
 status: Incomplete
 modified: 2024-05-17
+formula: $\alpha_1 \mathbf{v}_1+\cdots+\alpha_n \mathbf{v}_n=\mathbf{0} \quad \text { implies } \quad \alpha_1=\cdots=\alpha_n=0$
+type: Concept
 ---
 # Vector Independence 
 [[Vector Spaces]] define the space-time continuum in which all other operations in machine learning occur. Individual vectors are capable of mapping the vector space either completely or only partially. The [[Null Space]] for example contains all the vectors within a vector space that are a solutions to $\mathbf{A}\mathbf{x} = \mathbf{0}$. 

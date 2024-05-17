@@ -8,7 +8,7 @@ tags:
   - "#LinAlg"
 series: Linear Algebra
 chapter: 
-status: Incomplete
+type: Concept
 modified: 2024-05-17
 ---
 # Defining Spaces in Linear Algebra: Span, Range, Basis
@@ -35,6 +35,15 @@ $$
 
 The span of a vector space is the space that every linear combination of the vectors create. For example the vector $[1,0]^\top$ and $[0,1]^\top$ span all vectors in $\mathbb{R}^2$. 
 
+## Range
+The range of the linear map $T$ are all the vectors that I can reach with the linear map $T$. 
+
+
+$$\large\tag{2}
+\operatorname{range}(T)=\{\mathbf{w} \in W \mid \exists \mathbf{v} \in V \text { such that } T \mathbf{v}=\mathbf{w}\}
+$$
+
+`The range of T are those vectors w in the vector space W, for which exists a vector in V so that the equation Tv = w has a solution.`
 
 ## Basis
 
