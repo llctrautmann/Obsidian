@@ -1,5 +1,5 @@
 ---
-title: Distances
+title: Metrics
 date:
   - 18-05-2023
 time: 15:05
@@ -9,18 +9,20 @@ tags:
 series: Linear Algebra
 chapter: "1"
 modified: 2024-05-18
+formula: $$d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$$
 ---
 
-# Distances
->[!Rule]+
->A distance function, often simply called a "metric" or a "norm" in the context of vector spaces, must satisfy certain conditions to be considered valid. These properties are as follows: 
->1.  **Non-negativity:** The distance between any two points must be greater than or equal to zero ($d(x, y) \geq 0$). In other words, there are no negative distances. When $x=y$, the distance should be zero ($d(x, x) = 0$), which is a particular case of this property.
->2.  **Symmetry:** The distance from point $x$ to point $y$ must be the same as the distance from point $y$ to point $x$ ($d(x, y) = d(y, x)$).
->3.  **Triangle Inequality:** The direct distance from point $x$ to point $y$ must be less than or equal to the distance from point $x$ to point $z$ plus the distance from point $z$ to point $y$ ($d(x, y) \leq d(x, z) + d(z, y)$). This is often visualised with the idea that the length of one side of a triangle is always less than or equal to the sum of the lengths of the other two sides.
->
-> When these rules are in a vector space, a norm also needs to satisfy:
-> 1.  **Homogeneity (or Scalability):** For any real number $\alpha$ and any vector $v$, the norm of the scalar multiple $\alpha v$ is equal to the absolute value of $\alpha$ times the norm of $v$. Written mathematically, $||\alpha v|| = |\alpha| ||v||$.
-> These rules ensure that the distance function behaves in a way that matches our intuitive understanding of physical distance, and they allow the function to be used in a wide variety of mathematical and computational applications.
+# Metrics
+A distance function, often simply called a "metric" or a "norm" in the context of vector spaces, must satisfy certain conditions to be considered valid. These properties are as follows: 
+
+1.  **Non-negativity:** The distance between any two points must be greater than or equal to zero ($d(x, y) \geq 0$). In other words, there are no negative distances. When $x=y$, the distance should be zero ($d(x, x) = 0$), which is a particular case of this property.
+2.  **Symmetry:** The distance from point $x$ to point $y$ must be the same as the distance from point $y$ to point $x$ ($d(x, y) = d(y, x)$).
+3.  **[[Triangle Inequality]]:** The direct distance from point $x$ to point $y$ must be less than or equal to the distance from point $x$ to point $z$ plus the distance from point $z$ to point $y$ ($d(x, y) \leq d(x, z) + d(z, y)$). This is often visualised with the idea that the length of one side of a triangle is always less than or equal to the sum of the lengths of the other two sides.
+
+When these rules are in a vector space, a norm also needs to satisfy:
+1.  **Homogeneity (or Scalability):** For any real number $\alpha$ and any vector $v$, the norm of the scalar multiple $\alpha v$ is equal to the absolute value of $\alpha$ times the norm of $v$. Written mathematically, $||\alpha v|| = |\alpha| ||v||$.
+
+These rules ensure that the distance function behaves in a way that matches our intuitive understanding of physical distance, and they allow the function to be used in a wide variety of mathematical and computational applications.
 
 
 ## Distance in One Dimension (1D)
