@@ -1,5 +1,13 @@
 ---
-modified: 2024-05-17
+modified: 2024-05-19
+title: Cache
+date:
+  - 19-05-2024
+time: 22:31
+author: Luca Trautmann
+tags: 
+series: 
+chapter: 
 ---
 JB. Peterson: https://www.currentaffairs.org/2018/03/the-intellectual-we-deserve
 
@@ -36,5 +44,12 @@ $$
 \operatorname{span}\left\{\mathbf{v}_1,\ldots, \mathbf{v}_n\right\}=\left\{\mathbf{v}\in V:\exists \alpha_1, \ldots,\alpha_n\text{ such that }\alpha_1 \mathbf{v}_1+\cdots+\alpha_n\mathbf{v}_n=\mathbf{v}\right\}
 $$
 
+# HEADING %% fold %%
+This is a test
 
-<% tp.date.now("dddd: MMMM Do") %>
+
+
+
+
+
+
