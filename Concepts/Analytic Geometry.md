@@ -47,7 +47,7 @@ $$
 \boldsymbol{x}^{\top} \boldsymbol{y}=\sum_{i=1}^n x_i y_i
 $$
 ### General Inner Products
-We know from [[Concepts/Linear Algebra#Linear Mappings]] that we can arrange a linear mapping with respect to addition and multiplication with a scalar as: 
+We know from [[Linear Algebra#Linear Mappings]] that we can arrange a linear mapping with respect to addition and multiplication with a scalar as: 
 
 $$\begin{aligned}
 \Phi(\boldsymbol{x}+\boldsymbol{y}) & =\Phi(\boldsymbol{x})+\Phi(\boldsymbol{y}) \\
@@ -106,7 +106,7 @@ $$
 `Note: not every norm is induced by an inner product. For example the Manhattan Norm has no corresponding inner product.`
 
 $$ (V,\langle\cdot, \cdot\rangle) $$
-Defines a vector space with it's fundamental properties [[Concepts/Linear Algebra#Vector Spaces]] (closure of inner and outer operation + additions) and also a inner product that adheres to the rules of an inner product.
+Defines a vector space with it's fundamental properties [[Linear Algebra#Vector Spaces]] (closure of inner and outer operation + additions) and also a inner product that adheres to the rules of an inner product.
 1. symmetry `basically commutative properities`
 2. positive definite `the inner product is always larger 0 except for 0 in which case it is 0`
 `Not all vectors spaces also have a defined inner product`

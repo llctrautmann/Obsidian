@@ -159,6 +159,6 @@ $$
 
 
 ## Relevant Notes
-- [[Concepts/Linear Algebra]]
+- [[Linear Algebra]]
 - [[Linear Algebra Foundation]]
 - 

@@ -85,4 +85,4 @@ do not aim to estimate the probability density at all, but instead focus solely 
 Explicit density models:
 There are two types of explicit density models. Tractable density models try to build a complex density function from simple, calculable components. For example [[autoregressive models]]. 
 
-Approximate density models include variational autoencoders, which introduce a latent variable and optimize an approximation of the joint density function. [[Energy-based models]] also utilize approximate methods, but do so via Markov chain sampling, rather than variational methods. [[Diffusion models]] approximate the density function by training a model to gradually denoise a given image that has been previously corrupted.
+Approximate density models include variational autoencoders, which introduce a latent variable and optimize an approximation of the joint density function. [[Energy-based models]] also utilize approximate methods, but do so via Markov chain sampling, rather than variational methods. [[Diffusion Models]] approximate the density function by training a model to gradually denoise a given image that has been previously corrupted.

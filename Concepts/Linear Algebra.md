@@ -26,7 +26,7 @@ Examples are:
 2) More exotic: Polynomials 
 
 ## Systems of Linear Equations
-[[Concepts/Linear Algebra]] at its core is a method of solving systems of linear equations. In general, for a real-valued system of linear equations we obtain either no, exactly one, or infinitely many solutions. 
+[[Linear Algebra]] at its core is a method of solving systems of linear equations. In general, for a real-valued system of linear equations we obtain either no, exactly one, or infinitely many solutions. 
 
 There is a simple and easy to understand notation for systems of linear equations:
 $$
