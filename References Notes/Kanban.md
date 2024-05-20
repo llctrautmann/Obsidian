@@ -17,13 +17,11 @@ modified: 2024-03-26
 ## Backlog
 
 - [ ] Paper Summarisation Tool<br>@{31-05-2024}
-- [ ] M4ML@{15-04-2024}<br>- [x] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
 - [ ] Intro to Jax @{15-04-2024}<br>#urgent<br>- [x] jit<br>- [x] grad<br>- [x] vmap<br>- [ ] jacfwd<br>- [ ] jacbwd<br>[Quickstart](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
 - [ ] Intro to Flax #urgent @{15-04-2024}<br>[Quickstart](https://flax.readthedocs.io/en/latest/)
 - [ ] Intro to Optax #urgent @{01-05-2024}
 - [ ] Develop Schedule Prototype @{01-05-2024}
 - [ ] Split up Existing Summaries into Concept Notes
-- [ ] Collect 50 papers for Super Resolution, Uncertainty Quantification, to design the foundation for my research
 - [ ] Mochify all generated Content @{31-05-2024}
 - [ ] Transformer Tutorial
 - [ ] Mamba Tutorial
@@ -33,6 +31,8 @@ modified: 2024-03-26
 ## Active (3)
 
 - [ ] 50 Pages of ML Math #urgent @{31-05-2024}
+- [ ] M4ML@{15-04-2024}<br>- [x] Chapter 4<br>- [ ] Chapter 5<br>- [ ] Chapter 6<br><br>#urgent
+- [ ] SEEDING PAPERS: Collect 50 papers for Super Resolution, Uncertainty Quantification, to design the foundation for my research
 
 
 ## Completed
