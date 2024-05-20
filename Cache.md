@@ -1,5 +1,5 @@
 ---
-modified: 2024-05-19
+modified: 2024-05-20
 title: Cache
 date:
   - 19-05-2024
@@ -53,3 +53,21 @@ This is a test
 
 
 
+``` tracker
+searchType: frontmatter
+searchTarget: vss, mood
+folder: /Review/2024/daily
+startDate: 2024-04-25
+endDate: 2024-06-25
+aspectRatio: 21:9
+datasetName: vss symptomes, current mood
+line:
+    title: "Line Chart"
+    xAxisLabel: Date
+    yAxisLabel: Value
+    lineColor: orange, red 
+    yMax: 7
+    yMin: 0
+	showLegend: true
+
+```
