@@ -32,8 +32,9 @@ which assigns each vector $x$ its length $\|x\| \in \mathbb{R}$, such that for a
 
 In geometric terms, the triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side; ([[deisenroth2020.pdf]] et al., 2020, p. 71) 
 
-### Common Norms
-1. Manhatten Norm: $$
+いや
+## Common Norms
+1. Manhattan Norm: $$
 \|x\|_1:=\sum_{i=1}^n\left|x_i\right|
 $$
 2. Euclidean Norm: 

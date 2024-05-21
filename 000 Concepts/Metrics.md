@@ -10,7 +10,7 @@ series: Linear Algebra
 chapter: "1"
 modified: 2024-05-21
 formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
-🍙: 🟥
+🍙: はい
 ---
 
 # Metrics
@@ -105,11 +105,3 @@ $$
 D_{TV}(P, Q) = \frac{1}{2} \sum_{i} |P(i) - Q(i)|
 $$
 
-## Distances in Machine Learning
-
-In machine learning, these distance measures are implicitly used within various algorithms and methods rather than being explicitly calculated as standalone measures. However, here are the basic principles in each case:
-
-1. **Clustering:** In K-means clustering, the objective is to minimise the within-cluster sum of squares (WCSS), equivalent to minimising the sum of Euclidean distances between each point and the centroid of its assigned cluster. DBSCAN clusters point based on density, which is determined by counting the number of points within a certain Euclidean distance of each point.
-2. **Classification:** In K-Nearest Neighbors, a new point is classified based on the majority class of its nearest neighbours according to a chosen distance metric (commonly Euclidean).
-3. **Dimensionality reduction:** In PCA, the distance is implicitly used to compute the covariance matrix. In t-SNE, a variant of the Kullback-Leibler divergence is used to measure the similarity between the high-dimensional distribution of data points and their low-dimensional counterparts.
-4. **Anomaly detection:** Outliers can be identified as points significantly distant from others according to a chosen distance metric (commonly Euclidean). This is often done by computing the distance of each point to its $k$th nearest neighbour and identifying points whose distance is much larger than average as outliers.
