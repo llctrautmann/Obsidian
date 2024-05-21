@@ -13,3 +13,4 @@ formula:
 modified: 2024-05-21
 ---
 # Normed Space
+[[Norms in Linear Algebra]] are basically distance metrics in finite-dimensional space. 
