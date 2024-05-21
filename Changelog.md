@@ -1,3 +1,4 @@
+- 2024-05-21 at 09h06 · [[2024-05-21]]
 - 2024-05-20 at 22h02 · [[Kanban]]
 - 2024-05-20 at 22h01 · [[2024-05-20]]
 - 2024-05-20 at 22h00 · [[The revolt of the public]]
@@ -47,4 +48,3 @@
 - 2024-05-17 at 22h20 · [[Column Space]]
 - 2024-05-16 at 10h12 · [[Mochi Flash Cards]]
 - 2024-05-16 at 10h10 · [[2024-05-16]]
-- 2024-05-16 at 10h05 · [[Fundamental Linear Maps]]
