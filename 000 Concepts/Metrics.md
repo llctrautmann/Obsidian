@@ -8,8 +8,9 @@ tags:
   - "#LinAlg"
 series: Linear Algebra
 chapter: "1"
-modified: 2024-05-18
-formula: $$d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$$
+modified: 2024-05-21
+formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
+🍙: 🟥
 ---
 
 # Metrics
@@ -17,10 +18,10 @@ A distance function, often simply called a "metric" or a "norm" in the context o
 
 1.  **Non-negativity:** The distance between any two points must be greater than or equal to zero ($d(x, y) \geq 0$). In other words, there are no negative distances. When $x=y$, the distance should be zero ($d(x, x) = 0$), which is a particular case of this property.
 2.  **Symmetry:** The distance from point $x$ to point $y$ must be the same as the distance from point $y$ to point $x$ ($d(x, y) = d(y, x)$).
-3.  **[[Triangle Inequality]]:** The direct distance from point $x$ to point $y$ must be less than or equal to the distance from point $x$ to point $z$ plus the distance from point $z$ to point $y$ ($d(x, y) \leq d(x, z) + d(z, y)$). This is often visualised with the idea that the length of one side of a triangle is always less than or equal to the sum of the lengths of the other two sides.
+3.  **[[Triangle inequality]]:** The direct distance from point $x$ to point $y$ must be less than or equal to the distance from point $x$ to point $z$ plus the distance from point $z$ to point $y$ ($d(x, y) \leq d(x, z) + d(z, y)$). This is often visualised with the idea that the length of one side of a triangle is always less than or equal to the sum of the lengths of the other two sides.
 
 When these rules are in a vector space, a norm also needs to satisfy:
-1.  **Homogeneity (or Scalability):** For any real number $\alpha$ and any vector $v$, the norm of the scalar multiple $\alpha v$ is equal to the absolute value of $\alpha$ times the norm of $v$. Written mathematically, $||\alpha v|| = |\alpha| ||v||$.
+1.  **Absolutely homogeneous (or Scalability):** For any real number $\alpha$ and any vector $v$, the norm of the scalar multiple $\alpha v$ is equal to the absolute value of $\alpha$ times the norm of $v$. Written mathematically, $||\alpha v|| = |\alpha| ||v||$.
 
 These rules ensure that the distance function behaves in a way that matches our intuitive understanding of physical distance, and they allow the function to be used in a wide variety of mathematical and computational applications.
 
@@ -29,6 +30,8 @@ These rules ensure that the distance function behaves in a way that matches our 
 
 The concept of distance is straightforward in one dimension. Given two real numbers, the distance between them is simply the absolute value of their difference. For instance, for $a = 2$ and $b = 5$, the distance $d$ between them can be calculated as:
 $$d = |a - b| = |2 - 5| = 3$$
+
+
 ## Distance in Two Dimensions (2D) and Beyond: Euclidean Distance
 
 The concept of distance extends naturally to two dimensions and beyond. The most common measure of distance in such cases is the Euclidean distance, named after the ancient Greek mathematician Euclid. In two dimensions, the Euclidean distance between points $a = (a_1, a_2)$ and $b = (b_1, b_2)$ is given by:
@@ -37,8 +40,11 @@ The concept of distance extends naturally to two dimensions and beyond. The most
 $$d = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2}
 $$
 
+
 so for the two vectors $\begin{bmatrix} 1 \\ 1 \end{bmatrix}$  and $\begin{bmatrix} 2 \\ 4 \end{bmatrix}$ the result will be: 
+
 $$d = \sqrt{(1-2)^2 + (1-4)^2} = \sqrt{10}$$
+
 This can be generalised to more than two points with the formula:
 
 $$d = \sqrt{\sum_{i=1}^{n}(a_i-b_i)^2}$$
