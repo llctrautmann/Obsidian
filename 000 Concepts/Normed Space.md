@@ -6,6 +6,7 @@ time: 20:25
 author: Luca Trautmann
 tags:
   - LinAlg
+  - "#AnalyticGeometry"
 series: Linear Algebra
 status: Incomplete
 type: 

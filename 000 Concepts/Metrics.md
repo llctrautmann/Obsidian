@@ -6,6 +6,7 @@ time: 15:05
 author: Luca Trautmann
 tags:
   - "#LinAlg"
+  - AnalyticGeometry
 series: Linear Algebra
 chapter: "1"
 modified: 2024-05-22
