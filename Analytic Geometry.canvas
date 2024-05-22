@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"efcfadd87ea26734","x":-460,"y":160,"width":760,"height":560,"type":"file","file":"000 Concepts/Norms in Linear Algebra.md"},
+		{"id":"26daa85f9e82b129","x":-1440,"y":-305,"width":740,"height":590,"type":"file","file":"000 Concepts/Metrics.md"},
+		{"id":"7855a26c5ca05a38","x":40,"y":-520,"width":760,"height":415,"type":"file","file":"000 Concepts/Inner Products.md"}
+	],
+	"edges":[
+		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"Induces"},
+		{"id":"2fb3ca99b22e560d","fromNode":"7855a26c5ca05a38","fromSide":"bottom","toNode":"efcfadd87ea26734","toSide":"right","label":"Induces"}
+	]
+}
