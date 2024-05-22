@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"4dc6390f25383c1d","x":-120,"y":-400,"width":160,"height":60,"type":"text","text":"[[Metrics]]"}
+		{"id":"4dc6390f25383c1d","x":-80,"y":-100,"width":140,"height":90,"type":"text","text":"Analytic Geometry"},
+		{"id":"26daa85f9e82b129","x":-820,"y":-140,"width":400,"height":400,"type":"file","file":"000 Concepts/Metrics.md"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"af547b2a1bb0eff9","fromNode":"4dc6390f25383c1d","fromSide":"bottom","toNode":"26daa85f9e82b129","toSide":"right"}
+	]
 }
