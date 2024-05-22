@@ -6,11 +6,12 @@ time: 20:15
 author: Luca Trautmann
 tags:
   - LinAlg
+  - AnalyticGeometry
 series: Linear Algebra
 status: Incomplete
 type: Theorem
 formula: $$\|x+y\| \leq\|x\|+\|y\|$$
-modified: 2024-05-21
+modified: 2024-05-22
 ---
 # Triangle inequality
 

@@ -31,4 +31,14 @@ exists
 # Can we build a Dr. House model? 
 One thought I am having here is: Does there exist a risk, that we have models converge on the most prevalent diseases, because we have the most data on these types of illnesses. And on the other hand can we build a model that is more akin to Dr. House? In the sense that we want to find rare diseases as well. What would that mean mathematically? What would we need to pay attention to?
 
-`
+# What condition needs to be met for linear independence between vectors?
+A set of vectors $\mathbf{v}_1, \ldots, \mathbf{v}_n \in V$ is said to be linearly independent if
+
+$$
+\alpha_1 \mathbf{v}_1+\cdots+\alpha_n \mathbf{v}_n=\mathbf{0} \quad \text { implies } \quad \alpha_1=\cdots=\alpha_n=0
+$$
+
+`The basic idea is that linearly independent vectors can only have the trivial solution with all coefficients being 0.`
+
+*Example*:
+The vector $x_{1}= \left[ 1,2,0\right]^\top$ and $x_{2}= \left[ 2,4,0\right]^\top$ are not linearly independent and hence I can write $2x_{1}-1x_{2}=\mathbf{0}$. But $[0,1]^\top$ and $[1,0]^\top$ are linearly independent and hence the only solution possible is the trivial solution $0x_{1}-0x_{2}=\mathbf{0}$. 
