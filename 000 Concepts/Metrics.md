@@ -8,13 +8,16 @@ tags:
   - "#LinAlg"
 series: Linear Algebra
 chapter: "1"
-modified: 2024-05-21
+modified: 2024-05-22
 formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
 🍙: はい
 ---
 
 # Metrics
-A distance function, often simply called a "metric" or a "norm" in the context of vector spaces, must satisfy certain conditions to be considered valid. These properties are as follows: 
+Metrics are generalisations of distances in [[Generalised Euclidean Space]]. So we are talking about the amount of space between two points. 
+
+## Conditions
+A distance function, often simply called a "metric" in the context of vector spaces, must satisfy certain conditions to be considered valid. These properties are as follows: 
 
 1.  **Non-negativity:** The distance between any two points must be greater than or equal to zero ($d(x, y) \geq 0$). In other words, there are no negative distances. When $x=y$, the distance should be zero ($d(x, x) = 0$), which is a particular case of this property.
 2.  **Symmetry:** The distance from point $x$ to point $y$ must be the same as the distance from point $y$ to point $x$ ($d(x, y) = d(y, x)$).
@@ -25,7 +28,18 @@ When these rules are in a vector space, a norm also needs to satisfy:
 
 These rules ensure that the distance function behaves in a way that matches our intuitive understanding of physical distance, and they allow the function to be used in a wide variety of mathematical and computational applications.
 
+## Metric Space
+**Metric Space**: A set $M$ with a metric $d$ is a metric space if $d: M \times M \to \mathbb{R}$ satisfies the following properties $\forall x, \forall y, \forall z \in M$:
+  1. \( d(x, y) \geq 0 \) (non-negativity)
+  2. \( d(x, y) = 0 \) if and only if \( x = y \) (identity of indiscernibles)
+  3. \( d(x, y) = d(y, x) \) (symmetry)
+  4. \( d(x, z) \leq d(x, y) + d(y, z) \) (triangle inequality)
 
+
+
+
+
+# Examples
 ## Distance in One Dimension (1D)
 
 The concept of distance is straightforward in one dimension. Given two real numbers, the distance between them is simply the absolute value of their difference. For instance, for $a = 2$ and $b = 5$, the distance $d$ between them can be calculated as:
@@ -105,3 +119,15 @@ $$
 D_{TV}(P, Q) = \frac{1}{2} \sum_{i} |P(i) - Q(i)|
 $$
 
+## [[Metric Spaces]]
+A metric space and a vector space are distinct concepts, though they can overlap.
+
+- **Metric Space**: A set \( M \) with a metric \( d \) is a metric space if \( d: M \times M \to \mathbb{R} \) satisfies the following properties for all \( x, y, z \in M \):
+  1. \( d(x, y) \geq 0 \) (non-negativity)
+  2. \( d(x, y) = 0 \) if and only if \( x = y \) (identity of indiscernibles)
+  3. \( d(x, y) = d(y, x) \) (symmetry)
+  4. \( d(x, z) \leq d(x, y) + d(y, z) \) (triangle inequality)
+
+- **Vector Space**: A set \( V \) with operations of vector addition and scalar multiplication that satisfy certain axioms (e.g., associativity, distributivity, existence of an additive identity and inverses).
+
+A **normed vector space** is a vector space equipped with a norm, and the norm induces a metric \( d(x, y) = \|x - y\| \), making it a metric space. However, a metric space does not need to have the structure of a vector space. For example, the set of all continuous functions on a closed interval with the metric \( d(f, g) = \sup_{x \in [a, b]} |f(x) - g(x)| \) is a metric space but not necessarily a vector space unless additional structure is defined.
