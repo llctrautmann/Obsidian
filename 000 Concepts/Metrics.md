@@ -30,10 +30,12 @@ These rules ensure that the distance function behaves in a way that matches our 
 
 ## Metric Space
 **Metric Space**: A set $M$ with a metric $d$ is a metric space if $d: M \times M \to \mathbb{R}$ satisfies the following properties $\forall x, \forall y, \forall z \in M$:
-  1. \( d(x, y) \geq 0 \) (non-negativity)
-  2. \( d(x, y) = 0 \) if and only if \( x = y \) (identity of indiscernibles)
-  3. \( d(x, y) = d(y, x) \) (symmetry)
-  4. \( d(x, z) \leq d(x, y) + d(y, z) \) (triangle inequality)
+  1. $d(x, y) \geq 0$ (non-negativity)
+  2. $d(x, y) = 0$ if and only if $x = y$ (identity of indiscernibles)
+  3. $d(x, y) = d(y, x)$ (symmetry)
+  4. $d(x, z) \leq d(x, y) + d(y, z)$ (triangle inequality)
+
+
 
 
 
@@ -130,4 +132,4 @@ A metric space and a vector space are distinct concepts, though they can overlap
 
 - **Vector Space**: A set \( V \) with operations of vector addition and scalar multiplication that satisfy certain axioms (e.g., associativity, distributivity, existence of an additive identity and inverses).
 
-A **normed vector space** is a vector space equipped with a norm, and the norm induces a metric \( d(x, y) = \|x - y\| \), making it a metric space. However, a metric space does not need to have the structure of a vector space. For example, the set of all continuous functions on a closed interval with the metric \( d(f, g) = \sup_{x \in [a, b]} |f(x) - g(x)| \) is a metric space but not necessarily a vector space unless additional structure is defined.
+A **normed vector space** is a vector space equipped with a norm, and the norm induces a metric $d(x, y) = \|x - y\|$, making it a metric space. However, a metric space does not need to have the structure of a vector space. For example, the set of all continuous functions on a closed interval with the metric $d(f, g) = \sup_{x \in [a, b]} |f(x) - g(x)|$ is a metric space but not necessarily a vector space unless additional structure is defined.

@@ -9,9 +9,12 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-18
+modified: 2024-05-22
 ---
 # Metric Spaces
+A metric space is a set with a defined [metric](Metrics). But unlike [[Normed Space]], a metric space is not necessarily a [vector space]("Vector Spaces")
+
+
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=9&selection=261,0,262,19&color=yellow|Thomas2018, p.9]]
 > > A key motivation for metrics is that they allow limits to be defined for mathematical objects other than real numbers. 
