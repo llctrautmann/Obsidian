@@ -9,10 +9,10 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-21
+modified: 2024-05-22
 type: Theorem
 formula: $\left(\mathbf{A}^{\top}\right)_{i j}=A_{j i}$
-🍙: 🔴
+🍙: いや
 ---
 # Transpositions
 The transpose can generally be obtained by switching the rows and columns of a matrix. It is abbreviated with $\boldsymbol{A}^{\top}$. If $\boldsymbol{A}^{\top}= \boldsymbol{A}^{-\top}$ the matrix is __symmetric__. 
