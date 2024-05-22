@@ -25,6 +25,8 @@ A set $M$ with a metric $d$ is a metric space if $d: M \times M \to \mathbb{R}$ 
 ## Usefulness
 This is not a complete picture but metric spaces allow for limits to be calculated for non-number mathematical objects such as functions. 
 
+# References
+
 > [!PDF|yellow] [[Thomas2018.pdf#page=9&selection=261,0,262,19&color=yellow|Thomas2018, p.9]]
 > > A key motivation for metrics is that they allow limits to be defined for mathematical objects other than real numbers. 
 > 

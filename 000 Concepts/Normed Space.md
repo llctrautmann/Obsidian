@@ -10,7 +10,7 @@ series: Linear Algebra
 status: Incomplete
 type: 
 formula: 
-modified: 2024-05-21
+modified: 2024-05-22
 ---
 # Normed Space
-[[Norms in Linear Algebra]] are basically distance metrics in finite-dimensional space. 
+A [norm](Norms%20in%20Linear%20Algebra) is a measure of lengths. A normed space is a [vector space](Vector%20Spaces) with a defined norm. 
