@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-17
+modified: 2024-05-22
 formula: $(\mathcal{V},+, \cdot)$
 ---
 # Vector Spaces
@@ -106,7 +106,7 @@ For all $\mathbf{x}, \mathbf{y} \in V$
 $$
 \mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}
 $$
-
+`Does not hold for subtraction.`
 
 ### Associativity
 For all $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $\alpha, \beta \in \mathbb{R}$ 
