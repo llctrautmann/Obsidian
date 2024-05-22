@@ -6,7 +6,7 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-05-16
+modified: 2024-05-22
 ---
 # What is the relationship of a Distance and Metric in Lin. Alg?
 
@@ -27,3 +27,8 @@ The null space is all vectors in V that satisify the condition that the linear m
 
 # What is the translation of this sign $\exists$ ?
 exists
+
+# Can we build a Dr. House model? 
+One thought I am having here is: Does there exist a risk, that we have models converge on the most prevalent diseases, because we have the most data on these types of illnesses. And on the other hand can we build a model that is more akin to Dr. House? In the sense that we want to find rare diseases as well. What would that mean mathematically? What would we need to pay attention to?
+
+`
