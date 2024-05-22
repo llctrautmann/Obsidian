@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 2
 status: Incomplete
-modified: 2024-05-16
+modified: 2024-05-22
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
 ---
 # Fundamental Linear Maps
@@ -103,11 +103,3 @@ Other useful properties:
 1) preserves angles
 2) preserves lengths
 3) preserves area
-
-
-
-
-
-
-
-

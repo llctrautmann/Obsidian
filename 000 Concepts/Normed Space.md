@@ -14,7 +14,7 @@ formula:
 modified: 2024-05-22
 ---
 # Normed Space
-A [norm](Norms%20in%20Linear%20Algebra) is a measure of lengths. A normed space is a [vector space](Vector%20Spaces) with a defined norm. 
+A [norm](Norms%20in%20Linear%20Algebra) is a measure of lengths similar to Metrics being a measure of distance. A normed space is a [vector space](Vector%20Spaces) with a defined norm. 
 
 
 # References
