@@ -12,7 +12,14 @@ modified: 2024-05-23
 ---
 # Out-of-Distribution
 
-Out of disgt
+Out-of-distribution describes images, that are not positions on the [manifold](Manifold%20Hypothesis) and lie therefore outside of the range of the model. 
+
+`This is somewhat like Dr. House. The entire show was basically an hommage to out-of-distribution medical cases. But in more general terms, I think a good way to think about this would my brothers appendix, which was symptomatically an Out-of-Distribution event.` 
+
+
+This usually leads to bad classification results and requires careful [[Uncertainty Quantification]]
+
+other connections [[Uncertainty Introduction]]
 
 
 # References
