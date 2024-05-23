@@ -15,3 +15,8 @@ modified: 2024-05-23
 
 # Annotations
 
+> [!PDF|yellow] [[singh2014.pdf#page=7&selection=28,33,31,22&color=yellow|singh2014, p.5]]
+> > . In other words, QE converted good collateral in the market to excess balance sheet at banks. To the extent that banks face leverage ratio constraints as a result of QE, they want balance sheet “space” for higher return financial intermediation/nondepository activities.
+> 
+> 
+
