@@ -69,6 +69,5 @@ for all $\mathrm{x} \in V$. Therefore convergence in one norm implies convergenc
 > > One can verify that the axioms for metrics are satisfied under this definition and follow directly from the axioms for norms. Therefore any normed space is also a metric space.
 
 
-```dataview
-related:: [[Metrics]]
-```
+
+Example:: [[Metrics]]
