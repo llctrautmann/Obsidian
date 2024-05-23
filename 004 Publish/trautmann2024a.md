@@ -19,4 +19,6 @@ Since 2007 the world is living with a perpetual lack of high-quality collateral.
 
 There exist only limited information on tri-party Repo and even less information/statistical data on bilateral bespoke repo transactions. 
 
-In sum, this should explain why the US government debt does not matter as of right now. We are still living in a collateral-based system, in which US government debt - and here especially on-the-run treasuries - are not valuable because they yield the buyers some amount of coupon. US debt is simply necessary in a risk-averse system lacking hq collateral. Everybody in the system needs collateral for their funding purposes. 
+In sum, this should explain why the US government debt does not matter as of right now. We are still living in a collateral-based system, in which US government debt - and here especially on-the-run treasuries - are not valuable because they yield the buyers some amount of coupon. US debt is simply necessary in a risk-averse system lacking hq collateral. Everybody in the system needs collateral for their funding purposes. With that dynamic underpinning everything, the issuer of the best-of-the-best collateral can do virtually whatever they want.
+
+This biggest issue here is, that this system is not viable in the long run. 
