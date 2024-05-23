@@ -12,9 +12,10 @@ chapter: 0
 status: Complete
 modified: 2024-05-23
 type: Theorem
+related: "[[Metrics]]"
 ---
 # Norms in Linear Algebra
-A norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below . `induces::[[Metrics]]` 
+A norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below . induces:: [[Metrics]]
 
 
 **Definition 3.1 (Norm)**. A norm on a vector space $V$ is a function
@@ -67,3 +68,7 @@ for all $\mathrm{x} \in V$. Therefore convergence in one norm implies convergenc
 > [!PDF|yellow] [[Thomas2018.pdf#page=10&selection=104,0,105,72&color=yellow|Thomas2018, p.10]]
 > > One can verify that the axioms for metrics are satisfied under this definition and follow directly from the axioms for norms. Therefore any normed space is also a metric space.
 
+
+```dataview
+related:: [[Metrics]]
+```
