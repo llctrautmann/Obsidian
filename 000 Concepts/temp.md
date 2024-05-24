@@ -155,3 +155,17 @@ $$
 # Scaling rows and columns of a matrix
 `turn this into a note and add a reference in the note that describes the properties of specific linear maps`
 Diagonal Matrices allow us to sc
+
+1 1    3 0   3 3
+1 0    0 3   3 0 `check for non square matrices tomorrow` 
+
+
+# Standardize in Linear Algebra
+
+$$
+\operatorname{standardize}(\mathbf{X})=\left(\mathbf{X}-\mathbf{1}_N \boldsymbol{\mu}^T\right) \operatorname{diag}(\boldsymbol{\sigma})^{-1}
+$$
+
+
+
+
