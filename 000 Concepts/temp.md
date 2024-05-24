@@ -11,7 +11,7 @@ status: Incomplete
 type: 
 formula: 
 🍙: いや
-modified: 2024-05-24
+modified: 2024-05-25
 ---
 # temp
 
@@ -34,9 +34,69 @@ matmul is associative and distributiv but ususally not commutative (ab != ba)
 
 ## Vec Vec Mul
 
-$$\large\tag{2}
+$$\large\tag{3}
 \langle\boldsymbol{x}, \boldsymbol{y}\rangle \triangleq \boldsymbol{x}^{\top} \boldsymbol{y}=\sum_{i=1}^n x_i y_i
 $$
 
+the outer product is in contrast to the [[Inner Products]] and produces a matrix. [[Inner Products]] produce scalars. 
+
+$$\large\tag{4}
+\boldsymbol{x} \boldsymbol{y}^{\top} \in \mathbb{R}^{m \times n}=\left[\begin{array}{cccc}
+x_1 y_1 & x_1 y_2 & \cdots & x_1 y_n \\
+x_2 y_1 & x_2 y_2 & \cdots & x_2 y_n \\
+\vdots & \vdots & \ddots & \vdots \\
+x_m y_1 & x_m y_2 & \cdots & x_m y_n
+\end{array}\right] .
+$$
 
 
+# Matrix-vector products
+
+Given a matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$ and a vector $\boldsymbol{x} \in \mathbb{R}^n$, their product is a vector $\boldsymbol{y}=\mathbf{A} \boldsymbol{x} \in \mathbb{R}^m$. There are a couple of ways of looking at matrix-vector multiplication, and we will look at them both.
+If we write $\mathbf{A}$ by rows, then we can express $\boldsymbol{y}=\mathbf{A} \boldsymbol{x}$ as follows:
+$$
+\boldsymbol{y}=\mathbf{A} \boldsymbol{x}=\left[\begin{array}{ccc}
+- & \boldsymbol{a}_1^{\top} & - \\
+- & \boldsymbol{a}_2^{\top} & - \\
+& \vdots & \\
+- & \boldsymbol{a}_m^{\top} & -
+\end{array}\right] \boldsymbol{x}=\left[\begin{array}{c}
+\boldsymbol{a}_1^{\top} \boldsymbol{x} \\
+\boldsymbol{a}_2^{\top} \boldsymbol{x} \\
+\vdots \\
+\boldsymbol{a}_m^{\top} \boldsymbol{x}
+\end{array}\right]
+$$
+
+In other words, the $i$ th entry of $\boldsymbol{y}$ is equal to the inner product of the $i$ th row of $\mathbf{A}$ and $\boldsymbol{x}, y_i=\boldsymbol{a}_i^{\top} \boldsymbol{x}$. Alternatively, let's write $\mathbf{A}$ in column form. In this case we see that
+$$
+\boldsymbol{y}=\mathbf{A} \boldsymbol{x}=\left[\begin{array}{cccc}
+\mid & \mid & & \mid \\
+\boldsymbol{a}_1 & \boldsymbol{a}_2 & \cdots & \boldsymbol{a}_n \\
+\mid & \mid & & \mid
+\end{array}\right]\left[\begin{array}{c}
+x_1 \\
+x_2 \\
+\vdots \\
+x_n
+\end{array}\right]=\left[\begin{array}{c}
+\mid \\
+\boldsymbol{a}_1 \\
+\mid
+\end{array}\right] x_1+\left[\begin{array}{c}
+\mid \\
+\boldsymbol{a}_2 \\
+\mid
+\end{array}\right] x_2+\ldots+\left[\begin{array}{c}
+\mid \\
+\boldsymbol{a}_n \\
+\mid
+\end{array}\right] x_n .
+$$
+
+In other words, $\boldsymbol{y}$ is a linear combination of the columns of $\mathbf{A}$, where the coefficients of the linear combination are given by the entries of $\boldsymbol{x}$. We can view the columns of $\mathbf{A}$ as a set of basis vectors defining a linear subspace. We can construct vectors in this subspace by taking linear combinations of the basis vectors. See Section 7.1.2 for details.
+
+I reference this also in the note on [[Geometry of Linear Algebra]]
+
+
+# Matrix Matrix Products
