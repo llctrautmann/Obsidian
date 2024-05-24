@@ -59,3 +59,32 @@ There are three conditions:
 $$
 \langle\mathbf{x}, \mathbf{y}\rangle=\langle\mathbf{y}, \mathbf{x}\rangle
 $$
+
+# What are the two important properties of Homomorphisms? 
+1. Closure under addition related to associativity
+2. Closure under scalar multiplication related to distributivity
+
+# Define Endomorphism
+- **Definition**: A linear mapping from a vector space to itself.
+- **Form**: $\Phi: V \rightarrow V$
+- **Properties**:
+  - Preserves vector addition and scalar multiplication.
+  - Does not need to be bijective (can be injective, surjective, both, or neither).
+
+# Define Isomorphism
+### Isomorphism
+- **Definition**: A linear mapping between two vector spaces that is bijective.
+- **Form**: $\Phi: V \rightarrow W$.
+- **Properties**:
+  - Preserves vector addition and scalar multiplication.
+  - **Bijective**: One-to-one (injective) and onto (surjective).
+  - Has an inverse mapping $\Phi^{-1}: W \rightarrow V$ that is also linear.
+
+# Define Automorphism
+### Automorphism
+- **Definition**: A bijective endomorphism.
+- **Form**: $\Phi: V \rightarrow V$.
+- **Properties**:
+  - Preserves vector addition and scalar multiplication.
+  - **Bijective**: One-to-one (injective) and onto (surjective).
+  - Has an inverse mapping $(\Phi^{-1}: V \rightarrow V$ that is also linear.
