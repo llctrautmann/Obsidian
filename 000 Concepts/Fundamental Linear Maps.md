@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 2
 status: Incomplete
-modified: 2024-05-22
+modified: 2024-05-25
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
 ---
 # Fundamental Linear Maps
@@ -50,6 +50,12 @@ x_n
 $$
 
 Diagonal matrices are very nice, because they only have a limited range of possible consequences they can have. They can stretch or squeeze or reflect the original basis vectors by the scalars they have on the diagonal of the matrix. 
+
+> [!PDF|yellow] [[murphy2022.pdf#page=274&selection=12,0,43,1&color=yellow|murphy2022, p.244]]
+> > If we pre-multiply X by a diagonal matrix S = diag (s), where s is an N -vector, then we just scale each row of X by the corresponding scale factor in s:
+> 
+> In the Murphy book are good examples to see this. Also use a sheer matrix to easily verify behaviour
+
 
 ## Shear Matrices
 

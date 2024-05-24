@@ -101,8 +101,57 @@ I reference this also in the note on [[Geometry of Linear Algebra]]
 
 # Matrix Matrix Products
 
-1  2 1 1
-1  4 5 3
 
-1 1   2 1 1 = 6 6 4
-	  4 5 3
+# Cool Matrix tricks
+
+get the sum for all columns: 
+
+$$
+\mathbf{1}_N^{\top} \mathbf{X}=\left(\begin{array}{lll}
+\sum_n x_{n 1} & \cdots & \sum_n x_{n D}
+\end{array}\right)
+$$
+just multiply with a 1 x N vector of ones 
+
+get the sum for all rows 
+
+Multiply (nachgestellt) with a D x 1 vector of 1s. 
+
+$$
+\mathbf{X} 1_D=\left(\begin{array}{c}
+\sum_d x_{1 d} \\
+\vdots \\
+\sum_d x_{N d}
+\end{array}\right)
+$$
+combine both to sum all values in the matrix 
+
+$$
+\mathbf{1}_N^{\top} \mathbf{X} \mathbf{1}_D=\sum_{i j} X_{i j}
+$$
+
+This also allows the calculation of means: 
+
+total matrix: 
+
+$$
+\bar{x}=\frac{1}{N D} \mathbf{1}_N^{\top} \mathbf{X} \mathbf{1}_D
+$$
+
+
+column means
+
+$$
+\overline{\boldsymbol{x}}^{\top}=\frac{1}{N} \mathbf{1}_N^{\top} \mathbf{X}
+$$
+
+row means
+
+$$
+\overline{\boldsymbol{x}}^{\top}=\frac{1}{D} \mathbf{X}\mathbf{1}_D
+$$
+
+
+# Scaling rows and columns of a matrix
+`turn this into a note and add a reference in the note that describes the properties of specific linear maps`
+Diagonal Matrices allow us to sc
