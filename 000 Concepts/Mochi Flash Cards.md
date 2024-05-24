@@ -6,7 +6,7 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-05-22
+modified: 2024-05-24
 ---
 # What is the relationship of a Distance and Metric in Lin. Alg?
 
@@ -42,3 +42,19 @@ $$
 
 *Example*:
 The vector $x_{1}= \left[ 1,2,0\right]^\top$ and $x_{2}= \left[ 2,4,0\right]^\top$ are not linearly independent and hence I can write $2x_{1}-1x_{2}=\mathbf{0}$. But $[0,1]^\top$ and $[1,0]^\top$ are linearly independent and hence the only solution possible is the trivial solution $0x_{1}-0x_{2}=\mathbf{0}$. 
+
+# What are Inner Products and what conditions need to be met?
+Inner Products are functions from [[Vector Spaces]] to the real line. 
+$$\large
+\langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
+$$
+
+There are three conditions: 
+
+1. $\langle\mathbf{x}, \mathbf{x}\rangle \geq 0$, with equality if and only if $\mathbf{x}=\mathbf{0}$
+2. Linearity in the first slot: $$\langle\mathbf{x}+\mathbf{y}, \mathbf{z}\rangle=\langle\mathbf{x}, \mathbf{z}\rangle+\langle\mathbf{y}, \mathbf{z}\rangle \quad \text{and} \quad \langle\alpha \mathbf{x}, \mathbf{y}\rangle=\alpha\langle\mathbf{x}, \mathbf{y}\rangle$$
+
+3. Symmetry
+$$
+\langle\mathbf{x}, \mathbf{y}\rangle=\langle\mathbf{y}, \mathbf{x}\rangle
+$$
