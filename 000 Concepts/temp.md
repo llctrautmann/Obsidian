@@ -167,5 +167,21 @@ $$
 $$
 
 
+# linear reg 
+
+> [!PDF|yellow] [[murphy2022.pdf#page=399&selection=45,2,46,29&color=yellow|murphy2022, p.369]]
+> > The key property of the model is that the expected value of the output is assumed to be a linear function of the input,
+> 
+> basics 101
+
+
+> [!PDF|yellow] [[murphy2022.pdf#page=399&selection=150,1,163,13&color=yellow|murphy2022, p.369]]
+> > Each coefficient wd specifies the change in the output we expect if we change the corresponding input feature xd by one unit. 
+> 
+> also 101; keeping the other variables fixed 
+
+
+> [!PDF|yellow] [[murphy2022.pdf#page=399&selection=190,0,203,60&color=yellow|murphy2022, p.369]]
+> > The term w0 is the offset or bias term, and specifies the output value if all the inputs are 0.
 
 
