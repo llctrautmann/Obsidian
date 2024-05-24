@@ -100,3 +100,9 @@ I reference this also in the note on [[Geometry of Linear Algebra]]
 
 
 # Matrix Matrix Products
+
+1  2 1 1
+1  4 5 3
+
+1 1   2 1 1 = 6 6 4
+	  4 5 3
