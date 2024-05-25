@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-14
+modified: 2024-05-25
 ---
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=7&selection=184,0,184,90&color=yellow|Thomas2018, p.7]]
@@ -43,6 +43,8 @@ $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S
 *Mentally there is some connection to [[Notes on Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
 
 
+[[Notes on Probability Theory#Sigma Algebras]]
+
 ## Combining Subspaces
 Subspaces can be combined:
 
@@ -67,3 +69,10 @@ $$
 $$
 
 `This immidiately reminds me of` [[Probability Basics#Joint Probability]] `Its the same formula, so there is some interesting connection between the two. Maybe set theory is the underlying fabric. Vector spaces are groups, groups are sets and so this is all fundamentally connected with each other.` 
+
+## Special Subspaces
+
+1) [[Column Space]]
+2) [[Null Space]]
+3) [[Row Space]] 
+

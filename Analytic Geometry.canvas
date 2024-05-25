@@ -8,8 +8,8 @@
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"Induces"},
 		{"id":"2fb3ca99b22e560d","fromNode":"7855a26c5ca05a38","fromSide":"bottom","toNode":"efcfadd87ea26734","toSide":"right","label":"Induces"},
-		{"id":"fc114fd821983e6a","fromNode":"07702e5a85cb1995","fromSide":"top","toNode":"7855a26c5ca05a38","toSide":"right"},
-		{"id":"e92517cd9e9b3321","fromNode":"07702e5a85cb1995","fromSide":"top","toNode":"efcfadd87ea26734","toSide":"right"},
-		{"id":"65f2fb1ca5b64d74","fromNode":"07702e5a85cb1995","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom"}
+		{"id":"fc114fd821983e6a","fromNode":"07702e5a85cb1995","fromSide":"top","toNode":"7855a26c5ca05a38","toSide":"right","label":"can have a"},
+		{"id":"e92517cd9e9b3321","fromNode":"07702e5a85cb1995","fromSide":"top","toNode":"efcfadd87ea26734","toSide":"right","label":"can have a"},
+		{"id":"65f2fb1ca5b64d74","fromNode":"07702e5a85cb1995","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"can have a"}
 	]
 }

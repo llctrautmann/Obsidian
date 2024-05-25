@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-14
+modified: 2024-05-25
 ---
 > [!PDF|yellow] [[deisenroth2020.pdf#page=54&selection=250,8,251,63&color=yellow|deisenroth2020, p.48]]
 > > When working with matrices, we have to keep in mind what the matrix represents: a linear mapping or a collection of vectors.
@@ -73,18 +73,6 @@ $$
   - Has an inverse mapping $(\Phi^{-1}: V \rightarrow V$ that is also linear.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 __Iso-, Endo-, Automorphism__. The definitions for Iso-, Endo-, Automorphism are as follows:
 
 - Isomorphism: $\Phi: V \to W$ linear and bijective 
@@ -95,7 +83,7 @@ A linear map $T$ is called an isomorphism if the following two conditions are sa
 
 Two such subspaces which have an isomorphism as described above are said to be isomorphic. 
 
-We can also derive that [[Vector Spaces]] and [[Subspaces]] with the same dimensionality with the same [[Vector Space Dimensionality]] will be isomorphic. 
+We can also derive that [[Vector Spaces]] and [[Vectors Subspaces]] with the same [[Vector Space Dimensionality]] will be isomorphic. 
 
 
 ## References
