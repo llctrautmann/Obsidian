@@ -13,6 +13,11 @@ modified: 2024-05-25
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
 ---
 # Fundamental Linear Maps
+## Square Matrices
+Same input dimension and output dimension. 
+
+
+Squre matrices are the only 
 
 ## Identity Matrix
 In $\mathbb{R}^{n \times n}$, we define the identity matrix
@@ -54,7 +59,7 @@ Diagonal matrices are very nice, because they only have a limited range of possi
 > [!PDF|yellow] [[murphy2022.pdf#page=274&selection=12,0,43,1&color=yellow|murphy2022, p.244]]
 > > If we pre-multiply X by a diagonal matrix S = diag (s), where s is an N -vector, then we just scale each row of X by the corresponding scale factor in s:
 > 
-> In the Murphy book are good examples to see this. Also use a sheer matrix to easily verify behaviour. Depending on where the linear map/matrix is positioned I scale the rows or the columns. 
+> In the Murphy book are good examples to see this. Also use a sheer matrix to easily verify behaviour. Depending on the order of the linear map/matrix  I scale the rows or the columns ($AB \neq BA$). 
 
 
 
