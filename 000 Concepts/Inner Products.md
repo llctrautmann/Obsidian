@@ -11,7 +11,7 @@ status: Incomplete
 type: Concept
 formula: "$\\langle\\cdot, \\cdot\\rangle: V \\times V \\rightarrow \\mathbb{R}$"
 🍙: いや
-modified: 2024-05-24
+modified: 2024-05-25
 ---
 # Inner Products
 Inner products are defined on [[Vector Spaces]] and constitute a function from the vector space onto the real line. There exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. 
@@ -33,6 +33,14 @@ $$
 Inner products induce [norms](Norms%20in%20Linear%20Algebra), which induce [[Metrics]]. So a [[Vector Spaces]] with an inner product, has a norm (measure of length) and has a metric (measure of distance). 
 
 So a inner product space, is a normed space, is a metric space.
+
+## Inner Product Inducing Norms
+Any inner product induces a norm (measure of length), 
+
+$$\large\tag{2}
+\|\mathbf{x}\|=\sqrt{\langle\mathbf{x}, \mathbf{x}\rangle}
+$$
+
 
 
 # References

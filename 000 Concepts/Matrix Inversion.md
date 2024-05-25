@@ -29,3 +29,14 @@ $$
 > > It turns out that the determinant det(A) is the signed volume of an n-dimensional parallelepiped formed by columns of the matrix A.
 > 
 > This also explains why a matrix with a det(M) = 0 is so problematic. These matrices are not staying within the geometric space, but transform, the input onto a lower dimensional space. __Thus, the determinant acts as a function that measures the signed volume formed by column vectors composed in a matrix.__
+
+## Rules for Inverse $A^{-1}$
+
+$$\large\tag{2}
+\begin{aligned}
+\left(\mathbf{A}^{-1}\right)^{-1} & =\mathbf{A} \\
+(\mathbf{A B})^{-1} & =\mathbf{B}^{-1} \mathbf{A}^{-1} \\
+\left(\mathbf{A}^{-1}\right)^{\top} & =\left(\mathbf{A}^{\top}\right)^{-1} \triangleq \mathbf{A}^{-T}
+\end{aligned}
+$$
+
