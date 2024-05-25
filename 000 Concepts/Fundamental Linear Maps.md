@@ -8,16 +8,24 @@ tags:
   - LinAlg
 series: Linear Algebra
 chapter: 2
-status: Incomplete
-modified: 2024-05-25
+type: Concept
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
+modified: 2024-05-25
 ---
 # Fundamental Linear Maps
 ## Square Matrices
 Same input dimension and output dimension. 
 
 
-Squre matrices are the only 
+$$\large
+\mathbf{A}=\left(\begin{array}{ll}
+a & b \\
+c & d
+\end{array}\right)
+$$
+
+
+Square matrices are the only matrices that are strictly invertible. Requires [[Determinant]] to be non-zero, thereby we maintain the dimensionality of the space and the columns are independent. The matrix is then called non-singular. 
 
 ## Identity Matrix
 In $\mathbb{R}^{n \times n}$, we define the identity matrix
