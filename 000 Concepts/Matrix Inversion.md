@@ -32,7 +32,8 @@ $$
 
 
 ## Rules for Inverse $A^{-1}$
-There exist some fundamental rules for matrices
+There exist some fundamental rules for matrices, that follow from general principles of exponents as well as the three general axioms (dist, asso, comu) . 
+
 $$\large\tag{2}
 \begin{aligned}
 \left(\mathbf{A}^{-1}\right)^{-1} & =\mathbf{A} \\
@@ -43,3 +44,49 @@ $$
 
 
 
+
+
+The equation \((2 \cdot 3)^2 = 2^2 \cdot 3^2\) holds due to the properties of exponents and the distributive property of multiplication over addition. Here are the fundamental axioms and properties underpinning this rule:
+
+1. **Exponentiation and Multiplication**:
+   - For any real numbers \(a\) and \(b\), and any integer \(n\), \((a \cdot b)^n = a^n \cdot b^n\). This is a general property of exponents.
+
+2. **Distributive Property**:
+   - The distributive property states that \(a \cdot (b + c) = a \cdot b + a \cdot c\). While this property is more directly related to addition and multiplication, it underpins the way we handle operations within parentheses.
+
+### Proof Using Properties of Exponents
+
+Given \((2 \cdot 3)^2\):
+
+1. **Apply the exponent to the product**:
+   \[
+   (2 \cdot 3)^2 = (2 \cdot 3) \cdot (2 \cdot 3)
+   \]
+
+2. **Distribute the multiplication**:
+   \[
+   (2 \cdot 3) \cdot (2 \cdot 3) = 2 \cdot 3 \cdot 2 \cdot 3
+   \]
+
+3. **Rearrange the factors (associative property of multiplication)**:
+   \[
+   2 \cdot 2 \cdot 3 \cdot 3 = 2^2 \cdot 3^2
+   \]
+
+Thus, \((2 \cdot 3)^2 = 2^2 \cdot 3^2\).
+
+### Fundamental Axioms
+
+1. **Associative Property of Multiplication**:
+   - \((a \cdot b) \cdot c = a \cdot (b \cdot c)\)
+
+2. **Commutative Property of Multiplication**:
+   - \(a \cdot b = b \cdot a\)
+
+3. **Distributive Property**:
+   - \(a \cdot (b + c) = a \cdot b + a \cdot c\)
+
+4. **Exponentiation Rules**:
+   - \((a \cdot b)^n = a^n \cdot b^n\)
+
+These properties and axioms collectively ensure that the equation \((2 \cdot 3)^2 = 2^2 \cdot 3^2\) holds true.
