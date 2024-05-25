@@ -7,11 +7,11 @@ author: Luca Trautmann
 tags:
   - LinAlg
 series: Linear Algebra
-status: Incomplete
+status: Complete
 type: Concept
 formula: $\mathbf{A}^{-1} \mathbf{A}=\mathbf{I}=\mathbf{A} \mathbf{A}^{-1}$
 🍙: いや
-modified: 2024-05-25
+modified: 2024-05-26
 ---
 # Matrix Inversion
 Determinants are only defined for square matrices. For these matrices a determinant is a function that maps $A$ onto $\mathbb{R}$. The inverse of a Matrix is strictly only defined for [square matrices](Fundamental%20Linear%20Maps).
@@ -42,51 +42,10 @@ $$\large\tag{2}
 \end{aligned}
 $$
 
+## Advanced Topics that might be necessary on a re-read
+
+- [ ] Schur Complements
+- [ ] Matrix inversion lemma
+- [ ] Sherman-Morrison-Woodbury formula
 
 
-
-
-The equation \((2 \cdot 3)^2 = 2^2 \cdot 3^2\) holds due to the properties of exponents and the distributive property of multiplication over addition. Here are the fundamental axioms and properties underpinning this rule:
-
-1. **Exponentiation and Multiplication**:
-   - For any real numbers \(a\) and \(b\), and any integer \(n\), \((a \cdot b)^n = a^n \cdot b^n\). This is a general property of exponents.
-
-2. **Distributive Property**:
-   - The distributive property states that \(a \cdot (b + c) = a \cdot b + a \cdot c\). While this property is more directly related to addition and multiplication, it underpins the way we handle operations within parentheses.
-
-### Proof Using Properties of Exponents
-
-Given \((2 \cdot 3)^2\):
-
-1. **Apply the exponent to the product**:
-   \[
-   (2 \cdot 3)^2 = (2 \cdot 3) \cdot (2 \cdot 3)
-   \]
-
-2. **Distribute the multiplication**:
-   \[
-   (2 \cdot 3) \cdot (2 \cdot 3) = 2 \cdot 3 \cdot 2 \cdot 3
-   \]
-
-3. **Rearrange the factors (associative property of multiplication)**:
-   \[
-   2 \cdot 2 \cdot 3 \cdot 3 = 2^2 \cdot 3^2
-   \]
-
-Thus, \((2 \cdot 3)^2 = 2^2 \cdot 3^2\).
-
-### Fundamental Axioms
-
-1. **Associative Property of Multiplication**:
-   - \((a \cdot b) \cdot c = a \cdot (b \cdot c)\)
-
-2. **Commutative Property of Multiplication**:
-   - \(a \cdot b = b \cdot a\)
-
-3. **Distributive Property**:
-   - \(a \cdot (b + c) = a \cdot b + a \cdot c\)
-
-4. **Exponentiation Rules**:
-   - \((a \cdot b)^n = a^n \cdot b^n\)
-
-These properties and axioms collectively ensure that the equation \((2 \cdot 3)^2 = 2^2 \cdot 3^2\) holds true.
