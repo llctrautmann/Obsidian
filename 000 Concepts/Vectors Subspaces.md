@@ -43,7 +43,8 @@ $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S
 *Mentally there is some connection to [[Notes on Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
 
 
-[[Notes on Probability Theory#Sigma Algebras]]
+
+
 
 ## Combining Subspaces
 Subspaces can be combined:
