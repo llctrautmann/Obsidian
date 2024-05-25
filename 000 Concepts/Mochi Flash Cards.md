@@ -6,7 +6,7 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-05-24
+modified: 2024-05-26
 ---
 # What is the relationship of a Distance and Metric in Lin. Alg?
 
@@ -88,3 +88,15 @@ $$
   - Preserves vector addition and scalar multiplication.
   - **Bijective**: One-to-one (injective) and onto (surjective).
   - Has an inverse mapping $(\Phi^{-1}: V \rightarrow V$ that is also linear.
+
+
+# What is the formula for eigenthings?
+
+$$\mathbf{A}\mathbf{x}= \lambda \mathbf{x}$$
+
+
+# How do Eigenvectors and Eigenvalues behave wrt. scaling by a real-valued scalar?
+Eigenvalues are infinitely scalable by a scalar, so $c\mathbf{u}$ is also an eigenvector. 
+$$\large
+\mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})
+$$
