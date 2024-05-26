@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"28fdfbb3e04ea34b","x":-2080,"y":560,"width":400,"height":240,"type":"file","file":"000 Concepts/Eigenthings.md"},
-		{"id":"07702e5a85cb1995","type":"file","file":"000 Concepts/Vector Spaces.md","x":-920,"y":560,"width":640,"height":320},
-		{"id":"efcfadd87ea26734","type":"file","file":"000 Concepts/Norms in Linear Algebra.md","x":-1020,"y":-340,"width":420,"height":200},
-		{"id":"7855a26c5ca05a38","type":"file","file":"000 Concepts/Inner Products.md","x":-200,"y":-680,"width":440,"height":280},
-		{"id":"26daa85f9e82b129","type":"file","file":"000 Concepts/Metrics.md","x":-1880,"y":-532,"width":452,"height":265},
-		{"id":"79a8e7084530996d","x":-1560,"y":1000,"width":414,"height":240,"type":"file","file":"000 Concepts/Linear Maps.md"}
+		{"id":"26daa85f9e82b129","type":"file","file":"000 Concepts/Metrics.md","x":-2080,"y":-432,"width":452,"height":265},
+		{"id":"efcfadd87ea26734","type":"file","file":"000 Concepts/Norms in Linear Algebra.md","x":-1370,"y":-367,"width":420,"height":200},
+		{"id":"7855a26c5ca05a38","type":"file","file":"000 Concepts/Inner Products.md","x":-800,"y":-712,"width":440,"height":280},
+		{"id":"07702e5a85cb1995","type":"file","file":"000 Concepts/Vector Spaces.md","x":-900,"y":160,"width":640,"height":320},
+		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1574,"y":600,"width":414,"height":240},
+		{"id":"28fdfbb3e04ea34b","type":"file","file":"000 Concepts/Eigenthings.md","x":-2080,"y":360,"width":400,"height":240}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"Induces"},
