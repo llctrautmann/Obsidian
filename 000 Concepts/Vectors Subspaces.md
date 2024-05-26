@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-25
+modified: 2024-05-26
 ---
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=7&selection=184,0,184,90&color=yellow|Thomas2018, p.7]]
