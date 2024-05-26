@@ -9,7 +9,7 @@ tags:
   - AnalyticGeometry
 series: Linear Algebra
 chapter: "1"
-modified: 2024-05-22
+modified: 2024-05-26
 formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
 🍙: はい
 ---
@@ -119,4 +119,13 @@ where $F^{-1}$ is the quantile function of the underlying distribution.
 $$
 D_{TV}(P, Q) = \frac{1}{2} \sum_{i} |P(i) - Q(i)|
 $$
+
+
+## Metrics and Norms
+Let $V$ be a [[Normed Space]].
+Let $\|\cdot\|$ be the norm of $V$.
+
+Then the induced metric or the metric induced by $\|\cdot\|$ is the [linear map](Linear%20Maps) $d: V \times V \rightarrow \mathbb{R} \geq 0$ defined as: $$d(x, y)=\|x-y\|$$
+
+[So we know that if we have a norm we have a metric.]
 
