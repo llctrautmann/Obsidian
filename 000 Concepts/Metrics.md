@@ -15,6 +15,7 @@ formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
 ---
 
 # Metrics
+## Definition
 Metrics are generalisations of distances in [[Generalised Euclidean Space]]. So we are talking about the amount of space between two points. 
 
 The mapping
@@ -39,6 +40,14 @@ When these rules are in a vector space, a norm also needs to satisfy:
 1.  **Absolutely homogeneous (or Scalability):** For any real number $\alpha$ and any vector $v$, the norm of the scalar multiple $\alpha v$ is equal to the absolute value of $\alpha$ times the norm of $v$. Written mathematically, $||\alpha v|| = |\alpha| ||v||$.
 
 These rules ensure that the distance function behaves in a way that matches our intuitive understanding of physical distance, and they allow the function to be used in a wide variety of mathematical and computational applications. Metrics also induce a [[Metric Spaces]] on a set with the metric. 
+
+## Metrics and Norms
+Let $V$ be a [[Normed Space]].
+Let $\|\cdot\|$ be the norm of $V$.
+
+Then the induced metric or the metric induced by $\|\cdot\|$ is the [linear map](Linear%20Maps) $d: V \times V \rightarrow \mathbb{R} \geq 0$ defined as: $$d(x, y)=\|x-y\|$$
+
+[So we know that if we have a norm we have a metric.]
 
 # Examples
 ## Distance in One Dimension (1D)
@@ -121,11 +130,5 @@ D_{TV}(P, Q) = \frac{1}{2} \sum_{i} |P(i) - Q(i)|
 $$
 
 
-## Metrics and Norms
-Let $V$ be a [[Normed Space]].
-Let $\|\cdot\|$ be the norm of $V$.
 
-Then the induced metric or the metric induced by $\|\cdot\|$ is the [linear map](Linear%20Maps) $d: V \times V \rightarrow \mathbb{R} \geq 0$ defined as: $$d(x, y)=\|x-y\|$$
-
-[So we know that if we have a norm we have a metric.]
 
