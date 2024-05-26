@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"06a91da7519727ae","x":-780,"y":-380,"width":740,"height":483,"type":"file","file":"000 Concepts/Metrics.md"},
+		{"id":"06be4f9acc7f4e3d","x":-46,"y":-558,"width":250,"height":60,"type":"text","text":"$$ $"},
+		{"id":"933ee6d6566853ba","x":280,"y":-380,"width":640,"height":483,"type":"file","file":"000 Concepts/Inner Products.md"}
+	],
+	"edges":[]
+}
