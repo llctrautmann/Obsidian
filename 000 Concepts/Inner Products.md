@@ -15,14 +15,32 @@ modified: 2024-05-27
 ---
 # Inner Products
 ## Definition
-Inner products are defined on [[Vector Spaces]] and constitute a function from the vector space onto the real line. There exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. 
+Inner products are defined on [[Vector Spaces]] and constitute a function - more specifically a bilinear mapping - from the vector space onto the real line. 
 
+`So its a function: with two inputs and one scalar output.`
 
 $$\large\tag{1}
+\begin{aligned}
+& \Omega(\lambda x+\psi \boldsymbol{y}, \boldsymbol{z})=\lambda \Omega(\boldsymbol{x}, \boldsymbol{z})+\psi \Omega(\boldsymbol{y}, \boldsymbol{z}) \\
+& \Omega(\boldsymbol{x}, \lambda \boldsymbol{y}+\psi \boldsymbol{z})=\lambda \Omega(\boldsymbol{x}, \boldsymbol{y})+\psi \Omega(\boldsymbol{x}, \boldsymbol{z}) .
+\end{aligned}
+$$
+
+$(1)$ shows that for both inputs, the core axioms of addition and multiplication defined for [[Vector Spaces]] hold. 
+
+
+
+$$\large\tag{2}
 \langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
 $$
 
-**Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** A major purpose of inner products is to determine whether vectors are orthogonal to each other.
+
+
+
+
+
+## Purpose
+**Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. A major purpose of inner products is to determine whether vectors are orthogonal to each other.
 
 ## Conditions
 1. $\langle\mathbf{x}, \mathbf{x}\rangle \geq 0$, with equality if and only if $\mathbf{x}=\mathbf{0}$
@@ -33,7 +51,8 @@ $$
 \langle\mathbf{x}, \mathbf{y}\rangle=\langle\mathbf{y}, \mathbf{x}\rangle
 $$
 
-## Inner Products Inducing Norms
+## Noteworthy
+### Inner Products Inducing Norms
 Inner products induce [norms](Norms%20in%20Linear%20Algebra), which induce [[Metrics]]. So a [[Vector Spaces]] with an inner product, has a norm (measure of length) and has a metric (measure of distance). So a inner product space, is a normed space, is a metric space.
 
 

@@ -10,7 +10,8 @@
 		{"id":"0ee805e899d1a1c0","x":-2138,"y":-168,"width":400,"height":203,"type":"file","file":"000 Concepts/Vector Space Dimensionality.md"},
 		{"id":"efcfadd87ea26734","type":"file","file":"000 Concepts/Norms in Linear Algebra.md","x":-1367,"y":-1127,"width":420,"height":307},
 		{"id":"26daa85f9e82b129","type":"file","file":"000 Concepts/Metrics.md","x":-2106,"y":-1291,"width":452,"height":265},
-		{"id":"d1580c2829e6501c","x":-947,"y":-1760,"width":400,"height":320,"type":"file","file":"000 Concepts/Othrogornality.md"}
+		{"id":"05038f3306664a8b","x":-280,"y":-1691,"width":400,"height":400,"type":"file","file":"000 Concepts/Dot Product Geometry.md"},
+		{"id":"d1580c2829e6501c","x":200,"y":-1158,"width":400,"height":320,"type":"file","file":"000 Concepts/Othrogornality.md"}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"right","label":"Induces"},
@@ -23,6 +24,8 @@
 		{"id":"15e491e0db0a80b9","fromNode":"28fdfbb3e04ea34b","fromSide":"left","toNode":"e96470e4f8268f0c","toSide":"right","label":"MultiplyTo"},
 		{"id":"ad300f49c61ac921","fromNode":"e96470e4f8268f0c","fromSide":"right","toNode":"0ee805e899d1a1c0","toSide":"left"},
 		{"id":"a1b510667267c7bc","fromNode":"0ee805e899d1a1c0","fromSide":"right","toNode":"07702e5a85cb1995","toSide":"left"},
-		{"id":"c455743b5dfbaeb2","fromNode":"7855a26c5ca05a38","fromSide":"top","toNode":"d1580c2829e6501c","toSide":"bottom"}
+		{"id":"c455743b5dfbaeb2","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"d1580c2829e6501c","toSide":"left"},
+		{"id":"b8d70b4b85029669","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"05038f3306664a8b","toSide":"bottom","label":"SpecialCase\nOf"},
+		{"id":"54469721ad8039c7","fromNode":"05038f3306664a8b","fromSide":"left","toNode":"efcfadd87ea26734","toSide":"right","label":"UsedIn"}
 	]
 }
