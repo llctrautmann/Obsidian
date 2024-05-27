@@ -137,3 +137,4 @@ Symmetric matrices have strong implications (-> [[Eigendecomposition]])
 
 
 ## Positive Semi-definite Matrices
+- [this is not completed]
