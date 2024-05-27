@@ -44,7 +44,7 @@ There are intricate connections to the [[Trace]] and the [[Determinant]].
 
 The trace of a matrix is equal to the sum of its eigenvalues,
 $$
-\operatorname{tr}(\mathbf{A})=\sum_{i=1}^n \lambda_i .
+\operatorname{tr}(\mathbf{A})=\sum_{i=1}^n \lambda_i
 $$
 
 The determinant of $\mathbf{A}$ is equal to the product of its eigenvalues,
