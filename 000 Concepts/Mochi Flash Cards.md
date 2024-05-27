@@ -114,3 +114,6 @@ $$
  T(\alpha \mathbf{x}) &= \alpha T \mathbf{x} 
 \end{aligned}
 $$
+
+# What conditions need to be met when talking about a Euclidean vector space? 
+The pair $(V,\langle\cdot, \cdot\rangle)$ is called an inner product space or (real) vector space with inner product. If we use the dot product, we call $(V,\langle\cdot, \cdot\rangle)$ a Euclidean vector space.

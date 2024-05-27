@@ -10,7 +10,7 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-22
+modified: 2024-05-27
 ---
 # Metric Spaces
 A metric space is a set with a defined [metric](Metrics). But unlike a [space with a defined norm](Normed%20Space), a metric space is not necessarily a [vector space](Vector%20Spaces). To be a metric space, only the conditions of the metric space need to be fulfilled: 
