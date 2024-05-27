@@ -1,19 +1,20 @@
 {
 	"nodes":[
 		{"id":"28fdfbb3e04ea34b","type":"file","file":"000 Concepts/Eigenthings.md","x":-2080,"y":360,"width":400,"height":240},
-		{"id":"e96470e4f8268f0c","x":-2780,"y":220,"width":280,"height":200,"type":"file","file":"000 Concepts/Determinant.md"},
-		{"id":"44b08ad453d82d5e","x":-2780,"y":640,"width":280,"height":200,"type":"file","file":"000 Concepts/Trace.md"},
+		{"id":"e96470e4f8268f0c","type":"file","file":"000 Concepts/Determinant.md","x":-2780,"y":220,"width":280,"height":200},
+		{"id":"44b08ad453d82d5e","type":"file","file":"000 Concepts/Trace.md","x":-2780,"y":640,"width":280,"height":200},
 		{"id":"7855a26c5ca05a38","type":"file","file":"000 Concepts/Inner Products.md","x":-658,"y":-1040,"width":440,"height":280},
 		{"id":"07702e5a85cb1995","type":"file","file":"000 Concepts/Vector Spaces.md","x":-758,"y":-168,"width":640,"height":320},
-		{"id":"0ee805e899d1a1c0","x":-2138,"y":-168,"width":400,"height":203,"type":"file","file":"000 Concepts/Vector Space Dimensionality.md"},
+		{"id":"0ee805e899d1a1c0","type":"file","file":"000 Concepts/Vector Space Dimensionality.md","x":-2138,"y":-168,"width":400,"height":203},
 		{"id":"efcfadd87ea26734","type":"file","file":"000 Concepts/Norms in Linear Algebra.md","x":-1367,"y":-1127,"width":420,"height":307},
 		{"id":"26daa85f9e82b129","type":"file","file":"000 Concepts/Metrics.md","x":-2106,"y":-1291,"width":452,"height":265},
-		{"id":"05038f3306664a8b","x":-280,"y":-1691,"width":400,"height":400,"type":"file","file":"000 Concepts/Dot Product Geometry.md"},
-		{"id":"d1580c2829e6501c","x":200,"y":-1158,"width":400,"height":320,"type":"file","file":"000 Concepts/Othrogornality.md"},
-		{"id":"db2299864aa862ee","x":-2280,"y":840,"width":400,"height":400,"type":"file","file":"000 Concepts/Matrix Inversion.md"},
-		{"id":"e1ac037747634e5d","x":-1767,"y":1640,"width":400,"height":400,"type":"file","file":"000 Concepts/Groups.md"},
+		{"id":"05038f3306664a8b","type":"file","file":"000 Concepts/Dot Product Geometry.md","x":-280,"y":-1691,"width":400,"height":400},
+		{"id":"d1580c2829e6501c","type":"file","file":"000 Concepts/Othrogornality.md","x":200,"y":-1158,"width":400,"height":320},
+		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-2280,"y":840,"width":400,"height":400},
 		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1240,"y":600,"width":414,"height":240},
-		{"id":"26f76e80c3037591","x":-758,"y":1640,"width":400,"height":400,"type":"file","file":"000 Concepts/Morphisms in Linear Algebra.md"}
+		{"id":"26f76e80c3037591","type":"file","file":"000 Concepts/Morphisms in Linear Algebra.md","x":80,"y":440,"width":400,"height":400},
+		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":840,"width":400,"height":400},
+		{"id":"146f570145562e48","x":-2280,"y":1240,"width":400,"height":400,"type":"file","file":"000 Concepts/Representations of Linear Maps.md"}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"right","label":"Induces"},
@@ -29,7 +30,8 @@
 		{"id":"c455743b5dfbaeb2","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"d1580c2829e6501c","toSide":"left"},
 		{"id":"b8d70b4b85029669","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"05038f3306664a8b","toSide":"bottom","label":"SpecialCase\nOf"},
 		{"id":"54469721ad8039c7","fromNode":"05038f3306664a8b","fromSide":"left","toNode":"efcfadd87ea26734","toSide":"right","label":"UsedIn"},
-		{"id":"8eccf24884ffcf1a","fromNode":"26f76e80c3037591","fromSide":"top","toNode":"79a8e7084530996d","toSide":"bottom","label":"explain"},
-		{"id":"671e5f8e9840b004","fromNode":"e1ac037747634e5d","fromSide":"top","toNode":"79a8e7084530996d","toSide":"bottom","label":"explain"}
+		{"id":"8eccf24884ffcf1a","fromNode":"26f76e80c3037591","fromSide":"left","toNode":"79a8e7084530996d","toSide":"right","label":"explain"},
+		{"id":"671e5f8e9840b004","fromNode":"e1ac037747634e5d","fromSide":"left","toNode":"79a8e7084530996d","toSide":"right","label":"explain"},
+		{"id":"e35b13cf67bdbe97","fromNode":"146f570145562e48","fromSide":"right","toNode":"79a8e7084530996d","toSide":"left"}
 	]
 }
