@@ -45,7 +45,7 @@ $$\large\tag{}
 - & \boldsymbol{u}_n^{\top} & -
 \end{array}\right)
 $$
-
+This breaks down for each 
 ### Checking for positive definiteness
 
 
