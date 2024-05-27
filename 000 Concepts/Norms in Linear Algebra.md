@@ -10,12 +10,15 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Complete
-modified: 2024-05-25
 type: Theorem
-related: "[[Metrics]]"
+🍙: いや
+formula: "$\\|\\cdot\\|: V & \\rightarrow \\mathbb{R}$"
+aliases:
+  - norm, norms
+modified: 2024-05-27
 ---
 # Norms in Linear Algebra
-A norm is a function onto the real line. Hence, a norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below . induces:: [[Metrics]]
+A norm is a function onto the real line. Hence, a norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below. 
 
 
 **Definition 3.1 (Norm)**. A norm on a vector space $V$ is a function
@@ -52,7 +55,7 @@ $$
 \|\mathbf{x}\|_{\infty}=\max _{1 \leq i \leq n}\left|x_i\right|
 $$
 
-Note that the 1 - and 2 -norms are special cases of the $p$-norm, and the $x$-norm is the limit of the $p$-norm as $p$ tends to infinity. We require $p \geq 1$ for the general definition of the $p$-norm because the triangle inequality fails to hold if $p<1$. (Try to find a counterexample!)
+Note that the l1- and l2-norms are special cases of the $p$-norm, and the $x$-norm is the limit of the $p$-norm as $p$ tends to infinity. We require $p \geq 1$ for the general definition of the $p$-norm because the triangle inequality fails to hold if $p<1$. 
 
 Here's a fun fact: for any given finite-dimensional vector space $V$, all norms on $V$ are equivalent in the sense that for two norms $\|\cdot\|_A,\|\cdot\|_B$, there exist constants $\alpha, \beta>0$ such that
 $$
