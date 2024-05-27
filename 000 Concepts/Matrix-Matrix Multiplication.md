@@ -28,7 +28,6 @@ $$
 - Matrix multiplication is distributive: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A B}+\mathbf{A C}$.
 - Matrix multiplication is, in general, not commutative; that is, it can be the case that $\mathbf{A B} \neq \mathbf{B A}$.
 
-
 There are four different ways of looking at matrix-matrix multiplication contained in the above statement and depending on the situation it is useful to look at a problem form either perspective. 
 
 ## Vector-Vector / Inner-Products
