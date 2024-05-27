@@ -104,3 +104,13 @@ $$
 
 # What does a Inner Product enable in Linear Algebra? 
 **Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** A major purpose of inner products is to determine whether vectors are orthogonal to each other.
+
+# Name the two condtion that are most essential to linear transformations? 
+To be valid a linear map needs to follow associativity and distributivity (or more precise: closure under addition and scalar multiplication). 
+
+$$
+\begin{aligned}
+ T(\mathbf{x}+\mathbf{y}) &=T \mathbf{x}+T \mathbf{y} \\
+ T(\alpha \mathbf{x}) &= \alpha T \mathbf{x} 
+\end{aligned}
+$$

@@ -13,7 +13,8 @@ modified: 2024-05-27
 aliases:
   - linear map
   - linear maps
-formula:
+  - bilinear map
+formula: $T:V \rightarrow W$
 ---
 # Linear Maps
 ## Definition

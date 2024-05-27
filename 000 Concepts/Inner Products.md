@@ -14,35 +14,38 @@ formula: "$\\langle\\cdot, \\cdot\\rangle: V \\times V \\rightarrow \\mathbb{R}$
 modified: 2024-05-27
 ---
 # Inner Products
+## Purpose
+Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors. 
+
+
 ## Definition
 Inner products are defined on [[Vector Spaces]] and constitute a function - more specifically a bilinear mapping - from the vector space onto the real line. 
 
-`So its a function: with two inputs and one scalar output.`
+
+$(1)$ Is the definition of the generalised inner product. 
 
 $$\large\tag{1}
+\langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
+$$
+
+`So its a function: with two inputs and one scalar output.`
+
+The inner product is just a bilinear mapping or function that requires certain condition (see next point) to be met.
+
+## Conditions
+Firstly, the bilinear map must adhere to the fundamental axioms of vector spaces: addition and multiplication.
+
+$$\large\tag{2}
 \begin{aligned}
 & \Omega(\lambda x+\psi \boldsymbol{y}, \boldsymbol{z})=\lambda \Omega(\boldsymbol{x}, \boldsymbol{z})+\psi \Omega(\boldsymbol{y}, \boldsymbol{z}) \\
 & \Omega(\boldsymbol{x}, \lambda \boldsymbol{y}+\psi \boldsymbol{z})=\lambda \Omega(\boldsymbol{x}, \boldsymbol{y})+\psi \Omega(\boldsymbol{x}, \boldsymbol{z}) .
 \end{aligned}
 $$
 
-$(1)$ shows that for both inputs, the core axioms of addition and multiplication defined for [[Vector Spaces]] hold. 
+$(2)$ shows that, the core axioms of addition and multiplication defined for [[Vector Spaces]] hold. 
 
+If these two conditions are met, additionally the following conditions need to be met:
 
-
-$$\large\tag{2}
-\langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
-$$
-
-
-
-
-
-
-## Purpose
-**Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. A major purpose of inner products is to determine whether vectors are orthogonal to each other.
-
-## Conditions
 1. $\langle\mathbf{x}, \mathbf{x}\rangle \geq 0$, with equality if and only if $\mathbf{x}=\mathbf{0}$
 2. Linearity in the first slot: $$\langle\mathbf{x}+\mathbf{y}, \mathbf{z}\rangle=\langle\mathbf{x}, \mathbf{z}\rangle+\langle\mathbf{y}, \mathbf{z}\rangle \quad \text{and} \quad \langle\alpha \mathbf{x}, \mathbf{y}\rangle=\alpha\langle\mathbf{x}, \mathbf{y}\rangle$$
 
@@ -60,6 +63,7 @@ $$\large\tag{2}
 \|\mathbf{x}\|=\sqrt{\langle\mathbf{x}, \mathbf{x}\rangle}
 $$
 
+Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. A major purpose of inner products is to determine whether vectors are orthogonal to each other. So there is also a connection to [[orthogonality]].
 
 
 # References
