@@ -126,3 +126,14 @@ Other useful properties:
 1) preserves angles
 2) preserves lengths
 3) preserves area
+
+## Symmetric Matrices
+
+$$\large\tag{4}
+\mathbf{A} = \mathbf{A}^{\top}
+$$
+
+Symmetric matrices have strong implications (-> [[Eigendecomposition]])
+
+
+## Positive Semi-definite Matrices
