@@ -60,8 +60,7 @@ $$
 
 ## Noteworthy
 ### Dot Product
-The dot product is one special case of a general inner product.
-
+The [[Dot Product|dot product]] is one special case of a general inner product.
 
 $$\large\tag{3}
 \boldsymbol{x}^{\top} \boldsymbol{y}=\sum_{i=1}^n x_i y_i

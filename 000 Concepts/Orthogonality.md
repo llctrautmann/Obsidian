@@ -33,6 +33,14 @@ $$
 
 $$\langle\boldsymbol{x}, \boldsymbol{y}\rangle=0$$
 
+## Orthogonal Matrix
+
+$$
+\mathbf{Q}^{\top} \mathbf{Q}=\mathbf{Q}^{\top}=\mathbf{I}
+$$
+
+- a
+
 ## Orthonormal
 
 $$\langle\boldsymbol{x}, \boldsymbol{y}\rangle=0$$
