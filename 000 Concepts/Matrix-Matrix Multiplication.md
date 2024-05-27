@@ -24,6 +24,11 @@ $$
 C_{i j}=\sum_{k=1}^n A_{i k} B_{k j} .
 $$
 
+- Matrix multiplication is associative: $(\mathbf{A B}) \mathbf{C}=\mathbf{A}(\mathbf{B C})$.
+- Matrix multiplication is distributive: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A B}+\mathbf{A C}$.
+- Matrix multiplication is, in general, not commutative; that is, it can be the case that $\mathbf{A B} \neq \mathbf{B A}$.
+
+
 There are four different ways of looking at matrix-matrix multiplication contained in the above statement and depending on the situation it is useful to look at a problem form either perspective. 
 
 ## Vector-Vector / Inner-Products
