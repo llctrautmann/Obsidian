@@ -4,11 +4,13 @@
 		{"id":"4611e932b1de8665","type":"file","file":"Review/2024/Reflections.md","x":-1000,"y":-860,"width":840,"height":664},
 		{"id":"b23a9d6af62a950d","type":"file","file":"Archive/Posts/Mos Majorum in Bitcoin.md","x":-1760,"y":-1380,"width":680,"height":400},
 		{"id":"a3837527fbc9eaec","type":"text","text":"What is the Roll of Collateral in the future? ","x":-1880,"y":-720,"width":400,"height":240},
-		{"id":"08779cb570f63efc","type":"file","file":"Analytic Geometry.canvas","x":967,"y":-1640,"width":400,"height":400}
+		{"id":"08779cb570f63efc","type":"file","file":"Analytic Geometry.canvas","x":1520,"y":-1520,"width":400,"height":400},
+		{"id":"52f7f01acb2be08a","x":967,"y":-1640,"width":400,"height":400,"type":"file","file":"000 Concepts/Eigenvalue decomposition.md"}
 	],
 	"edges":[
 		{"id":"01d5c80faea9abf1","fromNode":"4611e932b1de8665","fromSide":"top","toNode":"b23a9d6af62a950d","toSide":"right","label":"Blogging"},
 		{"id":"5a139827901f38a8","fromNode":"4611e932b1de8665","fromSide":"left","toNode":"a3837527fbc9eaec","toSide":"right","label":"Thought"},
-		{"id":"cf305b8c926899a3","fromNode":"65326c2eb6e549ef","fromSide":"top","toNode":"08779cb570f63efc","toSide":"bottom","label":"work"}
+		{"id":"cf305b8c926899a3","fromNode":"65326c2eb6e549ef","fromSide":"right","toNode":"08779cb570f63efc","toSide":"bottom","label":"work"},
+		{"id":"b8d875ec3ba0413f","fromNode":"65326c2eb6e549ef","fromSide":"top","toNode":"52f7f01acb2be08a","toSide":"bottom","label":"work"}
 	]
 }
