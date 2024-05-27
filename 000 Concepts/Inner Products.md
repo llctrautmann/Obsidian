@@ -12,6 +12,9 @@ type: Concept
 formula: "$\\langle\\cdot, \\cdot\\rangle: V \\times V \\rightarrow \\mathbb{R}$"
 🍙: いや
 modified: 2024-05-27
+aliases:
+  - Inner products
+  - inner product
 ---
 # Generalised Inner Products
 ## Purpose
@@ -77,7 +80,7 @@ $$\large\tag{2}
 \|\mathbf{x}\|=\sqrt{\langle\mathbf{x}, \mathbf{x}\rangle}
 $$
 
-Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. A major purpose of inner products is to determine whether vectors are orthogonal to each other. So there is also a connection to [[orthogonality]].
+Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Algebra), [[Metrics]] and [[Inner Products]]. A major purpose of inner products is to determine whether vectors are orthogonal to each other. So there is also a connection to [[Orthogonality]].
 
 
 # References
