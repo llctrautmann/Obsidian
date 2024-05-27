@@ -6,7 +6,8 @@
 		{"id":"07702e5a85cb1995","type":"file","file":"000 Concepts/Vector Spaces.md","x":-900,"y":160,"width":640,"height":320},
 		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1574,"y":600,"width":414,"height":240},
 		{"id":"28fdfbb3e04ea34b","type":"file","file":"000 Concepts/Eigenthings.md","x":-2080,"y":360,"width":400,"height":240},
-		{"id":"db2299864aa862ee","x":-2080,"y":1000,"width":400,"height":400,"type":"file","file":"000 Concepts/Matrix Inversion.md"}
+		{"id":"db2299864aa862ee","x":-1628,"y":1200,"width":400,"height":400,"type":"file","file":"000 Concepts/Matrix Inversion.md"},
+		{"id":"44b08ad453d82d5e","x":-2640,"y":720,"width":280,"height":200,"type":"file","file":"000 Concepts/Trace.md"}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"Induces"},
@@ -16,6 +17,7 @@
 		{"id":"65f2fb1ca5b64d74","fromNode":"07702e5a85cb1995","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"bottom","label":"can have a"},
 		{"id":"dbf718248dee79b7","fromNode":"79a8e7084530996d","fromSide":"right","toNode":"07702e5a85cb1995","toSide":"left","label":"Move between"},
 		{"id":"cb14d71b1d3f8de6","fromNode":"28fdfbb3e04ea34b","fromSide":"right","toNode":"79a8e7084530996d","toSide":"top"},
-		{"id":"f46f4230dd3dcf57","fromNode":"db2299864aa862ee","fromSide":"top","toNode":"79a8e7084530996d","toSide":"bottom"}
+		{"id":"f46f4230dd3dcf57","fromNode":"db2299864aa862ee","fromSide":"top","toNode":"79a8e7084530996d","toSide":"bottom"},
+		{"id":"f620fae6a0f2a386","fromNode":"28fdfbb3e04ea34b","fromSide":"left","toNode":"44b08ad453d82d5e","toSide":"right","label":"SumTo"}
 	]
 }

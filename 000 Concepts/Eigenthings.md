@@ -11,7 +11,10 @@ status: Incomplete
 type: 
 formula: $$\mathbf{A}\mathbf{x}= \lambda \mathbf{x}$$
 🍙: いや
-modified: 2024-05-26
+aliases:
+  - eigenvalues
+  - eigenvectors
+modified: 2024-05-27
 ---
 # Eigenthings
 ## Description
@@ -49,17 +52,16 @@ $$
 \operatorname{det}(\mathbf{A})=\prod_{i=1}^n \lambda_i
 $$
 
+The rank of a [[Linear Maps|linear map]] $\mathbf{A}$ is equal to the number of non-zero eigenvalues. 
 # References
 
+> [!PDF|yellow] [[Thomas2018.pdf#page=15&selection=344,0,348,54&color=yellow|@Thomas2018, p.15]]
+> > The trace of a square matrix is the sum of its diagonal entries:
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=15&selection=49,0,64,25&color=yellow|Thomas2018, p.15]]
 > > For a square matrix A ∈ Rn×n, there may be vectors which, when A is applied to them, are **simply scaled by some constant**. 
-
 
 > [!PDF|yellow] [[murphy2022.pdf#page=282&selection=6,0,21,1&color=yellow|murphy2022, p.252]]
 > > Intuitively, this definition means that multiplying A by the vector u results in a new vector that points in the same direction as u, but is scaled by a factor λ.
 > 
 > seems to be the key, conceptually
-
-
-

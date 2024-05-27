@@ -9,7 +9,9 @@ tags:
 series: Linear Algebra
 chapter: "8"
 status: Incomplete
-modified: 2024-05-14
+modified: 2024-05-27
+aliases:
+  - linear map
 ---
 # Linear Maps
 
