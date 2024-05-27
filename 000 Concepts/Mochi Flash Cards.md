@@ -6,7 +6,7 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-05-26
+modified: 2024-05-27
 ---
 # What is the relationship of a Distance and Metric in Lin. Alg?
 
@@ -100,3 +100,7 @@ Eigenvalues are infinitely scalable by a scalar, so $c\mathbf{u}$ is also an eig
 $$\large
 \mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})
 $$
+
+
+# What does a Inner Product enable in Linear Algebra? 
+**Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** A major purpose of inner products is to determine whether vectors are orthogonal to each other.

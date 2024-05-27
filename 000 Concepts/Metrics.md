@@ -13,6 +13,7 @@ formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
 🍙: はい
 aliases:
   - metrics
+  - metric
 modified: 2024-05-27
 ---
 

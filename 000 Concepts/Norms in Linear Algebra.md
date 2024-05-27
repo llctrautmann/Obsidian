@@ -14,7 +14,8 @@ type: Theorem
 🍙: いや
 formula: "$\\|\\cdot\\|: V & \\rightarrow \\mathbb{R}$"
 aliases:
-  - norm, norms
+  - norm
+  - norms
 modified: 2024-05-27
 ---
 # Norms in Linear Algebra
