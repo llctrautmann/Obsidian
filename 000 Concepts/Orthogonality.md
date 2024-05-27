@@ -42,3 +42,4 @@ $$
 $$
 
 - It is important to note, that a different [[Inner Products|inner product]] will yield a different answer. So orthonormality is determined by the type of [[Inner Products|inner product]].
+
