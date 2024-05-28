@@ -20,5 +20,14 @@ modified: 2024-05-28
 
 
 ## The most important thing for a Nuclear Power Plant Operator
-![Reaction Rate - Neutron Flux](https://www.nuclear-power.com/ezoimgfmt/nuclear-power.com/wp-content/uploads/2016/01/Reaction-Rate-Neutron-Flux.png?ezimgfmt=rs:490x69/rscb53/ngcb52/notWebP)
-![Neutron Flux - Reaction Rate - Thermal Reactor](https://www.nuclear-power.com/ezoimgfmt/nuclear-power.com/wp-content/uploads/2016/01/Neutron-Flux-Reaction-Rate-Thermal-Reactor.png?ezimgfmt=rs:490x257/rscb53/ng:webp/ngcb52)
+
+$$
+R R=\Phi \cdot \Sigma=\Phi \cdot \mathrm{N} \cdot \sigma \text { or } \mathrm{RR}=\int_0^{\infty} \Sigma(\mathrm{E}) \cdot \Phi(\mathrm{E}) \mathrm{dE}
+$$
+
+## Why do we need Heavy Water? 
+[Add fission plot]
+- 
+- Hydrogen same mass as neutron (1 both) 
+	- loss all coolant, the reaction will stop
+	- RMBK (graphite) 
