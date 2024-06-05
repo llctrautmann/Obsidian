@@ -13,8 +13,8 @@
 		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-2280,"y":840,"width":400,"height":400},
 		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1240,"y":600,"width":414,"height":240},
 		{"id":"26f76e80c3037591","type":"file","file":"000 Concepts/Morphisms in Linear Algebra.md","x":80,"y":440,"width":400,"height":400},
-		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":840,"width":400,"height":400},
-		{"id":"146f570145562e48","x":-2280,"y":1240,"width":400,"height":400,"type":"file","file":"000 Concepts/Representations of Linear Maps.md"}
+		{"id":"146f570145562e48","x":-2280,"y":1320,"width":400,"height":400,"type":"file","file":"000 Concepts/Representations of Linear Maps.md"},
+		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":920,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"right","label":"Induces"},
