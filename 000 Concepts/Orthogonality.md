@@ -13,7 +13,7 @@ formula:
 aliases:
   - orthogonality
   - orthogonal
-modified: 2024-05-27
+modified: 2024-06-05
 ---
 # Angles
 ## Purpose
@@ -36,7 +36,7 @@ $$\langle\boldsymbol{x}, \boldsymbol{y}\rangle=0$$
 ## Orthogonal Matrix
 
 $$
-\mathbf{Q}^{\top} \mathbf{Q}=\mathbf{Q}^{\top}=\mathbf{I}
+\mathbf{Q}^{\top} \mathbf{Q}=\mathbf{Q}\mathbf{Q}^{\top}=\mathbf{I}
 $$
 
 - maintains [[Inner Products|Inner products]] 

@@ -10,11 +10,12 @@
 		{"id":"26daa85f9e82b129","type":"file","file":"000 Concepts/Metrics.md","x":-2106,"y":-1291,"width":452,"height":265},
 		{"id":"05038f3306664a8b","type":"file","file":"000 Concepts/Dot Product Geometry.md","x":-280,"y":-1691,"width":400,"height":400},
 		{"id":"d1580c2829e6501c","type":"file","file":"000 Concepts/Othrogornality.md","x":200,"y":-1158,"width":400,"height":320},
-		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-2280,"y":840,"width":400,"height":400},
 		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1240,"y":600,"width":414,"height":240},
 		{"id":"26f76e80c3037591","type":"file","file":"000 Concepts/Morphisms in Linear Algebra.md","x":80,"y":440,"width":400,"height":400},
-		{"id":"146f570145562e48","x":-2280,"y":1320,"width":400,"height":400,"type":"file","file":"000 Concepts/Representations of Linear Maps.md"},
-		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":920,"width":400,"height":400}
+		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":920,"width":400,"height":400},
+		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-2067,"y":820,"width":258,"height":200},
+		{"id":"a84c0829853c3162","x":-961,"y":1000,"width":407,"height":240,"type":"file","file":"000 Concepts/Matrix-Matrix Multiplication.md"},
+		{"id":"146f570145562e48","x":-1404,"y":1000,"width":329,"height":240,"type":"file","file":"000 Concepts/Representations of Linear Maps.md"}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"right","label":"Induces"},
@@ -32,6 +33,7 @@
 		{"id":"54469721ad8039c7","fromNode":"05038f3306664a8b","fromSide":"left","toNode":"efcfadd87ea26734","toSide":"right","label":"UsedIn"},
 		{"id":"8eccf24884ffcf1a","fromNode":"26f76e80c3037591","fromSide":"left","toNode":"79a8e7084530996d","toSide":"right","label":"explain"},
 		{"id":"671e5f8e9840b004","fromNode":"e1ac037747634e5d","fromSide":"left","toNode":"79a8e7084530996d","toSide":"right","label":"explain"},
-		{"id":"e35b13cf67bdbe97","fromNode":"146f570145562e48","fromSide":"right","toNode":"79a8e7084530996d","toSide":"left"}
+		{"id":"e8761a4e21a56f89","fromNode":"146f570145562e48","fromSide":"right","toNode":"a84c0829853c3162","toSide":"left","toEnd":"none"},
+		{"id":"214755c35c7eb92e","fromNode":"79a8e7084530996d","fromSide":"bottom","toNode":"a84c0829853c3162","toSide":"top","toEnd":"none"}
 	]
 }
