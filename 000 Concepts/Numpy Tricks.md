@@ -8,7 +8,7 @@ tags:
 series: 
 type: Algorithm
 formula: 
-modified: 2024-06-06
+modified: 2024-06-07
 ---
 # Numpy Tricks
-- `np.rot90` allows me to rotate a matrix by 90 degrees. 
+- `{python}np.rot90` allows me to rotate a matrix by 90 degrees. 
