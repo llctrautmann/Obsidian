@@ -29,7 +29,6 @@ modified: 2024-06-09
 > [!PDF|yellow] [[udandarao2024.pdf#page=1&selection=103,6,141,30&color=yellow|udandarao2024, p.1]]
 > > CLIP is now the de-facto standard for “zero-shot” image recognition [133 , 72 , 126 , 48, 132 ] and imagetext retrieval [46 , 64 , 24, 117 , 129 ], while Stable Diffusion is now the de-facto standard for “zero-shot” text-to-image (T2I) generation
 
-
 >[!PDF|red] [[udandarao2024.pdf#page=1&selection=166,17,175,81&color=red|udandarao2024, p.1]]
 > > we conducted a comparative analysis involving two main factors: (1) the performance of models across various downstream tasks and (2) the frequency of test concepts within their pretraining datasets. We compiled a comprehensive list of 4, 029 concepts1 from 27 downstream tasks spanning classification, retrieval, and image generation, assessing the performance against these concepts
 
@@ -45,6 +44,9 @@ modified: 2024-06-09
 
 > [!PDF|yellow] [[udandarao2024.pdf#page=6&selection=67,6,71,70&color=yellow|udandarao2024, p.6]]
 > > our results clearly reveal data hungry learning, i.e, a lack in current multimodal models’ ability to learn concepts from pretraining datasets in a sample-efficient manner.
+
+> [!PDF|yellow] [[udandarao2024.pdf#page=11&selection=248,1,259,75&color=yellow|udandarao2024, p.11]]
+> > This pattern persists despite controlling for similarities between pretraining and downstream datasets or even when testing models on entirely synthetic data distributions. Further, all tested models consistently underperformed on the “Let it Wag!” dataset, which we systematically constructed from our findings to test for long-tail concepts. This underlines a critical reassessment of what “zero-shot” generalization entails for multimodal models, highlighting the limitations in their current generalization capabilities. 
 
 
 
