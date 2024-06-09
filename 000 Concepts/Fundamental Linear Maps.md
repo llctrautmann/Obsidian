@@ -10,7 +10,9 @@ series: Linear Algebra
 chapter: 2
 type: Concept
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
-modified: 2024-05-27
+modified: 2024-06-09
+aliases:
+  - diagonal matrices
 ---
 # Fundamental Linear Maps
 ## Square Matrices
