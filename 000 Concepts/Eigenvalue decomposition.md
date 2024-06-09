@@ -11,24 +11,30 @@ series: Linear Algebra
 type: Process
 formula: 
 aliases: 
-modified: 2024-05-27
+modified: 2024-06-09
 ---
 # Eigenvalue decomposition
 ## Basics
 
 ## Diagonalisation
 
-$$\large\tag{}
+$$\large\tag{1}
 \mathbf{A U}=\mathbf{U} \Lambda
 $$
 
-$$\large\tag{}
+
+We can then diagonalise the matrix by multiplying with the inverse - which only exists if the eigenvectors are [[Vector Independence|independent]]. 
+$$\large\tag{2}
 \mathbf{A}=\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{-1}
 $$
 
-## Eigenvalues and eigenvectors of symmetric matrices
+A matrix that can be written in this form is called diagonalisable. 
 
-$$\large\tag{}
+## Eigenvalues and eigenvectors of symmetric matrices
+- The eigenvector matrices are also orthonormal: i.e. $\boldsymbol{u}_i^1 \boldsymbol{u}_j=0 \text { if } i \neq j \text {, and } \boldsymbol{u}_i^{\top} \boldsymbol{u}_i=1 \text {, where } \boldsymbol{u}_i \text { are the eigenvectors. }$
+- Note that matrices are [[linear maps]] or functions and hence we read them from right to left. So applying $\mathbf{A}$ is equal to a rotation matrix, scaling, and another rotation. 
+
+$$\large\tag{3}
 \mathbf{A}=\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{\top}=\left(\begin{array}{cccc}
 \mid & \mid & & \mid \\
 \boldsymbol{u}_1 & \boldsymbol{u}_2 & \cdots & \boldsymbol{u}_n \\
@@ -45,7 +51,8 @@ $$\large\tag{}
 - & \boldsymbol{u}_n^{\top} & -
 \end{array}\right)
 $$
-This breaks down for each 
+
+
 ### Checking for positive definiteness
 
 
