@@ -43,6 +43,10 @@ modified: 2024-06-09
 > > Our comprehensive analysis of several pretraining image-text datasets significantly adds to this line of work, by (1) showing that concept frequency determines zero-shot performance and (2) pinpointing the exponential need for training data as a fundamental issue for current large-scale multimodal models. We conclude that the key to “zero-shot” generalization capabilities under large-scale training paradigms remains to be found.
 
 
+> [!PDF|yellow] [[udandarao2024.pdf#page=6&selection=67,6,71,70&color=yellow|udandarao2024, p.6]]
+> > our results clearly reveal data hungry learning, i.e, a lack in current multimodal models’ ability to learn concepts from pretraining datasets in a sample-efficient manner.
+
+
 
 
 

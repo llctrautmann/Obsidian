@@ -13,7 +13,7 @@ Johann Hari-like.
 
 Das Ding ist, dass nicht beides: grenzenloser, unmittelbarer Zugang zum Internet und Digital Minimalism geht
 
-goal:: [[2024-06-09  Detox]]
+leadsTo:: [[Detox]]
 
 
 
