@@ -122,6 +122,8 @@ $$
 
 Orthogonal vectors have a dot product of 0. So in an orthogonal matrix all columns and rows are orthogonal unit vectors (technically this should end up as a orthonormal [[Analytic Geometry#Orthogonality]]). 
 
+Orthogo
+
 Orthogonal matrices can flip or rotate a vector space, but I cannot stretch or compress it.
 
 Other useful properties:
@@ -129,6 +131,7 @@ Other useful properties:
 2) preserves lengths
 3) preserves area
 
+- 
 ## Symmetric Matrices
 
 $$\large\tag{4}
