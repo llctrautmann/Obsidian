@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: 0
 status: Incomplete
-modified: 2024-05-22
+modified: 2024-06-10
 formula: $(\mathcal{V},+, \cdot)$
 ---
 # Vector Spaces
@@ -51,6 +51,24 @@ $$\mathbf{x}=\left[\begin{array}{c}
 4 \\
 5 \\
 \end{array}\right]$$
+
+canonically a unit vector is denotes $e_i$:
+
+$$\mathbf{x}=\left[\begin{array}{c}
+1 \\
+0 \\
+0
+\end{array}\right]$$
+
+
+
+
+![[]]
+
+Tensors are generalisations of 2D matrices to higher dimensions and allow for multilinear maps. 
+
+
+
 
 ## Main Operations
 The two main operations for every vector space are:
