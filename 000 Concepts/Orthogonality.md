@@ -13,8 +13,16 @@ formula:
 aliases:
   - orthogonality
   - orthogonal
-modified: 2024-06-05
+modified: 2024-06-10
 ---
+# Definition
+- Two vectors $\boldsymbol{x}, \boldsymbol{y} \in \mathbb{R}^n$ are orthogonal if $\boldsymbol{x}^{\top} \boldsymbol{y}=0$.
+- A vector $\boldsymbol{x} \in \mathbb{R}^n$ is normalized if $\|\boldsymbol{x}\|_2=1$. 
+- A set of vectors that is pairwise orthogonal and normalized is called orthonormal.
+- A square matrix $\mathrm{U} \in \mathbb{R}^{n \times n}$ is orthogonal if all its columns are orthonormal. (Note the different meaning of the term orthogonal when talking about vectors versus matrices.) 
+	- If the entries of $\mathbf{U}$ are complex valued, we use the term unitary instead of orthogonal.
+
+
 # Angles
 ## Purpose
 [[Inner Products|Inner products]] also introduce calculations of angles into vector spaces. 
