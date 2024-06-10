@@ -1,5 +1,5 @@
 ---
-modified: 2024-06-09
+modified: 2024-06-10
 ---
 # What are the two main operations for every vector space?
 
@@ -180,4 +180,4 @@ Qualitative analysis of T2I models on the "Let It Wag!" dataset reveals that the
 This finding challenges the notion of "zero-shot" generalization in multimodal models, suggesting that their performance is heavily reliant on the presence and frequency of concepts in their training data. It highlights the need for more effective learning strategies that can address the limitations imposed by long-tailed data distributions.
 
 # What are the geometrics Characteristics of Orthogonal matrices?
-They are nt
+They are not able to stretch space, but they are preserving angles (due to inner products being preserved) and lengths (due to norms being preserved). All of this is the case because orthogonal matrices have the neat feature that their inverse is their transpose. 
