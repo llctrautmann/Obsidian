@@ -10,7 +10,7 @@ series: Linear Algebra
 chapter: 2
 type: Concept
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
-modified: 2024-06-09
+modified: 2024-06-10
 aliases:
   - diagonal matrices
 ---
@@ -121,8 +121,6 @@ $$
 
 
 Orthogonal vectors have a dot product of 0. So in an orthogonal matrix all columns and rows are orthogonal unit vectors (technically this should end up as a orthonormal [[Analytic Geometry#Orthogonality]]). 
-
-Orthogo
 
 Orthogonal matrices can flip or rotate a vector space, but I cannot stretch or compress it.
 

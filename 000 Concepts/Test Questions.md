@@ -178,3 +178,6 @@ Qualitative analysis of T2I models on the "Let It Wag!" dataset reveals that the
 
 # What is the significance of the finding that concept frequency significantly influences zero-shot performance in multimodal models?
 This finding challenges the notion of "zero-shot" generalization in multimodal models, suggesting that their performance is heavily reliant on the presence and frequency of concepts in their training data. It highlights the need for more effective learning strategies that can address the limitations imposed by long-tailed data distributions.
+
+# What are the geometrics Characteristics of Orthogonal matrices?
+They are nt
