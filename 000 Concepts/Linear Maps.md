@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 chapter: "8"
 status: Incomplete
-modified: 2024-05-27
+modified: 2024-06-10
 aliases:
   - linear map
   - linear maps
@@ -34,6 +34,12 @@ $$
  T(\alpha \mathbf{x}) &= \alpha T \mathbf{x} 
 \end{aligned}
 $$
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=136,0,200,0&color=yellow|murphy2022, p.231]]
+> > A linear map or linear transformation is any function f : V → W such that $f(v + w) = f (v) + f (w)$ and $f (a v) = a f (v)$ for all $v, w ∈ V$
+> 
+> So we preserve addition and multiplication
+
 
 ## Noteworthy
 The relationship between functions and linear maps is muddied by notational quirks. $\mathbf{Tx}=\mathbf{T}(\mathbf{x})$ holds, but mathematicians just want to make things more minimal. 

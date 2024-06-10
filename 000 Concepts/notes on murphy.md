@@ -33,4 +33,21 @@ modified: 2024-06-10
 > [!PDF|yellow] [[murphy2022.pdf#page=259&selection=82,11,91,55&color=yellow|murphy2022, p.229]]
 > >  we can reshape a vector into a matrix. There are two choices for how to do this, known as row-major order (used by languages such as Python and C++) and column-major order (used by languages such as Julia, Matlab, R and Fortran
 
+> [!PDF|yellow] [[murphy2022.pdf#page=260&selection=107,30,116,41&color=yellow|murphy2022, p.230]]
+> > A vector space is a collection of such vectors, which can be added together, and scaled by scalars (1-dimensional numbers), in order to create new points. 
+
+> [!PDF|yellow] [[murphy2022.pdf#page=260&selection=167,0,187,48&color=yellow|murphy2022, p.230]]
+> > A set of vectors {x1, x2, . . . xn} is said to be (linearly) independent if no vector can be represented as a linear combination of the remaining vectors
+
+> [!PDF|yellow] [[murphy2022.pdf#page=260&selection=257,0,287,1&color=yellow|murphy2022, p.230]]
+> > The span of a set of vectors {x1, x2, . . . , xn} is the set of all vectors that can be expressed as a linear combination of {x1, . . . , xn}.
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=73,0,89,47&color=yellow|murphy2022, p.231]]
+> > A basis B is a set of linearly independent vectors that spans the whole space, meaning that span (B) = Rn. There are often multiple bases to choose from
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=136,0,200,0&color=yellow|murphy2022, p.231]]
+> > A linear map or linear transformation is any function f : V → W such that f (v + w) = f (v) + f (w) and f (a v) = a f (v) for all v, w ∈ V
+
+
+
 

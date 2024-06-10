@@ -62,10 +62,13 @@ $$\mathbf{x}=\left[\begin{array}{c}
 
 
 
-
-![[]]
+## Tensors
 
 Tensors are generalisations of 2D matrices to higher dimensions and allow for multilinear maps. 
+
+> [!figure] ![[Tensors.png]]
+> Vector, Matrix and Tensor (schematic)
+
 
 
 
