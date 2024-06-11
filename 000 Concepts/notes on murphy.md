@@ -11,7 +11,7 @@ series: Linear Algebra
 type: 
 formula: 
 aliases: 
-modified: 2024-06-10
+modified: 2024-06-11
 ---
 # notes on murphy
 
@@ -47,6 +47,9 @@ modified: 2024-06-10
 
 > [!PDF|yellow] [[murphy2022.pdf#page=261&selection=136,0,200,0&color=yellow|murphy2022, p.231]]
 > > A linear map or linear transformation is any function f : V → W such that f (v + w) = f (v) + f (w) and f (a v) = a f (v) for all v, w ∈ V
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=200,2,217,58&color=yellow|murphy2022, p.231]]
+> > Once the basis of V is chosen, a linear map f : V → W is completely determined by specifying the images of the basis vectors, because any element of V can be expressed uniquely as a linear combination of them.
 
 
 
