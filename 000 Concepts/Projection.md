@@ -15,7 +15,12 @@ modified: 2024-06-11
 ---
 # Projection
 ## Definition
+A projection is just the the vector that is closest to a target set (hyperplane, plane or line) measured by the Euclidean [[Norms in Linear Algebra|norm]]. 
 
+This can be either: 
+
+$$\frac{\mathbf{x} \cdot \mathbf{v}}{\mathbf{v}\cdot \mathbf{v}}$$ or alternatively: 
+$$\operatorname{Proj}(\boldsymbol{y} ; \mathbf{A})=\operatorname{argmin}_{\boldsymbol{v} \in \mathcal{R}(\mathbf{A})}\|\boldsymbol{v}-\boldsymbol{y}\|_2=\mathbf{A}\left(\mathbf{A}^{\top} \mathbf{A}\right)^{-1} \mathbf{A}^{\top} \boldsymbol{y}$$
 
 ## Condition
 
