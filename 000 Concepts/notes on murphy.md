@@ -51,6 +51,20 @@ modified: 2024-06-11
 > [!PDF|yellow] [[murphy2022.pdf#page=261&selection=200,2,217,58&color=yellow|murphy2022, p.231]]
 > > Once the basis of V is chosen, a linear map f : V → W is completely determined by specifying the images of the basis vectors, because any element of V can be expressed uniquely as a linear combination of them.
 
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=387,2,398,1&color=yellow|murphy2022, p.231]]
+> > The range (sometimes also called the column space) of this matrix is the span of the columns of A.
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=434,0,436,1&color=yellow|murphy2022, p.231]]
+> > The range can be thought of as the set of vectors that can be “reached” or “generated” by A
+> 
+> 
+
+> [!PDF|yellow] [[murphy2022.pdf#page=261&selection=447,23,466,0&color=yellow|murphy2022, p.231]]
+> > The nullspace of a matrix A ∈ Rm×n is the set of all vectors that get mapped to the null vector when multiplied by A
+
+> [!PDF|yellow] [[murphy2022.pdf#page=262&selection=140,0,147,1&color=yellow|murphy2022, p.232]]
+> > The span of the rows of A is the complement to the nullspace of A.
+
 
 
 
