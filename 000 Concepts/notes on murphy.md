@@ -73,5 +73,16 @@ modified: 2024-06-12
 > 
 > 
 
+> [!PDF|yellow] [[murphy2022.pdf#page=263&selection=389,0,394,10&color=yellow|murphy2022, p.233]]
+> > The nuclear norm, also called the trace norm
+> 
+
+> [!PDF|yellow] [[murphy2022.pdf#page=263&selection=451,8,458,2&color=yellow|murphy2022, p.233]]
+> > More generally, we can define the Schatten p-norm as
+
+
+> [!PDF|yellow] [[murphy2022.pdf#page=264&selection=21,2,25,0&color=yellow|murphy2022, p.234]]
+> > If the vector norm is the 2-norm, the corresponding matrix norm is the Frobenius norm
+
 
 

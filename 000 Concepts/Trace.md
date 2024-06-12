@@ -11,7 +11,7 @@ status: Incomplete
 type: 
 formula: 
 🍙: いや
-modified: 2024-05-27
+modified: 2024-06-12
 ---
 # Trace
 ## Definition
@@ -31,19 +31,15 @@ $$
 - 
 
 ## Noteworthy
-Most interestingly there is a connection to [[Eigenthings|eigenvalues]]. The trace is the sum of the eigenvalues. []
+Most interestingly there is a connection to [[Eigenthings|eigenvalues]]. The trace is the sum of the eigenvalues. [^1]
 
 $$\large\tag{2}
 \operatorname{tr}(\mathbf{A})=\sum_i \lambda_i(\mathbf{A})
 $$
+For diagonal matrices that is especially simple as the eigenvalue are just the values on the diagonal [^2]
 
 
+# Footnotes
 
-
-# References
-> [!PDF|yellow] [[Thomas2018.pdf#page=16&selection=28,0,29,14&color=yellow|Thomas2018, p.16]]
-> > Interestingly, the trace of a matrix is equal to the sum of its eigenvalues (repeated according to multiplicity):
-
-> [!PDF|yellow] [[murphy2022.pdf#page=282&selection=318,0,318,81&color=yellow|murphy2022, p.252]]
-> > The eigenvalues of a diagonal or triangular matrix are just the diagonal entries.
-
+[^1]: [[Thomas2018.pdf#page=16&selection=28,0,29,14&color=yellow|Thomas2018, p.16]]
+[^2]: [[murphy2022.pdf#page=282&selection=318,0,318,81&color=yellow|murphy2022, p.252]]

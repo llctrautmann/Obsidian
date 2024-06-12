@@ -77,6 +77,10 @@ Assume $f(x) = \mathbf{A}\mathbf{x}$ as we do normally. The norm of $\mathbf{A}$
 In most cases I will encounter that $p=2$ which leads to the following specific norm: 
 	- $\|\mathbf{A}\|_2=\sqrt{\lambda_{\max }\left(\mathbf{A}^{\top} \mathbf{A}\right)}=\max _i \sigma_i$ with $\lambda_{max}(\mathbf{M})=\text{largest eigevalue of M}$ and $\sigma_{i}$ equal to the i-th singular value 
 
+There are other norms for matrices:
+	- Nuclear norm[^5]
+	- Schatten norm [^6]
+	- Frobenius norm [^7]
 
 # Footnotes
 
@@ -84,3 +88,6 @@ In most cases I will encounter that $p=2$ which leads to the following specific 
 [^2]: [[deisenroth2020.pdf#page=77&selection=203,0,205,37|deisenroth2020, p.71]] 
 [^3]: [[Thomas2018.pdf#page=10&selection=104,0,105,72&color=yellow|Thomas2018, p.10]] 
 [^4]: [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]] 
+[^5]: [[murphy2022.pdf#page=263&selection=389,0,394,10&color=yellow|murphy2022, p.233]]
+[^6]: [[murphy2022.pdf#page=263&selection=451,8,458,2&color=yellow|murphy2022, p.233]]
+[^7]: [[murphy2022.pdf#page=264&selection=21,2,25,0&color=yellow|murphy2022, p.234]]
