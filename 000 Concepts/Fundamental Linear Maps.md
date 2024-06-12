@@ -111,7 +111,14 @@ Other useful properties:
 2) preserves lengths
 3) preserves area
 
-- 
+This is an example for a rotation matrix around the z axis
+$$\large
+\mathbf{R}(\alpha)=\left(\begin{array}{ccc}
+\cos (\alpha) & -\sin (\alpha) & 0 \\
+\sin (\alpha) & \cos (\alpha) & 0 \\
+0 & 0 & 1
+\end{array}\right)
+$$
 ## Symmetric Matrices
 
 $$\large\tag{4}

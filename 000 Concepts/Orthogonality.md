@@ -81,6 +81,9 @@ $$
 
 - It is important to note, that a different [[Inner Products|inner product]] will yield a different answer. So orthonormality is determined by the type of [[Inner Products|inner product]].
 
+## Noteworthy
+- The Gram-Schmidt Technique allows the conversion of every square matrix into an orthogonal materix [^2]. 
+
 # References
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=16&selection=220,10,221,68&color=yellow|Thomas2018, p.16]]
@@ -90,3 +93,4 @@ $$
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=269&selection=123,0,195,22&color=yellow|murphy2022, p.239]]
+[^2]: [[murphy2022.pdf#page=270&selection=105,11,106,56&color=yellow|murphy2022, p.240]]
