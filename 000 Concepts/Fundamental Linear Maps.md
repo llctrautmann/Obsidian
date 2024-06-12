@@ -10,7 +10,7 @@ series: Linear Algebra
 chapter: 2
 type: Concept
 link: https://gregorygundersen.com/blog/2018/10/24/matrices/
-modified: 2024-06-10
+modified: 2024-06-12
 aliases:
   - diagonal matrices
 ---
@@ -64,12 +64,9 @@ x_n
 \end{array}\right]
 $$
 
-Diagonal matrices are very nice, because they only have a limited range of possible consequences they can have. They can stretch or squeeze or reflect the original basis vectors by the scalars they have on the diagonal of the matrix. 
+Diagonal matrices are very nice, because they only have a limited range of possible consequences they can have. They can stretch or squeeze or reflect the original basis vectors by the scalars they have on the diagonal of the matrix [^1]. 
 
-> [!PDF|yellow] [[murphy2022.pdf#page=274&selection=12,0,43,1&color=yellow|murphy2022, p.244]]
-> > If we pre-multiply X by a diagonal matrix S = diag (s), where s is an N -vector, then we just scale each row of X by the corresponding scale factor in s:
-> 
-> In the Murphy book are good examples to see this. Also use a sheer matrix to easily verify behaviour. Depending on the order of the linear map/matrix  I scale the rows or the columns ($AB \neq BA$). 
+
 
 
 
@@ -141,3 +138,6 @@ Symmetric matrices have strong implications (-> [[Eigendecomposition]])
 
 ## Positive Semi-definite Matrices
 - [this is not completed]
+# Footnotes
+
+[^1]: [[murphy2022.pdf#page=274&selection=12,0,43,1&color=yellow|murphy2022, p.244]]
