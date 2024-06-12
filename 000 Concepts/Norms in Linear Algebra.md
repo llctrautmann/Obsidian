@@ -16,9 +16,10 @@ formula: "$\\|\\cdot\\|: V & \\rightarrow \\mathbb{R}$"
 aliases:
   - norm
   - norms
-modified: 2024-05-27
+modified: 2024-06-12
 ---
 # Norms in Linear Algebra
+## Definition
 A norm is a function onto the real line. Hence, a norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below. 
 
 
@@ -31,11 +32,13 @@ x & \mapsto\|x\|,
 \end{aligned}
 $$
 
-which assigns each vector $x$ its length $\|x\| \in \mathbb{R}$, such that for all $\lambda \in \mathbb{R}$ and $x, y \in V$ the following hold:
+## Conditions
+Norms assigns each vector $x$ its length $\|x\| \in \mathbb{R}$, such that for all $\lambda \in \mathbb{R}$ and $x, y \in V$ the following hold:
 
 - Absolutely homogeneous: $\|\lambda x\|=|\lambda|\|x\|$
 - [[Triangle inequality]]: $\|\boldsymbol{x}+\boldsymbol{y}\| \leqslant\|\boldsymbol{x}\|+\|\boldsymbol{y}\|$
-- Positive definite: $\|x\| \geqslant 0$ and $\|x\|=0 \Longleftrightarrow x=0$
+- Non-negativity: $\|x\| \geqslant 0$ 
+- Definiteness: $\|x\|=0 \Longleftrightarrow x=0$
 
 
 ## Common Norms
@@ -71,6 +74,10 @@ for all $\mathrm{x} \in V$. Therefore convergence in one norm implies convergenc
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=10&selection=104,0,105,72&color=yellow|Thomas2018, p.10]]
 > > One can verify that the axioms for metrics are satisfied under this definition and follow directly from the axioms for norms. Therefore any normed space is also a metric space.
+
+
+> [!PDF|yellow] [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]]
+> > A norm of a vector ‖x‖ is, informally, a measure of the “length” of the vector
 
 
 

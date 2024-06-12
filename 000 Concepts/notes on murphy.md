@@ -11,7 +11,7 @@ series: Linear Algebra
 type: 
 formula: 
 aliases: 
-modified: 2024-06-11
+modified: 2024-06-12
 ---
 # notes on murphy
 
@@ -64,6 +64,9 @@ modified: 2024-06-11
 
 > [!PDF|yellow] [[murphy2022.pdf#page=262&selection=140,0,147,1&color=yellow|murphy2022, p.232]]
 > > The span of the rows of A is the complement to the nullspace of A.
+
+> [!PDF|yellow] [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]]
+> > A norm of a vector ‖x‖ is, informally, a measure of the “length” of the vector
 
 
 
