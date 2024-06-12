@@ -11,7 +11,7 @@ series: Linear Algebra
 type: 
 formula: 
 aliases: 
-modified: 2024-06-10
+modified: 2024-06-12
 ---
 # Kronecker Product
 ## Definition
@@ -34,4 +34,11 @@ a_{m 1} b_{p 1} & a_{m 1} b_{p 2} & \cdots & a_{m 1} b_{p q} & \cdots & \cdots &
 $$
 
 ## Noteworthy
-- 
+- Here are some useful identities[^1]:
+$$\large\tag{1}
+\begin{aligned}
+(\mathbf{A} \otimes \mathbf{B})^{-1} & =\mathbf{A}^{-1} \otimes \mathbf{B}^{-1} \\
+(\mathbf{A} \otimes \mathbf{B}) \operatorname{vec}(\mathbf{C}) & =\operatorname{vec}\left(\mathbf{B C A ^ { \top } )}\right.
+\end{aligned}
+$$
+[^1]: vec(M) stacks the columns of M
