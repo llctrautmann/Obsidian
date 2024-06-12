@@ -66,8 +66,13 @@ $$
 
 Diagonal matrices are very nice, because they only have a limited range of possible consequences they can have. They can stretch or squeeze or reflect the original basis vectors by the scalars they have on the diagonal of the matrix [^1]. 
 
+## Tiangular Matrix
+- either upper triangular or lower triangular
+- useful property, that the eigenvalues are on the diagonal and that hence the [[Determinant]] is the product of the diagonal [[Eigenthings|eigenvalues]] [^2]. 
 
 
+## Positive Definite Matrices
+!![[Positive Definite Matrices|positive semi-definite]]
 
 
 ## Shear Matrices
@@ -93,26 +98,6 @@ A shear matrix moves the column with the off diagonal elements and hence shears 
 ![[shear.png]]
 
 
-## Transpose
-The transpose can generally be obtained by switching the rows and columns of a matrix. It is abbreviated with $\boldsymbol{A}^{\top}$. If $\boldsymbol{A}^{\top}= \boldsymbol{A}^{-\top}$ the matrix is __symmetric__. 
-
-$$
-\left(\mathbf{A}^{\top}\right)_{i j}=A_{j i}
-$$
-
-The general properties of the transpose are: 
-
-$$\large
-\begin{aligned}
-& \left(\mathbf{A}^{\top}\right)^{\top}=\mathbf{A} \\
-& (\mathbf{A}+\mathbf{B})^{\top}=\mathbf{A}^{\top}+\mathbf{B}^{\top} \\
-& (\alpha \mathbf{A})^{\top}=\alpha \mathbf{A}^{\top} \\
-& (\mathbf{A B})^{\top}=\mathbf{B}^{\top} \mathbf{A}^{\top}
-\end{aligned}
-$$
-
-
-
 ## Orthogonal Matrices
 ![[Orthogonality#Orthogonal Matrix|orthogonality]]
 
@@ -135,9 +120,27 @@ $$
 
 Symmetric matrices have strong implications (-> [[Eigendecomposition]])
 
+## Transpose
+The transpose can generally be obtained by switching the rows and columns of a matrix. It is abbreviated with $\boldsymbol{A}^{\top}$. If $\boldsymbol{A}^{\top}= \boldsymbol{A}^{-\top}$ the matrix is __symmetric__. 
 
-## Positive Semi-definite Matrices
-- [this is not completed]
+$$
+\left(\mathbf{A}^{\top}\right)_{i j}=A_{j i}
+$$
+
+The general properties of the transpose are: 
+
+$$\large
+\begin{aligned}
+& \left(\mathbf{A}^{\top}\right)^{\top}=\mathbf{A} \\
+& (\mathbf{A}+\mathbf{B})^{\top}=\mathbf{A}^{\top}+\mathbf{B}^{\top} \\
+& (\alpha \mathbf{A})^{\top}=\alpha \mathbf{A}^{\top} \\
+& (\mathbf{A B})^{\top}=\mathbf{B}^{\top} \mathbf{A}^{\top}
+\end{aligned}
+$$
+
+
+
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=274&selection=12,0,43,1&color=yellow|murphy2022, p.244]]
+[^2]: [[murphy2022.pdf#page=268&selection=22,0,41,1&color=yellow|murphy2022, p.238]]
