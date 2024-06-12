@@ -1,5 +1,5 @@
 ---
-modified: 2024-06-10
+modified: 2024-06-12
 ---
 # What are the two main operations for every vector space?
 
@@ -181,3 +181,10 @@ This finding challenges the notion of "zero-shot" generalization in multimodal m
 
 # What are the geometrics Characteristics of Orthogonal matrices?
 They are not able to stretch space, but they are preserving angles (due to inner products being preserved) and lengths (due to norms being preserved). All of this is the case because orthogonal matrices have the neat feature that their inverse is their transpose. 
+
+# What are the four conditions necessary for norms?
+- Absolutely homogeneous: $\|\lambda x\|=|\lambda|\|x\|$
+- [[Triangle inequality]]: $\|\boldsymbol{x}+\boldsymbol{y}\| \leqslant\|\boldsymbol{x}\|+\|\boldsymbol{y}\|$
+- Non-negativity: $\|x\| \geqslant 0$ 
+- Definiteness: $\|x\|=0 \Longleftrightarrow x=0$
+

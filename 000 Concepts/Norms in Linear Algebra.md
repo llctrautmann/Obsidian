@@ -67,6 +67,12 @@ $$
 $$
 for all $\mathrm{x} \in V$. Therefore convergence in one norm implies convergence in any other norm. This rule may not apply in infinite-dimensional vector spaces such as function spaces, though.
 
+## Matrix Norms
+Assume $f(x) = \mathbf{A}\mathbf{x}$ as we do normally. The norm of $\mathbf{A}$ is then the maximum amount that $\mathbf{A}$ can stretch any unit-norm input [1](murphy2022.pdf#page=263&selection=288,2,300,32&color=yellow|murphy2022, p.233).
+	- $\|\mathbf{A}\|_p=\max _{\boldsymbol{x} \neq 0} \frac{\|\mathbf{A} \boldsymbol{x}\|_p}{\|\boldsymbol{x}\|_p}=\max _{\|\boldsymbol{x}\|=1}\|\mathbf{A} \boldsymbol{x}\|_p$ 
+
+
+
 # References
 
 > ([[deisenroth2020.pdf#page=77&selection=203,0,205,37|deisenroth2020, p.71]])

@@ -68,6 +68,10 @@ modified: 2024-06-12
 > [!PDF|yellow] [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]]
 > > A norm of a vector ‖x‖ is, informally, a measure of the “length” of the vector
 
+> [!PDF|yellow] [[murphy2022.pdf#page=263&selection=288,2,300,32&color=yellow|murphy2022, p.233]]
+> > We define the induced norm of A as the maximum amount by which f can lengthen any unit-norm input
+> 
+> 
 
 
 
