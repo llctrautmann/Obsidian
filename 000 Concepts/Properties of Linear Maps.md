@@ -15,10 +15,13 @@ modified: 2024-06-12
 ---
 # Properties of Linear Maps
 ## Trace of a Sq Matrix
+- see [[Trace]]
 
 ## Determinant
+- see [[Determinant]]
 
 ## Rank of a Matrix
+The column rank of a matrix $\mathbf{A}$ is the dimension of the space spanned by its columns, and the row rank is the dimension of the space spanned by its rows
 
 ## Condition Number
 
