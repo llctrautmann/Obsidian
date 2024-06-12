@@ -20,7 +20,7 @@ modified: 2024-06-12
 ---
 # Norms in Linear Algebra
 ## Definition
-A norm is a function onto the real line. Hence, a norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below. 
+A norm is a function onto the real line. Hence, a norm is a special case of [[Linear Maps]] from a vector space $V$ onto $\mathbb{R}^1$. Norms are principally related to length in the special case of 2D Euclidean space [^4] (see: [[Generalised Euclidean Space]]). They are also closely related to [[Metrics]] as outlined below. 
 
 
 **Definition 3.1 (Norm)**. A norm on a vector space $V$ is a function
@@ -36,7 +36,7 @@ $$
 Norms assigns each vector $x$ its length $\|x\| \in \mathbb{R}$, such that for all $\lambda \in \mathbb{R}$ and $x, y \in V$ the following hold:
 
 - Absolutely homogeneous: $\|\lambda x\|=|\lambda|\|x\|$
-- [[Triangle inequality]]: $\|\boldsymbol{x}+\boldsymbol{y}\| \leqslant\|\boldsymbol{x}\|+\|\boldsymbol{y}\|$
+- [[Triangle inequality]]: $\|\boldsymbol{x}+\boldsymbol{y}\| \leqslant\|\boldsymbol{x}\|+\|\boldsymbol{y}\|$ [^2]
 - Non-negativity: $\|x\| \geqslant 0$ 
 - Definiteness: $\|x\|=0 \Longleftrightarrow x=0$
 
@@ -67,24 +67,20 @@ $$
 $$
 for all $\mathrm{x} \in V$. Therefore convergence in one norm implies convergence in any other norm. This rule may not apply in infinite-dimensional vector spaces such as function spaces, though.
 
+## Norms and Metrics
+The rules for norms and the rules for metrics are very close and hence any norm also induces a metric [^3]
+
 ## Matrix Norms
-Assume $f(x) = \mathbf{A}\mathbf{x}$ as we do normally. The norm of $\mathbf{A}$ is then the maximum amount that $\mathbf{A}$ can stretch any unit-norm input [1](murphy2022.pdf#page=263&selection=288,2,300,32&color=yellow|murphy2022, p.233).
+Assume $f(x) = \mathbf{A}\mathbf{x}$ as we do normally. The norm of $\mathbf{A}$ is then the maximum amount that $\mathbf{A}$ can stretch any unit-norm input[^1]. 
 	- $\|\mathbf{A}\|_p=\max _{\boldsymbol{x} \neq 0} \frac{\|\mathbf{A} \boldsymbol{x}\|_p}{\|\boldsymbol{x}\|_p}=\max _{\|\boldsymbol{x}\|=1}\|\mathbf{A} \boldsymbol{x}\|_p$ 
 
+In most cases I will encounter that $p=2$ which leads to the following specific norm: 
+	- $\|\mathbf{A}\|_2=\sqrt{\lambda_{\max }\left(\mathbf{A}^{\top} \mathbf{A}\right)}=\max _i \sigma_i$ with $\lambda_{max}(\mathbf{M})=\text{largest eigevalue of M}$ and $\sigma_{i}$ equal to the i-th singular value 
 
 
-# References
+# Footnotes
 
-> ([[deisenroth2020.pdf#page=77&selection=203,0,205,37|deisenroth2020, p.71]])
-> In geometric terms, the triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side; 
-
-> [!PDF|yellow] [[Thomas2018.pdf#page=10&selection=104,0,105,72&color=yellow|Thomas2018, p.10]]
-> > One can verify that the axioms for metrics are satisfied under this definition and follow directly from the axioms for norms. Therefore any normed space is also a metric space.
-
-
-> [!PDF|yellow] [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]]
-> > A norm of a vector ‖x‖ is, informally, a measure of the “length” of the vector
-
-
-
-Example:: [[Metrics]]
+[^1]: [[murphy2022.pdf#page=263&selection=288,2,300,32&color=yellow|murphy2022, p.233]] 
+[^2]: [[deisenroth2020.pdf#page=77&selection=203,0,205,37|deisenroth2020, p.71]] 
+[^3]: [[Thomas2018.pdf#page=10&selection=104,0,105,72&color=yellow|Thomas2018, p.10]] 
+[^4]: [[murphy2022.pdf#page=262&selection=360,0,370,55&color=yellow|murphy2022, p.232]] 
