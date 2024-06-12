@@ -13,19 +13,25 @@ formula:
 aliases:
   - orthogonality
   - orthogonal
-modified: 2024-06-10
+modified: 2024-06-12
 ---
 # Definition
 - Two vectors $\boldsymbol{x}, \boldsymbol{y} \in \mathbb{R}^n$ are orthogonal if $\boldsymbol{x}^{\top} \boldsymbol{y}=0$.
 - A vector $\boldsymbol{x} \in \mathbb{R}^n$ is normalized if $\|\boldsymbol{x}\|_2=1$. 
 - A set of vectors that is pairwise orthogonal and normalized is called orthonormal.
 - A square matrix $\mathrm{U} \in \mathbb{R}^{n \times n}$ is orthogonal if all its columns are orthonormal. (Note the different meaning of the term orthogonal when talking about vectors versus matrices.) 
-	- If the entries of $\mathbf{U}$ are complex valued, we use the term unitary instead of orthogonal.
+	- If the entries of $\mathbf{U}$ are complex valued, we use the term unitary instead of orthogonal.[^1]
+
+The main condition for any orthogonal matrix is $\mathbf{U}$ is orthonormal iff 
+
+$$\large\tag{1}
+\mathbf{U}^\top\mathbf{U}= \mathbf{I}=\mathbf{U}\mathbf{U}^\top
+$$
+
 
 
 # Angles
-## Purpose
-[[Inner Products|Inner products]] also introduce calculations of angles into vector spaces. 
+[[Inner Products|Inner products]] introduce calculations of angles into vector spaces. 
 
 $$\large\tag{1}
 \cos \omega=\frac{\langle\boldsymbol{x}, \boldsymbol{y}\rangle}{\|\boldsymbol{x}\|\|\boldsymbol{y}\|} .
@@ -35,6 +41,12 @@ This is deconstructed into:
 
 $$\large\tag{2}
 \cos \omega=\frac{\langle\boldsymbol{x}, \boldsymbol{y}\rangle}{\sqrt{\langle\boldsymbol{x}, \boldsymbol{x}\rangle\langle\boldsymbol{y}, \boldsymbol{y}\rangle}}
+$$
+
+Orthogonal matrics have the neat feature to preserve angles. 
+
+$$\large\tag{3}
+\cos (\alpha(\mathbf{U} x, \mathbf{U} y))=\frac{(\mathbf{U} x)^{\top}(\mathbf{U} y)}{\|\mathbf{U} x\| \mathbf{U} \boldsymbol{\|} \|}=\frac{\boldsymbol{x}^{\top} y}{\|x\|\|y \boldsymbol{d}\|}=\cos (\alpha(\boldsymbol{x}, \boldsymbol{y}))
 $$
 
 ## Orthogonality
@@ -75,3 +87,6 @@ $$
 > > multiplication by an orthogonal matrix can be considered as a transformation that preserves length, but may rotate or reflect the vector about the origin.
 > 
 > 
+# Footnotes
+
+[^1]: [[murphy2022.pdf#page=269&selection=123,0,195,22&color=yellow|murphy2022, p.239]]
