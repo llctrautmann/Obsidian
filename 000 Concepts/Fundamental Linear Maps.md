@@ -125,7 +125,7 @@ $$\large\tag{4}
 \mathbf{A} = \mathbf{A}^{\top}
 $$
 
-Symmetric matrices have strong implications (-> [[Eigendecomposition]])
+Symmetric matrices have strong implications (-> [[Eigenvalue decomposition|EVD]])
 
 ## Transpose
 The transpose can generally be obtained by switching the rows and columns of a matrix. It is abbreviated with $\boldsymbol{A}^{\top}$. If $\boldsymbol{A}^{\top}= \boldsymbol{A}^{-\top}$ the matrix is __symmetric__. 

@@ -10,8 +10,9 @@ series: Linear Algebra
 🍙: いや
 type: Process
 formula: 
-aliases: 
-modified: 2024-06-10
+aliases:
+  - EVD
+modified: 2024-06-12
 ---
 # Eigenvalue decomposition
 ## Basics

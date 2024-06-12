@@ -12,7 +12,7 @@ chapter: 0
 status: Complete
 type: Theorem
 🍙: いや
-formula: "$\\|\\cdot\\|: V & \\rightarrow \\mathbb{R}$"
+formula: $\|\cdot\|:V\rightarrow\mathbb{R}$
 aliases:
   - norm
   - norms
@@ -81,6 +81,8 @@ There are other norms for matrices:
 	- Nuclear norm[^5]
 	- Schatten norm [^6]
 	- Frobenius norm [^7]
+
+
 
 # Footnotes
 
