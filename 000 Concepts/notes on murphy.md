@@ -84,5 +84,8 @@ modified: 2024-06-12
 > [!PDF|yellow] [[murphy2022.pdf#page=264&selection=21,2,25,0&color=yellow|murphy2022, p.234]]
 > > If the vector norm is the 2-norm, the corresponding matrix norm is the Frobenius norm
 
-
+> [!PDF|yellow] [[murphy2022.pdf#page=264&selection=313,0,323,9&color=yellow|murphy2022, p.234]]
+> > From this, we can derive the trace trick, which rewrites the scalar inner product xTAx as follow
+> 
+> 
 

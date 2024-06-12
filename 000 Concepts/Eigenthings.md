@@ -14,7 +14,7 @@ formula: $$\mathbf{A}\mathbf{x}= \lambda \mathbf{x}$$
 aliases:
   - eigenvalues
   - eigenvectors
-modified: 2024-05-27
+modified: 2024-06-12
 ---
 # Eigenthings
 ## Description
@@ -29,7 +29,7 @@ $$
 
 So the eigenvalue is the scaling factor, while the eigenvector is the vector in the [vector space](Vector%20Spaces) that the [linear map](Linear%20Maps) $\mathbf{A}$ is applied to. 
 
-The thing to remember is, if we apply $\mathbf{A}$, the vector orientation is the same but the scale/length (think about $\mid\mid\cdot\mid\mid$ -> [norm](Norms%20in%20Linear%20Algebra) here) is not. 
+The thing to remember is, if we apply $\mathbf{A}$, the vector orientation is the same but the scale/length (think about $\mid\mid\cdot\mid\mid$ -> [norm](Norms%20in%20Linear%20Algebra) here) is not [^1]. 
 
 
 ## Properties
@@ -61,7 +61,9 @@ The rank of a [[Linear Maps|linear map]] $\mathbf{A}$ is equal to the number of 
 > [!PDF|yellow] [[Thomas2018.pdf#page=15&selection=49,0,64,25&color=yellow|Thomas2018, p.15]]
 > > For a square matrix A ∈ Rn×n, there may be vectors which, when A is applied to them, are **simply scaled by some constant**. 
 
-> [!PDF|yellow] [[murphy2022.pdf#page=282&selection=6,0,21,1&color=yellow|murphy2022, p.252]]
-> > Intuitively, this definition means that multiplying A by the vector u results in a new vector that points in the same direction as u, but is scaled by a factor λ.
+
 > 
-> seems to be the key, conceptually
+> 
+# Footnotes
+
+[^1]: [[murphy2022.pdf#page=282&selection=6,0,18,0&color=yellow|murphy2022, p.252]] 
