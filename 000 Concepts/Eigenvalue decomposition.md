@@ -23,21 +23,23 @@ modified: 2024-06-13
 		- Hence: $\large\mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})$
 - The trace of any symmetric matrix is the sum of its eigenvalues, the area of the determinant is the product of the eigenvalues. 
 - A common way to rewrite the principle formula is $\large\operatorname{det}(\lambda \mathbf{I}-\mathbf{A})=0$. This makes intuitive sense because we need to squeeze space for $\mathbf{A}$ to result in just scaling. 
-- For diagonal matrices the diagonal entries are the eigenvalues
-## Diagonalisation
+- For diagonal matrices the diagonal entries are the [[Eigenthings|eigenvalues]] [^2].
 
+## Diagonalisation
+$\large\mathbf{A}\mathbf{u} = \lambda \mathbf{u}$ needs to be extended to generalise to matrices[^4]. 
 
 $$\large\tag{1}
 \mathbf{A U}=\mathbf{U} \Lambda
 $$
 
 
-We can then diagonalise the matrix by multiplying with the inverse - which only exists if the eigenvectors are [[Vector Independence|independent]]. 
+We can then diagonalise the matrix by multiplying with the inverse - which only exists if the eigenvectors are [[Vector Independence|independent]]. A matrix that can be written in this form is called diagonalisable [^3]. 
+
 $$\large\tag{2}
 \mathbf{A}=\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{-1}
 $$
 
-A matrix that can be written in this form is called diagonalisable. 
+
 
 ## Eigenvalues and eigenvectors of symmetric matrices
 - Assuming $\mathbf{A}$ is real and symmetrical
@@ -88,3 +90,6 @@ This is a placeholder. [^1]
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=284&selection=259,0,278,8&color=yellow|murphy2022, p.254]] 
+[^2]: [[murphy2022.pdf#page=282&selection=318,0,318,81&color=yellow|murphy2022, p.252]]
+[^3]: [[murphy2022.pdf#page=283&selection=84,0,107,1&color=yellow|murphy2022, p.253]] 
+[^4]: Note: [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] for more information on the order of the matrices. 
