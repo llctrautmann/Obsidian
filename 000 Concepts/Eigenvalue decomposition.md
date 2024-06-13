@@ -33,7 +33,7 @@ $$\large\tag{1}
 $$
 
 
-We can then diagonalise the matrix by multiplying with the inverse - which only exists if the eigenvectors are [[Vector Independence|independent]]. A matrix that can be written in this form is called diagonalisable [^3]. 
+We can then diagonalise the matrix [^5] by multiplying with the inverse - which only exists if the eigenvectors are [[Vector Independence|independent]]. A matrix that can be written in this form is called diagonalisable [^3]. 
 
 $$\large\tag{2}
 \mathbf{A}=\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{-1}
@@ -48,11 +48,12 @@ $$
 		- Note that matrices are [[linear maps]] or functions and hence we read them from right to left. So applying $\mathbf{A}$ is equal to a rotation matrix (this follows from the norm preservation of orthogonal matrices), scaling, and another rotation. 
 
 $$\large\tag{3}
-\mathbf{A}=\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{\top}=\left(\begin{array}{cccc}
+\begin{aligned}
+\mathbf{A} & =\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{\top}=\left(\begin{array}{cccc}
 \mid & \mid & & \mid \\
 \boldsymbol{u}_1 & \boldsymbol{u}_2 & \cdots & \boldsymbol{u}_n \\
 \mid & \mid & & \mid
-\end{array}\right)\left(\begin{array}{llll}
+\end{array}\right)\left(\begin{array}{cccc}
 \lambda_1 & & & \\
 & \lambda_2 & & \\
 & & \ddots & \\
@@ -62,8 +63,24 @@ $$\large\tag{3}
 - & \boldsymbol{u}_2^{\top} & - \\
 & \vdots & \\
 - & \boldsymbol{u}_n^{\top} & -
-\end{array}\right)
+\end{array}\right) \\
+& =\lambda_1\left(\begin{array}{c}
+\mid \\
+u_1 \\
+\mid
+\end{array}\right)\left(\begin{array}{lll}
+- & \boldsymbol{u}_1^{\top} & -
+\end{array}\right)+\cdots+\lambda_n\left(\begin{array}{c}
+\mid \\
+u_n \\
+\mid
+\end{array}\right)\left(\begin{array}{llll}
+- & \boldsymbol{u}_n^{\top} & -
+\end{array}\right)=\sum_{i=1}^n \lambda_i \boldsymbol{u}_i u_i^{\top}
+\end{aligned}
 $$
+
+
 
 
 ### Checking for positive definiteness
@@ -93,3 +110,4 @@ This is a placeholder. [^1]
 [^2]: [[murphy2022.pdf#page=282&selection=318,0,318,81&color=yellow|murphy2022, p.252]]
 [^3]: [[murphy2022.pdf#page=283&selection=84,0,107,1&color=yellow|murphy2022, p.253]] 
 [^4]: Note: [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] for more information on the order of the matrices. 
+[^5]: Note: Multiply by the inverse on both sides
