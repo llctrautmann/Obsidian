@@ -21,7 +21,11 @@ modified: 2024-06-13
 	- The principle intuition behind [[Eigenthings|EVD]] is the observation that some vectors point in the same direction as before (but possibly scaled) when transformed by a [[Linear Maps|linear map]]. 
 	- Eigenvalues are infinitely scalable by a scalar, so $c\mathbf{u}$ is also an eigenvector. 
 		- Hence: $\large\mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})$
+- The trace of any symmetric matrix is the sum of its eigenvalues, the area of the determinant is the product of the eigenvalues. 
+- A common way to rewrite the principle formula is $\large\operatorname{det}(\lambda \mathbf{I}-\mathbf{A})=0$. This makes intuitive sense because we need to squeeze space for $\mathbf{A}$ to result in just scaling. 
+- For diagonal matrices the diagonal entries are the eigenvalues
 ## Diagonalisation
+
 
 $$\large\tag{1}
 \mathbf{A U}=\mathbf{U} \Lambda
