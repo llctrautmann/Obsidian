@@ -12,11 +12,15 @@ type: Process
 formula: 
 aliases:
   - EVD
-modified: 2024-06-12
+modified: 2024-06-13
 ---
 # Eigenvalue decomposition
 ## Basics
-
+- EVD is a technique to decompose **square** matrices
+- The principle formula is $\large\mathbf{A}\mathbf{u} = \lambda \mathbf{u}$ 
+	- The principle intuition behind [[Eigenthings|EVD]] is the observation that some vectors point in the same direction as before (but possibly scaled) when transformed by a [[Linear Maps|linear map]]. 
+	- Eigenvalues are infinitely scalable by a scalar, so $c\mathbf{u}$ is also an eigenvector. 
+		- Hence: $\large\mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})$
 ## Diagonalisation
 
 $$\large\tag{1}
@@ -63,6 +67,8 @@ $$
 
 ## Standardizing and whitening data
 
+This[^1]
+
 ## Power method
 
 ## Deflation
@@ -75,5 +81,6 @@ $$
 
 > [!PDF|yellow] [[murphy2022.pdf#page=283&selection=367,0,381,1&color=yellow|murphy2022, p.253]]
 > > Thus multiplying by any symmetric matrix A can be interpreted as multiplying by a rotation matrix $U^T$, a scaling matrix $Λ$, followed by an inverse rotation $U$.
+# Footnotes
 
-
+[^1]: [[murphy2022.pdf#page=284&selection=259,0,278,8&color=yellow|murphy2022, p.254]] 
