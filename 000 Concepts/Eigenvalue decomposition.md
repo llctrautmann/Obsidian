@@ -38,7 +38,7 @@ A matrix that can be written in this form is called diagonalisable.
 ## Eigenvalues and eigenvectors of symmetric matrices
 - Assuming $\mathbf{A}$ is real and symmetrical
 	- The eigenvector matrices are also orthonormal:
-		- i.e., $\boldsymbol{u}_i^1 \boldsymbol{u}_j=0$ if $i \neq j$, and $\boldsymbol{u}_i^{\top} \boldsymbol{u}_i=1$, where $\boldsymbol{u}_i$ are the eigenvectors.
+		- i.e., $\boldsymbol{u}_i^\top \boldsymbol{u}_j=0$ if $i \neq j$, and $\boldsymbol{u}_i^{\top} \boldsymbol{u}_i=1$, where $\boldsymbol{u}_i$ are the eigenvectors.
 		- Note that matrices are [[linear maps]] or functions and hence we read them from right to left. So applying $\mathbf{A}$ is equal to a rotation matrix (this follows from the norm preservation of orthogonal matrices), scaling, and another rotation. 
 
 $$\large\tag{3}
@@ -67,7 +67,7 @@ $$
 
 ## Standardizing and whitening data
 
-This[^1]
+This is a placeholder. [^1]
 
 ## Power method
 
