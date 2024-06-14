@@ -25,37 +25,28 @@ Certainly! Here is the entire breakdown of the power method using $ signs to del
 	- We can express $\boldsymbol{v}_{(0)}$ as a linear combination of the eigenvectors of $\mathbf{A}$:
 	   - $\boldsymbol{v}_0 = a_1 \boldsymbol{u}_1 + a_2 \boldsymbol{u}_2 + \cdots + a_m \boldsymbol{u}_m$
 	   - where $a_i$ are some constants.
-
 3. **Applying $\mathbf{A}$ to $\boldsymbol{v}_0$**:
-- When we apply $\mathbf{A}$ to $\boldsymbol{v}_0$, we use the linearity of matrix multiplication:
-	- $\mathbf{A} \boldsymbol{v}_0 = \mathbf{A} (a_1 \boldsymbol{u}_1 + a_2 \boldsymbol{u}_2 + \cdots + a_m \boldsymbol{u}_m)$
-- By the distributive property of matrix multiplication, this becomes:
-	 - $\mathbf{A} \boldsymbol{v}_0 = a_1 \mathbf{A} \boldsymbol{u}_1 + a_2 \mathbf{A} \boldsymbol{u}_2 + \cdots + a_m \mathbf{A} \boldsymbol{u}_m$
-	
-4. **Substitution Using the Eigenvalue Equation**:
-- Using the eigenvalue equation $\mathbf{A} \boldsymbol{u}_i = \lambda_i \boldsymbol{u}_i$, we substitute $\mathbf{A} \boldsymbol{u}_i$ with $\lambda_i \boldsymbol{u}_i$:
+	- When we apply $\mathbf{A}$ to $\boldsymbol{v}_0$, we use the linearity of matrix multiplication:
+		- $\mathbf{A} \boldsymbol{v}_0 = \mathbf{A} (a_1 \boldsymbol{u}_1 + a_2 \boldsymbol{u}_2 + \cdots + a_m \boldsymbol{u}_m)$
+	- By the distributive property of matrix multiplication, this becomes:
+		 - $\mathbf{A} \boldsymbol{v}_0 = a_1 \mathbf{A} \boldsymbol{u}_1 + a_2 \mathbf{A} \boldsymbol{u}_2 + \cdots + a_m \mathbf{A} \boldsymbol{u}_m$
+1. **Substitution Using the Eigenvalue Equation**:
+	- Using the eigenvalue equation $\mathbf{A} \boldsymbol{u}_i = \lambda_i \boldsymbol{u}_i$, we substitute $\mathbf{A} \boldsymbol{u}_i$ with $\lambda_i \boldsymbol{u}_i$:
 	- $\mathbf{A} \boldsymbol{v}_0 = a_1 \lambda_1 \boldsymbol{u}_1 + a_2 \lambda_2 \boldsymbol{u}_2 + \cdots + a_m \lambda_m \boldsymbol{u}_m$
-
-5. **Iterative Multiplication and Renormalization**:
+2. **Iterative Multiplication and Renormalization**:
 	- We repeatedly multiply $\boldsymbol{v}$ by $\mathbf{A}$ and renormalize at each step for numerical stability:
 		- $\boldsymbol{v}_t \propto \mathbf{A} \boldsymbol{v}_{t-1}$
 	- Since $\boldsymbol{v}_t$ is a multiple of $\mathbf{A}^t \boldsymbol{v}_0$, we have:
 		- $\boldsymbol{v}_t \propto \mathbf{A}^t \boldsymbol{v}_0$
-
-6. **Expression in Terms of Eigenvectors and Eigenvalues**:
-- Expanding $\mathbf{A}^t \boldsymbol{v}_0$ in terms of the eigenvectors and eigenvalues:
-	 - $\boldsymbol{v}_t \propto a_1 \lambda_1^t \boldsymbol{u}_1 + a_2 \lambda_2^t \boldsymbol{u}_2 + \cdots + a_m \lambda_m^t \boldsymbol{u}_m$
-- Factoring out $\lambda_1^t$:
-     \[
-     \boldsymbol{v}_t \propto \lambda_1^t \left( a_1 \boldsymbol{u}_1 + a_2 \left(\frac{\lambda_2}{\lambda_1}\right)^t \boldsymbol{u}_2 + \cdots + a_m \left(\frac{\lambda_m}{\lambda_1}\right)^t \boldsymbol{u}_m \right)
-     \]
-
-7. **Convergence to the Dominant Eigenvector**:
-   - As $t$ increases, $\left(\frac{\lambda_i}{\lambda_1}\right)^t$ for $i \geq 2$ will approach zero because $|\lambda_i| < |\lambda_1|$.
-   - Therefore, the terms involving $\boldsymbol{u}_2, \boldsymbol{u}_3, \ldots, \boldsymbol{u}_m$ will diminish, leaving:
-     \[
-     \boldsymbol{v}_t \rightarrow \lambda_1^t a_1 \boldsymbol{u}_1
-     \]
+3. **Expression in Terms of Eigenvectors and Eigenvalues**:
+	- Expanding $\mathbf{A}^t \boldsymbol{v}_0$ in terms of the eigenvectors and eigenvalues:
+		 - $\boldsymbol{v}_t \propto a_1 \lambda_1^t \boldsymbol{u}_1 + a_2 \lambda_2^t \boldsymbol{u}_2 + \cdots + a_m \lambda_m^t \boldsymbol{u}_m$
+	- Factoring out $\lambda_1^t$:
+		- $\boldsymbol{v}_t \propto \lambda_1^t \left( a_1 \boldsymbol{u}_1 + a_2 \left(\frac{\lambda_2}{\lambda_1}\right)^t \boldsymbol{u}_2 + \cdots + a_m \left(\frac{\lambda_m}{\lambda_1}\right)^t \boldsymbol{u}_m \right)$
+1. **Convergence to the Dominant Eigenvector**:
+	- As $t$ increases, $\left(\frac{\lambda_i}{\lambda_1}\right)^t$ for $i \geq 2$ will approach zero because $|\lambda_i| < |\lambda_1|$.
+	- Therefore, the terms involving $\boldsymbol{u}_2, \boldsymbol{u}_3, \ldots, \boldsymbol{u}_m$ will diminish, leaving:
+		 $\boldsymbol{v}_t \rightarrow \lambda_1^t a_1 \boldsymbol{u}_1$
 
 By normalizing at each step, $\boldsymbol{v}_t$ converges to the dominant eigenvector $\boldsymbol{u}_1$.
 
