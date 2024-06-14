@@ -81,12 +81,15 @@ u_n \\
 $$
 
 
-
+- Rotating, unscaling and rotating back [^6]. 
 
 
 
 ### Checking for positive definiteness
-
+To check for semi-definiteness 
+$$\large\tag{4}
+\boldsymbol{x}^{\top} \mathbf{A} \boldsymbol{x}=\boldsymbol{x}^{\top} \mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{\top} \boldsymbol{x}=\boldsymbol{y}^{\top} \boldsymbol{\Lambda} \boldsymbol{y}=\sum_{i=1}^n \lambda_i y_i^2
+$$
 
 ## Geometry of quadratic forms
 
@@ -113,3 +116,4 @@ This is a placeholder. [^1]
 [^3]: [[murphy2022.pdf#page=283&selection=84,0,107,1&color=yellow|murphy2022, p.253]] 
 [^4]: Note: [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] for more information on the order of the matrices. 
 [^5]: Note: Multiply by the inverse on both sides
+[^6]: [[murphy2022.pdf#page=283&selection=436,0,436,64&color=yellow|murphy2022, p.253]] 
