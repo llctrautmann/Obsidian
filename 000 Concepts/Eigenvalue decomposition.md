@@ -123,7 +123,16 @@ which is the equation of a 2d ellipse. The eigenvectors determine the orientatio
 
 This is a placeholder. [^1]
 
+# Methodology
 ## Power method
+The power method is a iterative algorithm for computing the eigenvectors corresponding to the largest eigenvalue of a real, symmetric matrix [^9]. 
+
+
+
+
+
+
+
 
 ## Deflation
 
@@ -144,4 +153,5 @@ This is a placeholder. [^1]
 [^5]: Note: Multiply by the inverse on both sides
 [^6]: [[murphy2022.pdf#page=283&selection=436,0,436,64&color=yellow|murphy2022, p.253]] 
 [^7]: [[murphy2022.pdf#page=283&selection=490,3,502,3&color=yellow|murphy2022, p.253]] 
-[^8]: ![[Geometry_Quadratic_Form.png]]
+[^8]: [[Geometry_Quadratic_Form.png]]
+[^9]: [[murphy2022.pdf#page=286&selection=24,0,29,37&color=yellow|murphy2022, p.256]]
