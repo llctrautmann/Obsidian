@@ -127,7 +127,7 @@ This is a placeholder. [^1]
 ## Power method
 The power method is a iterative algorithm for computing the eigenvectors corresponding to the largest eigenvalue of a real, symmetric matrix [^9]. 
 
-
+o
 
 
 
