@@ -130,8 +130,9 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 1. Let $\mathbf{A}$ be a matrix with orthonormal [[Eigenthings|eigenvectors]] $u_i$ and eigenvalues $\left|\lambda_1\right|>\left|\lambda_2\right| \geq \cdots \geq\left|\lambda_m\right| \geq 0$.
 	1. Then we know: $\mathbf{A} =\mathbf{U} \boldsymbol{\Lambda} \mathbf{U}^{\top}$ 
 2. Let $v_{(0)}$ be a vector in the [[Range|column space]] $\mathbf{A}\mathbf{x}= \mathbf{v_{(0)}}$
-3. I can rewrite this as: $\boldsymbol{v}_0=\mathbf{U}\left(\boldsymbol{\Lambda U}^{\top} \boldsymbol{x}\right)=a_1 \boldsymbol{u}_1+\cdots+a_m \boldsymbol{u}_m$ 
-
+3. I can rewrite this as: $\Large \boldsymbol{v}_0=\overbrace{\mathbf{U}\left(\boldsymbol{\Lambda U}^{\top} \boldsymbol{x}\right)}^{A x}=a_1 \boldsymbol{u}_1+\cdots+a_m \boldsymbol{u}_m$ [^10] 
+4. We iteratively multiply $v$ by $\mathbf{A}$ and renormalise
+	1. $\large v_t \propto A v_{t-1}$ 
 
 
 
@@ -158,3 +159,4 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 [^7]: [[murphy2022.pdf#page=283&selection=490,3,502,3&color=yellow|murphy2022, p.253]] 
 [^8]: [[Geometry_Quadratic_Form.png]]
 [^9]: [[murphy2022.pdf#page=286&selection=24,0,29,37&color=yellow|murphy2022, p.256]]
+[^10]: Note: This is first [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] and then vector matrix multiplication 
