@@ -127,7 +127,8 @@ This is a placeholder. [^1]
 ## Power method
 The power method is a iterative algorithm for computing the eigenvectors corresponding to the largest eigenvalue of a real, symmetric matrix [^9]. 
 
-o
+1. Let $\mathbf{A}$ be a matrix with orthonormal [[Eigenthings|eigenvectors]] $u_i$ and eigenvalues $\left|\lambda_1\right|>\left|\lambda_2\right| \geq \cdots \geq\left|\lambda_m\right| \geq 0$.
+	1. Then we know: 
 
 
 
