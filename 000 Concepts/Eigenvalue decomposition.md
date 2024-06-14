@@ -12,7 +12,7 @@ type: Process
 formula: 
 aliases:
   - EVD
-modified: 2024-06-13
+modified: 2024-06-14
 ---
 # Eigenvalue decomposition
 ## Basics
@@ -76,9 +76,11 @@ u_n \\
 \mid
 \end{array}\right)\left(\begin{array}{llll}
 - & \boldsymbol{u}_n^{\top} & -
-\end{array}\right)=\sum_{i=1}^n \lambda_i \boldsymbol{u}_i u_i^{\top}
+\end{array}\right)=\sum_{i=1}^n \lambda_i \mathbf{u}_i \mathbf{u}_i^{\top}
 \end{aligned}
 $$
+
+
 
 
 
