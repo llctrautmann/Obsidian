@@ -12,7 +12,7 @@ type: Process
 formula: 
 aliases:
   - EVD
-modified: 2024-06-14
+modified: 2024-06-15
 ---
 # Eigenvalue decomposition
 ## Basics
@@ -134,7 +134,7 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 4. We iteratively multiply $v$ by $\mathbf{A}$ and renormalise
 	1. $\large v_t \propto A v_{t-1}$ 
 
-
+5. When convergence has been reached: stop [^11]
 
 
 
@@ -160,3 +160,4 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 [^8]: [[Geometry_Quadratic_Form.png]]
 [^9]: [[murphy2022.pdf#page=286&selection=24,0,29,37&color=yellow|murphy2022, p.256]]
 [^10]: Note: This is first [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] and then vector matrix multiplication 
+[^11]: [[]]
