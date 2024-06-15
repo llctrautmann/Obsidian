@@ -54,6 +54,7 @@ $$ \large\tag{3}
 \mathbf{A}^{\top} \mathbf{A}=\mathbf{V S}^{\top} \mathbf{U}^{\top} \mathbf{U S} \mathbf{V}^{\top}=\mathbf{V}\left(\mathbf{S}^{\top} \mathbf{S}\right) \mathbf{V}^{\top}
 $$
 
+$$\mathbf{V}\mathbf{D}=\mathbf{V}\Lambda$$
 
 # Footnotes
 
