@@ -56,8 +56,11 @@ $$
 
 $$\mathbf{V}\mathbf{D}=\mathbf{V}\Lambda$$
 
+
+The [[Eigenthings|eigenvalues]] of $\mathbf{A}^{\top}\mathbf{A}$ are always the squares singular values $\mathbf{S}^{\top} \mathbf{S}$ [^4]. 
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=288&selection=212,0,217,69&color=yellow|murphy2022, p.258]] 
 [^2]: [[murphy2022.pdf#page=288&selection=21,0,103,60&color=yellow|murphy2022, p.258]] 
 [^3]: [[murphy2022.pdf#page=288&selection=145,53,172,1&color=yellow|murphy2022, p.258]] 
+[^4]: [[murphy2022.pdf#page=288&selection=294,0,322,1&color=yellow|murphy2022, p.258]] 
