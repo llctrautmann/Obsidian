@@ -136,9 +136,19 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 
 5. When convergence has been reached: stop [^11]
 
+This method finds the scaled version of the most dominant eigenvector. To obtain the corresponding eigenvalue $\lambda_{i}$ the Rayleigh coefficient is used:
 
+$$\large\tag{8} 
+R(\mathbf{A}, x) \triangleq \frac{x^{\top} \mathbf{A} x}{x^{\top} x}
+$$
+
+Hence
+$$\large\tag{9} 
+R\left(\mathbf{A}, \boldsymbol{u}_i\right)=\frac{\boldsymbol{u}_i^{\top} \mathbf{A} \boldsymbol{u}_i}{\boldsymbol{u}_i^{\top} \boldsymbol{u}_i}=\frac{\lambda_i \boldsymbol{u}_i^{\top} \boldsymbol{u}_i}{\boldsymbol{u}_i^{\top} \boldsymbol{u}_i}=\lambda_i
+$$
 
 ## Deflation
+Deflation allows the remaining eigenvalues and eigenvectors to be discovered. Fundamentally, the matrix gets projected into a lower dimensional space where the first eigenvalue and eigenvector are removed. 
 
 ## Eigenvectors optimize quadratic forms
 
@@ -160,4 +170,4 @@ The power method is a iterative algorithm for computing the eigenvectors corresp
 [^8]: [[Geometry_Quadratic_Form.png]]
 [^9]: [[murphy2022.pdf#page=286&selection=24,0,29,37&color=yellow|murphy2022, p.256]]
 [^10]: Note: This is first [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] and then vector matrix multiplication 
-[^11]: [[]]
+[^11]: Note: Full breakdown here -> [[power method appendix]]
