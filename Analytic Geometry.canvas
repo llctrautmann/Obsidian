@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"c1d11822c9e4a440","x":-2488,"y":1198,"width":400,"height":400,"type":"file","file":"000 Concepts/Eigenvalue decomposition.md"},
 		{"id":"28fdfbb3e04ea34b","type":"file","file":"000 Concepts/Eigenthings.md","x":-2080,"y":360,"width":400,"height":240},
 		{"id":"e96470e4f8268f0c","type":"file","file":"000 Concepts/Determinant.md","x":-2780,"y":220,"width":280,"height":200},
 		{"id":"44b08ad453d82d5e","type":"file","file":"000 Concepts/Trace.md","x":-2780,"y":640,"width":280,"height":200},
@@ -12,10 +13,11 @@
 		{"id":"79a8e7084530996d","type":"file","file":"000 Concepts/Linear Maps.md","x":-1240,"y":600,"width":414,"height":240},
 		{"id":"26f76e80c3037591","type":"file","file":"000 Concepts/Morphisms in Linear Algebra.md","x":80,"y":440,"width":400,"height":400},
 		{"id":"e1ac037747634e5d","type":"file","file":"000 Concepts/Groups.md","x":80,"y":920,"width":400,"height":400},
-		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-2067,"y":820,"width":258,"height":200},
 		{"id":"a84c0829853c3162","type":"file","file":"000 Concepts/Matrix-Matrix Multiplication.md","x":-961,"y":1000,"width":407,"height":240},
 		{"id":"146f570145562e48","type":"file","file":"000 Concepts/Representations of Linear Maps.md","x":-1404,"y":1000,"width":329,"height":240},
-		{"id":"a8f48b0264406ff5","x":259,"y":-1017,"width":400,"height":400,"type":"file","file":"000 Concepts/Orthogonality.md"}
+		{"id":"a8f48b0264406ff5","type":"file","file":"000 Concepts/Orthogonality.md","x":259,"y":-1017,"width":400,"height":400},
+		{"id":"b55e8bb155a5a804","x":535,"y":-126,"width":250,"height":60,"type":"text","text":""},
+		{"id":"db2299864aa862ee","type":"file","file":"000 Concepts/Matrix Inversion.md","x":-1738,"y":900,"width":258,"height":200}
 	],
 	"edges":[
 		{"id":"5cb579b232cfa2ef","fromNode":"efcfadd87ea26734","fromSide":"left","toNode":"26daa85f9e82b129","toSide":"right","label":"Induces"},
@@ -34,6 +36,7 @@
 		{"id":"671e5f8e9840b004","fromNode":"e1ac037747634e5d","fromSide":"left","toNode":"79a8e7084530996d","toSide":"right","label":"explain"},
 		{"id":"e8761a4e21a56f89","fromNode":"146f570145562e48","fromSide":"right","toNode":"a84c0829853c3162","toSide":"left","toEnd":"none"},
 		{"id":"214755c35c7eb92e","fromNode":"79a8e7084530996d","fromSide":"right","toNode":"a84c0829853c3162","toSide":"top","toEnd":"none"},
-		{"id":"8db84f4c4cb31e44","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"a8f48b0264406ff5","toSide":"left"}
+		{"id":"8db84f4c4cb31e44","fromNode":"7855a26c5ca05a38","fromSide":"right","toNode":"a8f48b0264406ff5","toSide":"left"},
+		{"id":"9c968b2d65eee565","fromNode":"28fdfbb3e04ea34b","fromSide":"bottom","toNode":"c1d11822c9e4a440","toSide":"top"}
 	]
 }
