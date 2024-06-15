@@ -44,9 +44,16 @@ There is a less computationally intensive thin SVD[^3].
 
 ## Connecting EVD and SVD
 If $\mathbf{A}$ is real, symmetric and positive-definite, SVD is equal to EVD [^1]. 
+
 $$ \large\tag{2}
 \mathbf{A}=\mathbf{U S V}^{\top}=\mathbf{U S U}^{\top}=\mathbf{U S U}^{-1}
 $$
+In the more general case I do not get this results but instead
+
+$$ \large\tag{3}
+\mathbf{A}^{\top} \mathbf{A}=\mathbf{V S}^{\top} \mathbf{U}^{\top} \mathbf{U S} \mathbf{V}^{\top}=\mathbf{V}\left(\mathbf{S}^{\top} \mathbf{S}\right) \mathbf{V}^{\top}
+$$
+
 
 # Footnotes
 
