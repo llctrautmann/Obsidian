@@ -148,18 +148,29 @@ R\left(\mathbf{A}, \boldsymbol{u}_i\right)=\frac{\boldsymbol{u}_i^{\top} \mathbf
 $$
 
 ## Deflation
-Deflation allows the remaining eigenvalues and eigenvectors to be discovered. Fundamentally, the matrix gets projected into a lower dimensional space where the first eigenvalue and eigenvector are removed. 
+Deflation allows the remaining eigenvalues and eigenvectors to be discovered. Fundamentally, the matrix gets projected into a lower dimensional space where the first eigenvalue and eigenvector are removed [^12]. 
+
+$$\large\tag{10} 
+\mathbf{A}^{(2)}=\left(\mathbf{I}-\boldsymbol{u}_1 \boldsymbol{u}_1^{\top}\right) \mathbf{A}^{(1)}=\mathbf{A}^{(1)}-\boldsymbol{u}_1 \boldsymbol{u}_1^{\top} \mathbf{A}^{(1)}=\mathbf{A}^{(1)}-\lambda_1 \boldsymbol{u}_1 \boldsymbol{u}_1^{\top}
+$$
 
 ## Eigenvectors optimize quadratic forms
+We can use matrix calculus to solve an optimization problem in a way that leads directly to eigenvalue/eigenvector analysis. Consider the following, equality constrained optimization problem:
+$$
+\max _{x \in \mathbb{R}^n} \boldsymbol{x}^{\top} \mathbf{A} x \quad \text { subject to }\|x\|_2^2=1
+$$
+for a symmetric matrix $\mathbf{A} \in \mathbb{S}^n$. A standard way of solving optimization problems with equality constraints is by forming the Lagrangian, an objective function that includes the equality constraints (see Section 8.5.1). The Lagrangian in this case can be given by
+$$
+\mathcal{L}(\boldsymbol{x}, \lambda)=\boldsymbol{x}^{\top} \mathbf{A} \boldsymbol{x}+\lambda\left(1-\boldsymbol{x}^{\top} \boldsymbol{x}\right)
+$$
+where $\lambda$ is called the Lagrange multiplier associated with the equality constraint. It can be established that for $x^*$ to be a optimal point to the problem, the gradient of the Lagrangian has to be zero at $x^*$ (this is not the only condition, but it is required). That is,
+$$
+\nabla_x \mathcal{L}(x, \lambda)=2 \mathbf{A}^{\top} x-2 \lambda x=0 .
+$$
 
-# References
-> [!PDF|yellow] [[murphy2022.pdf#page=283&selection=113,0,120,11&color=yellow|murphy2022, p.253]]
-> > When A is real and symmetric, it can be shown that all the eigenvalues are real, and the eigenvectors are orthonormal
+Notice that this is just the linear equation $\mathrm{A} \boldsymbol{x}=\lambda \boldsymbol{x}$. This shows that the only points which can possibly maximize (or minimize) $\boldsymbol{x}^{\top} \mathbf{A} \boldsymbol{x}$ assuming $\boldsymbol{x}^{\top} \boldsymbol{x}=1$ are the cigenvectors of $\mathbf{A}$.
 
-> [!PDF|yellow] [[murphy2022.pdf#page=283&selection=367,0,381,1&color=yellow|murphy2022, p.253]]
-> > Thus multiplying by any symmetric matrix A can be interpreted as multiplying by a rotation matrix $U^T$, a scaling matrix $Λ$, followed by an inverse rotation $U$.
 # Footnotes
-
 [^1]: [[murphy2022.pdf#page=284&selection=259,0,278,8&color=yellow|murphy2022, p.254]] 
 [^2]: [[murphy2022.pdf#page=282&selection=318,0,318,81&color=yellow|murphy2022, p.252]]
 [^3]: [[murphy2022.pdf#page=283&selection=84,0,107,1&color=yellow|murphy2022, p.253]] 
@@ -171,3 +182,4 @@ Deflation allows the remaining eigenvalues and eigenvectors to be discovered. Fu
 [^9]: [[murphy2022.pdf#page=286&selection=24,0,29,37&color=yellow|murphy2022, p.256]]
 [^10]: Note: This is first [[Matrix-Matrix Multiplication#Outer-Products (Scaling)]] and then vector matrix multiplication 
 [^11]: Note: Full breakdown here -> [[power method appendix]]
+[^12]: [[murphy2022.pdf#page=287&selection=18,59,24,36&color=yellow|murphy2022, p.257]] 
