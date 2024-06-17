@@ -54,8 +54,14 @@ $$
 
 - In case of a vector function the gradient describes a **vector field**, for scalar functions a **scalar field**
 ## Directional Derivatives
+The directional derivative is the change of a unit vector when moving along the function. It is the inner product between the gradient and the unit vector [^5]. 
 
+$$ \large\tag{4}
+D_v f(\boldsymbol{x})=\nabla f(\boldsymbol{x}) \cdot \boldsymbol{v}
+$$
+- $\boldsymbol{v}$ is the normalised[^6] vector. 
 ## Total Derivatives
+- The total derivative gives me the rate of change for composite functions that both depend on a variable (such as time) [^7]. 
 
 ## [[Jacobian]]
 ### Jacobians and vectors
@@ -76,3 +82,6 @@ $$
 [^2]: [[murphy2022.pdf#page=297&selection=282,28,285,1&color=yellow|murphy2022, p.267]] 
 [^3]: [[murphy2022.pdf#page=298&selection=141,2,166,47&color=yellow|murphy2022, p.268]]
 [^4]: $f:\mathbb{R}^n\rightarrow \mathbb{R}$
+[^5]: [[murphy2022.pdf#page=299&selection=26,0,37,1&color=yellow|murphy2022, p.269]]
+[^6]: Note: Normalisation Formula: $\mathbf{u}=\frac{\mathbf{v}}{\|\mathbf{v}\|}=\left(\frac{v_1}{\sqrt{\sum_{i=1}^n v_i^2}}, \frac{v_2}{\sqrt{\sum_{i=1}^n v_i^2}}, \ldots, \frac{v_n}{\sqrt{\sum_{i=1}^n v_i^2}}\right)$
+[^7]: [[murphy2022.pdf#page=299&selection=63,0,63,18&color=yellow|murphy2022, p.269]] 
