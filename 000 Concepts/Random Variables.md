@@ -1,11 +1,17 @@
 ---
 title: Random Variables
-date: 19-05-2023
+date:
+  - 19-05-2023
 time: 16:55
 author: Luca Trautmann
-tags: ["Mathematics"]
-series: "Probability Theory"
+tags:
+  - Mathematics
+series: Probability Theory
 chapter: 2
+modified: 2024-06-17
+formula: 
+Docstring:
+  - A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
 ---
 > [!Summary]+
 > A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
@@ -62,7 +68,3 @@ Instead of singular events having occurring with a probability, intervals over r
 
 Probability distributions for continuous random variables are described using probability density functions (PDFs, [[Density Functions]]), which represent the likelihood of a variable taking on a specific value. The area under the PDF curve represents the probability of the variable being within a certain range of values.
 
-## Code
-For an interactive notebook open:
-```shell
-open -a Visual\ Studio\ Code /Users/luca/Desktop/ML/ScriptsML/notebooks/Random_Variable.ipynb
