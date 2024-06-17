@@ -32,8 +32,22 @@ $$
 
 ## Gradients
 
+## Directional Derivatives
+
+## Total Derivatives
+
+## [[Jacobian]]
+### Jacobians and vectors
+### Jacobian of a composition
 
 
+
+
+
+
+
+
+## Hessian 
 
 # Footnotes
 
