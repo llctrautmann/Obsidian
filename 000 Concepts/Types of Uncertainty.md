@@ -28,4 +28,4 @@ modified: 2024-06-17
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=63&selection=43,0,46,28&color=yellow|murphy2022, p.33]] 
-[^2]: [[murphy2022.pdf#page=64&selection=13,3,32,63&color=yellow|murphy2022, p.34]]
+[^2]: [[murphy2022.pdf#page=64&selection=13,3,32,63&color=yellow|murphy2022, p.34]] 
