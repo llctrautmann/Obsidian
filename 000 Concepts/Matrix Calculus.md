@@ -10,7 +10,12 @@ series: Linear Algebra
 🍙: いや
 type: 
 formula: 
-aliases: 
+aliases:
+  - gradient
+  - Gradient
+  - Derivatives
+  - derivative
+  - o
 modified: 2024-06-17
 ---
 - [ ] _Expand this secttion with [[parr2018.pdf]]_ 
@@ -33,17 +38,21 @@ $$
 ## Gradients
 Gradients are the extension of the derivative to vector functions [^4]. The gradient is then just the set of partial derivatives stacked. 
 
-$$ \large\tag{}
+$$ \large\tag{2}
 \frac{\partial f}{\partial x_i}=\lim _{h \rightarrow 0} \frac{f\left(\boldsymbol{x}+h \boldsymbol{e}_i\right)-f(\boldsymbol{x})}{h}
 $$
+- $\mathbf{e}_{i}$ is the basis vector 
 
-$$ \large\tag{2} 
+This results in the $\large\nabla$: 
+$$ \large\tag{3} 
 \boldsymbol{g}=\frac{\partial f}{\partial \boldsymbol{x}}=\nabla f=\left(\begin{array}{c}
 \frac{\partial f}{\partial x_1} \\
 \vdots \\
 \frac{\partial f}{\partial x_n}
 \end{array}\right)
 $$
+
+- In case of a vector function the gradient describes a **vector field**, for scalar functions a **scalar field**
 ## Directional Derivatives
 
 ## Total Derivatives
