@@ -44,10 +44,13 @@ $$
 
 In this case, $\mathbf{A}^{\dagger}$ is a right inverse of $\mathbf{A}$.
 We can compute the pseudo inverse using the SVD decomposition $\mathbf{A}=$ USV $^{\top}$. In particular, one can show that
+
 $$\large
 \mathbf{A}^{\dagger}=\mathbf{V}\left[\operatorname{diag}\left(1 / \sigma_1, \cdots, 1 / \sigma_r, 0, \cdots, 0\right)\right] \mathbf{U}^{\top}=\mathbf{V S}^{-1} \mathbf{U}^{\top}
 $$
+
 where $r$ is the rank of the matrix, and where we define $\mathbf{S}^{-1}=\operatorname{diag}\left(\sigma_1^{-1}, \ldots, \sigma_r^{-1}, 0, \ldots, 0\right)$. Indeed if the matrices were square and full rank we would have
+
 $$
 \left(\mathbf{U S V}^{\top}\right)^{-1}=\mathbf{V S}^{-1} \mathbf{U}^{\top}
 $$
