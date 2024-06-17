@@ -31,7 +31,19 @@ $$
 	- Leibnitz notation: $\frac{d y}{d x}$ 
 
 ## Gradients
+Gradients are the extension of the derivative to vector functions [^4]. The gradient is then just the set of partial derivatives stacked. 
 
+$$ \large\tag{}
+\frac{\partial f}{\partial x_i}=\lim _{h \rightarrow 0} \frac{f\left(\boldsymbol{x}+h \boldsymbol{e}_i\right)-f(\boldsymbol{x})}{h}
+$$
+
+$$ \large\tag{2} 
+\boldsymbol{g}=\frac{\partial f}{\partial \boldsymbol{x}}=\nabla f=\left(\begin{array}{c}
+\frac{\partial f}{\partial x_1} \\
+\vdots \\
+\frac{\partial f}{\partial x_n}
+\end{array}\right)
+$$
 ## Directional Derivatives
 
 ## Total Derivatives
@@ -54,3 +66,4 @@ $$
 [^1]: [[murphy2022.pdf#page=297&selection=210,0,216,41&color=yellow|murphy2022, p.267]] 
 [^2]: [[murphy2022.pdf#page=297&selection=282,28,285,1&color=yellow|murphy2022, p.267]] 
 [^3]: [[murphy2022.pdf#page=298&selection=141,2,166,47&color=yellow|murphy2022, p.268]]
+[^4]: $f:\mathbb{R}^n\rightarrow \mathbb{R}$
