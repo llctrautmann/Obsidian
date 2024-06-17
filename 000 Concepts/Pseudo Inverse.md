@@ -9,7 +9,7 @@ tags:
 series: Linear Algebra
 🍙: いや
 type: 
-formula: 
+formula: $\mathbf{A} \mathbf{A}^{\dagger} \mathbf{A}=\mathbf{A}, \mathbf{A}^{\dagger} \mathbf{A} \mathbf{A}^{\dagger}=\mathbf{A}^{\dagger},\left(\mathbf{A} \mathbf{A}^{\dagger}\right)^{\top}=\mathbf{A} \mathbf{A}^{\dagger},\left(\mathbf{A}^{\dagger} \mathbf{A}\right)^{\top}=\mathbf{A}^{\dagger} \mathbf{A}$
 aliases: 
 modified: 2024-06-17
 ---

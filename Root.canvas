@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"65326c2eb6e549ef","type":"file","file":"003 Utils/log.md","x":100,"y":-860,"width":867,"height":664},
-		{"id":"4611e932b1de8665","type":"file","file":"Review/2024/Reflections.md","x":-1000,"y":-860,"width":840,"height":664},
-		{"id":"b23a9d6af62a950d","type":"file","file":"Archive/Posts/Mos Majorum in Bitcoin.md","x":-1760,"y":-1380,"width":680,"height":400},
-		{"id":"a3837527fbc9eaec","type":"text","text":"What is the Roll of Collateral in the future? ","x":-1880,"y":-720,"width":400,"height":240},
-		{"id":"08779cb570f63efc","type":"file","file":"Analytic Geometry.canvas","x":1520,"y":-1520,"width":400,"height":400}
+		{"id":"65326c2eb6e549ef","type":"file","file":"003 Utils/log.md","x":0,"y":-1265,"width":1477,"height":1069},
+		{"id":"4611e932b1de8665","type":"file","file":"Review/2024/Reflections.md","x":-1683,"y":-1265,"width":1523,"height":1083},
+		{"id":"08779cb570f63efc","type":"file","file":"Analytic Geometry.canvas","x":398,"y":-2434,"width":682,"height":644},
+		{"id":"b23a9d6af62a950d","type":"file","file":"Archive/Posts/Mos Majorum in Bitcoin.md","x":-1538,"y":-2442,"width":1233,"height":652},
+		{"id":"a3837527fbc9eaec","type":"text","text":"What is the Roll of Collateral in the future? ","x":-3280,"y":-1096,"width":885,"height":731}
 	],
 	"edges":[
-		{"id":"01d5c80faea9abf1","fromNode":"4611e932b1de8665","fromSide":"top","toNode":"b23a9d6af62a950d","toSide":"right","label":"Blogging"},
+		{"id":"01d5c80faea9abf1","fromNode":"4611e932b1de8665","fromSide":"top","toNode":"b23a9d6af62a950d","toSide":"bottom","label":"Blogging"},
 		{"id":"5a139827901f38a8","fromNode":"4611e932b1de8665","fromSide":"left","toNode":"a3837527fbc9eaec","toSide":"right","label":"Thought"},
-		{"id":"cf305b8c926899a3","fromNode":"65326c2eb6e549ef","fromSide":"right","toNode":"08779cb570f63efc","toSide":"bottom","label":"work"}
+		{"id":"cf305b8c926899a3","fromNode":"65326c2eb6e549ef","fromSide":"top","toNode":"08779cb570f63efc","toSide":"bottom","label":"Linear Algebra"}
 	]
 }
