@@ -8,37 +8,12 @@ tags:
   - ML
 series: Probability Theory
 chapter: 5
-modified: 2024-05-18
+modified: 2024-06-18
 formula: $P(H|D, B) = \frac{P(H|B)\times P(D|H,B)}{P(D|B)}$
 ---
-
-- [[#Bayes Theorem|Bayes Theorem]]
-	- [[#Bayes Theorem#Mathematical Notation|Mathematical Notation]]
-	- [[#Bayes Theorem#Terminology|Terminology]]
-	- [[#Bayes Theorem#Conceptual Explanation|Conceptual Explanation]]
-	- [[#Bayes Theorem#Prior|Prior]]
-	- [[#Bayes Theorem#Likelihood|Likelihood]]
-	- [[#Bayes Theorem#Marginal Likelihood|Marginal Likelihood]]
-	- [[#Bayes Theorem#Posterior|Posterior]]
-- [[#Detailed Derivation for me|Detailed Derivation for me]]
-	- [[#Detailed Derivation for me#What I needed to understand|What I needed to understand]]
-		- [[#What I needed to understand#Mathematically|Mathematically]]
-		- [[#What I needed to understand#Conceptually|Conceptually]]
-		- [[#What I needed to understand#Law of Total Probability|Law of Total Probability]]
-
-
->[!Rule]+
->$$P(H|D, B) = \frac{P(H|B)\times P(D|H,B)}{P(D|B)}$$
->Where: 
-> - H is the Hypothesis, D is the Evidence/Data and B is the general backgound information
-> - B need not to be necessarily included in the formula (as it is contained in all terms)
-# Bayes Theorem
-
-## Mathematical Notation
+# Terminology
 
 >$$P(H|D, B) = \frac{P(H|B)\times P(D|H,B)}{P(D|B)}$$
-
-## Terminology
 
 - $P(H|D,B)$ is the posterior
 - $P(H|B)$ is the prior

@@ -1,7 +1,9 @@
 {
 	"nodes":[
+		{"id":"47fcd3a3f2de5b84","x":-48,"y":-1055,"width":400,"height":400,"type":"file","file":"000 Concepts/Bayes Theorem.md"},
 		{"id":"9c06d72b8683e0cd","x":-780,"y":-620,"width":400,"height":400,"type":"file","file":"000 Concepts/Density Functions.md"},
-		{"id":"0e507aa352ebb763","x":-120,"y":-620,"width":480,"height":400,"type":"file","file":"000 Concepts/Random Variables.md"}
+		{"id":"0e507aa352ebb763","x":-120,"y":-620,"width":480,"height":400,"type":"file","file":"000 Concepts/Random Variables.md"},
+		{"id":"d15e4670d2261520","x":420,"y":-1100,"width":230,"height":80,"color":"1","type":"text","text":"Distributions"}
 	],
 	"edges":[
 		{"id":"77c310605d466229","fromNode":"0e507aa352ebb763","fromSide":"left","toNode":"9c06d72b8683e0cd","toSide":"right","label":"visualises"}
