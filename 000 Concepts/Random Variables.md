@@ -61,9 +61,10 @@ For the PMF to be valid, two conditions need to be fulfilled.
 
 
 ## Continuous Random Variable
-If the sample space is not finite and countable the random variable will be continuous it will be called a <mark style="background: #FFB8EBA6;">continuous random variable</mark>. This will change the calculations from summations ($\sum$) to integration under the curve ($\int$) to get the corresponding probabilities.
+- If the sample space is not finite and countable the random variable will be continuous it will be called a <mark style="background: #FFB8EBA6;">continuous random variable</mark>. 
+	- This will change the calculations from summations ($\sum$) to integration under the curve ($\int$) to get the corresponding probabilities.
 
-Instead of singular events having occurring with a probability, intervals over ranges of values determine the probability. The probability for a specific value to occur is always 0.
+- Instead of singular events having occurring with a probability, intervals over ranges of values determine the probability. The probability for a specific value to occur is always 0.
 
-Probability distributions for continuous random variables are described using probability density functions (PDFs, [[Density Functions]]), which represent the likelihood of a variable taking on a specific value. The area under the PDF curve represents the probability of the variable being within a certain range of values.
+- Probability distributions for continuous random variables are described using probability density functions (PDFs, [[Density Functions]]), which represent the likelihood of a variable taking on a specific value. The area under the PDF curve represents the probability of the variable being within a certain range of values.
 
