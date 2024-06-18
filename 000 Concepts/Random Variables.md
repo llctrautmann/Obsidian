@@ -8,17 +8,16 @@ tags:
   - Mathematics
 series: Probability Theory
 chapter: 2
-modified: 2024-06-17
+modified: 2024-06-18
 formula: 
 Docstring:
   - A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
 ---
-> [!Summary]+
-> A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
 
-A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities. Random variables can be discrete or continuous, depending on whether their possible values are countable or uncountable. 
-
-They are used to model real-world phenomena such as the outcomes of dice rolls, the heights of individuals in a population, or the number of customers in a store. Random variables are fundamental to statistical modeling and inference, and are used to calculate probabilities, expected values, and other statistical measures that describe and predict the behavior of a random process or experiment.
+# Definition
+- A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. 
+- It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities. 
+- Random variables can be discrete or continuous, depending on whether their possible values are countable or uncountable. 
 
 For example $x = 7$ is not a random variable. However, the outcome of a dice roll is a random variable (i.e. it contains randomness and is not fixed). All the possible outcomes of the random variable are called the sample space. A random variable can take any value in the sample space. All the possibilites in the sample space are events (e.g. for a dice roll, the dice can land in 6 positions, hence there are six events):
 $$S = \{1,2,3,4,5,6\}$$
