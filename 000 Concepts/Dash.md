@@ -7,7 +7,7 @@ modified: 2024-06-18
 searchType: frontmatter
 searchTarget: visualSymptoms, otherSymptoms, mood, stress
 folder: /Review/2024/daily
-startDate: 2024-04-25
+startDate: 2024-05-01
 endDate: 2024-07-25
 aspectRatio: 21:9
 fitPanelWidth: True
