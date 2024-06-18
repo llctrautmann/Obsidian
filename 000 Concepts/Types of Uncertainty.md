@@ -11,7 +11,7 @@ series: Probability Theory
 type: 
 formula: "> Probability theory is nothing but common sense reduced to calculation. — Pierre Laplace, 1812"
 aliases: 
-modified: 2024-06-17
+modified: 2024-06-18
 ---
 > ([[murphy2022.pdf#page=63&selection=48,34,48,87&color=yellow|murphy2022, p.33]])
 >  Thou you shall therefore adopt the Bayesian interpretation - God 
