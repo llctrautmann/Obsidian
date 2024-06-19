@@ -8,16 +8,10 @@ tags:
 series: Probability Theory
 chapter: 0
 link: https://betanalpha.github.io/assets/case_studies/probability_theory.html
-modified: 2024-04-16
+modified: 2024-06-19
 ---
 
-> [!Chapters]-
-> ```dataview
-> TABLE chapter as Chapter
-> FROM "concepts"
-> WHERE (series = this.series AND chapter = this.chapter + 1) OR (series = this.series AND chapter = this.chapter - 1)
-> SORT chapter asc
-> ```
+
 
 # Notes on Probability Theory
 # Setting a Foundation
@@ -98,7 +92,7 @@ The intersection of any set and the empty set is just the empty set, $A \cup \em
 # Sigma Algebras
 The collection of all sets in a space, X, is called the <mark style="background: #FFB8EBA6;">power set</mark>. If the space X is well-behaved, the number of sets can still contain pathological sets. Hence we usually do not consider the entire power set but only a restricted version of the set. For the restrictions to be valid it needs to follow some guiding principles.
 
-For example, if a set $\mathbf{A}$ is in our restriction then We want its complement $A^C$ to also be in our restriction. If $A_1$ and $A_2$ are in our restriction then we also want the restriction to contain the union, $A_1 \cup A_2$, and the intersection, $A_1 \cup A_2$. In fact we often will need our restrictions to be closed under a countably infinite, or countable, number of unions or intersections. More precisely, given a countable collection of sets, $\left\{\mathrm{A}_1, \mathrm{~A}_2, \ldots\right\}$ we want both the countable union.
+For example, if a set $\mathbf{A}$ is in our restriction then We want its complement $A^C$ to also be in our restriction. If $A_1$ and $A_2$ are in our restriction then we also want the restriction to contain the union, $A_1 \cup A_2$, and the intersection, $A_1 \cap A_2$. In fact we often will need our restrictions to be closed under a countably infinite, or countable, number of unions or intersections. More precisely, given a countable collection of sets, $\left\{\mathrm{A}_1, \mathrm{~A}_2, \ldots\right\}$ we want both the countable union.
 $$
 \mathrm{U}_{\mathrm{n}=1}^{\infty} \mathrm{A}_{\mathrm{n}}
 $$
@@ -223,4 +217,3 @@ __In summary:__
 - Another good reference can be found here [[@park2019]].
 
 
-https://mattermost.sussexai.org/signup_user_complete/?id=63o8iddiff8cpxdxo6rb6serbh&md=link&sbr=sa
