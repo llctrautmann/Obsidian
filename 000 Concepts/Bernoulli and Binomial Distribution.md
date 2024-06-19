@@ -10,7 +10,8 @@ series: Probability Theory
 🍙: いや
 type: 
 formula: $\operatorname{Ber}(y \mid \theta) \triangleq \theta^y(1-\theta)^{1-y}$
-aliases: 
+aliases:
+  - binomial
 modified: 2024-06-19
 ---
 # Definition
@@ -29,7 +30,7 @@ $$
 $$ \large\tag{4}
 \operatorname{Bin}(s \mid N, \theta) \triangleq\binom{N}{s} \theta^s(1-\theta)^{N-s}
 $$
-where
+where the binomial coefficent[^3] is: 
 $$ \large\tag{5}
 \binom{N}{k} \triangleq \frac{N!}{(N-k)!k!}
 $$
@@ -39,3 +40,4 @@ $$
 
 [^1]: [[murphy2022.pdf#page=79&selection=109,0,113,20&color=yellow|murphy2022, p.49]]
 [^2]: [[murphy2022.pdf#page=80&selection=180,0,240,38&color=yellow|murphy2022, p.50]]
+[^3]: [[murphy2022.pdf#page=80&selection=270,0,305,0&color=yellow|murphy2022, p.50]]
