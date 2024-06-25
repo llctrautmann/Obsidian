@@ -25,10 +25,36 @@ modified: 2024-06-25
 
 
 ## Entropy for discrete random variables
+For a [[Random Variables|random variable]] $X$ with $K$ states, entropy is defined as:
 
 $$ \large\tag{1}
 \mathbb{H}(X) \triangleq-\sum_{k=1}^K p(X=k) \log _2 p(X=k)=-\mathbb{E}_X[\log p(X)]
 $$
+
+- usually $log_{2}$-base is used and units are called bits [^2]
+- for base $e$ the units are called nats
+- maximum entropy is achieved with the [[uniform distribution]]
+- Estimating the entropy of a random variable with many possible states, like the identity of a word in an English document, is challenging due to the need for extensive data to account for rare and newly invented words.
+	- There exist solutions but its not an easy task
+\
+## Cross Entropy
+
+
+## Joint Entropy
+
+
+## Conditional Entropy
+
+
+## Perplexity
+
+
+
+
+
+ 
 # Footnotes
 
+
 [^1]: [[murphy2022.pdf#page=236&selection=139,0,140,61&color=yellow|murphy2022, p.206]]
+[^2]: [[murphy2022.pdf#page=235&selection=175,4,178,1&color=yellow|murphy2022, p.205]]

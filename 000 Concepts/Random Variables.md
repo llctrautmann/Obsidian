@@ -8,10 +8,12 @@ tags:
   - Mathematics
 series: Probability Theory
 chapter: 2
-modified: 2024-06-18
+modified: 2024-06-25
 formula: 
 Docstring:
   - A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
+aliases:
+  - random variable
 ---
 
 # Definition
