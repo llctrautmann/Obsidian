@@ -59,4 +59,4 @@ Consider you are transmitting messages using a certain coding scheme. You believ
 - **Graphical Representation:** Imagine plotting the probability distributions \( p \) and \( q \) on a graph. The KL divergence quantifies the area between the two distributions, representing the "distance" from \( p \) to \( q \).
 
 ### Conclusion
-The KL divergence is a fundamental concept in information theory, originating from Shannon's work on entropy and coding. It provides a quantitative measure of the difference between two probability distributions, with extensive applications in data compression, machine learning, and statistical inference. Understanding its origins and derivation helps in appreciating its role in various domains.
+The KL divergence is a fundamental concept in information theory, originating from Shannon's work on entropy and coding. It provides a quantitative measure of the difference between two probability distributions, with extensive applications in data compression, machine learning, and statistical inference. Understanding its origins and derivation helps in appreciating its role in various domains.*****
