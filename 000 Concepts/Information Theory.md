@@ -11,7 +11,7 @@ series: Information Theory
 type: 
 formula: 
 aliases: 
-modified: 2024-06-25
+modified: 2024-06-26
 ---
 # Information Theory
 ## Entropy
@@ -38,7 +38,9 @@ $$
 	- There exist solutions but its not an easy task
 \
 ## Cross Entropy
-
+- Cross entropy is a measure that relates two different probability distributions
+	- $\mathbb{H}_{c e}(p, q) \triangleq-\sum_{k=1}^K p_k \log q_k$
+	- One can show that the cross entropy is the expected number of bits needed to compress some data samples drawn from distribution p using a code based on distribution q [^3]. 
 
 ## Joint Entropy
 
@@ -48,7 +50,9 @@ $$
 
 ## Perplexity
 
-
+$$
+\text { perplexity }(p) \triangleq 2^{\mathbb{H}(p)}
+$$
 
 
 
@@ -58,3 +62,4 @@ $$
 
 [^1]: [[murphy2022.pdf#page=236&selection=139,0,140,61&color=yellow|murphy2022, p.206]]
 [^2]: [[murphy2022.pdf#page=235&selection=175,4,178,1&color=yellow|murphy2022, p.205]]
+[^3]: [[murphy2022.pdf#page=237&selection=251,0,259,1&color=yellow|murphy2022, p.207]]
