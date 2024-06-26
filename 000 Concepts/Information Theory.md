@@ -44,12 +44,21 @@ $$
 
 ## Joint Entropy
 
-
+$$ \large\tag{2}
+\mathbb{H}(X, Y)=-\sum_{x, y} p(x, y) \log _2 p(x, y)
+$$
+- we can always say that $\mathbb{H}(X, Y) \geq \max \{\mathbb{H}(X), \mathbb{H}(Y)\} \geq 0$
+- Intuitively this says combining variables together does not make the entropy go down: you cannot reduce uncertainty merely by adding more unknowns to the problem, 
 ## Conditional Entropy
+- Conditional entropy is similar to conditional probabilities; it is the amount of uncertainty left after we have observed some other random variable. 
+- its the same principle as outlined in [[Interactions between Random Variables]]; 
+	- *I take the uncertainty of two RV as subtract the entropy of the one that is known.*  
+	- $\mathbb{H}(X, Y)-\mathbb{H}(X)$
+	- There is a chain rule for entropy, more here: [[murphy2022.pdf#page=238&selection=380,0,380,19&color=yellow|murphy2022, p.208]]
 
 
 ## Perplexity
-
+Perpelexity is a measure of predictability [^4]. This I will also intentionally exculde here and come back to if necessary
 $$
 \text { perplexity }(p) \triangleq 2^{\mathbb{H}(p)}
 $$
@@ -63,3 +72,4 @@ $$
 [^1]: [[murphy2022.pdf#page=236&selection=139,0,140,61&color=yellow|murphy2022, p.206]]
 [^2]: [[murphy2022.pdf#page=235&selection=175,4,178,1&color=yellow|murphy2022, p.205]]
 [^3]: [[murphy2022.pdf#page=237&selection=251,0,259,1&color=yellow|murphy2022, p.207]]
+[^4]: [[murphy2022.pdf#page=239&selection=180,0,181,0&color=yellow|murphy2022, p.209]]
