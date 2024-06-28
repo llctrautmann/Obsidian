@@ -12,7 +12,7 @@ series: Linear Algebra
 type: Process
 formula: 
 aliases: 
-modified: 2024-06-09
+modified: 2024-06-28
 ---
 # Matrix-Matrix Multiplication
 The product of two matrices $\mathbf{A} \in \mathbb{R}^{m \times n}$ and $\mathbf{B} \in \mathbb{R}^{n \times p}$ is the matrix
@@ -66,7 +66,8 @@ with the outer product $a_i b_i^{\top}$ defined as:
 $$\mathbf{u} \otimes \mathbf{v}=\mathbf{u v}^{\top}=\left[\begin{array}{l}u_1 \\ u_2 \\ u_3 \\ u_4\end{array}\right]\left[\begin{array}{lll}v_1 & v_2 & v_3\end{array}\right]=\left[\begin{array}{lll}u_1 v_1 & u_1 v_2 & u_1 v_3 \\ u_2 v_1 & u_2 v_2 & u_2 v_3 \\ u_3 v_1 & u_3 v_2 & u_3 v_3 \\ u_4 v_1 & u_4 v_2 & u_4 v_3\end{array}\right]$$
 
 - This is relevant to understand why $\mathbf{AU} =\mathbf{U\Lambda}$ is the correct arrangement for [[Eigenvalue decomposition]]. 
-- I think this is also very intuitive: [The key here is to understand that under thing interpretation, we basically scale the columns of A by the value in B]
+- I think this is also very intuitive: 
+	- [The key here is to understand that under thing interpretation, we basically scale the columns of A by the value in B]
 - lets take $\left[\begin{array}{ll}2 & 4 \\ 3 & 1\end{array}\right]\left[\begin{array}{ll}\lambda_1 & 0 \\ 0 & \lambda_2\end{array}\right]$ as an example: Phonetically we can see this as $\lambda_{1}$ times the first column and zero times the second column + zero times the first column and $\lambda_{2}$-times the second column. 
 - This is the favourite interpretation of G. Strang from the MIT Course
 - It also highlights why [[Fundamental Linear Maps|diagonal matrices]] are just scaling matrices, we just scale each column with the indexed value on the diagonal matrix and each other column defaults to zero. 
