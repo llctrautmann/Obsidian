@@ -23,8 +23,22 @@ $$ \large\tag{1}
 p(y) \triangleq \frac{d}{d y} P(y)
 $$
 
+Given a pdf, we can compute the probability of a continuous variable being in a finite interval as follows:
+$$ \large\tag{2}
+\operatorname{Pr}(a<Y \leq b)=\int_a^b p(y) d y=P(b)-P(a)
+$$
+
+
+
+
+
+
+
+
+
+
 The pdf of the Gaussian is given by
 
-$$\large\tag{2}
+$$\large\tag{3}
 \mathcal{N}\left(y \mid \mu, \sigma^2\right) \triangleq \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{1}{2 \sigma^2}(y-\mu)^2}
 $$

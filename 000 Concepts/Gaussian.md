@@ -28,7 +28,7 @@ $$\large\tag{2}
 \mathcal{N}\left(y \mid \mu, \sigma^2\right) \triangleq \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{1}{2 \sigma^2}(y-\mu)^2}
 $$
 
-[[Probability Density Function|PDF]] and [[Cumulative distribution function|CDF]] describes the
+[[Probability Density Function|PDF]] and [[Cumulative distribution function|CDF]] describes the relationship and differences between the two 
 # Footnotes
 
 [^1]: Let P(y) be defined as the probability that the random variable Y is less than or equal to y
