@@ -14,6 +14,7 @@ Docstring:
   - A random variable is a mathematical concept used in probability theory and statistics to represent the outcomes of a random process or experiment. It is a variable whose value is determined by chance, and can take on a range of possible values with different probabilities.
 aliases:
   - random variable
+  - RVs
 ---
 
 # Definition
