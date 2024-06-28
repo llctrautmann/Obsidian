@@ -34,6 +34,12 @@ $$
 \end{array}\right)
 \end{aligned}
 $$
+
+
+## Noteworthy
+- From the definition follows that: $\mathbb{E}\left[ \mathbf{x}\mathbf{x}^{\top} \right]= \mathbf{\Sigma} +\mathbf{\mu} \mathbf{\mu}^{\top}$ 
+- The covariance of a linear transformation is: $\operatorname{Cov}[\mathbf{A x}+\boldsymbol{b}]=\mathbf{A} \operatorname{Cov}[\boldsymbol{x}] \mathbf{A}^{\top}$
+- The cross-covariance between $\boldsymbol{x}$ and $\boldsymbol{y}$ is defined as: $\operatorname{Cov}[\boldsymbol{x}, \boldsymbol{y}]=\mathbb{E}\left[(\boldsymbol{x}-\mathbb{E}[\boldsymbol{x}])(\boldsymbol{y}-\mathbb{E}[\boldsymbol{y}])^{\top}\right]$ 
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=107&selection=15,0,39,9&color=yellow|murphy2022, p.77]]
