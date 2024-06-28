@@ -29,6 +29,16 @@ $$\large\tag{2}
 $$
 
 [[Probability Density Function|PDF]] and [[Cumulative distribution function|CDF]] describes the relationship and differences between the two 
+
+## The Multivariate Gaussian (normal) Distribution
+### Definition
+$$ \large\tag{1}
+\mathcal{N}(\boldsymbol{y} \mid \boldsymbol{\mu}, \boldsymbol{\Sigma}) \triangleq \frac{1}{(2 \pi)^{D / 2}|\boldsymbol{\Sigma}|^{1 / 2}} \exp \left[-\frac{1}{2}(\boldsymbol{y}-\boldsymbol{\mu})^{\top} \boldsymbol{\Sigma}^{-1}(\boldsymbol{y}-\boldsymbol{\mu})\right]
+$$
+
+
+
+
 # Footnotes
 
 [^1]: Let P(y) be defined as the probability that the random variable Y is less than or equal to y
