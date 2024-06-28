@@ -1,8 +1,8 @@
 ---
-title: Joint Distributions
+title: Correlation
 date:
   - 28-06-2024
-time: 11:43
+time: 16:31
 author: Luca Trautmann
 tags:
   - ProbTheory
@@ -14,8 +14,4 @@ formula:
 aliases: 
 modified: 2024-06-28
 ---
-# Joint Distributions
-## Covariance
-
-## Correlation
-
+# Correlation
