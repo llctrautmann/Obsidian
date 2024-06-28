@@ -12,12 +12,13 @@
 		{"id":"6c70485de035fdb4","type":"file","file":"000 Concepts/Independence in Probability Theory.md","x":440,"y":-1340,"width":400,"height":400},
 		{"id":"e48d96a2bd6b7244","x":440,"y":-880,"width":400,"height":400,"type":"file","file":"000 Concepts/Interactions between Random Variables.md"},
 		{"id":"8e29943214182040","x":440,"y":-420,"width":400,"height":400,"type":"file","file":"000 Concepts/Moments of a Distribution.md"},
-		{"id":"d24719bd38f675af","x":560,"y":-2520,"width":400,"height":400,"type":"file","file":"000 Concepts/Notes on Probability Theory.md"},
 		{"id":"2682b6068e64cb67","x":-880,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Random Variables.md"},
 		{"id":"69e515c6ccff39db","x":-440,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Properties of Expectations.md"},
 		{"id":"50e93ad5969a7f30","x":0,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Sampling from a Distribution.md"},
 		{"id":"262b7b9805632cf6","x":450,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Types of Uncertainty.md"},
-		{"id":"cceb3a3e3aef248e","x":1120,"y":-2040,"width":400,"height":400,"type":"file","file":"Analytic Geometry.canvas"}
+		{"id":"cceb3a3e3aef248e","x":1120,"y":-2040,"width":400,"height":400,"type":"file","file":"Analytic Geometry.canvas"},
+		{"id":"fef1b4e9706561cd","x":-1320,"y":-1340,"width":400,"height":400,"type":"file","file":"000 Concepts/Inverse Fallacy.md"},
+		{"id":"d24719bd38f675af","x":-680,"y":-2560,"width":1330,"height":920,"type":"file","file":"000 Concepts/Notes on Probability Theory.md"}
 	],
 	"edges":[]
 }
