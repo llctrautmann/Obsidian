@@ -1,190 +1,80 @@
 ---
-modified: 2024-06-12
+modified: 2024-06-29
 ---
-# What are the two main operations for every vector space?
 
-Addition and scalar multiplication.
+# What is the sample space $\Omega$ in probability theory?
 
-# What is the additive identity in a vector space?
+The sample space $\Omega$ is the set of all possible outcomes of a random experiment.
 
-The vector $\mathbf{0}$, such that $\mathbf{x} + \mathbf{0} = \mathbf{x}$ for all $\mathbf{x} \in V$.
 
-# What is the additive inverse in a vector space?
 
-For every vector $\mathbf{x}$, there exists an inverse element $-\mathbf{x}$ such that $\mathbf{x} + (-\mathbf{x}) = \mathbf{0}$.
+# Define a random variable.
 
-# What is the multiplicative identity in a vector space?
+A random variable $X$ is a measurable function from the sample space $\Omega$ to the real numbers $\mathbb{R}$.
 
-The scalar 1, such that $1\mathbf{x} = \mathbf{x}$ for all $\mathbf{x} \in V$.
 
-# What is the commutativity condition in a vector space?
 
-For all $\mathbf{x}, \mathbf{y} \in V$, $\mathbf{x} + \mathbf{y} = \mathbf{y} + \mathbf{x}$.
+# What is the range of a probability measure $\mathbb{P}$?
 
-# What is the associativity condition in a vector space?
+The range of a probability measure $\mathbb{P}$ is $[0, 1]$, meaning it assigns a probability between 0 and 1 to each event in the $\sigma$-algebra $\mathcal{F}$.
 
-For all $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $\alpha, \beta \in \mathbb{R}$:
-- $(\mathbf{x} + \mathbf{y}) + \mathbf{z} = \mathbf{x} + (\mathbf{y} + \mathbf{z})$
-- $\alpha(\beta \mathbf{x}) = (\alpha \beta) \mathbf{x}$
 
-# What is the distributivity condition in a vector space?
 
-For all $\mathbf{x}, \mathbf{y} \in V$ and $\alpha, \beta \in \mathbb{R}$:
-- $\alpha (\mathbf{x} + \mathbf{y}) = \alpha \mathbf{x} + \alpha \mathbf{y}$
-- $(\alpha + \beta) \mathbf{x} = \alpha \mathbf{x} + \beta \mathbf{x}$
+# What does it mean for an event to be measurable?
 
-# What is a vector space?
+An event is measurable if it belongs to the $\sigma$-algebra $\mathcal{F}$, meaning we can assign a probability to it using the probability measure $\mathbb{P}$.
 
-A set $\mathcal{V}$ with two operations defined: vector addition and scalar multiplication, satisfying specific conditions.
 
-# What is a vector in $\mathbb{R}^3$?
 
-A vector in $\mathbb{R}^3$ looks like this:
-$$\mathbf{x}=\left[\begin{array}{c}
-1 \\
-2 \\
-3
-\end{array}\right]$$
+# State the law of total probability.
 
-# What is a vector in $\mathbb{R}^5$?
+The law of total probability states that if $\{B_i\}$ is a partition of the sample space $\Omega$ (i.e., disjoint events whose union is $\Omega$), then for any event $A$:
+$$
+\mathbb{P}(A) = \sum_{i} \mathbb{P}(A \cap B_i)
+$$
 
-A vector in $\mathbb{R}^5$ looks like this:
-$$\mathbf{x}=\left[\begin{array}{c}
-1 \\
-2 \\
-3 \\  
-4 \\
-5 \\
-\end{array}\right]$$
 
-# What are the six necessary conditions a vector space needs to conform to?
 
-1. Additive Identity
-2. Additive Inverse
-3. Multiplicative Identity
-4. Commutativity
-5. Associativity
-6. Distributivity
+# What is a mutually exclusive event?
 
-# What is the purpose of inner products in linear algebra?
+Two events $A$ and $B$ are mutually exclusive if $A \cap B = \emptyset$, meaning they cannot occur simultaneously.
 
-Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.
 
-  
 
-# How are inner products defined in vector spaces?
+# Define conditional probability.
 
-Inner products are defined as a bilinear mapping from the vector space onto the real line.
+Conditional probability of an event $A$ given an event $B$ is defined as:
+$$
+\mathbb{P}(A \mid B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}
+$$
+provided that $\mathbb{P}(B) > 0$.
 
-  
 
-# What is the generalised inner product function notation?
 
-$$\langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}$$
+# What is the expected value of a random variable $X$?
 
-  
+The expected value (or mean) of a random variable $X$, denoted $\mathbb{E}[X]$, is the sum or integral of $X$ weighted by its probability:
+$$
+\mathbb{E}[X] = \sum_{i} x_i \mathbb{P}(X = x_i) \quad \text{(discrete)}
+$$
+$$
+\mathbb{E}[X] = \int_{-\infty}^{\infty} x f_X(x) \, dx \quad \text{(continuous)}
+$$
 
-# What are the fundamental axioms that a bilinear map must adhere to in vector spaces?
 
-Addition and multiplication.
 
-  
+# State the law of large numbers.
 
-# What is the positive-definite condition for inner products?
+The law of large numbers states that as the number of trials $n$ increases, the sample average of the results will converge to the expected value of the random variable:
+$$
+\frac{1}{n} \sum_{i=1}^n X_i \xrightarrow{n \to \infty} \mathbb{E}[X]
+$$
 
-$$\forall \boldsymbol{x} \in V \backslash\{\mathbf{0}\}: \langle\boldsymbol{x}, \boldsymbol{x}\rangle>0, \quad \langle\boldsymbol{0}, \boldsymbol{0}\rangle=0$$
 
-  
 
-# What is the linearity condition in the first slot for inner products?
+# What is the variance of a random variable $X$?
 
-$$\langle\mathbf{x}+\mathbf{y}, \mathbf{z}\rangle=\langle\mathbf{x}, \mathbf{z}\rangle+\langle\mathbf{y}, \mathbf{z}\rangle \quad \text{and} \quad \langle\alpha \mathbf{x}, \mathbf{y}\rangle=\alpha\langle\mathbf{x}, \mathbf{y}\rangle$$
-
-  
-
-# What is the symmetry condition for inner products?
-
-$$\langle\mathbf{x}, \mathbf{y}\rangle=\langle\mathbf{y}, \mathbf{x}\rangle$$
-
-  
-
-# What is a special case of a general inner product?
-
-The dot product.
-
-  
-
-# What is the dot product formula?
-
-$$\boldsymbol{x}^{\top} \boldsymbol{y}=\sum_{i=1}^n x_i y_i$$
-
-  
-
-# What is an inner product space?
-
-The pair $(V,\langle\cdot, \cdot\rangle)$ is called an inner product space or (real) vector space with inner product.
-
-  
-
-# What is a Euclidean vector space?
-
-A vector space $(V,\langle\cdot, \cdot\rangle)$ using the dot product.
-
-  
-
-# How do inner products induce norms?
-
-$$\|\mathbf{x}\|=\sqrt{\langle\mathbf{x}, \mathbf{x}\rangle}$$
-
-  
-
-# What is the relationship between inner products, norms, and metrics?
-
-Inner products induce norms, which induce metrics. Therefore, an inner product space is a normed space and a metric space.
-
-  
-
-# What is a major purpose of inner products in vector spaces?
-
-To determine whether vectors are orthogonal to each other.
-
-# What is the relationship between concept frequency in pretraining datasets and zero-shot performance of multimodal models? 
-
-There is a log-linear relationship between the frequency of a concept in pretraining datasets and the zero-shot performance of multimodal models on tasks related to that concept. This implies that models require exponentially more data to achieve linear improvements in downstream performance.
-
-# What are the implications of the long-tailed concept distribution in pretraining datasets for model performance?
-The long-tailed distribution in pretraining datasets, where a large fraction of concepts are rare, directly impacts model performance. Due to the observed sample inefficiency, these rare concepts are not adequately learned during pretraining, leading to poor performance on tasks involving those concepts.
-
-# What is the impact of sample-level similarity between pretraining and downstream test data on the observed log-linear scaling trend?
-Even after controlling for sample-level similarity, the log-linear relationship between concept frequency and zero-shot performance persists. While removing similar samples between the pretraining and test datasets affects the overall performance, concept frequency remains a strong predictor of performance.
-
-# Does the log-linear scaling trend hold true for models trained on synthetic datasets with controlled concept distributions?
-Yes, the log-linear relationship between concept frequency and zero-shot performance is observed even in models trained on synthetic datasets with explicitly controlled concept distributions. This suggests that the trend is not limited to real-world data but generalizes to synthetic data distributions as well.
-
-# What is the degree of misalignment between concepts in image-text pairs within pretraining datasets?
-Analysis reveals a significant degree of misalignment in image-text pairs across all pretraining datasets. This misalignment, quantified for the first time, highlights the discrepancy between concepts identified in images and their corresponding text captions.
-
-# Despite differences in scale and curation, what is the correlation between concept frequencies across different pretraining datasets?
-Despite significant differences in their size and curation methods, there is a surprisingly high correlation in concept frequencies across all analyzed pretraining datasets. This consistency suggests that the internet, as the primary source of these datasets, exhibits a naturally long-tailed distribution of concepts.
-
-# What is the purpose of the "Let It Wag!" dataset?
-The "Let It Wag!" dataset is a new benchmark designed to evaluate the performance of multimodal models on long-tailed concepts. It comprises 130K test samples evenly distributed across 290 categories representing concepts identified as least frequent in pretraining datasets.
-
-# How do multimodal models perform on the "Let It Wag!" dataset compared to ImageNet?
-Models tested on the "Let It Wag!" dataset show significantly lower performance compared to their performance on ImageNet. This performance drop is consistent across all tested model scales and pretraining datasets, emphasizing the challenge posed by long-tailed concepts.
-
-# What do the qualitative results of T2I models on the "Let It Wag!" dataset reveal?
-Qualitative analysis of T2I models on the "Let It Wag!" dataset reveals that these models struggle to accurately represent rare concepts, often misinterpreting prompts, generating incorrect concepts, or failing to comprehend the concept entirely.
-
-# What is the significance of the finding that concept frequency significantly influences zero-shot performance in multimodal models?
-This finding challenges the notion of "zero-shot" generalization in multimodal models, suggesting that their performance is heavily reliant on the presence and frequency of concepts in their training data. It highlights the need for more effective learning strategies that can address the limitations imposed by long-tailed data distributions.
-
-# What are the geometrics Characteristics of Orthogonal matrices?
-They are not able to stretch space, but they are preserving angles (due to inner products being preserved) and lengths (due to norms being preserved). All of this is the case because orthogonal matrices have the neat feature that their inverse is their transpose. 
-
-# What are the four conditions necessary for norms?
-- Absolutely homogeneous: $\|\lambda x\|=|\lambda|\|x\|$
-- [[Triangle inequality]]: $\|\boldsymbol{x}+\boldsymbol{y}\| \leqslant\|\boldsymbol{x}\|+\|\boldsymbol{y}\|$
-- Non-negativity: $\|x\| \geqslant 0$ 
-- Definiteness: $\|x\|=0 \Longleftrightarrow x=0$
-
+The variance of a random variable $X$, denoted $\text{Var}(X)$, measures the dispersion of $X$ around its mean and is defined as:
+$$
+\text{Var}(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]
+$$
