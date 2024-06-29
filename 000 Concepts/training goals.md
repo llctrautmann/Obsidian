@@ -13,11 +13,11 @@ modified: 2024-06-29
 		- [x] 5 sets of 8 push ups with good form ✅ 2024-06-29
 		- [ ] 3 sets of 6 pike push ups 
 	- Dips
-		- [ ] 3 sets of 6 negative dips
+		- [x] 3 sets of 6 negative dips ✅ 2024-06-29
 	- Core
 		- [ ] Superman hold (3 x 1 min)
-		- [ ] Hollow body hold (3 x 1 min)
+		- [x] Hollow body hold (3 x 1 min) ✅ 2024-06-29
 	- Stretch
-		- [ ] tbd
+		- [x] tbd ✅ 2024-06-29
 
 ---
