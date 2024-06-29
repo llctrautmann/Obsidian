@@ -9,7 +9,10 @@ tags:
 series: Linear Algebra
 chapter: 
 status: Incomplete
-modified: 2024-05-26
+modified: 2024-06-29
+aliases:
+  - subspaces
+  - subspace
 ---
 
 > [!PDF|yellow] [[Thomas2018.pdf#page=7&selection=184,0,184,90&color=yellow|Thomas2018, p.7]]
@@ -41,10 +44,6 @@ $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S
 
 ##### Note:
 *Mentally there is some connection to [[000 Background Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
-
-
-
-
 
 ## Combining Subspaces
 Subspaces can be combined:

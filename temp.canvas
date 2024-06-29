@@ -8,17 +8,23 @@
 		{"id":"a23610d244ebc871","type":"file","file":"000 Concepts/Constant.md","x":-440,"y":-880,"width":400,"height":400},
 		{"id":"af26ca696a4385b9","type":"file","file":"000 Concepts/Expected Values and Latent Variable Models.md","x":0,"y":-420,"width":400,"height":400},
 		{"id":"6ed339dc482ee377","type":"file","file":"000 Concepts/Bayes Theorem.md","x":0,"y":-1340,"width":400,"height":400},
-		{"id":"2d2203e41deb3127","type":"file","file":"000 Concepts/Density Functions.md","x":0,"y":-880,"width":400,"height":400},
-		{"id":"6c70485de035fdb4","type":"file","file":"000 Concepts/Independence in Probability Theory.md","x":440,"y":-1340,"width":400,"height":400},
-		{"id":"e48d96a2bd6b7244","x":440,"y":-880,"width":400,"height":400,"type":"file","file":"000 Concepts/Interactions between Random Variables.md"},
-		{"id":"8e29943214182040","x":440,"y":-420,"width":400,"height":400,"type":"file","file":"000 Concepts/Moments of a Distribution.md"},
-		{"id":"2682b6068e64cb67","x":-880,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Random Variables.md"},
-		{"id":"69e515c6ccff39db","x":-440,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Properties of Expectations.md"},
-		{"id":"50e93ad5969a7f30","x":0,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Sampling from a Distribution.md"},
-		{"id":"262b7b9805632cf6","x":450,"y":40,"width":400,"height":400,"type":"file","file":"000 Concepts/Types of Uncertainty.md"},
-		{"id":"cceb3a3e3aef248e","x":1120,"y":-2040,"width":400,"height":400,"type":"file","file":"Analytic Geometry.canvas"},
-		{"id":"fef1b4e9706561cd","x":-1320,"y":-1340,"width":400,"height":400,"type":"file","file":"000 Concepts/Inverse Fallacy.md"},
-		{"id":"d24719bd38f675af","x":-680,"y":-2560,"width":1330,"height":920,"type":"file","file":"000 Concepts/000 Background Probability Theory.md"}
+		{"id":"e48d96a2bd6b7244","type":"file","file":"000 Concepts/Interactions between Random Variables.md","x":440,"y":-880,"width":400,"height":400},
+		{"id":"8e29943214182040","type":"file","file":"000 Concepts/Moments of a Distribution.md","x":440,"y":-420,"width":400,"height":400},
+		{"id":"69e515c6ccff39db","type":"file","file":"000 Concepts/Properties of Expectations.md","x":-440,"y":40,"width":400,"height":400},
+		{"id":"50e93ad5969a7f30","type":"file","file":"000 Concepts/Sampling from a Distribution.md","x":0,"y":40,"width":400,"height":400},
+		{"id":"cceb3a3e3aef248e","type":"file","file":"Analytic Geometry.canvas","x":1120,"y":-2040,"width":400,"height":400},
+		{"id":"fef1b4e9706561cd","type":"file","file":"000 Concepts/Inverse Fallacy.md","x":-1320,"y":-1340,"width":400,"height":400},
+		{"id":"04cbf3bf6071fe5a","x":2960,"y":-2440,"width":400,"height":400,"type":"file","file":"000 Concepts/Probability as an Extension of Boolean Logic.md"},
+		{"id":"fff6f7f3b4cd1bc3","x":1840,"y":-3360,"width":560,"height":400,"type":"file","file":"000 Concepts/000 Background Probability Theory.md"},
+		{"id":"2682b6068e64cb67","type":"file","file":"000 Concepts/Random Variables.md","x":2960,"y":-1540,"width":560,"height":400},
+		{"id":"6c70485de035fdb4","type":"file","file":"000 Concepts/Independence in Probability Theory.md","x":2200,"y":-2440,"width":400,"height":400},
+		{"id":"262b7b9805632cf6","type":"file","file":"000 Concepts/Types of Uncertainty.md","x":3760,"y":-2440,"width":400,"height":400},
+		{"id":"2d2203e41deb3127","type":"file","file":"000 Concepts/Density Functions.md","x":2400,"y":-1540,"width":400,"height":400}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"9d1f959e67a54707","fromNode":"fff6f7f3b4cd1bc3","fromSide":"right","toNode":"04cbf3bf6071fe5a","toSide":"top","label":"ProvidesDetailedBackground"},
+		{"id":"54a35a2ca9bcbb8b","fromNode":"04cbf3bf6071fe5a","fromSide":"bottom","toNode":"2682b6068e64cb67","toSide":"top"},
+		{"id":"e083c1d4232569af","fromNode":"04cbf3bf6071fe5a","fromSide":"left","toNode":"6c70485de035fdb4","toSide":"right","toEnd":"none"},
+		{"id":"af96ef79eac57a25","fromNode":"04cbf3bf6071fe5a","fromSide":"right","toNode":"262b7b9805632cf6","toSide":"left","toEnd":"none"}
+	]
 }

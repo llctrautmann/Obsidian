@@ -60,8 +60,8 @@ where $P(A \cap B)$ denotes the probability of both event A and event B occurrin
 
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
-where $P(A \cup B)$ denotes the probability of event A or event B occurring (or both), $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively, and $P(A \cap B)$ is the probability of both A and B occurring.
-
+where $P(A \cup B)$ denotes the probability of event A or event B occurring (or both), $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively, and $P(A \cap B)$ is the probability of both A and B occurring. 
+- The same formula is used in the dimensionality of [[Vectors Subspaces#Dimensionality of Combined Subspaces|subspaces]]. 
 Note that if events A and B are mutually exclusive (i.e., cannot occur at the same time), then $P(A \cap B) = 0$, and the formula simplifies to:
 
 $$P(A \cup B) = P(A) + P(B)$$

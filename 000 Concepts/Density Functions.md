@@ -4,11 +4,12 @@ date: 20-05-2023
 time: 14:54
 author: Luca Trautmann
 tags: []
-series: "Probability Theory"
+series: Probability Theory
 chapter: 3
+modified: 2024-06-29
 ---
 # Density Functions
-In probability theory, probability functions are used to describe the likelihood of a random variable taking on a certain value or range of values. These functions can be categorized as either <mark style="background: #FFB8EBA6;">probability mass functions (PMFs)</mark> or <mark style="background: #FFB8EBA6;">probability density functions (PDFs)</mark>, depending on whether the random variable is discrete or continuous, respectively. 
+In probability theory, probability functions are used to describe the likelihood of a [[Random Variables|RVs]] taking on a certain value or range of values. These functions can be categorized as either <mark style="background: #FFB8EBA6;">probability mass functions (PMFs)</mark> or <mark style="background: #FFB8EBA6;">probability density functions (PDFs)</mark>, depending on whether the random variable is discrete or continuous, respectively. 
 ## Cummulative Distribution Function
 The cumulative distribution function (CDF) is used in both cases and gives the probability that a random variable takes on a value less than or equal to a certain point. For a discrete random variable, the CDF is the sum of the probabilities of all values less than or equal to the given point. For a continuous random variable, the CDF is the integral of the PDF up to the given point. 
 
