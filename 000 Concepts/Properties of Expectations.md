@@ -1,10 +1,11 @@
 ---
 title: Properties of Expectations
-date: 28-11-2023
+date:
+  - 28-11-2023
 time: 16:22
 author: Luca Trautmann
 tags:
-  - Statistics
+  - ProbTheory
 series: Probability Theory
 chapter: 10
 ---

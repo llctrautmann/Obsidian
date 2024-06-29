@@ -29,21 +29,22 @@ modified: 2024-06-29
 
 # Interactions between Random Variables
 ## Joint Probabilities:
-Joint probabilities are probabilities of two or more events occurring together[^1]. More Formally: <mark style="background: #FFB8EBA6;">the probability of a conjunction of N propositions (events),is usually called the joint probability </mark>that is, $P\left(A_1, A_2, \ldots, A_N\right.$ | $B)$. If we generalise the product rule to $N$ propositions we obtain what is known as the chain rule:
+- Joint probabilities are probabilities of two or more events occurring together[^1] that is, $P\left(A_1, A_2, \ldots, A_N\right.$ | $B)$.
+- If we generalise the product rule to $N$ propositions we obtain what is known as the chain rule:
 $$
 \begin{gathered}
 P\left(A_1, A_2, \ldots, A_N \mid B_{bg}\right)=P\left(A_1 \mid A_2, A_3, \ldots, A_N, B_{bg}\right) P\left(A_2 \mid A_3, A_4, \ldots, A_N, B_{bg}\right) \\
 \cdots P\left(A_N \mid B_{bg}\right)
 \end{gathered}
 $$
-$B_{bg}$ is the background information that is always present, because we do not assume that there are absolute probabilities (see [[Probability Theory Definitions]]). They are denoted as $P(A, B)$, where $A$ and $B$ are the events of interest and $B_{bg}$ is the background. Joint probabilities can be calculated using the formula:
+$B_{bg}$ is the background information that is always present, because we do not assume that there are absolute probabilities[^2]. They are denoted as $P(A, B)$, where $A$ and $B$ are the events of interest and $B_{bg}$ is the background. Joint probabilities can be calculated using the formula:
 $$P(A, B | B_{bg}) = P(A|B,B_{bg}) \cdot P(B|B_{bg})$$
 
 Example:
 Consider a deck of playing cards. Let A be the event of drawing a spade, and B be the event of drawing a queen. The probability of drawing a spade and a queen from the deck is:
 $$P(A, B|B_{bg}) = P(A|B|B_{bg}) \cdot P(B|B_{bg}) = \frac{1}{13} \cdot \frac{4}{52} = \frac{1}{52}$$
 
-These are the fundamental concepts of marginal probabilities, conditional probabilities, and joint probabilities. Understanding them can help analyze and solve various problems in probability theory and statistics.
+
 
 ## Marginal Probabilities:
 Marginal probabilities refer to the probabilities of individual events or [[Random Variables|RVs]] occurring independently, without considering other variables. They are obtained by summing or integrating the joint probabilities over the other variables.  
@@ -94,7 +95,7 @@ The conditional probability can be put into words in the following fraction:
 $$\frac{p(\text{What do we want to know?})}{p(\text{What we know.})}$$
 In mathematical notation this results in the following term:
 $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
-where $P(A|B)$ denotes the probability of event A given event B, $P(A \cap B)$ is the probability of both A and B occurring, and $P(B)$ is the probability of event B occurring. $P(A \cap B)$ can be shortened to $P(A, B)$ and for conditioning to be possible, $P(B)$ needs to be defined. 
+where $P(A|B)$ denotes the probability of event A given event B, $P(A \cap B)$ is the probability of both A and B occurring, and $P(B)$ is the probability of event B occurring. $P(A \cap B)$ can be shortened to $P(A, B)$ and for conditioning to be possible, $P(B)$ needs to be defined[^3]. 
 
 ### Conditional Independence
 $$P(A \cap B | C) = P(A | C) \cdot P(B | C)$$
@@ -114,3 +115,5 @@ Conditional independence is an important concept in many areas of statistics, in
 # Footnotes
 
 [^1]: The basics are explained here: [[Probability as an Extension of Boolean Logic]]
+[^2]: see [[Probability Theory Definitions]] and this is very much colouring I got from [[jaynes2003.pdf]]
+[^3]: The fact that A,B are commutative is the reasoning behind the [[Bayes Theorem]]

@@ -1,29 +1,37 @@
 {
 	"nodes":[
 		{"id":"bd9ddd895ff87163","type":"file","file":"000 Concepts/Binary logistic regression.md","x":-880,"y":-1340,"width":400,"height":400},
-		{"id":"fa19eb1764522418","type":"file","file":"000 Concepts/Conditional Moments.md","x":-880,"y":-880,"width":400,"height":400},
-		{"id":"9b7d65a95ccdf11e","type":"file","file":"000 Concepts/Discrete Random Variables.md","x":-880,"y":-420,"width":400,"height":400},
-		{"id":"55819043075869f7","type":"file","file":"000 Concepts/Expected Value Rules.md","x":-440,"y":-420,"width":400,"height":400},
 		{"id":"21bea8ac9b83b350","type":"file","file":"000 Concepts/Bernoulli and Binomial Distribution.md","x":-440,"y":-1340,"width":400,"height":400},
-		{"id":"a23610d244ebc871","type":"file","file":"000 Concepts/Constant.md","x":-440,"y":-880,"width":400,"height":400},
-		{"id":"af26ca696a4385b9","type":"file","file":"000 Concepts/Expected Values and Latent Variable Models.md","x":0,"y":-420,"width":400,"height":400},
-		{"id":"6ed339dc482ee377","type":"file","file":"000 Concepts/Bayes Theorem.md","x":0,"y":-1340,"width":400,"height":400},
-		{"id":"e48d96a2bd6b7244","type":"file","file":"000 Concepts/Interactions between Random Variables.md","x":440,"y":-880,"width":400,"height":400},
-		{"id":"8e29943214182040","type":"file","file":"000 Concepts/Moments of a Distribution.md","x":440,"y":-420,"width":400,"height":400},
-		{"id":"69e515c6ccff39db","type":"file","file":"000 Concepts/Properties of Expectations.md","x":-440,"y":40,"width":400,"height":400},
-		{"id":"50e93ad5969a7f30","type":"file","file":"000 Concepts/Sampling from a Distribution.md","x":0,"y":40,"width":400,"height":400},
 		{"id":"cceb3a3e3aef248e","type":"file","file":"Analytic Geometry.canvas","x":1120,"y":-2040,"width":400,"height":400},
 		{"id":"fef1b4e9706561cd","type":"file","file":"000 Concepts/Inverse Fallacy.md","x":-1320,"y":-1340,"width":400,"height":400},
-		{"id":"04cbf3bf6071fe5a","x":2960,"y":-2440,"width":400,"height":400,"type":"file","file":"000 Concepts/Probability as an Extension of Boolean Logic.md"},
-		{"id":"fff6f7f3b4cd1bc3","x":1840,"y":-3360,"width":560,"height":400,"type":"file","file":"000 Concepts/000 Background Probability Theory.md"},
+		{"id":"04cbf3bf6071fe5a","type":"file","file":"000 Concepts/Probability as an Extension of Boolean Logic.md","x":2960,"y":-2440,"width":400,"height":400},
+		{"id":"fff6f7f3b4cd1bc3","type":"file","file":"000 Concepts/000 Background Probability Theory.md","x":1840,"y":-3360,"width":560,"height":400},
 		{"id":"2682b6068e64cb67","type":"file","file":"000 Concepts/Random Variables.md","x":2960,"y":-1540,"width":560,"height":400},
 		{"id":"6c70485de035fdb4","type":"file","file":"000 Concepts/Independence in Probability Theory.md","x":2200,"y":-2440,"width":400,"height":400},
-		{"id":"262b7b9805632cf6","type":"file","file":"000 Concepts/Types of Uncertainty.md","x":3760,"y":-2440,"width":400,"height":400}
+		{"id":"262b7b9805632cf6","type":"file","file":"000 Concepts/Types of Uncertainty.md","x":3760,"y":-2440,"width":400,"height":400},
+		{"id":"db4c78fcc74e069a","type":"file","file":"000 Concepts/Interactions between Random Variables.md","x":3960,"y":-1740,"width":400,"height":400},
+		{"id":"6ed339dc482ee377","type":"file","file":"000 Concepts/Bayes Theorem.md","x":3760,"y":-1080,"width":400,"height":400},
+		{"id":"8e29943214182040","type":"file","file":"000 Concepts/Moments of a Distribution.md","x":1840,"y":-1280,"width":400,"height":400},
+		{"id":"fa19eb1764522418","type":"file","file":"000 Concepts/Conditional Moments.md","x":1840,"y":-820,"width":400,"height":400},
+		{"id":"50e93ad5969a7f30","type":"file","file":"000 Concepts/Sampling from a Distribution.md","x":1840,"y":-360,"width":400,"height":400},
+		{"id":"a23610d244ebc871","type":"file","file":"000 Concepts/Constant.md","x":1840,"y":-1740,"width":400,"height":400},
+		{"id":"af26ca696a4385b9","type":"file","file":"000 Concepts/Expected Values and Latent Variable Models.md","x":720,"y":-1480,"width":400,"height":400},
+		{"id":"55819043075869f7","type":"file","file":"000 Concepts/Expected Value Rules.md","x":1260,"y":-1480,"width":400,"height":400},
+		{"id":"69e515c6ccff39db","type":"file","file":"000 Concepts/Properties of Expectations.md","x":1260,"y":-1020,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"9d1f959e67a54707","fromNode":"fff6f7f3b4cd1bc3","fromSide":"right","toNode":"04cbf3bf6071fe5a","toSide":"top","label":"ProvidesDetailedBackground"},
 		{"id":"54a35a2ca9bcbb8b","fromNode":"04cbf3bf6071fe5a","fromSide":"bottom","toNode":"2682b6068e64cb67","toSide":"top"},
 		{"id":"e083c1d4232569af","fromNode":"04cbf3bf6071fe5a","fromSide":"left","toNode":"6c70485de035fdb4","toSide":"right","toEnd":"none"},
-		{"id":"af96ef79eac57a25","fromNode":"04cbf3bf6071fe5a","fromSide":"right","toNode":"262b7b9805632cf6","toSide":"left","toEnd":"none"}
+		{"id":"af96ef79eac57a25","fromNode":"04cbf3bf6071fe5a","fromSide":"right","toNode":"262b7b9805632cf6","toSide":"left","toEnd":"none"},
+		{"id":"66e6413b4ecd6c03","fromNode":"2682b6068e64cb67","fromSide":"right","toNode":"db4c78fcc74e069a","toSide":"left","toEnd":"none"},
+		{"id":"55e857318e35b749","fromNode":"db4c78fcc74e069a","fromSide":"bottom","toNode":"6ed339dc482ee377","toSide":"top","label":"LeadsTo"},
+		{"id":"0c6aff8d4f141105","fromNode":"04cbf3bf6071fe5a","fromSide":"right","toNode":"6ed339dc482ee377","toSide":"top","label":"LeadsTo"},
+		{"id":"bb0ba2e73a086c39","fromNode":"2682b6068e64cb67","fromSide":"left","toNode":"8e29943214182040","toSide":"right"},
+		{"id":"2cdca89758f61b49","fromNode":"2682b6068e64cb67","fromSide":"left","toNode":"fa19eb1764522418","toSide":"right"},
+		{"id":"31288c10bb66e7c4","fromNode":"2682b6068e64cb67","fromSide":"left","toNode":"50e93ad5969a7f30","toSide":"right"},
+		{"id":"fd18818519c3ba2e","fromNode":"a23610d244ebc871","fromSide":"right","toNode":"2682b6068e64cb67","toSide":"left","toEnd":"none"},
+		{"id":"b879842c04e7ddf5","fromNode":"8e29943214182040","fromSide":"left","toNode":"55819043075869f7","toSide":"right"},
+		{"id":"f1ad53f0b00d0202","fromNode":"8e29943214182040","fromSide":"left","toNode":"69e515c6ccff39db","toSide":"right"}
 	]
 }

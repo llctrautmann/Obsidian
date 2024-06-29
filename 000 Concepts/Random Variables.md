@@ -5,7 +5,7 @@ date:
 time: 16:55
 author: Luca Trautmann
 tags:
-  - Mathematics
+  - ProbTheory
 series: Probability Theory
 chapter: 2
 modified: 2024-06-29
@@ -44,7 +44,7 @@ A probability mass function is used to describe the probability distribution of 
 
 - The probability for a specific value to occur is always 0.
 
-- Probability distributions for continuous random variables are described using probability density functions (PDFs, [[Density Functions]]), which represent the likelihood of a variable taking on a specific value. The area under the PDF curve represents the probability of the variable being within a certain range of values.
+- Probability distributions for continuous random variables are described using probability density functions which represent the likelihood of a variable taking on a specific value. The area under the PDF curve represents the probability of the variable being within a certain range of values.
 
 ### Cumulative Distribution Function
 The cumulative distribution over the random variable $X$ is defined as a monotonically increasing function:
