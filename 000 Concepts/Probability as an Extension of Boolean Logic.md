@@ -39,12 +39,31 @@ An event can be any occurance or statement like the following:
 ## Probability of an Event
 We denote a probability as $P(\cdot)$. For example the probability that the event $A$ = _"Tomorrow it will rain."_ occurs is $P(A)$.   
 ## Basic Probability Rules
-There are three cases that are important [^1]:
-1. Union
-	1. Independent: $P(A \cap B) = P(A) \cdot P(B)$
-	2. Dependent: $P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)$
-2. Intersection: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
-3. Condition
+From the above-mentioned background there are three main cases that need to be covered [^1]:
+1. **Intersection**
+	1. Independent: $P(A \cap B) \triangleq  P(A) \cdot P(B)$
+	2. Dependent: $P(A \cap B) \triangleq P(A) \cdot P(B|A) = P(B) \cdot P(A|B)$
+2. **Union**
+	1. Non-exclusive: $P(A \cup B) \triangleq  P(A) + P(B) - P(A \cap B)$
+	2. Mutually exclusive: $\operatorname{Pr}(A \cup B)=\operatorname{Pr}(A)+\operatorname{Pr}(B)$
+3. **Condition**: $\operatorname{Pr}(B \mid A) \triangleq \frac{\operatorname{Pr}(A, B)}{\operatorname{Pr}(A)}$ 
 
+## Probabilities of Multiple Event 
+### Conjunction
+If we have two events $A$ and $B$ the __joint probability__ is defined as:
+$$P(A \cap B) = P(A) \cdot P(B) \quad \text{if independent}$$
+and:
+$$P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)\quad \text{if dependent}$$
+where $P(A \cap B)$ denotes the probability of both event A and event B occurring, and $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively. $P(B|A)$ is the conditional probability of B 'given' A.
+
+### Joint Probability 
+
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+
+where $P(A \cup B)$ denotes the probability of event A or event B occurring (or both), $P(A)$ and $P(B)$ are the individual probabilities of events A and B, respectively, and $P(A \cap B)$ is the probability of both A and B occurring.
+
+Note that if events A and B are mutually exclusive (i.e., cannot occur at the same time), then $P(A \cap B) = 0$, and the formula simplifies to:
+
+$$P(A \cup B) = P(A) + P(B)$$
 # Footnotes
 [^1]: A lot on the background in [[jaynes2003.pdf]]
