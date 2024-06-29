@@ -18,8 +18,7 @@
 		{"id":"fff6f7f3b4cd1bc3","x":1840,"y":-3360,"width":560,"height":400,"type":"file","file":"000 Concepts/000 Background Probability Theory.md"},
 		{"id":"2682b6068e64cb67","type":"file","file":"000 Concepts/Random Variables.md","x":2960,"y":-1540,"width":560,"height":400},
 		{"id":"6c70485de035fdb4","type":"file","file":"000 Concepts/Independence in Probability Theory.md","x":2200,"y":-2440,"width":400,"height":400},
-		{"id":"262b7b9805632cf6","type":"file","file":"000 Concepts/Types of Uncertainty.md","x":3760,"y":-2440,"width":400,"height":400},
-		{"id":"2d2203e41deb3127","type":"file","file":"000 Concepts/Density Functions.md","x":2400,"y":-1540,"width":400,"height":400}
+		{"id":"262b7b9805632cf6","type":"file","file":"000 Concepts/Types of Uncertainty.md","x":3760,"y":-2440,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"9d1f959e67a54707","fromNode":"fff6f7f3b4cd1bc3","fromSide":"right","toNode":"04cbf3bf6071fe5a","toSide":"top","label":"ProvidesDetailedBackground"},
