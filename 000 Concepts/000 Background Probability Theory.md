@@ -1,6 +1,7 @@
 ---
 title: Notes on Probability Theory
-date: 07-12-2023
+date:
+  - 07-12-2023
 time: 15:54
 author: Luca Trautmann
 tags:
@@ -8,7 +9,12 @@ tags:
 series: Probability Theory
 chapter: 0
 link: https://betanalpha.github.io/assets/case_studies/probability_theory.html
-modified: 2024-06-19
+modified: 2024-06-29
+Docstring:
+  - This file explains the background theory that is necessary to get from set theory to working probabilities and random variables.
+formula: $$\large\left [\Omega, \mathcal{F}_{\sigma}, X^{-1}, X_{\mathbb{R}}, \mathbb{P}_{[0,1]} \right ]$$
+aliases:
+  - fundamentals
 ---
 
 

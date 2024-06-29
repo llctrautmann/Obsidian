@@ -7,7 +7,7 @@ author: Luca Trautmann
 tags:
   - Statistics
 ---
-based of: [[Notes on Probability Theory]] and [[@park2019]] as well as [Probability for Scientists](https://betanalpha.github.io/assets/case_studies/probability_theory.html#2_mathematical_logistics)
+based of: [[000 Background Probability Theory]] and [[@park2019]] as well as [Probability for Scientists](https://betanalpha.github.io/assets/case_studies/probability_theory.html#2_mathematical_logistics)
 # Fundamentals of Probability Theory
 The basic idea behind the basic of probability theory can be summarised in an outrageously compressed form in the following collection of symbols: 
 

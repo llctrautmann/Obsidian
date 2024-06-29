@@ -40,7 +40,7 @@ $$\mathbf{x} \in S, \alpha \in \mathbb{R}$$ therefore. $$\alpha \mathbf{x} \in S
 `same as 2.`  
 
 ##### Note:
-*Mentally there is some connection to [[Notes on Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
+*Mentally there is some connection to [[000 Background Probability Theory#Sigma Algebras]]. I do not want to work with things that behave pathologically mathematically in general.*
 
 
 

@@ -28,7 +28,7 @@ Because it is not possible to perform some operation with boolean logic, probabi
 There are two major schools of probability (see [[Probability Theory Definitions]]): Frequentist and Bayesian
 
 ## Probability and Random Variables
-Modern probability is based on the Kolmogorov Theorems of Probability [[Notes on Probability Theory#Kolmogorov Axioms / Axioms of Probability]].
+Modern probability is based on the Kolmogorov Theorems of Probability [[000 Background Probability Theory#Kolmogorov Axioms / Axioms of Probability]].
 
 **The sample space $\Omega$**
 The sample space is the set of all possible outcomes of the experiment, usually denoted by $\Omega$. For example, two successive coin tosses have a sample space of $\{\mathrm{hh}, \mathrm{tt}, \mathrm{ht}, \mathrm{th}\}$, where "h" denotes "heads" and "t" denotes "tails".
@@ -39,4 +39,4 @@ The event space is the space of potential results of the experiment. A subset $A
 **The probability $P$**
 With each event $A \in \mathcal{A}$, we associate a number $P(A)$ that measures the probability or degree of belief that the event will occur. $P(A)$ is called the probability of $A$.
 
-This all relates to set theory [[Sets in Mathematics]], [[Notes on Probability Theory]]. 
+This all relates to set theory [[Sets in Mathematics]], [[000 Background Probability Theory]]. 

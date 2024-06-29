@@ -29,7 +29,7 @@ There are two fundamental types of uncertainty:
 
 
 ## Basic Rules of Univariate Probability
-For more detailed information this will link to the foundations in set theory that derive the basic axioms of probability ([[Notes on Probability Theory]]).
+For more detailed information this will link to the foundations in set theory that derive the basic axioms of probability ([[000 Background Probability Theory]]).
 $$
 \operatorname{Pr}(A)
 $$
@@ -78,7 +78,7 @@ A \perp B \mid C
 $$
 
 ## Random Variables
-If the value of $X$ is unknown and/or could change, we call it a random variable or __RV__. The set of possible values, denoted $\mathbb{X}$, is known as the __sample space__ or __state space__. An event is a set of outcomes from a given sample space. More on the topic here: [[Notes on Probability Theory]]. 
+If the value of $X$ is unknown and/or could change, we call it a random variable or __RV__. The set of possible values, denoted $\mathbb{X}$, is known as the __sample space__ or __state space__. An event is a set of outcomes from a given sample space. More on the topic here: [[000 Background Probability Theory]]. 
 
 ### Discrete RVs
 If the sample space is finite or countably infinite, the RV is discrete. In such a case, the RV has a probability assigned to each event.
