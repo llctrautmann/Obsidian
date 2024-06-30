@@ -12,6 +12,7 @@ type:
 formula: $\operatorname{Ber}(y \mid \theta) \triangleq \theta^y(1-\theta)^{1-y}$
 aliases:
   - binomial
+  - bernoulli
 modified: 2024-06-19
 ---
 # Definition
