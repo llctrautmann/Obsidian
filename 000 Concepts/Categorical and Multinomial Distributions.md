@@ -37,6 +37,7 @@ $$
 $$
 is the multinomial coefficient, which is the number of ways to divide a set of size $N=\sum_{c=1}^C N_c$ into subsets with sizes $N_1$ up to $N_C$. If $N=1$, the multinomial distribution becomes the categorical distribution.
 
+
 ## Softmax function
 To avoid the requirement that $f$ directly predict a probability vector, it is common to pass the output from $f$ into the softmax function also called the multinomial logit. This is defined as follows:
 $$\large\tag{3}
