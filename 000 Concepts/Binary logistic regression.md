@@ -8,7 +8,7 @@ tags:
   - ProbTheory
 series: Probability Theory
 🍙: いや
-type: 
+type: Algorithm
 formula: $p(y \mid \boldsymbol{x} ; \boldsymbol{\theta})=\operatorname{Ber}\left(y \mid \sigma\left(\boldsymbol{w}^{\top} \boldsymbol{x}+b\right)\right)$
 aliases:
   - BLG
