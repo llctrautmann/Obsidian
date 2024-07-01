@@ -11,10 +11,13 @@ series: Probability Theory
 type: 
 formula: 
 aliases: 
-modified: 2024-06-28
+modified: 2024-07-01
 ---
 # Gaussian / Normal Distributions
-## CDF and PDF
+## Introduction
+The most widely used distribution of real-valued random variables $y ∈ R$ is the Gaussian distribution, also called the normal distribution.
+
+## Definition
 The [[Cumulative distribution function|cdf]] of a gaussian normal is given by:
 
 $$\large\tag{1}
@@ -30,12 +33,12 @@ $$
 
 [[Probability Density Function|PDF]] and [[Cumulative distribution function|CDF]] describes the relationship and differences between the two 
 
-## The Multivariate Gaussian (normal) Distribution
-### Definition
+The Multivariate Gaussian (normal) Distribution is given by: 
 $$ \large\tag{1}
 \mathcal{N}(\boldsymbol{y} \mid \boldsymbol{\mu}, \boldsymbol{\Sigma}) \triangleq \frac{1}{(2 \pi)^{D / 2}|\boldsymbol{\Sigma}|^{1 / 2}} \exp \left[-\frac{1}{2}(\boldsymbol{y}-\boldsymbol{\mu})^{\top} \boldsymbol{\Sigma}^{-1}(\boldsymbol{y}-\boldsymbol{\mu})\right]
 $$
 
+## Noteworthy
 
 
 

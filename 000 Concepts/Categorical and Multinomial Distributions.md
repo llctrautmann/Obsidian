@@ -61,17 +61,13 @@ softmax([1,2,3])
 ```
 
 ### Log-sum-exp Trick
-When computing normalized probabilities $p_c = \frac{e^{a_c}}{Z(\boldsymbol{a})}$ from logits $\boldsymbol{a}$, numerical issues can arise due to overflow or underflow, especially with extreme values[^5]. 
-
-
-
-To avoid these issues, the log-sum-exp trick can be used:
+When computing normalized probabilities $p_c = \frac{e^{a_c}}{Z(\boldsymbol{a})}$ from logits $\boldsymbol{a}$, numerical issues can arise due to overflow or underflow, especially with extreme values[^5]. To avoid these issues, the log-sum-exp trick can be used:
 
 $$
 \log \sum_{c=1}^C \exp(a_c) = m + \log \sum_{c=1}^C \exp(a_c - m)
 $$
 
-Using $m = \max_c a_c$ ensures numerical stability by keeping the largest exponentiated value at zero. This trick is implemented in the $\operatorname{lse}$ function:
+Using $m = \max_c a_c$ ensures numerical stability by keeping the largest exponentiated value at zero. This trick is implemented in the lse function:
 
 $$
 \operatorname{lse}(\boldsymbol{a}) \triangleq \log \sum_{c=1}^C \exp(a_c)
@@ -83,7 +79,7 @@ $$
 p(y = c \mid x) = \exp(a_c - \operatorname{lse}(\boldsymbol{a}))
 $$
 
-For efficiency and stability, the cross-entropy loss is often computed directly from logits $\boldsymbol{a}$ rather than probabilities $\boldsymbol{p}$. For binary classification, the cross-entropy loss $\mathcal{L}$ for one example is:
+For efficiency and stability, the cross-entropy loss is often computed directly from logits [^6] $\boldsymbol{a}$ rather than probabilities $\boldsymbol{p}$. For binary classification, the cross-entropy loss $\mathcal{L}$ for one example is:
 
 $$
 \mathcal{L} = -\left[\mathbb{I}(y=0) \log p_0 + \mathbb{I}(y=1) \log p_1\right]
@@ -102,3 +98,4 @@ $$
 [^3]: [[murphy2022.pdf#page=83&selection=295,0,298,1&color=yellow|murphy2022, p.53]]
 [^4]: [[murphy2022.pdf#page=85&selection=114,0,114,78&color=yellow|murphy2022, p.55]]
 [^5]: For instance, logits $\boldsymbol{a} = (1000, 1001, 1000)$ result in $Z = \infty$ due to $e^{1000}$ being too large for standard precision, while $\boldsymbol{a} = (-1000, -999, -1000)$ result in $Z = 0$ because $e^{-1000}$ is too small.
+[^6]: logits are the unnormalised output vector values
