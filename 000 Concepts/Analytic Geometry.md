@@ -40,7 +40,7 @@ $$
 $$
 
 ## Inner Products
-__Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.__ A major purpose of inner products is to determine whether vectors are orthogonal to each other.
+__Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.__ A major purpose of [[inner products]] is to determine whether vectors are orthogonal to each other.
 
 ### Dot Product
 $$
@@ -76,7 +76,7 @@ $$
 > [!Define 3.3]+
 > Let $V$ be a vector space and $\Omega: V \times V \rightarrow \mathbb{R}$ be a bilinear mapping that takes two vectors and maps them onto a real number. Then
 > - A positive definite, symmetric bilinear mapping $\Omega: V \times V \rightarrow \mathbb{R}$ is called an inner product on $V$. We typically write $\langle\boldsymbol{x}, \boldsymbol{y}\rangle$ instead of $\Omega(\boldsymbol{x}, \boldsymbol{y})$.
-> - The pair $(V,\langle\cdot, \cdot\rangle)$ is called an inner product space or (real) vector space with inner product. If we use the dot product defined in (3.5), we call $(V,\langle\cdot, \cdot\rangle)$ a Euclidean vector space.
+> - The pair $(V,\langle\cdot, \cdot\rangle)$ is called an [[Inner Products|inner product]] space or (real) vector space with inner product. If we use the dot product defined in (3.5), we call $(V,\langle\cdot, \cdot\rangle)$ a Euclidean vector space.
 
 ### Symmetric, Postive Definite Matrices
 Due to the bilinearity of the inner product, it holds for all $x,y \in V$ that:

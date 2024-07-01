@@ -11,13 +11,13 @@ status: Incomplete
 type: Concept
 formula: "$\\langle\\cdot, \\cdot\\rangle: V \\times V \\rightarrow \\mathbb{R}$"
 🍙: いや
-modified: 2024-05-27
+modified: 2024-07-01
 aliases:
   - Inner products
   - inner product
 ---
 # Generalised Inner Products
-## Purpose
+## Introduction
 Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors. 
 
 
@@ -25,13 +25,13 @@ Inner products allow for the introduction of intuitive geometrical concepts, suc
 Inner products are defined on [[Vector Spaces]] and constitute a function - more specifically a bilinear mapping - from the vector space onto the real line. 
 
 
-$(1)$ Is the definition of the generalised inner product. 
+$(1)$ Is the definition of the generalised inner product [^1]. 
 
 $$\large\tag{1}
 \langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
 $$
 
-`So its a function: with two inputs and one scalar output.`
+
 
 The inner product is just a bilinear mapping or function that requires certain condition (see next point) to be met.
 
@@ -87,3 +87,6 @@ Hence, there exists a deep connection between [norms](Norms%20in%20Linear%20Alge
 > > Therefore any inner product space is also a normed space (and hence also a metric space)
 > 
 > 
+# Footnotes
+
+[^1]: So its a function: with two inputs and one scalar output.
