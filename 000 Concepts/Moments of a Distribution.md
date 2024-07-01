@@ -1,17 +1,20 @@
 ---
 title: Moments of a Distribution
-date: 20-05-2023
+date:
+  - 20-05-2023
 time: 18:08
 author: Luca Trautmann
-tags: []
-series: "Probability Theory"
+tags: 
+series: Probability Theory
 chapter: 7
+modified: 2024-07-01
 ---
 
 # Moments of a Distribution
+## Introduction
 Moments of a distributions are the summary statistics that can be collected from it. Most notably are the expected value $(\mathbb{E})$, variance $(\mathbb{V})$, median and mode. 
 
-## Mean of a Distribution
+## First Moment
 The mean of a distribution is defined in two ways depending on whether the random variable is continuous or discrete. 
 
 For discrete variables:

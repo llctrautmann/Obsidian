@@ -38,6 +38,8 @@ $$ \large\tag{1}
 \mathcal{N}(\boldsymbol{y} \mid \boldsymbol{\mu}, \boldsymbol{\Sigma}) \triangleq \frac{1}{(2 \pi)^{D / 2}|\boldsymbol{\Sigma}|^{1 / 2}} \exp \left[-\frac{1}{2}(\boldsymbol{y}-\boldsymbol{\mu})^{\top} \boldsymbol{\Sigma}^{-1}(\boldsymbol{y}-\boldsymbol{\mu})\right]
 $$
 
+- $\mu$ is the mean vector
+- $\Sigma$ is the $D \times D$ [[covariance]] matrix 
 ## Noteworthy
 
 
