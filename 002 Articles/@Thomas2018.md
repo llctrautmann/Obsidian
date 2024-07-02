@@ -77,11 +77,17 @@ modified: 2024-07-02
 
 ### Independence of RVs
 - basic probabilities teach that two probabilities are independent if the joint is the product of the individual probabilities
-	- 
+	- $p(X, Y)=p(X) p(Y)$
+	- $p\left(X_{i_1}, \ldots, X_{i_k}\right)=\prod_{j=1}^k p\left(X_{i_j}\right)$ requires all pairwise combinations of RVs to be independent as well
+	- to make the math more bearable it is often assumed that RVs are i.i.d. But that is a hard assumption that is in many cases not fully congruent with reality
+		- [[@feiner2023]] is a good example where this is assumed on a pixel-wise level, but not true in reality as the structures in the brain do have cross dependencies that are deliberately removed to ease modelling. 
 
 ### Marginal Distributions
+- Marginalisation removes RVs from joint distributions either by summation or by integration
+- $p(X)=\sum_y p(X, y)$
 
-## Ex
+
+## Expectations
 
 # Footnotes
 
