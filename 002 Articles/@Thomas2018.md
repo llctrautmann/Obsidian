@@ -108,6 +108,10 @@ modified: 2024-07-02
 ### Standard Deviation
 - sqrt of the variance allows for units of the RV to be the same as the Standard deviation; unlike the variance
 	- $\sqrt{ \operatorname{Var}(X) }$ 
+
+## Covariance
+- measure of linear relationship between two random variables
+	- 
 # Optimisation
 ## Estimation of Parameters
 ### MLE
