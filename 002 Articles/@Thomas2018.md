@@ -86,16 +86,18 @@ modified: 2024-07-02
 - Marginalisation removes RVs from joint distributions either by summation or by integration
 - $p(X)=\sum_y p(X, y)$
 
-
-## Expectations
-
-
-
-
+## Great Expectations
+- There are two formulae for expected values
+	- 
 ### Properties of EVs
 - $\mathbb{E}\left[\sum_{i=1}^n \alpha_i X_i+\beta\right]=\sum_{i=1}^n \alpha_i \mathbb{E}\left[X_i\right]+\beta$
 	- For linear transformation this holds independently of whether RVs are dependent of each other or not
 
+# Optimisation
+## Estimation of Parameters
+### MLE
+
+### MAP
 # Footnotes
 
 [^1]: [[Thomas2018.pdf#page=39&selection=64,0,71,15&color=yellow|Thomas2018, p.39]]

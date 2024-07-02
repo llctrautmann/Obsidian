@@ -11,8 +11,9 @@ level: "0"
 🍙: いや
 type: 
 formula: 
-aliases: 
-modified: 2024-06-28
+aliases:
+  - covariance matrix
+modified: 2024-07-02
 ---
 # Covariance
 
