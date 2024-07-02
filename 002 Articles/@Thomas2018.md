@@ -88,11 +88,26 @@ modified: 2024-07-02
 
 ## Great Expectations
 - There are two formulae for expected values
-	- 
+	- $\mathbb{E}[X]=\sum_{x \in X(\Omega)} x p(x)$ (discrete)
+	- $\mathbb{E}[X]=\int_{-\infty}^{\infty} x p(x) \mathrm{d} x$ (continuous)
+
 ### Properties of EVs
 - $\mathbb{E}\left[\sum_{i=1}^n \alpha_i X_i+\beta\right]=\sum_{i=1}^n \alpha_i \mathbb{E}\left[X_i\right]+\beta$
 	- For linear transformation this holds independently of whether RVs are dependent of each other or not
 
+
+## Variance
+- Variance measures the spread around the centre of the distribution
+	- $Var(\mathbf{X})= \mathbb{E}\left[(X-\mathbb{E}\left[\mathbf{X}\right])^2\right]=\mathbb{E}\left[X^2\right]-\mathbb{E}[X]^2$
+
+### Properties of Variance
+- variance is by definition not linear [^2], but it can be shown that 
+	- $\operatorname{Var}(\alpha X+\beta)=\alpha^2 \operatorname{Var}(X)$ 
+		- multiplicative constants get squared and any additive are removed [^3].
+
+### Standard Deviation
+- sqrt of the variance allows for units of the RV to be the same as the Standard deviation; unlike the variance
+	- $\sqrt{ \operatorname{Var}(X) }$ 
 # Optimisation
 ## Estimation of Parameters
 ### MLE
@@ -101,3 +116,5 @@ modified: 2024-07-02
 # Footnotes
 
 [^1]: [[Thomas2018.pdf#page=39&selection=64,0,71,15&color=yellow|Thomas2018, p.39]]
+[^2]: squaring in the formula
+[^3]: [[Thomas2018.pdf#page=42&selection=172,10,173,9&color=yellow|Thomas2018, p.42]]
