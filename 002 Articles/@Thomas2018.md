@@ -106,7 +106,7 @@ modified: 2024-07-02
 		- multiplicative constants get squared and any additive are removed [^3].
 
 ### Standard Deviation
-- sqrt of the variance allows for units of the RV to be the same as the Standard deviation; unlike the variance
+- square root of the variance allows for units of the RV to be the same as the Standard deviation; unlike the variance
 	- $\sqrt{ \operatorname{Var}(X) }$ 
 
 ## Covariance

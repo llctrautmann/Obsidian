@@ -20,7 +20,7 @@ modified: 2024-07-02
 - [ ] [[deisenroth2020.pdf]] Mathematics for Machine Learning
 - [ ] [[murphy2023.pdf]] 
 - [ ] [[Thomas2018a.pdf]] 
-- [ ] [[Thomas2018.pdf]] ✅ 2024-07-02
+- [x] [[Thomas2018.pdf]] ✅ 2024-07-02
 - [ ] [[hori2021.pdf]]: low-field MRI
 - [ ] [[Holden2022 .pdf]]: [[Bayesian Inference]] 
 
