@@ -76,6 +76,8 @@ modified: 2024-07-02
 	- 
 
 ### Independence of RVs
+- basic probabilities teach that two probabilities are independent if the joint is the product of the individual probabilities
+	- 
 
 ### Marginal Distributions
 
