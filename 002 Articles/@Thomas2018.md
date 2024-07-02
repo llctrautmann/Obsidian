@@ -12,9 +12,12 @@ year: 2018
 date:
   - 10-05-2024
 time: 10:36
+modified: 2024-07-02
 ---
 
-# Annotations / Ideas
-> [!PDF|yellow] [[Thomas2018.pdf#page=6&selection=15,55,31,0&color=yellow|@Thomas2018, p.6]]
-> A vector space V is a set (the elements of which are called vectors) on which two operations are defined: vectors can be added together, and vectors can be multiplied by real numbers called scalars.
-
+# Probability
+## Basics
+- $\Omega$ is the sample space - the set of all possible outcomes for a randomised expeiment
+	- $\mathbb{P}(\Omega)=1$
+	- Countable additivity: $\mathbb{P}\left(\bigcup_i A_i\right)=\sum_i \mathbb{P}\left(A_i\right)$
+	- 
