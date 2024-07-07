@@ -6,12 +6,14 @@ modified: 2024-07-07
 15 Pull ups
 
 # 07-07-2024
+
 - #Calisthenics/Workout: Push 
-	- Pushups
+	- Pushups (Completed **74** ) 
 		- [x] 3 sets of 5 assisted push ups (warm up) ✅ 2024-07-07
-		- [ ] 3 sets of 12 push ups with good form and handles
-		- [ ] 3 sets of 10 push ups with good form and handles
-		- [ ] 3 sets of 8 push ups with good form and handles
+		- [x] 3 sets of 12 push ups with good form and handles (3/3) ✅ 2024-07-07
+		- [x] 3 sets of 10 push ups with good form and handles (3/3) ✅ 2024-07-07
+		- [x] 3 sets of 8 push ups with good form and handles (1/3) ✅ 2024-07-07
+			- only did 1/3 sets
 		- [ ] 3 sets of 6 pike push ups 
 	- Dips
 		- [ ] Attempt 6 real dips  
