@@ -17,7 +17,7 @@ modified: 2024-07-07
 		- [ ] 3 sets of 6 pike push ups 
 	- Dips
 		- [ ] Attempt 6 real dips  
-		- [ ] 5 sets of 8 negative dips
+		- [x] 5 sets of 8 negative dips ✅ 2024-07-07
 	- Core
 		- [ ] Superman hold (3 x 1 min)
 		- [ ] Hollow body hold (3 x 35 seconds)
