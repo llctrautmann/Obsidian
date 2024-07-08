@@ -12,7 +12,7 @@ year: 2018
 date:
   - 10-05-2024
 time: 10:36
-modified: 2024-07-02
+modified: 2024-07-08
 ---
 
 # Probability
