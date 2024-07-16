@@ -1,6 +1,6 @@
 ---
-title: 
-author: 
+title: "@nugraha2019"
+author: Aditya Arie Nugraha
 tags: 
 Docstring: 
 url: 
@@ -13,6 +13,7 @@ modified: 2024-07-16
 ---
 
 # Take-away 🥡
+- Something weird was done here in the latent space. 
 
 # Annotations
 
