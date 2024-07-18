@@ -1,11 +1,11 @@
 ---
-modified: 2024-05-23
+modified: 2024-07-18
 ---
 # Papers
 
 ```dataview
 table title as Title, Docstring as Summary
 from "002 Articles"
-sort asc
+sort file asc
 ```
  
