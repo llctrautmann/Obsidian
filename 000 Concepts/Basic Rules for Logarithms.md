@@ -4,8 +4,9 @@ date: 29-05-2023
 time: 15:39
 author: Luca Trautmann
 tags: []
-series: "Mathematics & Statistics"
+series: Mathematics & Statistics
 chapter: 2
+modified: 2024-07-23
 ---
 
 # Basic Rules for Calculations with Logarithms
@@ -24,7 +25,7 @@ $$
 ## Rule 3: Power Rule
 The logarithm of a power is equal to the product of the exponent and the logarithm of the base. That is, for any positive numbers $a$ and $b$:
 $$
-log(a^b) = b log(a)
+log(a^b) = b \cdot log(a)
 $$
 
 ## Rule 4: Change of Base Rule
