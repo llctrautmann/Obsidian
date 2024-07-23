@@ -31,3 +31,6 @@ $$
 ## Noteworthy
 - In statistics, the process of _quantifying uncertainty about an unknown quantity estimated from a finite sample of data is called_ **inference**. 
 
+# Footnotes
+
+[^1]: [[murphy2022.pdf#page=137&selection=14,0,29,17&color=yellow|murphy2022, p.107]]
