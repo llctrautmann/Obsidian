@@ -12,7 +12,9 @@ level: "0"
 type: 
 formula: 
 aliases: 
-modified: 2024-07-02
+modified: 2024-07-23
+Docstring:
+  - Random vectors are combined random variables into a vector.
 ---
 # Random Vectors
 ## Introduction

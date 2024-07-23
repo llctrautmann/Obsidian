@@ -14,9 +14,10 @@ formula: $p(y) \triangleq \frac{d}{d y} P(y)$
 aliases:
   - PDF
   - pdf
-modified: 2024-06-28
+modified: 2024-07-23
 ---
 # Probability Density Function
+## Definition
 The PDF of a [[Cumulative distribution function|CDF]] is the derivative function of the [[Cumulative distribution function|cdf]]. 
 
 $$ \large\tag{1}
