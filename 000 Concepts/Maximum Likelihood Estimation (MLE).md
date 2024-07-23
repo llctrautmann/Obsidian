@@ -28,7 +28,9 @@ $$\large\tag{1}\hat{\boldsymbol{\theta}}_{\text {mle }} \triangleq \underset{\bo
 $$\large\tag{2}p(\mathcal{D} \mid \boldsymbol{\theta})=\prod_{n=1}^N p\left(\boldsymbol{y}_n \mid \boldsymbol{x}_n, \boldsymbol{\theta}\right)$$
 - numerical stability in computers requires some transformation with a monotonically increasing function. In almost all cases we use the `log` to obtain the log-likelihood
 $$\large\tag{3}\ell(\boldsymbol{\theta}) \triangleq \log p(\mathcal{D} \mid \boldsymbol{\theta})=\sum_{n=1}^N \log p\left(\boldsymbol{y}_n \mid \boldsymbol{x}_n, \boldsymbol{\theta}\right)$$
+- to obtain the best estimate over the entire data stack we then just use the `argmax` of the joint probability distribution
 
+$$\large\tag{4}\hat{\boldsymbol{\theta}}_{\mathrm{mle}}=\underset{\boldsymbol{\theta}}{\operatorname{argmax}} \sum_{n=1}^N \log p\left(\boldsymbol{y}_n \mid \boldsymbol{x}_n, \boldsymbol{\theta}\right)$$
 
 
 ## Noteworthy
