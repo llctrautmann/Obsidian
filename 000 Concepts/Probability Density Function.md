@@ -28,17 +28,13 @@ $$ \large\tag{2}
 \operatorname{Pr}(a<Y \leq b)=\int_a^b p(y) d y=P(b)-P(a)
 $$
 
-
-
-
-
-
-
-
-
-
 The pdf of the Gaussian is given by
 
 $$\large\tag{3}
 \mathcal{N}\left(y \mid \mu, \sigma^2\right) \triangleq \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{1}{2 \sigma^2}(y-\mu)^2}
 $$
+
+## Noteworthy
+- A function $f: \mathbb{R}^D \rightarrow \mathbb{R}$ is called a probability density function (PDF) if
+	1. $\forall x \in \mathbb{R}^D: f(x) \geqslant 0$
+	2. Its integral exists and $\int_{\mathbb{R}^D} f(\boldsymbol{x}) \mathrm{d} \boldsymbol{x}=1$

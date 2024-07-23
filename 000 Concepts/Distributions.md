@@ -13,12 +13,14 @@ type: Structure
 formula: 
 aliases:
   - distributions
-modified: 2024-06-30
+modified: 2024-07-23
 ---
 # Distributions
 - [[Bernoulli and Binomial Distribution]]
-- [[Categorical and Multinomial Distributions ]]
-- [[Univariate Gaussian Distribution]]
+- [[Categorical and Multinomial Distributions]]
+- Gaussian Distributions
+	- [[Univariate Gaussian Distribution]]
+	- [[Multivariate Gaussian Distribution]]
 - [[Student t Distribution]]
 - [[Cauchy Distribution]]
 - [[Laplace Distribution]]
