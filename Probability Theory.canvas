@@ -6,7 +6,7 @@
 		{"id":"97af9541f1cab4e9","x":657,"y":-946,"width":400,"height":400,"type":"file","file":"000 Concepts/Cumulative distribution function.md"},
 		{"id":"340b2f2514273146","x":1160,"y":-946,"width":400,"height":400,"type":"file","file":"000 Concepts/Probability Density Function.md"},
 		{"id":"d15e4670d2261520","type":"text","text":"Distributions","x":995,"y":-1360,"width":230,"height":80,"color":"1"},
-		{"id":"0ab119fc7f508c2e","x":1560,"y":-1940,"width":400,"height":400,"type":"file","file":"000 Concepts/Gaussian.md"}
+		{"id":"0ab119fc7f508c2e","x":1560,"y":-1940,"width":400,"height":400,"type":"file","file":"000 Concepts/Univariate Gaussian Distribution.md"}
 	],
 	"edges":[
 		{"id":"77c310605d466229","fromNode":"0e507aa352ebb763","fromSide":"left","toNode":"9c06d72b8683e0cd","toSide":"right","label":"visualises"},

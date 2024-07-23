@@ -18,7 +18,7 @@ modified: 2024-06-30
 # Distributions
 - [[Bernoulli and Binomial Distribution]]
 - [[Categorical and Multinomial Distributions ]]
-- [[Gaussian]]
+- [[Univariate Gaussian Distribution]]
 - [[Student t Distribution]]
 - [[Cauchy Distribution]]
 - [[Laplace Distribution]]

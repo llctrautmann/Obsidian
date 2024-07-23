@@ -1,5 +1,5 @@
 ---
-title: Gaussian
+title: Univariate Gaussian Distribution
 date:
   - 28-06-2024
 time: 10:58
@@ -9,11 +9,13 @@ tags:
 series: Probability Theory
 🍙: いや
 type: 
-formula: 
-aliases: 
-modified: 2024-07-01
+formula: $\mathcal{N}\left(y \mid \mu, \sigma^2\right) \triangleq \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{1}{2 \sigma^2}(y-\mu)^2}$
+aliases:
+  - normal distribution
+  - Normal distribution
+modified: 2024-07-23
 ---
-# Gaussian / Normal Distributions
+# Univariate Gaussian Distribution
 ## Introduction
 The most widely used distribution of real-valued random variables $y ∈ R$ is the Gaussian distribution, also called the normal distribution.
 
@@ -33,13 +35,7 @@ $$
 
 [[Probability Density Function|PDF]] and [[Cumulative distribution function|CDF]] describes the relationship and differences between the two 
 
-The Multivariate Gaussian (normal) Distribution is given by: 
-$$ \large\tag{1}
-\mathcal{N}(\boldsymbol{y} \mid \boldsymbol{\mu}, \boldsymbol{\Sigma}) \triangleq \frac{1}{(2 \pi)^{D / 2}|\boldsymbol{\Sigma}|^{1 / 2}} \exp \left[-\frac{1}{2}(\boldsymbol{y}-\boldsymbol{\mu})^{\top} \boldsymbol{\Sigma}^{-1}(\boldsymbol{y}-\boldsymbol{\mu})\right]
-$$
 
-- $\mu$ is the mean vector
-- $\Sigma$ is the $D \times D$ [[covariance]] matrix 
 ## Noteworthy
 
 
