@@ -10,7 +10,7 @@ series: Statistics
 🍙: いや
 type: Concept
 Docstring: 
-formula: 
+formula: $\nabla_{\boldsymbol{\theta}} \operatorname{NLL}(\boldsymbol{\theta})=\mathbf{0}$
 aliases: 
 modified: 2024-07-23
 ---
