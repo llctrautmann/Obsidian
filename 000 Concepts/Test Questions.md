@@ -40,3 +40,4 @@ No, the prior is a single distribution over the parameters and is not multiplied
 # What should you do if you have specific knowledge about parameter values rather than using a uniform prior? 
 ---
 You should use an informative prior that incorporates your specific knowledge or empirical evidence about the parameter values.
+
