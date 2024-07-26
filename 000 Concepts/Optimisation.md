@@ -30,8 +30,18 @@ $$
 - A point that solves (1) is a global optimum [^2].
 	- in most cases there is no analytical solution / its intractable
 - most solver search for any form of optimum (local)
-- if $\exists \delta>0, \forall \boldsymbol{\theta} \in \Theta, \boldsymbol{\theta} \neq \boldsymbol{\theta}^*:\left\|\boldsymbol{\theta}-\boldsymbol{\theta}^*\right\|<\delta, \mathcal{L}\left(\boldsymbol{\theta}^*\right)<\mathcal{L}(\boldsymbol{\theta})$ holds the algorithm has found a local 
+- if $\exists \delta>0, \forall \boldsymbol{\theta} \in \Theta, \boldsymbol{\theta} \neq \boldsymbol{\theta}^*:\left\|\boldsymbol{\theta}-\boldsymbol{\theta}^*\right\|<\delta, \mathcal{L}\left(\boldsymbol{\theta}^*\right)<\mathcal{L}(\boldsymbol{\theta})$ holds the algorithm has found a strict local minimum
+
+### Optimality conditions for local vs. global optima
+- There are three main condition that need to be fulfilled [^3]
+	- the functions needs to be twice differentiable
+	- the gradient needs to be 0 (we need to know its an extreme value)
+	- the second derivative (Hessian) needs to be positive semi-definite
+
+## Constrained vs unconstrained Optimisation
+
 # Footnotes
 
 [^1]: [[murphy2022.pdf#page=303&selection=15,2,38,0&color=yellow|murphy2022, p.273]]
 [^2]: [[murphy2022.pdf#page=303&selection=130,0,133,1&color=yellow|murphy2022, p.273]]
+[^3]: here the same principles apply to a high school Kurvendiscussion. 
