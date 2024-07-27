@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"65326c2eb6e549ef","type":"file","file":"003 Utils/log.md","x":0,"y":-1265,"width":1477,"height":1069},
+		{"id":"65326c2eb6e549ef","type":"file","file":"log.md","x":0,"y":-1265,"width":1477,"height":1069},
 		{"id":"08779cb570f63efc","type":"file","file":"Analytic Geometry.canvas","x":398,"y":-2434,"width":682,"height":644},
 		{"id":"b23a9d6af62a950d","type":"file","file":"004 Publish/Mos Majorum in Bitcoin.md","x":-1538,"y":-2442,"width":1233,"height":652},
 		{"id":"4611e932b1de8665","type":"file","file":"Review/2024/Reflections.md","x":-1680,"y":-1265,"width":1523,"height":1083},
