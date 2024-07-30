@@ -1,11 +1,14 @@
 ---
-modified: 2024-05-26
+modified: 2024-07-30
 ---
 > [!Tasks]-
 > ```tasks
 > not done
 > path includes {{query.file.path}}
 > ```
+
+# 30-07-2024
+- #python  Lightning allows better training for less time and less error proneness. 
 
 # 27-07-2024
 - #AudioProcessing The Nyquist Constraint for audio files says that we can only get clear frequency signals up to half the sample size. 
