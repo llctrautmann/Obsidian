@@ -11,9 +11,14 @@ series: PyTorch
 type: Appendix
 formula: 
 aliases: 
-modified: 2024-07-29
+modified: 2024-07-30
 ---
 # Torch Goodies
+## Installation
+
+```bash
+pip3 install torch torchvision torchaudio
+```
 
 ## Initialising Tensors
 - `torch.zeros`: Creates a tensor filled with zeros
