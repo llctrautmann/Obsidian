@@ -9,6 +9,7 @@ modified: 2024-07-31
 
 # 31-07-2024
 - #python [[Relu]] For dead neurons to happen in ReLUs, the output value of a specific neuron of the linear layer before the ReLU has to be negative for all input images.
+- #python To have a more accurate conclusion of model performance, we would have to train the models for multiple seeds and look at the averages.
 
 # 30-07-2024
 - #python  Lightning allows better training for less time and less error proneness. 
