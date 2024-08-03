@@ -7,6 +7,22 @@ modified: 2024-08-03
 > path includes {{query.file.path}}
 > ```
 
+# 03-08-2024
+- #todo 
+
+---
+# 02-08-2024
+- #python Data loaders in Lightning might need to be defined in the global scope and not in the training function. I have run into weird behaviours that are so regular that they look like some major implementation error. 
+
+---
+
+# 01-08-2024
+- #python PyTorch has now an implementation of the Gated Linear Unit (GLU)
+- #python Initialisation...
+	- add 
+	- add 
+
+---
 # 31-07-2024
 - #python [[Relu]] For dead neurons to happen in ReLUs, the output value of a specific neuron of the linear layer before the ReLU has to be negative for all input images.
 - #python To have a more accurate conclusion of model performance, we would have to train the models for multiple seeds and look at the averages.
