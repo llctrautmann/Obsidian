@@ -1,11 +1,14 @@
 ---
-modified: 2024-08-03
+modified: 2024-08-07
 ---
 > [!Tasks]-
 > ```tasks
 > not done
 > path includes {{query.file.path}}
 > ```
+
+# 07-08-2024
+- #python: `.clear()` to empty lists 
 
 # 03-08-2024
 - #todo 
