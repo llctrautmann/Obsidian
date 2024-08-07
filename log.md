@@ -9,13 +9,14 @@ modified: 2024-08-07
 
 # 07-08-2024
 - #python: `.clear()` to empty lists 
+- #PyTorch: lightning callbacks allows to compartmentalise the code really nicely
 
 # 03-08-2024
 - #todo 
 
 ---
 # 02-08-2024
-- #python Data loaders in Lightning might need to be defined in the global scope and not in the training function. I have run into weird behaviours that are so regular that they look like some major implementation error. 
+- #PyTorch python Data loaders in Lightning might need to be defined in the global scope and not in the training function. I have run into weird behaviours that are so regular that they look like some major implementation error. 
 
 ---
 
