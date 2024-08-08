@@ -1,11 +1,18 @@
 ---
-modified: 2024-08-07
+modified: 2024-08-08
 ---
 > [!Tasks]-
 > ```tasks
 > not done
 > path includes {{query.file.path}}
 > ```
+
+# 08-08-2024
+- #PyTorch: Logging with Weights and Biases seems to update the internal step with every call this leads to two things:
+	- Everything that requires logging should be packaged into the same callback function if the logging index is required to be the same.
+	- Modularisation is always and everywhere preferred.
+
+---
 
 # 07-08-2024
 - #python: `.clear()` to empty lists 
