@@ -7,6 +7,16 @@ modified: 2024-08-20
 > path includes {{query.file.path}}
 > ```
 
+# 2024-08-20
+- #Obsidian: The most important thing I still need to evaluate is how to design my work with the review process as the centre piece.
+	- I need a way to capture new things
+		- Zotero Integration is required and new articles need to be read either in Zotero or Obsidian but not both
+	- I need a way to organise and combine 
+		- How do I connect the things I have learned better into more complex and advanced topics?
+	- I need a way to make it accessible to myself
+		- Integration of Anki/Mochi is required, 
+
+
 # 08-08-2024
 - #PyTorch: Logging with Weights and Biases seems to update the internal step with every call this leads to two things:
 	- Everything that requires logging should be packaged into the same callback function if the logging index is required to be the same.
