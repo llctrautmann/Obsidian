@@ -1,22 +1,10 @@
 ---
-modified: 2024-08-22
+modified: 2024-08-23
 ---
-
-
-Here is the Anki card formatted for the KL divergence concept:
-
-# How does KL divergence work?
-
+# Variance 
 ---
-KL divergence, or Kullback-Leibler divergence, measures how one probability distribution diverges from a second, reference distribution. It is defined for discrete distributions as:
-
-$$
-D_{KL}(P \parallel Q)=\sum_{x} P(x) \log \frac{P(x)}{Q(x)}
-$$
-
-For continuous distributions, it is:
-
-$$
-D_{KL}(P \parallel Q)=\int P(x) \log \frac{P(x)}{Q(x)} \, dx
-$$
-
+- Variance measures the spread or dispersion of a set of values in a distribution. It's calculated as the average of the squared differences from the mean. A higher variance indicates a wider spread of values.
+- There is a useful trick to remember:
+  - $\operatorname{var}[f]=\mathbb{E}\left[(f(x)-\mathbb{E}[f(x)])^2\right] \approx \frac{1}{N}\sum(y-\mu)^2$ (sample variance).
+  - $\operatorname{var}[x]=\mathbb{E}\left[x^2\right]-\mathbb{E}[x]^2$
+- Variance is denoted by $\sigma^2$ for population variance and $s^2$ for sample variance.
