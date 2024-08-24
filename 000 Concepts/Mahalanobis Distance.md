@@ -6,6 +6,7 @@ time: 10:30
 author: Luca Trautmann
 tags:
   - ProbTheory
+  - LinAlg
 series: Probability Theory
 level: "0"
 🍙: いや
@@ -14,7 +15,7 @@ formula:
 aliases: 
 Docstring:
   - The Mahalanobis Distance allows for a geometric view on gaussians. The eigenvalue decomposition shows that the eigenvalue determines the elongation while the eigenvalues give the direction of the ellipses.
-modified: 2024-07-23
+modified: 2024-08-24
 ---
 # Mahalanobis Distance
 ## Introduction

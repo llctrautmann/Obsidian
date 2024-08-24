@@ -14,7 +14,7 @@ formula: $d = \left(\sum_{i=1}^{n}|a_i-b_i|^p\right)^\frac{1}{p}$
 aliases:
   - metrics
   - metric
-modified: 2024-05-27
+modified: 2024-08-24
 ---
 
 # Metrics
@@ -29,8 +29,6 @@ d: V \times V & \rightarrow \mathbb{R} \\
 \end{aligned}
 $$
 is called a metric. 
-
-`This also means that a metric is a function that takes in two vectors and returns a scalar.`
 
 ## Conditions
 A distance function, often simply called a "metric" in the context of vector spaces, must satisfy certain conditions to be considered valid. These properties are as follows: 
