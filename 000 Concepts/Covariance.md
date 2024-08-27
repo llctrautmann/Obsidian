@@ -13,7 +13,7 @@ type:
 formula: 
 aliases:
   - covariance matrix
-modified: 2024-07-02
+modified: 2024-08-27
 ---
 # Covariance
 
