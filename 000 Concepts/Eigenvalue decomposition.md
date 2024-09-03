@@ -12,7 +12,7 @@ type: Process
 formula: 
 aliases:
   - EVD
-modified: 2024-06-15
+modified: 2024-09-03
 ---
 # Eigenvalue decomposition
 ## Basics

@@ -6,7 +6,7 @@ author: Luca Trautmann
 tags: []
 series: Mathematics & Statistics
 chapter: 2
-modified: 2024-08-28
+modified: 2024-09-03
 ---
 
 # Basic Rules for Calculations with Logarithms
