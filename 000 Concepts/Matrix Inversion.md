@@ -11,7 +11,7 @@ status: Complete
 type: Concept
 formula: $\mathbf{A}^{-1} \mathbf{A}=\mathbf{I}=\mathbf{A} \mathbf{A}^{-1}$
 🍙: いや
-modified: 2024-06-12
+modified: 2024-09-04
 ---
 # Matrix Inversion
 Determinants are only defined for square matrices. For these matrices a determinant is a function that maps $A$ onto $\mathbb{R}$. The inverse of a Matrix is strictly only defined for [square matrices](Fundamental%20Linear%20Maps).
