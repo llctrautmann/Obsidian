@@ -112,3 +112,41 @@ This step leverages two important properties of summation:
 These properties allow us to simplify the expression and eventually solve for μ.
 
 $$p(x = i) = \frac{1}{8}, \quad \text{for } i = 1, 2, ..., 8$$
+
+
+Certainly! Let's derive the entropy formula for a discrete random variable \(X\) from the expectation of \(-\log p(x)\).
+
+1. **Definition of Entropy:**
+   Entropy \(H(X)\) is defined as the expected value of the information content \(-\log p(x)\) of a random variable \(X\).
+
+2. **Expectation of \(-\log p(x)\):**
+   For a discrete random variable \(X\) with possible values \(x_1, x_2, \ldots, x_N\) and corresponding probabilities \(p(x_1), p(x_2), \ldots, p(x_N)\), the expectation of a function \(g(X)\) is given by:
+   $$
+   \mathbb{E}[g(X)] = \sum_{i=1}^N p(x_i) g(x_i)
+   $$
+
+3. **Applying to \(-\log p(x)\):**
+   Here, \(g(x) = -\log p(x)\). So, the expectation of \(-\log p(x)\) is:
+   $$
+   \mathbb{E}[-\log p(X)] = \sum_{i=1}^N p(x_i) [-\log p(x_i)]
+   $$
+
+4. **Simplifying:**
+   This simplifies to:
+   $$
+   H(X) = -\sum_{i=1}^N p(x_i) \log p(x_i)
+   $$
+
+5. **General Form:**
+   For a discrete random variable \(X\) with possible values \(x\) and corresponding probabilities \(p(x)\), the entropy is:
+   $$
+   H(X) = -\sum_{x} p(x) \log p(x)
+   $$
+
+So, the entropy \(H(X)\) is derived from the expectation of \(-\log p(x)\) by summing over all possible values of the random variable \(X\), weighted by their probabilities \(p(x)\).
+
+In summary, the entropy formula:
+$$
+H(X) = -\sum_{i=1}^N p(x_i) \log p(x_i)
+$$
+is derived by taking the expected value of the information content \(-\log p(x)\) for a discrete random variable \(X\).
