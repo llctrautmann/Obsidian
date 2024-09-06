@@ -110,3 +110,5 @@ This step leverages two important properties of summation:
 - We can distribute summation over subtraction (or addition).
 
 These properties allow us to simplify the expression and eventually solve for μ.
+
+$$p(x = i) = \frac{1}{8}, \quad \text{for } i = 1, 2, ..., 8$$
