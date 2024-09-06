@@ -70,3 +70,43 @@ The linearity of differentiation is a fundamental property that states:
    $$\frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}f(x)$$
 
 These properties allow us to differentiate complex expressions by breaking them into simpler parts, differentiating each part separately, and then combining the results.
+
+Correct! Your approach is exactly right. To find the Maximum Likelihood Estimate (MLE) for μ, you would:
+
+- Set the derivative equal to zero:
+
+$$\frac{1}{\sigma^2}\sum_{n=1}^N(x_n-\mu) = 0$$
+
+2. Solve for μ:
+
+$$\sum_{n=1}^N(x_n-\mu) = 0$$
+
+$$\sum_{n=1}^N x_n - N\mu = 0$$
+
+$$N\mu = \sum_{n=1}^N x_n$$
+
+$$\mu = \frac{1}{N}\sum_{n=1}^N x_n$$
+
+This result shows that the MLE for μ is the sample mean, which is a key result in statistics and machine learning.
+
+Excellent question! This step is possible due to the properties of summation. Let's break it down:
+
+1. We start with:
+   $$\sum_{n=1}^N(x_n-\mu) = 0$$
+
+2. We can expand this as:
+   $$\sum_{n=1}^N x_n - \sum_{n=1}^N \mu = 0$$
+
+3. The key insight is that $\sum_{n=1}^N \mu$ is equivalent to adding μ to itself N times, which is simply Nμ:
+   $$\sum_{n=1}^N \mu = \underbrace{\mu + \mu + ... + \mu}_{N \text{ times}} = N\mu$$
+
+   This is because μ is constant with respect to the summation index n.
+
+4. Therefore, we can rewrite the equation as:
+   $$\sum_{n=1}^N x_n - N\mu = 0$$
+
+This step leverages two important properties of summation:
+- The sum of a constant term repeated N times is N times that constant.
+- We can distribute summation over subtraction (or addition).
+
+These properties allow us to simplify the expression and eventually solve for μ.
