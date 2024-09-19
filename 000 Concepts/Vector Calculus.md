@@ -9,7 +9,7 @@ tags:
 series: M4ML
 chapter: 5
 status: Incomplete
-modified: 2024-04-21
+modified: 2024-09-17
 ---
 > A function f is a quantity that relates two quantities to each other. In this book, these quantities are typically inputs x ∈ RD and targets (function values) $f(x)$, which we assume are real-valued if not stated otherwise. (Deisenroth et al., 2020, p. 139)
 
@@ -72,7 +72,7 @@ Here, $g \circ f$ denotes function composition $x \mapsto f(x) \mapsto g(f(x))$.
 
 
 ## Partial Differentiation and Gradients
-The generalisation of the derivative to functions of several variables is the gradient. To obtain the gradient, I need to build the partial derivatives wrt. to each variable in the function while keeping all other variables constant.
+The generalisation of the derivative to functions of multiple variables is the gradient. To obtain the gradient, I need to build the partial derivatives wrt. to each variable in the function while keeping all other variables constant.
 
 $$
 \begin{aligned}
