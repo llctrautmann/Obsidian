@@ -6,114 +6,39 @@ author: Luca Trautmann
 tags: 
 series: 
 chapter: 
-modified: 2024-05-27
+modified: 2024-09-27
 ---
-# What is the relationship of a Distance and Metric in Lin. Alg?
-
-Consider an inner product space $(V,\langle\cdot, \cdot\rangle)$. Then
-$$
-d(x, y):=\|x-y\|=\sqrt{\langle x-y, x-y\rangle}
-$$
-This is called the distance between the vectors $x$ and $y$.
-
-`Note: the distance is the norm between the difference between two vectors.`
-
-
-# Define the Transpose of a Matrix
-If $\mathbf{A} \in \mathbb{R}^{m \times n}$, its transpose $\mathbf{A}^{\top} \in \mathbb{R}^{n \times m}$ is given by $\left(\mathbf{A}^{\top}\right)_{i j}=A_{j i}$ for each $(i, j)$. In other words, the columns of $\mathbf{A}$ become the rows of $\mathbf{A}^{\top}$, and the rows of $\mathbf{A}$ become the columns of $\mathbf{A}^{\top}$.
-
-# What does this say in mathematical notation $\operatorname{null}(T)=\{\mathbf{v} \in V \mid T \mathbf{v}=\mathbf{0}\}$?
-The null space is all vectors in V that satisify the condition that the linear map V times the vector result in the zero vector.
-
-# What is the translation of this sign $\exists$ ?
-exists
-
-# Can we build a Dr. House model? 
-One thought I am having here is: Does there exist a risk, that we have models converge on the most prevalent diseases, because we have the most data on these types of illnesses. And on the other hand can we build a model that is more akin to Dr. House? In the sense that we want to find rare diseases as well. What would that mean mathematically? What would we need to pay attention to?
-
-# What condition needs to be met for linear independence between vectors?
-A set of vectors $\mathbf{v}_1, \ldots, \mathbf{v}_n \in V$ is said to be linearly independent if
-
-$$
-\alpha_1 \mathbf{v}_1+\cdots+\alpha_n \mathbf{v}_n=\mathbf{0} \quad \text { implies } \quad \alpha_1=\cdots=\alpha_n=0
-$$
-
-`The basic idea is that linearly independent vectors can only have the trivial solution with all coefficients being 0.`
-
-*Example*:
-The vector $x_{1}= \left[ 1,2,0\right]^\top$ and $x_{2}= \left[ 2,4,0\right]^\top$ are not linearly independent and hence I can write $2x_{1}-1x_{2}=\mathbf{0}$. But $[0,1]^\top$ and $[1,0]^\top$ are linearly independent and hence the only solution possible is the trivial solution $0x_{1}-0x_{2}=\mathbf{0}$. 
-
-# What are Inner Products and what conditions need to be met?
-Inner Products are functions from [[Vector Spaces]] to the real line. 
-$$\large
-\langle\cdot, \cdot\rangle: V \times V \rightarrow \mathbb{R}
-$$
-
-There are three conditions: 
-
-1. Positive: 
-   $\langle\mathbf{x}, \mathbf{x}\rangle \geq 0$, with equality if and only if $\mathbf{x}=\mathbf{0}$
-   
-2. Linearity in the first slot: $$\langle\mathbf{x}+\mathbf{y}, \mathbf{z}\rangle=\langle\mathbf{x}, \mathbf{z}\rangle+\langle\mathbf{y}, \mathbf{z}\rangle \quad \text{and} \quad \langle\alpha \mathbf{x}, \mathbf{y}\rangle=\alpha\langle\mathbf{x}, \mathbf{y}\rangle$$
-3. Symmetry
-$$
-\langle\mathbf{x}, \mathbf{y}\rangle=\langle\mathbf{y}, \mathbf{x}\rangle
-$$
-
-# What are the two important properties of Homomorphisms? 
-1. Closure under addition related to associativity
-2. Closure under scalar multiplication related to distributivity
-
-# Define Endomorphism
-- **Definition**: A linear mapping from a vector space to itself.
-- **Form**: $\Phi: V \rightarrow V$
-- **Properties**:
-  - Preserves vector addition and scalar multiplication.
-  - Does not need to be bijective (can be injective, surjective, both, or neither).
-
-# Define Isomorphism
-### Isomorphism
-- **Definition**: A linear mapping between two vector spaces that is bijective.
-- **Form**: $\Phi: V \rightarrow W$.
-- **Properties**:
-  - Preserves vector addition and scalar multiplication.
-  - **Bijective**: One-to-one (injective) and onto (surjective).
-  - Has an inverse mapping $\Phi^{-1}: W \rightarrow V$ that is also linear.
-
-# Define Automorphism
-### Automorphism
-- **Definition**: A bijective endomorphism.
-- **Form**: $\Phi: V \rightarrow V$.
-- **Properties**:
-  - Preserves vector addition and scalar multiplication.
-  - **Bijective**: One-to-one (injective) and onto (surjective).
-  - Has an inverse mapping $(\Phi^{-1}: V \rightarrow V$ that is also linear.
-
-
-# What is the formula for eigenthings?
-
-$$\mathbf{A}\mathbf{x}= \lambda \mathbf{x}$$
-
-
-# How do Eigenvectors and Eigenvalues behave wrt. scaling by a real-valued scalar?
-Eigenvalues are infinitely scalable by a scalar, so $c\mathbf{u}$ is also an eigenvector. 
-$$\large
-\mathbf{A}(c \boldsymbol{u})=c \mathbf{A} \boldsymbol{u}=c \lambda \boldsymbol{u}=\lambda(c \boldsymbol{u})
-$$
-
-
-# What does a Inner Product enable in Linear Algebra? 
-**Inner products allow for the introduction of intuitive geometrical concepts, such as the length of a vector and the angle or distance between two vectors.** A major purpose of inner products is to determine whether vectors are orthogonal to each other.
-
-# Name the two condtion that are most essential to linear transformations? 
-To be valid a linear map needs to follow associativity and distributivity (or more precise: closure under addition and scalar multiplication). 
-
-$$
-\begin{aligned}
- T(\mathbf{x}+\mathbf{y}) &=T \mathbf{x}+T \mathbf{y} \\
- T(\alpha \mathbf{x}) &= \alpha T \mathbf{x} 
-\end{aligned}
-$$
-
-# What conditions need to be met when talking about a Euclidean vector space? 
-The pair $(V,\langle\cdot, \cdot\rangle)$ is called an inner product space or (real) vector space with inner product. If we use the dot product, we call $(V,\langle\cdot, \cdot\rangle)$ a Euclidean vector space.
+# What are the two main interests in MRI?
+Contrast and spatial resolution.
+# What does signal intensity (SI) measure?
+Signal intensity (SI) is what is being measured in MRI.
+# What is required for specific elements to be measured in MRI?
+An imbalance between protons and neutrons, requiring non-zero spin.
+# Why is hydrogen the primary element used in MRI?
+The body is mostly water, and hydrogen has a relatively strong NMR response, allowing for smaller signals to be measured.
+# What causes an atom to behave like a little magnet?
+Nuclear magnetism caused by its charge, which is a quantum phenomenon.
+# How does the curl right hand rule relate to magnetic fields in MRI?
+It shows that the magnetic field induces a current direction that is perpendicular to the spin direction.
+# What happens to protons in the body when placed in a magnetic field?
+Their chaotic arrangement leads to a combined magnitude of 0, but they align with the magnetic field, creating a net magnetization.
+# What is the excess magnetism in a 1.5T magnet?
+About 6 in 10,000 due to the applied magnetic field.
+# What is spin angular momentum (SAM)?
+A force proportional to mass, causing protons to rotate in a cone-shaped movement around their axis (precession).
+# What is the formula for precession frequency?
+$\\omega = \\gamma \\times B$ where B is the field strength and gamma is the gyromagnetic ratio.
+# What is the result of the application of a magnetic field on protons?
+It causes precession, but the random precession leads to no net transverse magnetization.
+# Why can't we measure the magnetization due to alignment?
+Because the magnetic field creating it is much stronger, requiring manipulation to measure the net magnetization.
+# What does Transverse Component Magnetization allow at high field strengths?
+It allows synchronization of phase, leading to measurable magnetization that is not perfectly parallel to the input magnetic field.
+# What is excitation in the context of MRI?
+The addition of a radio signal that pushes magnetized particles into a transverse plane.
+# What does resonance allow in MRI?
+It allows energy to be added at the same frequency as the spins, defined by the Larmor frequency.
+# What is the goal of adding energy through resonance in MRI?
+To create a magnetization force that rotates perpendicular to the base magnetic field.
+# How is the flip angle determined in MRI?
+By how long the oscillating magnetic field (B1) is turned on.
