@@ -34,11 +34,12 @@ a_{m 1} b_{p 1} & a_{m 1} b_{p 2} & \cdots & a_{m 1} b_{p q} & \cdots & \cdots &
 $$
 
 ## Noteworthy
-- Here are some useful identities[^1]:
+- Here are some useful identities[^1]: 
 $$\large\tag{1}
 \begin{aligned}
 (\mathbf{A} \otimes \mathbf{B})^{-1} & =\mathbf{A}^{-1} \otimes \mathbf{B}^{-1} \\
 (\mathbf{A} \otimes \mathbf{B}) \operatorname{vec}(\mathbf{C}) & =\operatorname{vec}\left(\mathbf{B C A ^ { \top } )}\right.
 \end{aligned}
 $$
+this is also being used in the probabilisitic numerics book
 [^1]: vec(M) stacks the columns of M
