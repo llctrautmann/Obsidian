@@ -2,6 +2,7 @@
 title: The Focus Problem | In search of Deep Work
 date: 08-01-2024
 author: Luca Trautmann
+modified: 2024-10-09
 ---
 # The Focus Problem | In search of Deep Work
 
@@ -17,7 +18,7 @@ There are major components that are most distracting to me. There are ordered he
 1. __Youtube__
 2. __Podcasts & Music__
 3. __Chess__
-4. __Pornhub / Anime / Hentai__
+4. __P*****b__
 5. __Bitcoin News__
 6. __General Societal News__
 7. __Sports news__

@@ -3,9 +3,11 @@ title: Shallow Neural Networks
 date: 31-05-2023
 time: 14:35
 author: Luca Trautmann
-tags: ["ML"]
-series: "Machine Learning Fundamentals"
+tags:
+  - ML
+series: Machine Learning Fundamentals
 chapter: 5
+modified: 2024-10-09
 ---
 
 # Shallow Neural Networks
@@ -27,7 +29,12 @@ $$\begin{aligned} y &= \phi_{j0} + \sum^D_{d=1} \phi_{jd}h_d \\
 y &= \phi_{j0} + \sum^D_{d=1} \phi_{jd} \left [ \theta_{d0} + \sum^{D_i}_{i=1}\theta_{di}x_i\right] \quad \text{with}\,h_d = \phi_{j0} + \sum^D_{d=1} \phi_{jd}h_d 
 \end{aligned}$$
 Here, the output $y$ is a weighted sum of the activations $h$ and a general offsetting term (bias). 
+
+
 ![[shallow_nn.svg#invert]]
+
+
+
 # Series
 ```dataview
 TABLE chapter as Chapter
