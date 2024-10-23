@@ -13,7 +13,7 @@ formula:
 aliases:
   - orthogonality
   - orthogonal
-modified: 2024-06-12
+modified: 2024-10-23
 ---
 # Definition
 - Two vectors $\boldsymbol{x}, \boldsymbol{y} \in \mathbb{R}^n$ are orthogonal if $\boldsymbol{x}^{\top} \boldsymbol{y}=0$.
